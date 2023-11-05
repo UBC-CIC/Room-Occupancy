@@ -7,3 +7,12 @@
 .App {
   background-color: #f1f1f4;
 }
+
+.container {
+  height: calc(100vh - 64px);
+  background-color: #f1f1f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
