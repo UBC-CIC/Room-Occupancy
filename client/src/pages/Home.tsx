@@ -2,6 +2,7 @@ import * as React from "react";
 import { Container, Header, Image, Button, Segment } from "semantic-ui-react";
 import dashboard from "../assets/images/dashboard.png";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 export interface IHomeProps {}
 
@@ -17,9 +18,11 @@ export function Home(props: IHomeProps) {
       <Segment basic>
         <Image centered size="big" src={dashboard} />
       </Segment>
-      <Button circular color="blue">
-        Get Started
-      </Button>
+      <Link to="login">
+        <Button circular color="blue">
+          Get Started
+        </Button>
+      </Link>
     </div>
   );
 }
