@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h1
+      class="ui center aligned header"
+    >
+      <div
+        class="content"
+      >
+        Real Time Occupancy Management
+      </div>
+      <div
+        class="sub header"
+        color="blue"
+      >
+        Utilize IoT devices to understand and analyze occupancy in areas
+      </div>
+    </h1>
+    <div
+      class="ui basic segment"
+    >
+      <img
+        class="ui big centered image"
+        src="test-file-stub"
+      />
+    </div>
+    <a
+      href="/login"
+    >
+      <button
+        class="ui blue circular button"
+      >
+        Get Started
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
