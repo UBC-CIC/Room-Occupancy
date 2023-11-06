@@ -1,13 +1,28 @@
 import { Menu, Segment, Grid, Button } from "semantic-ui-react";
 import cicLogo from "../assets/images/cicLogo.png";
+import { Link } from "react-router-dom";
 
 export interface INavbarProps {}
 
+interface NavBarPath {
+  url: string;
+  name: string;
+}
+
 export function Navbar(props: INavbarProps) {
-  const items = [
-    { key: "home", name: "Home" },
-    { key: "learn", name: "Learn" },
-    { key: "about", name: "About Us" },
+  const navBarPaths: NavBarPath[] = [
+    {
+      url: "/",
+      name: "Home",
+    },
+    {
+      url: "/learn",
+      name: "Learn",
+    },
+    {
+      url: "/about",
+      name: "About",
+    },
   ];
 
   return (
@@ -17,13 +32,25 @@ export function Navbar(props: INavbarProps) {
           <img width={"300rem"} src={cicLogo} />
         </Grid.Column>
         <Grid.Column textAlign="center" width={5}>
-          <Menu centered basic items={items} secondary></Menu>
+          <Menu centered basic secondary>
+            {navBarPaths.map((navPath) => {
+              return (
+                <Link to={navPath.url}>
+                  <Menu.Item>{navPath.name}</Menu.Item>
+                </Link>
+              );
+            })}
+          </Menu>
         </Grid.Column>
         <Grid.Column textAlign="right" width={4}>
           <Button.Group>
-            <Button>Login</Button>
+            <Link to="/login">
+              <Button>Login</Button>
+            </Link>
             <Button.Or text="or" />
-            <Button color="blue">SignUp</Button>
+            <Link to="/signup">
+              <Button color="blue">SignUp</Button>
+            </Link>
           </Button.Group>
         </Grid.Column>
       </Grid>
