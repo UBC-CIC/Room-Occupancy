@@ -4,15 +4,33 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.App {
-  background-color: #f1f1f4;
+body {
+  background-color: #f1f1f4 !important;
 }
 
 .container {
-  height: calc(100vh - 64px);
+  margin: 5em;
   background-color: #f1f1f4;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.navbarContainer {
+  background-color: white;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0em 5em;
+}
+
+.flexItem {
+  margin: 2em; /* Adjust the spacing between columns as needed */
+  box-sizing: border-box;
 }

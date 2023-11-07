@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
-import { About } from "./pages/About";
+import { About } from "./pages/about/About";
 import { Learn } from "./pages/Learn";
 import { Error } from "./pages/Error";
 import { Login } from "./pages/auth/Login";
