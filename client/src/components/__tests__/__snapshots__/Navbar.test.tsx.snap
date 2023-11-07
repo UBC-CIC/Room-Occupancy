@@ -2,7 +2,9 @@
 
 exports[`Navbar matches snapshot 1`] = `
 <DocumentFragment>
-  <nav>
+  <nav
+    class="navbarContainer"
+  >
     <div
       class="ui mini basic attached segment"
       fluid="true"

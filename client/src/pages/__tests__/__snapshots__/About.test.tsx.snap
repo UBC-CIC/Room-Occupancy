@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h1
+      class="ui blue center aligned header"
+    >
+      <div
+        class="content"
+      >
+        Our Team
+      </div>
+      <div
+        class="sub header"
+        color="blue"
+      >
+        Our team comprises of five engineering students within the department of Electrical and Computer Engineering at The University of British Columbia
+      </div>
+    </h1>
+    <div
+      class="flexContainer"
+    >
+      <div
+        class="flexItem"
+      >
+        <div
+          class="ui card"
+        >
+          <div
+            class="image"
+          >
+            <img
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="content"
+          >
+            <div
+              class="header"
+            >
+              Colin Pereira
+            </div>
+            <div
+              class="meta"
+            >
+              <span
+                class="date"
+              >
+                Electrical Engineer
+              </span>
+            </div>
+            <div
+              class="description"
+            >
+              Interested in web development. Strong believer of success through collaboration!
+            </div>
+          </div>
+          <div
+            class="extra content"
+          >
+            <a
+              href="https://www.linkedin.com/in/colinpereira/"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                class="linkedin icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flexItem"
+      >
+        <div
+          class="ui card"
+        >
+          <div
+            class="image"
+          >
+            <img
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="content"
+          >
+            <div
+              class="header"
+            >
+              Cassiel Jung
+            </div>
+            <div
+              class="meta"
+            >
+              <span
+                class="date"
+              >
+                Computer Engineer
+              </span>
+            </div>
+            <div
+              class="description"
+            >
+              Enjoys working with software.
+            </div>
+          </div>
+          <div
+            class="extra content"
+          >
+            <a
+              href="https://www.linkedin.com/in/cassieljung-ml-sw/"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                class="linkedin icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flexItem"
+      >
+        <div
+          class="ui card"
+        >
+          <div
+            class="image"
+          >
+            <img
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="content"
+          >
+            <div
+              class="header"
+            >
+              Woody Chang
+            </div>
+            <div
+              class="meta"
+            >
+              <span
+                class="date"
+              >
+                Electrical Engineer
+              </span>
+            </div>
+            <div
+              class="description"
+            >
+              Enjoys working with software.
+            </div>
+          </div>
+          <div
+            class="extra content"
+          >
+            <a
+              href="https://www.linkedin.com/in/woody-chang-119117158/"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                class="linkedin icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flexItem"
+      >
+        <div
+          class="ui card"
+        >
+          <div
+            class="image"
+          >
+            <img
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="content"
+          >
+            <div
+              class="header"
+            >
+              Danny Song
+            </div>
+            <div
+              class="meta"
+            >
+              <span
+                class="date"
+              >
+                Electrical Engineer
+              </span>
+            </div>
+            <div
+              class="description"
+            >
+              Enjoys working with software.
+            </div>
+          </div>
+          <div
+            class="extra content"
+          >
+            <a
+              href="https://www.linkedin.com/in/minwo02001/"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                class="linkedin icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flexItem"
+      >
+        <div
+          class="ui card"
+        >
+          <div
+            class="image"
+          >
+            <img
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="content"
+          >
+            <div
+              class="header"
+            >
+              Steve He
+            </div>
+            <div
+              class="meta"
+            >
+              <span
+                class="date"
+              >
+                Computer Engineer
+              </span>
+            </div>
+            <div
+              class="description"
+            >
+              Enjoys working with software.
+            </div>
+          </div>
+          <div
+            class="extra content"
+          >
+            <a
+              href="https://www.linkedin.com/in/he-steve/"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                class="linkedin icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

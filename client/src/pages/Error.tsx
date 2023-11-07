@@ -1,15 +1,24 @@
 import * as React from "react";
 import { Header } from "semantic-ui-react";
 import "../App.css";
+import { Button } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 export interface IErrorProps {}
 
 export function Error(props: IErrorProps) {
   return (
     <div className="container">
-      <Header as="h1" textAlign="center">
-        <Header.Content>Real Time Occupancy Management</Header.Content>
-        <Header.Subheader color="blue">404! NOT FOUND!</Header.Subheader>
+      <Header size="huge" color="blue" textAlign="center">
+        <Header.Content>404!</Header.Content>
+        <Header.Subheader color="blue">
+          Oops! This page could not be found!
+        </Header.Subheader>
+        <Link to="/">
+          <Button circular color="blue">
+            Go to Homepage
+          </Button>
+        </Link>
       </Header>
     </div>
   );
