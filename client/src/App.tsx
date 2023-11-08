@@ -8,6 +8,7 @@ import { Login } from "./pages/auth/Login";
 import { SignUp } from "./pages/auth/SignUp";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "./pages/analytics/Analytics";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/learn" element={<Learn />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/analytics" element={<Analytics />} />
         <Route path="/*" element={<Error />} />
       </Routes>
     </>

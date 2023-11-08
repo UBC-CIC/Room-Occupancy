@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, Segment, Grid, Button } from "semantic-ui-react";
+import { Menu, Segment, Grid, Button, Icon } from "semantic-ui-react";
 import cicLogo from "../assets/images/cicLogo.png";
 import { Link } from "react-router-dom";
 import "../App.css";
@@ -25,13 +25,17 @@ export function Navbar(props: INavbarProps) {
       url: "/about",
       name: "About",
     },
+    {
+      url: "/analytics",
+      name: "Analytics",
+    },
   ];
 
   return (
     <nav className="navbarContainer">
       <Segment basic attached size="mini" fluid="true">
         <Grid>
-          <Grid.Column width={7}>
+          <Grid.Column width={6}>
             <img alt="logo" width={"300rem"} src={cicLogo} />
           </Grid.Column>
           <Grid.Column textAlign="center" width={5}>
@@ -45,7 +49,7 @@ export function Navbar(props: INavbarProps) {
               })}
             </Menu>
           </Grid.Column>
-          <Grid.Column textAlign="right" width={4}>
+          <Grid.Column textAlign="right" width={5}>
             <Button.Group>
               <Link to="/login">
                 <Button>Login</Button>
