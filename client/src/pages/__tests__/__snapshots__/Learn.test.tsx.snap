@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Learn /> matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h1
+      class="ui blue center aligned header"
+    >
+      <div
+        class="content"
+      >
+        Learn
+      </div>
+    </h1>
+    <br />
+    <div
+      class="ui grid"
+    >
+      <div
+        class="two column row"
+      >
+        <div
+          class="column"
+        >
+          The UBC Cloud Innovation Center seeks a cutting-edge solution to address the challenge of real-time people counting and occupancy monitoring in spaces, such as rooms or traffic areas. This solution should utilize IoT devices, an open-source image processor, and cloud services to accurately count and track the number of people in these areas. The data gathered should be presented via a user-friendly interface that efficiently conveys information.
+        </div>
+        <div
+          class="column"
+        >
+          <img
+            class="ui big image"
+            src="test-file-stub"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
