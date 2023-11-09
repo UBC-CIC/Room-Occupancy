@@ -33,7 +33,7 @@ describe("Navbar", () => {
     const navPathNames = ["Home", "Learn", "About"];
     renderNavbar();
     const menuItems = screen.getAllByRole("menuitem");
-    expect(menuItems).toHaveLength(3);
+    expect(menuItems).toHaveLength(4);
 
     navPathNames.map((name) => {
       expect(screen.getByText(name)).toBeInTheDocument();
@@ -50,6 +50,10 @@ describe("Navbar", () => {
     expect(screen.getByText("About").closest("a")).toHaveAttribute(
       "href",
       "/about"
+    );
+    expect(screen.getByText("Analytics").closest("a")).toHaveAttribute(
+      "href",
+      "/analytics"
     );
   });
 

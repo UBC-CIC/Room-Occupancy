@@ -18,9 +18,9 @@ export function Home(props: IHomeProps) {
       <Segment basic>
         <Image centered size="big" src={dashboard} />
       </Segment>
-      <Link to="login">
+      <Link to="analytics">
         <Button circular color="blue">
-          Get Started
+          Check Analytics
         </Button>
       </Link>
     </div>

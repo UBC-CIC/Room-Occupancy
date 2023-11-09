@@ -29,12 +29,12 @@ exports[`<Home /> matches snapshot 1`] = `
       />
     </div>
     <a
-      href="/login"
+      href="/analytics"
     >
       <button
         class="ui blue circular button"
       >
-        Get Started
+        Check Analytics
       </button>
     </a>
   </div>
