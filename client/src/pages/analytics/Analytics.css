@@ -1,0 +1,10 @@
+.dashboardContainer {
+  display: flex;
+  padding: 0 !important; /* semantic UI override*/
+  margin: 0 !important; /* semantic UI override*/
+  height: calc(100vh - 68px);
+}
+
+.ui.grid.dashboardContainer > .sidebarContainer {
+  background-color: white;
+}

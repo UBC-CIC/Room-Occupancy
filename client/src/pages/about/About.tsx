@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Header } from "semantic-ui-react";
 import "../../App.css";
-import { Cards } from "../../components/Cards";
+import { Cards } from "../../components/common/cards";
 import { teamInformation } from "./TeamInformation";
 
 interface IAboutProps {}

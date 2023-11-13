@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Card, Icon, Image, SemanticICONS } from "semantic-ui-react";
-import "../App.css";
+import "../../../App.css";
 
 export interface ICardsProps {
   imageURL: string;
@@ -33,7 +33,7 @@ export function Cards(props: ICardsProps) {
         <Card.Description>{description}</Card.Description>
       </Card.Content>
       <Card.Content extra>
-        <a href={url} target="_blank">
+        <a href={url} target="_blank" rel="noopener">
           <Icon name={icon} />
           {subDescription}
         </a>

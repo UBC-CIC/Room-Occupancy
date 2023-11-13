@@ -19,6 +19,8 @@ body {
 
 .navbarContainer {
   background-color: white;
+  height: 68px;
+  max-height: 68px;
 }
 
 .flexContainer {
