@@ -19,7 +19,7 @@ input_std = 127.5
 
 
 # Load the input image
-image = cv2.imread('ImageTesting/peopleCountingOffice.jpg')
+image = cv2.imread('ImageTesting/PeopleCountingOffice.jpg') #This is the input
 
 # Convert BGR to RGB if needed
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -59,9 +59,9 @@ for index, content in enumerate(labels):
         del labels[index]
 
 # Score threshold
-score_threshold = 0
+score_threshold = 0.5
 # Non-maximum suppression threshold
-nms_threshold = 0.46
+nms_threshold = 1
 
 indices = cv2.dnn.NMSBoxes(boxes, scores, score_threshold, nms_threshold)
     
@@ -78,22 +78,26 @@ for i in indices:
     if object_name != "person":
         continue
     else:
+        #----------- This could be deleted when testing, this only draw the boundaries on the image -------------------
         cv2.rectangle(image, (xmin,ymin), (xmax,ymax), (10, 255, 0), 2)
         label = '%s: %d%%' % (object_name, int(scores[i]*100)) # Example: 'person: 72%'
         labelSize, baseLine = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.7, 2) # Get font size
         label_ymin = max(ymin, labelSize[1] + 10) # Make sure not to draw label too close to top of window
         cv2.rectangle(image, (xmin, label_ymin-labelSize[1]-10), (xmin+labelSize[0], label_ymin+baseLine-10), (255, 255, 255), cv2.FILLED) # Draw white box to put label text in
         cv2.putText(image, label, (xmin, label_ymin-7), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2) # Draw label text
+        #----------- This could be deleted when testing, this only draw the boundaries on the image -------------------
 
         detections.append([object_name, scores[i], xmin, ymin, xmax, ymax])   
     
 print(detections)
 print(len(detections))
 
+        #----------- This could be deleted when testing, this only draw the boundaries on the image -------------------
 while True:
     cv2.imshow('Object detector', image)
-    if cv2.waitKey(1) & 0xFF == ord('q'):  # Press 'q' to quit
+    if cv2.waitKey(1) & 0xFF == ords('q'):  # Pres 'q' to quit
         break
 cv2.destroyAllWindows()
+        #----------- This could be deleted when testing, this only draw the boundaries on the image -------------------
 
 
