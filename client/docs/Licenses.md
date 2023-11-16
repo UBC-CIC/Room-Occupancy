@@ -1,7 +1,7 @@
 # Client License Documentation
 
 This project has the yarn package: check-licenses installed.
-Package documentation can be found here: This project was bootstrapped with [License Checker](https://classic.yarnpkg.com/en/package/check-licenses#:~:text=Getting%20started&text=If%20you%20want%20to%20dig,use%20the%20%2D%2Dlist%20flag.).
+Package documentation can be found here: [License Checker](https://classic.yarnpkg.com/en/package/check-licenses#:~:text=Getting%20started&text=If%20you%20want%20to%20dig,use%20the%20%2D%2Dlist%20flag.).
 
 ## Commands
 
