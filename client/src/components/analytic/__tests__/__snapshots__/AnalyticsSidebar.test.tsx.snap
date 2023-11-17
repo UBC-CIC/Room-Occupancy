@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnalyticsSidebar /> should matchSnapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui list"
+    role="list"
+  >
+    <div
+      class="item"
+      role="listitem"
+    >
+      <div
+        class="header"
+      >
+        ANALYTICS
+      </div>
+      <div
+        class="content"
+      >
+        <div
+          class="ui list"
+          role="list"
+        >
+          <div
+            class="item"
+            role="listitem"
+          >
+            <i
+              aria-hidden="true"
+              class="grey chart area icon"
+            />
+            <a
+              class="content"
+            >
+              Analytics
+            </a>
+          </div>
+          <div
+            class="item"
+            role="listitem"
+          >
+            <i
+              aria-hidden="true"
+              class="grey camera icon"
+            />
+            <a
+              class="content"
+            >
+              Camera
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="item"
+      role="listitem"
+    >
+      <div
+        class="header"
+      >
+        LOCATIONS
+      </div>
+      <div
+        class="content"
+      >
+        <div
+          class="ui list"
+          role="list"
+        >
+          <div
+            class="item"
+            role="listitem"
+          >
+            <i
+              aria-hidden="true"
+              class="grey location arrow icon"
+            />
+            <a
+              class="content"
+            >
+              Zone 1
+            </a>
+          </div>
+          <div
+            class="item"
+            role="listitem"
+          >
+            <i
+              aria-hidden="true"
+              class="grey location arrow icon"
+            />
+            <a
+              class="content"
+            >
+              Zone 2
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

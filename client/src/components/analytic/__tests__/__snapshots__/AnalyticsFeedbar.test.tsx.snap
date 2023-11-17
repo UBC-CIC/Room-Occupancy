@@ -1,0 +1,669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnalyticsFeedBar /> should matchSnapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui segment"
+  >
+    <h4
+      class="ui header"
+    >
+      <div
+        class="content"
+      >
+        Occupancy Feed
+        <div
+          class="sub header"
+        >
+          Real-time updates
+        </div>
+      </div>
+    </h4>
+    <div
+      class="ui basic segment"
+      style="overflow: auto; max-height: 75vh;"
+    >
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               5 people
+              <div
+                class="date"
+              >
+                5 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 2 Occupancy 
+              </a>
+               10 people
+              <div
+                class="date"
+              >
+                2 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               6 people
+              <div
+                class="date"
+              >
+                5 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               7 people
+              <div
+                class="date"
+              >
+                1 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               5 people
+              <div
+                class="date"
+              >
+                5 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 2 Occupancy 
+              </a>
+               10 people
+              <div
+                class="date"
+              >
+                2 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               6 people
+              <div
+                class="date"
+              >
+                5 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               7 people
+              <div
+                class="date"
+              >
+                1 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               5 people
+              <div
+                class="date"
+              >
+                5 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 2 Occupancy 
+              </a>
+               10 people
+              <div
+                class="date"
+              >
+                2 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               6 people
+              <div
+                class="date"
+              >
+                5 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               7 people
+              <div
+                class="date"
+              >
+                1 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               5 people
+              <div
+                class="date"
+              >
+                5 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 2 Occupancy 
+              </a>
+               10 people
+              <div
+                class="date"
+              >
+                2 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               6 people
+              <div
+                class="date"
+              >
+                5 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ui feed"
+      >
+        <div
+          class="event"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="summary"
+            >
+              <a
+                class="user"
+              >
+                Zone 1 Occupancy 
+              </a>
+               7 people
+              <div
+                class="date"
+              >
+                1 minutes ago
+              </div>
+            </div>
+            <div
+              class="meta"
+            >
+              <a
+                class="like"
+              >
+                <i
+                  aria-hidden="true"
+                  class="icon"
+                />
+                Camera ID: A5S7GB-UBC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

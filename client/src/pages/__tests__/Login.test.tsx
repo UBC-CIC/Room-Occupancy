@@ -1,10 +1,10 @@
 import * as React from "react";
-import { render } from "@testing-library/react";
+import { customRender } from "../../testUtils";
 import { Login } from "../auth/Login";
 
 describe("<Login />", () => {
   it("matches snapshot", () => {
-    const { asFragment } = render(<Login />);
+    const { asFragment } = customRender(<Login />);
 
     expect(asFragment()).toMatchSnapshot();
   });

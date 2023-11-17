@@ -1,16 +1,20 @@
 import React, { ReactElement } from "react";
 import { render, RenderOptions } from "@testing-library/react";
-import { MemoryRouter, MemoryRouterProps } from "react-router-dom";
+import {
+  MemoryRouter,
+  MemoryRouterProps,
+  BrowserRouter,
+} from "react-router-dom";
 
 // Implement with creation of providers
 const AllTheProviders = ({ children }: { children: React.ReactNode }) => {
-  return { children };
+  return <MemoryRouter>{children}</MemoryRouter>;
 };
 
 const customRender = (
   ui: ReactElement,
   options?: Omit<RenderOptions, "wrapper">
-) => render(ui, { ...options });
+) => render(ui, { wrapper: AllTheProviders, ...options });
 
 // Usage example:
 // test("matches snapshot", () => {
@@ -32,5 +36,4 @@ const testComponentSnapshot = <P extends {}>(
 };
 
 export * from "@testing-library/react";
-export { customRender as customRenderFunction };
-export { testComponentSnapshot };
+export { customRender, testComponentSnapshot };

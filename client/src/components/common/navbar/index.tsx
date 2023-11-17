@@ -1,8 +1,8 @@
 import React from "react";
 import { Menu, Segment, Grid, Button, Icon } from "semantic-ui-react";
-import cicLogo from "../assets/images/cicLogo.png";
+import cicLogo from "../../../assets/images/cicLogo.png";
 import { Link } from "react-router-dom";
-import "../App.css";
+import "../../../App.css";
 
 export interface INavbarProps {}
 

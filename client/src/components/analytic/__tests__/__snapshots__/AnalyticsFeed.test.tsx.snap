@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnalyticsFeed /> should matchSnapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui feed"
+  >
+    <div
+      class="event"
+    >
+      <div
+        class="content"
+      >
+        <div
+          class="summary"
+        >
+          <a
+            class="user"
+          >
+            Test Header
+          </a>
+           Test Subheader
+          <div
+            class="date"
+          >
+            2023-01-01
+          </div>
+        </div>
+        <div
+          class="meta"
+        >
+          <a
+            class="like"
+          >
+            <i
+              aria-hidden="true"
+              class="icon"
+            />
+            Test Meta
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

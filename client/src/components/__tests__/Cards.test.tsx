@@ -1,8 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import { Cards } from "../Cards";
+import { Cards } from "../common/cards/index";
 import "@testing-library/jest-dom";
-import { ICardsProps } from "../Cards";
+import { ICardsProps } from "../common/cards/index";
 
 const mockCardProps: ICardsProps = {
   imageURL: "example.jpg",
