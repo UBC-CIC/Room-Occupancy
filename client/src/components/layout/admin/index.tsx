@@ -1,22 +1,22 @@
 import React from "react";
-import "./Dashboard.css";
+import { AdminNavbar } from "./navbar";
+import { AdminSidebar } from "./sidebar";
 import { Grid } from "semantic-ui-react";
-import { AnalyticsSidebar } from "../../analytic/AnalyticsSidebar";
-import { CommonLayout } from "../common/index";
 
 type Props = {
   children: React.ReactNode;
 };
 
-export const DashboardLayout = ({ children }: Props) => {
+export const AdminDashboardLayout = ({ children }: Props) => {
   return (
-    <CommonLayout>
+    <div>
+      <AdminNavbar user="John Doe" image={undefined} />
       <Grid className="dashboardContainer">
         <Grid.Column className="sidebarContainer" width={2}>
-          <AnalyticsSidebar />
+          <AdminSidebar />
         </Grid.Column>
         <Grid.Column width={14}>{children}</Grid.Column>
       </Grid>
-    </CommonLayout>
+    </div>
   );
 };

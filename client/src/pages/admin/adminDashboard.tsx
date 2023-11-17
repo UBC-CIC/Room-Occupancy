@@ -1,16 +1,22 @@
 import * as React from "react";
 import { ProtectedRoute } from "../../components/common/protectedRoute";
-import { Button, Icon } from "semantic-ui-react";
+import { AdminDashboardLayout } from "../../components/layout/admin";
+import { Segment, Dimmer, Loader, Image } from "semantic-ui-react";
 
 export interface IAdminDashboardProps {}
 
 export function AdminDashboard(props: IAdminDashboardProps) {
   return (
-    <div>
-      <Button icon labelPosition="left">
-        <Icon name="user" />
-        Cassiel
-      </Button>
-    </div>
+    <AdminDashboardLayout>
+      <Segment>
+        <Dimmer active>
+          <Loader size="massive">Work in Progress</Loader>
+        </Dimmer>
+
+        <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+        <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+        <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+      </Segment>
+    </AdminDashboardLayout>
   );
 }

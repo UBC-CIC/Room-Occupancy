@@ -1,5 +1,12 @@
 import * as React from "react";
-import { Grid, Image } from "semantic-ui-react";
+import {
+  Grid,
+  Image,
+  Segment,
+  Dimmer,
+  Loader,
+  Divider,
+} from "semantic-ui-react";
 import "./Analytics.css";
 import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
 import { AnalyticsFeedBar } from "../../components/analytic/AnalyticsFeedBar";
@@ -17,28 +24,40 @@ export function Analytics(props: IAnalyticsProps) {
               <Grid.Column>
                 <AnalyticSatistic
                   header="Current Occupancy"
-                  statisticLabel="Zone 1"
-                  statisticValue={5550}
+                  statisticLabel="Zone 1 - Orchard Commons"
+                  statisticValue={20}
                 />
               </Grid.Column>
               <Grid.Column>
                 <AnalyticSatistic
                   header="Current Occupancy"
-                  statisticLabel="Zone 1"
-                  statisticValue={5550}
+                  statisticLabel="Zone 2 - Totem Park"
+                  statisticValue={5}
                 />
               </Grid.Column>
               <Grid.Column>
                 <AnalyticSatistic
                   header="Current Occupancy"
-                  statisticLabel="Zone 1"
-                  statisticValue={5550}
+                  statisticLabel="Zone 3 - Orchard Commons"
+                  statisticValue={165}
                 />
               </Grid.Column>
             </Grid.Row>
           </Grid>
+          <Divider />
           <Grid.Row>
-            <Image src="https://react.semantic-ui.com/images/wireframe/paragraph.png" />
+            <Segment>
+              <Dimmer active>
+                <Loader size="massive">Work in Progress</Loader>
+              </Dimmer>
+
+              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+            </Segment>
           </Grid.Row>
         </Grid.Column>
 

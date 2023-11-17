@@ -108,7 +108,7 @@ exports[`<Dashboard Layout /> should match snapshot 1`] = `
     class="ui grid dashboardContainer"
   >
     <div
-      class="three wide column sidebarContainer"
+      class="two wide column sidebarContainer"
     >
       <div
         class="ui list"
@@ -211,7 +211,7 @@ exports[`<Dashboard Layout /> should match snapshot 1`] = `
       </div>
     </div>
     <div
-      class="thirteen wide column"
+      class="fourteen wide column"
     >
       Colin
     </div>
