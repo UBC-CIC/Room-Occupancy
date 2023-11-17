@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should match snapshopt 1`] = `
+exports[`<CommonLayout /> should matchSnapshot 1`] = `
 <DocumentFragment>
   <nav
     class="navbarContainer"
@@ -104,33 +104,6 @@ exports[`should match snapshopt 1`] = `
       </div>
     </div>
   </nav>
-  <div
-    class="container"
-  >
-    <div
-      class="ui blue huge center aligned header"
-    >
-      <div
-        class="content"
-      >
-        404!
-      </div>
-      <div
-        class="sub header"
-        color="blue"
-      >
-        Oops! This page could not be found!
-      </div>
-      <a
-        href="/"
-      >
-        <button
-          class="ui blue circular button"
-        >
-          Go to Homepage
-        </button>
-      </a>
-    </div>
-  </div>
+  Colin
 </DocumentFragment>
 `;

@@ -2,6 +2,108 @@
 
 exports[`<About /> matches snapshot 1`] = `
 <DocumentFragment>
+  <nav
+    class="navbarContainer"
+  >
+    <div
+      class="ui mini basic attached segment"
+      fluid="true"
+    >
+      <div
+        class="ui grid"
+      >
+        <div
+          class="six wide column"
+        >
+          <img
+            alt="logo"
+            src="test-file-stub"
+            width="300rem"
+          />
+        </div>
+        <div
+          class="center aligned five wide column"
+        >
+          <div
+            basic="true"
+            centered="true"
+            class="ui secondary menu"
+          >
+            <a
+              href="/"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Home
+              </div>
+            </a>
+            <a
+              href="/learn"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Learn
+              </div>
+            </a>
+            <a
+              href="/about"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                About
+              </div>
+            </a>
+            <a
+              href="/analytics"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Analytics
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="right aligned five wide column"
+        >
+          <div
+            class="ui buttons"
+          >
+            <a
+              href="/login"
+            >
+              <button
+                class="ui button"
+              >
+                Login
+              </button>
+            </a>
+            <div
+              class="or"
+              data-text="or"
+            />
+            <a
+              href="/signup"
+            >
+              <button
+                class="ui blue button"
+              >
+                SignUp
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
   <div
     class="container"
   >
@@ -64,6 +166,7 @@ exports[`<About /> matches snapshot 1`] = `
           >
             <a
               href="https://www.linkedin.com/in/colinpereira/"
+              rel="noopener"
               target="_blank"
             >
               <i
@@ -115,6 +218,7 @@ exports[`<About /> matches snapshot 1`] = `
           >
             <a
               href="https://www.linkedin.com/in/cassieljung-ml-sw/"
+              rel="noopener"
               target="_blank"
             >
               <i
@@ -166,6 +270,7 @@ exports[`<About /> matches snapshot 1`] = `
           >
             <a
               href="https://www.linkedin.com/in/woody-chang-119117158/"
+              rel="noopener"
               target="_blank"
             >
               <i
@@ -217,6 +322,7 @@ exports[`<About /> matches snapshot 1`] = `
           >
             <a
               href="https://www.linkedin.com/in/minwo02001/"
+              rel="noopener"
               target="_blank"
             >
               <i
@@ -268,6 +374,7 @@ exports[`<About /> matches snapshot 1`] = `
           >
             <a
               href="https://www.linkedin.com/in/he-steve/"
+              rel="noopener"
               target="_blank"
             >
               <i

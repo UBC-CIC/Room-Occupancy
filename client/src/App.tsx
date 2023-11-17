@@ -12,23 +12,17 @@ import { Analytics } from "./pages/analytics/Analytics";
 import { AdminDashboard } from "./pages/admin/adminDashboard";
 
 function App() {
-  const NO_NAVBAR_LIST = ["/admin_dashboard"];
-
-  const showNav = !NO_NAVBAR_LIST.includes(window.location.pathname);
   return (
-    <>
-      {showNav && <Navbar />}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/learn" element={<Learn />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/analytics" element={<Analytics />} />
-        <Route path="/admin_dashboard" element={<AdminDashboard />} />
-        <Route path="/*" element={<Error />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/learn" element={<Learn />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<SignUp />} />
+      <Route path="/analytics" element={<Analytics />} />
+      <Route path="/admin_dashboard" element={<AdminDashboard />} />
+      <Route path="/*" element={<Error />} />
+    </Routes>
   );
 }
 

@@ -15,9 +15,11 @@ export function AnalyticsFeedBar(props: IAnalyticsFeedBarProps) {
         </Header.Content>
       </Header>
       <Segment basic style={{ overflow: "auto", maxHeight: "75vh" }}>
-        {feedData.map((data) => {
+        {/* TODO: Update feedData to be actual data from API */}
+        {feedData.map((data, key) => {
           return (
             <AnalyticsFeed
+              key={key}
               summaryHeader={data.summaryHeader}
               summarySubheader={data.summarySubheader}
               summaryDate={data.summaryDate}

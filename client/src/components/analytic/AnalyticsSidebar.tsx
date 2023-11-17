@@ -49,9 +49,9 @@ export function AnalyticsSidebar(props: IAnalyticsSidebarProps) {
           <List>
             {analyticsItems
               .filter((item) => item.category === analyticType.analytics)
-              .map((value) => {
+              .map((value, key) => {
                 return (
-                  <List.Item>
+                  <List.Item key={key}>
                     <List.Icon color="grey" name={value.icon} />
                     <List.Content as="a">{value.name}</List.Content>
                   </List.Item>
@@ -66,9 +66,9 @@ export function AnalyticsSidebar(props: IAnalyticsSidebarProps) {
           <List>
             {analyticsItems
               .filter((item) => item.category === analyticType.locations)
-              .map((value) => {
+              .map((value, key) => {
                 return (
-                  <List.Item>
+                  <List.Item key={key}>
                     <List.Icon color="grey" name={value.icon} />
                     <List.Content as="a">{value.name}</List.Content>
                   </List.Item>

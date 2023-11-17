@@ -1,15 +1,11 @@
 import * as React from "react";
-import { render } from "@testing-library/react";
+import { customRender } from "../../testUtils";
 import { Home } from "../Home";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Router } from "react-router-dom";
 
 describe("<Home />", () => {
   it("matches snapshot", () => {
-    const { asFragment } = render(
-      <Router>
-        <Home />
-      </Router>
-    );
+    const { asFragment } = customRender(<Home />);
 
     expect(asFragment()).toMatchSnapshot();
   });
