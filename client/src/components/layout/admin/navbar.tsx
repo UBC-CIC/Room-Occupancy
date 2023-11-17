@@ -12,11 +12,11 @@ export function AdminNavbar({ user, image }: Props) {
   return (
     <nav className="navbarContainer">
       <Segment basic attached size="mini" fluid="true">
-        <Grid>
-          <Grid.Column width={3}>
+        <Grid stackable={false} columns={3}>
+          <Grid.Column width={4}>
             <img alt="logo" width={"300rem"} src={cicLogo} />
           </Grid.Column>
-          <Grid.Column verticalAlign="middle" width={8}>
+          <Grid.Column verticalAlign="middle" width={7}>
             <Header as="h3">Administator Console</Header>
           </Grid.Column>
           <Grid.Column textAlign="right" verticalAlign="middle" width={5}>
