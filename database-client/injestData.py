@@ -1,3 +1,4 @@
+# lambda function to write data to timestream database
 import json
 import boto3
 from botocore.config import Config
@@ -41,5 +42,5 @@ def lambda_handler(event, context):
     
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Lambda!')
+        'body': json.dumps('Injest successfully')
     }
