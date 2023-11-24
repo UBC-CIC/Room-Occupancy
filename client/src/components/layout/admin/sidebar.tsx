@@ -50,10 +50,12 @@ export function AdminSidebar(props: IAdminSidebarProps) {
   return (
     <div style={{ height: "100%" }}>
       <div style={{ height: "95%" }}>
-        <Button color="blue" fluid icon labelPosition="left">
-          <Icon name="dashboard" />
-          Dashboard
-        </Button>
+        <Link to="/admin_dashboard">
+          <Button color="blue" fluid icon labelPosition="left">
+            <Icon name="dashboard" />
+            Dashboard
+          </Button>
+        </Link>
         <List>
           <List.Item>
             <List.Header>ANALYTICS</List.Header>

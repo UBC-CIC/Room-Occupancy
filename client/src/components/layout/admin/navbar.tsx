@@ -2,6 +2,7 @@ import React from "react";
 import { Label, Segment, Grid, Icon, Header, Image } from "semantic-ui-react";
 import cicLogo from "../../../assets/images/cicLogo.png";
 import "../../../App.css";
+import { Link } from "react-router-dom";
 
 interface Props {
   user: string;
@@ -21,9 +22,11 @@ export function AdminNavbar({ user, image }: Props) {
           </Grid.Column>
           <Grid.Column textAlign="right" verticalAlign="middle" width={5}>
             <Icon link size="large" name="question circle outline" />
-            <Icon link size="large" name="setting" />
+            <Link to="/admin_settings">
+              <Icon link size="large" name="setting" />
+            </Link>
             <Icon link size="large" name="alarm" />
-            {image == undefined ? (
+            {image === undefined ? (
               <Label
                 size="large"
                 as="a"
