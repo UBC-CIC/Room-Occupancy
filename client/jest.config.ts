@@ -114,7 +114,18 @@ const config: Config = {
   // projects: undefined,
 
   // Use this configuration option to add custom reporters to Jest
-  // reporters: undefined,
+  // https://yarnpkg.com/package?name=jest-html-reporters
+  reporters: [
+    "default",
+    [
+      "jest-html-reporters",
+      {
+        publicPath: "./docs/test-report",
+        filename: "testReport.html",
+        pageTitle: "Occupancy Manager Client - Test Report",
+      },
+    ],
+  ],
 
   // Automatically reset mock state before every test
   // resetMocks: false,
