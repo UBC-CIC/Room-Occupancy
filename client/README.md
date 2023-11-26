@@ -89,6 +89,12 @@ Test cases are written using Jest and React Testing Library on the client side.
 Launches the test runner using the interactive watch mode.\
 Test cases are written using Jest and React Testing Library on the client side.
 
+### `yarn testReport`
+
+Launches the test runner.\
+This will also create a JSON file in "./docs/test-report/testOutput.json that contains information on the tests.
+Additionally, an HTML page will be created to display the test results in user friendly manner
+
 ### `yarn build`
 
 Builds the app for production to the `build` folder.\

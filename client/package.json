@@ -29,6 +29,7 @@
     "build": "react-scripts build",
     "test": "jest",
     "testAll": "jest --watchAll",
+    "testReport": "jest --json --outputFile=./docs/test-report/testOutput.json",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
