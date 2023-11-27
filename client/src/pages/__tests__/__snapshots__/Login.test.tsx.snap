@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="ui compact very padded segment"
+    >
+      <h1
+        class="ui blue center aligned header"
+      >
+        <div
+          class="content"
+        >
+          Welcome
+        </div>
+        <div
+          class="sub header"
+          color="blue"
+        >
+          Login with Email
+        </div>
+      </h1>
+      <form
+        class="ui form"
+      >
+        <div
+          class="field"
+        >
+          <label>
+            Name
+          </label>
+          <div
+            class="ui left icon input"
+          >
+            <input
+              placeholder="Name"
+              type="text"
+            />
+            <i
+              aria-hidden="true"
+              class="user icon"
+            />
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <label>
+            Email
+          </label>
+          <div
+            class="ui left icon input"
+          >
+            <input
+              placeholder="Email"
+              type="email"
+            />
+            <i
+              aria-hidden="true"
+              class="mail icon"
+            />
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <label>
+            Password
+          </label>
+          <div
+            class="ui left icon input"
+          >
+            <input
+              placeholder="Password"
+              type="password"
+            />
+            <i
+              aria-hidden="true"
+              class="lock icon"
+            />
+          </div>
+        </div>
+        <div
+          class="flexContainer"
+        >
+          <button
+            class="ui blue button"
+            type="submit"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
