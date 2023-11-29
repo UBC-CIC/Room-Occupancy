@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Modal, Button, Header, Image, Form, Grid } from "semantic-ui-react";
 
 type Props = {};
 
-export const AWSSettingForm = ({ open, setOpen }: any) => {
+export const AWSSettingForm = ({
+  open,
+  setOpen,
+  currSettings,
+  setCurrSettings,
+}: any) => {
   return (
     <Modal
       onClose={() => setOpen(false)}
@@ -16,7 +21,10 @@ export const AWSSettingForm = ({ open, setOpen }: any) => {
         <Form>
           <Form.Field>
             <label>Photo per Second</label>
-            <input placeholder={"3 photos per second"} />
+            <input
+              placeholder={`${currSettings} photos per second`}
+              onChange={(e) => setCurrSettings(parseFloat(e.target.value))}
+            />
           </Form.Field>
         </Form>
       </Modal.Content>
@@ -29,8 +37,14 @@ export const AWSSettingForm = ({ open, setOpen }: any) => {
           labelPosition="right"
           icon="checkmark"
           onClick={() => {
-            setOpen(false);
-            alert("AWS Settings updated to 3 photos per second");
+            if (Number.isNaN(currSettings)) {
+              alert("You must enter a number!");
+            } else {
+              setOpen(false);
+              alert(
+                `AWS Settings updated to ${currSettings} photos per second.`
+              );
+            }
           }}
           positive
         />

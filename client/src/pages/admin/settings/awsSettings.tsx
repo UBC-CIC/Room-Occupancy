@@ -16,13 +16,21 @@ type Props = {};
 
 export const AwsSettings = (props: Props) => {
   const [open, setOpen] = useState(false);
+  const [currSettings, setCurrSettings] = useState(0);
   const headers = ["Camera ID", "Zone", "Current Setting", "Update"];
   const body = [
     {
       cameraID: "ASD6TH-2",
       zone: "1 - Orchard Commons",
       currentSettings: "3 photos / sec",
-      update: <AWSSettingForm open={open} setOpen={setOpen}></AWSSettingForm>,
+      update: (
+        <AWSSettingForm
+          open={open}
+          setOpen={setOpen}
+          currSettings={currSettings}
+          setCurrSettings={setCurrSettings}
+        ></AWSSettingForm>
+      ),
     },
   ];
 
@@ -44,7 +52,7 @@ export const AwsSettings = (props: Props) => {
               <Table.Row key={key}>
                 <Table.Cell>{item.cameraID}</Table.Cell>
                 <Table.Cell>{item.zone}</Table.Cell>
-                <Table.Cell>{item.currentSettings}</Table.Cell>
+                <Table.Cell>{currSettings}</Table.Cell>
                 <Table.Cell>{item.update}</Table.Cell>
               </Table.Row>
             );
