@@ -1,0 +1,5 @@
+people detected: 40 expected: [35] Difference: 5
+people detected: 44 expected: [41] Difference: 3
+people detected: 43 expected: [41] Difference: 2
+people detected: 42 expected: [44] Difference: 2
+Average error rate: 7.756572695597086%  Average Process Time: 0.7951260209083557 Root Mean Square Error [10.5]
