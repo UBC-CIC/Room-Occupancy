@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Modal, Button, Header, Image, Form, Grid } from "semantic-ui-react";
+import { useAppConfig } from "../../../providers/ConfigProvider";
 
 type Props = {};
 

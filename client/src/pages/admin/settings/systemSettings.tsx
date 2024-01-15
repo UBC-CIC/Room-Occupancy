@@ -1,5 +1,6 @@
 import React from "react";
 import { Tab, Form, Button, Header, Image, Grid } from "semantic-ui-react";
+import { useAppConfig } from "../../../providers/ConfigProvider";
 
 type Props = {
   image: string;
@@ -7,6 +8,8 @@ type Props = {
 };
 
 export const SystemSettings = ({ image, organizationName }: Props) => {
+  const { config, setConfig } = useAppConfig();
+  console.log(config);
   return (
     <Tab.Pane>
       <Header>System Settings</Header>
@@ -26,7 +29,7 @@ export const SystemSettings = ({ image, organizationName }: Props) => {
         </Form.Field>
         <Form.Field>
           <label>Organization Name</label>
-          <input placeholder={organizationName} />
+          <input placeholder={config.name} />
         </Form.Field>
 
         <Button type="submit">Update Information</Button>

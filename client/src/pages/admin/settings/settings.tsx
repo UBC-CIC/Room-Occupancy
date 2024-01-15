@@ -5,6 +5,7 @@ import { UserSettings } from "./userSettings";
 import { SystemSettings } from "./systemSettings";
 import { AwsSettings } from "./awsSettings";
 import cicLogo from "../../../assets/images/cicLogo.png";
+import { useAppConfig } from "../../../providers/ConfigProvider";
 
 type Props = {};
 
@@ -14,6 +15,8 @@ interface Pane {
 }
 
 export const AdminSettings = (props: Props) => {
+  const { config } = useAppConfig();
+
   const panes: Pane[] = [
     {
       menuItem: { key: "user", icon: "user", content: "User" },
@@ -23,7 +26,9 @@ export const AdminSettings = (props: Props) => {
     },
     {
       menuItem: { key: "system", icon: "setting", content: "System" },
-      render: () => <SystemSettings image={cicLogo} organizationName="CG-22" />,
+      render: () => (
+        <SystemSettings image={config.image} organizationName="CG-22" />
+      ),
     },
     {
       menuItem: { key: "system", icon: "aws", content: "AWS" },
