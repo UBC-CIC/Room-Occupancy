@@ -4,25 +4,16 @@ import "../../App.css";
 import { Link } from "react-router-dom";
 import { CommonLayout } from "../../components/layout/common";
 
-import { Amplify } from "aws-amplify";
-
-import { Authenticator } from "@aws-amplify/ui-react";
-import "@aws-amplify/ui-react/styles.css";
-
-import awsExports from "../../aws-exports";
-Amplify.configure(awsExports);
-
 export interface ILoginProps {}
 
 export function Login(props: ILoginProps) {
   return (
     <CommonLayout>
       <div className="container">
-        <Authenticator></Authenticator>
         <Segment compact padded="very">
           <Header color="blue" as="h1" textAlign="center">
             <Header.Content>Welcome</Header.Content>
-            <Header.Subheader color="blue">Login with Emails</Header.Subheader>
+            <Header.Subheader color="blue">Login with Email</Header.Subheader>
           </Header>
           <Form>
             <Form.Field>
