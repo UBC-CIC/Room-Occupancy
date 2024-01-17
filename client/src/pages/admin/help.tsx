@@ -1,6 +1,7 @@
 import React from "react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
 import { Header, Segment } from "semantic-ui-react";
+import { withAuthenticator } from "@aws-amplify/ui-react";
 
 type Props = {};
 
@@ -22,4 +23,4 @@ const AdminHelp = (props: Props) => {
   );
 };
 
-export default AdminHelp;
+export default withAuthenticator(AdminHelp, { hideSignUp: true });

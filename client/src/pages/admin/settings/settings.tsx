@@ -4,8 +4,8 @@ import { SemanticICONS, Tab } from "semantic-ui-react";
 import { UserSettings } from "./userSettings";
 import { SystemSettings } from "./systemSettings";
 import { AwsSettings } from "./awsSettings";
-import cicLogo from "../../../assets/images/cicLogo.png";
 import { useAppConfig } from "../../../providers/ConfigProvider";
+import { withAuthenticator } from "@aws-amplify/ui-react";
 
 type Props = {};
 
@@ -14,7 +14,7 @@ interface Pane {
   render: () => React.ReactNode;
 }
 
-export const AdminSettings = (props: Props) => {
+const AdminSettingsComponent = (props: Props) => {
   const { config } = useAppConfig();
 
   const panes: Pane[] = [
@@ -42,3 +42,7 @@ export const AdminSettings = (props: Props) => {
     </AdminDashboardLayout>
   );
 };
+
+export const AdminSettings = withAuthenticator(AdminSettingsComponent, {
+  hideSignUp: true,
+});

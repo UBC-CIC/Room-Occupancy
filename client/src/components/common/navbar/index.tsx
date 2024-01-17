@@ -3,6 +3,8 @@ import { Menu, Segment, Grid, Button, Icon } from "semantic-ui-react";
 import cicLogo from "../../../assets/images/cicLogo.png";
 import { Link } from "react-router-dom";
 import "../../../App.css";
+import { useAuthenticator } from "@aws-amplify/ui-react";
+import { handleSignOut } from "../../../pages/auth/Helpers";
 
 export interface INavbarProps {}
 
@@ -12,6 +14,8 @@ interface NavBarPath {
 }
 
 export function Navbar(props: INavbarProps) {
+  const { authStatus } = useAuthenticator((context) => [context.authStatus]);
+
   const navBarPaths: NavBarPath[] = [
     {
       url: "/",
@@ -47,18 +51,23 @@ export function Navbar(props: INavbarProps) {
                   </Link>
                 );
               })}
+              {authStatus === "authenticated" && (
+                <Link to="/admin_dashboard">
+                  <Menu.Item role="menuitem">Admin Console</Menu.Item>
+                </Link>
+              )}
             </Menu>
           </Grid.Column>
           <Grid.Column textAlign="right" width={5}>
-            <Button.Group>
+            {authStatus === "authenticated" ? (
+              <Button color="blue" onClick={handleSignOut}>
+                Logout
+              </Button>
+            ) : (
               <Link to="/login">
-                <Button>Login</Button>
+                <Button color="blue">Login</Button>
               </Link>
-              <Button.Or text="or" />
-              <Link to="/signup">
-                <Button color="blue">SignUp</Button>
-              </Link>
-            </Button.Group>
+            )}
           </Grid.Column>
         </Grid>
       </Segment>

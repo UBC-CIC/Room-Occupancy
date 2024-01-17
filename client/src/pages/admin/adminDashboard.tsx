@@ -1,11 +1,11 @@
 import * as React from "react";
-import { ProtectedRoute } from "../../components/common/protectedRoute";
 import { AdminDashboardLayout } from "../../components/layout/admin";
 import { Segment, Dimmer, Loader, Image } from "semantic-ui-react";
+import { withAuthenticator } from "@aws-amplify/ui-react";
 
 export interface IAdminDashboardProps {}
 
-export function AdminDashboard(props: IAdminDashboardProps) {
+function AdminDashboardComponent(props: IAdminDashboardProps) {
   return (
     <AdminDashboardLayout>
       <Segment>
@@ -20,3 +20,7 @@ export function AdminDashboard(props: IAdminDashboardProps) {
     </AdminDashboardLayout>
   );
 }
+
+export const AdminDashboard = withAuthenticator(AdminDashboardComponent, {
+  hideSignUp: true,
+});

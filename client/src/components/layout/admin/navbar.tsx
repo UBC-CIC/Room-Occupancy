@@ -1,9 +1,19 @@
 import React from "react";
-import { Label, Segment, Grid, Icon, Header, Image } from "semantic-ui-react";
+import {
+  Label,
+  Segment,
+  Grid,
+  Icon,
+  Header,
+  Image,
+  Dropdown,
+  DropdownMenu,
+} from "semantic-ui-react";
 import cicLogo from "../../../assets/images/cicLogo.png";
 import "../../../App.css";
 import { Link } from "react-router-dom";
 import { useAppConfig } from "../../../providers/ConfigProvider";
+import { handleSignOut } from "../../../pages/auth/Helpers";
 
 interface Props {
   user: string;
@@ -31,14 +41,21 @@ export function AdminNavbar({ user, image }: Props) {
             </Link>
             <Icon link size="large" name="alarm" />
             {image === undefined ? (
-              <Label
-                size="large"
-                as="a"
-                basic
+              <Dropdown
+                closeOnEscape
+                text={user}
+                className="icon"
+                labeled
+                button
                 icon="user"
-                content={user}
-                color="blue"
-              />
+              >
+                <DropdownMenu>
+                  <Dropdown.Item
+                    onClick={() => handleSignOut()}
+                    text="Log Out"
+                  />
+                </DropdownMenu>
+              </Dropdown>
             ) : (
               <Label size="large" as="a" basic image>
                 <Image size="large" src={image} />
