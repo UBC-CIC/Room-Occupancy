@@ -1,50 +1,29 @@
-import * as React from "react";
-import { Button, Form, Segment, Header, Input } from "semantic-ui-react";
+import React from "react";
+import { Header } from "semantic-ui-react";
 import "../../App.css";
-import { Link } from "react-router-dom";
 import { CommonLayout } from "../../components/layout/common";
 
-export interface ILoginProps {}
+import { Amplify } from "aws-amplify";
+import { Authenticator, useAuthenticator } from "@aws-amplify/ui-react";
+import "@aws-amplify/ui-react/styles.css";
+import awsExports from "../../aws-exports";
+import { AdminDashboard } from "../admin/adminDashboard";
 
-export function Login(props: ILoginProps) {
+Amplify.configure(awsExports);
+
+export function Login() {
+  const { route } = useAuthenticator((context) => [context.route]);
+
+  if (route === "authenticated") return <AdminDashboard />;
+
   return (
     <CommonLayout>
       <div className="container">
-        <Segment compact padded="very">
-          <Header color="blue" as="h1" textAlign="center">
-            <Header.Content>Welcome</Header.Content>
-            <Header.Subheader color="blue">Login with Email</Header.Subheader>
-          </Header>
-          <Form>
-            <Form.Field>
-              <label>Name</label>
-              <Input icon="user" iconPosition="left" placeholder="Name" />
-            </Form.Field>
-            <Form.Field>
-              <label>Email</label>
-              <Input
-                type="email"
-                icon="mail"
-                iconPosition="left"
-                placeholder="Email"
-              />
-            </Form.Field>
-            <Form.Field>
-              <label>Password</label>
-              <Input
-                type="password"
-                icon="lock"
-                iconPosition="left"
-                placeholder="Password"
-              />
-            </Form.Field>
-            <div className="flexContainer">
-              <Button color="blue" type="submit">
-                Login
-              </Button>
-            </div>
-          </Form>
-        </Segment>
+        <Header color="blue" as="h1" textAlign="center">
+          <Header.Content>Welcome</Header.Content>
+          <Header.Subheader color="blue">Login with Username</Header.Subheader>
+        </Header>
+        <Authenticator hideSignUp={true} />
       </div>
     </CommonLayout>
   );

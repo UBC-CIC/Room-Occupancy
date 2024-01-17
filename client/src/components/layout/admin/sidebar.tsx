@@ -3,6 +3,8 @@ import { Divider, List, SemanticICONS, Button, Icon } from "semantic-ui-react";
 
 import "../../../pages/analytics/Analytics.css";
 import { Link } from "react-router-dom";
+import { useAuthenticator } from "@aws-amplify/ui-react";
+import { handleSignOut } from "../../../pages/auth/Helpers";
 
 export interface IAdminSidebarProps {}
 
@@ -50,10 +52,10 @@ export function AdminSidebar(props: IAdminSidebarProps) {
   return (
     <div style={{ height: "100%" }}>
       <div style={{ height: "95%" }}>
-        <Link to="/admin_dashboard">
+        <Link to="/analytics">
           <Button color="blue" fluid icon labelPosition="left">
             <Icon name="dashboard" />
-            Dashboard
+            Analytics
           </Button>
         </Link>
         <List>
@@ -100,7 +102,7 @@ export function AdminSidebar(props: IAdminSidebarProps) {
             <List.Icon color="grey" name="setting" />
             <List.Content as="a">User Settings</List.Content>
           </List.Item>
-          <List.Item as={Link} to="/">
+          <List.Item as={Link} to="/" onClick={handleSignOut}>
             <List.Icon color="grey" name="log out" />
             <List.Content as="a">Log Out</List.Content>
           </List.Item>
