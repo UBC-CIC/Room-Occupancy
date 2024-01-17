@@ -10,6 +10,16 @@
       "StackName": "amplify-amplify9807327f44684-staging-211945",
       "StackId": "arn:aws:cloudformation:us-east-1:561089261118:stack/amplify-amplify9807327f44684-staging-211945/f8edc8b0-b4b4-11ee-98a5-0e2b0f092d73",
       "AmplifyAppId": "d1qulawjohcw24"
+    },
+    "categories": {
+      "auth": {
+        "roomoccupancy": {
+          "userPoolId": "us-east-1_EbgQ7lNbf",
+          "userPoolName": "Room Occupancy Admin",
+          "webClientId": "4p37r3aboestrsprg5r2v8u6kq",
+          "nativeClientId": "4p37r3aboestrsprg5r2v8u6kq"
+        }
+      }
     }
   }
 }

@@ -7,5 +7,39 @@
       "service": "Cognito",
       "serviceType": "imported"
     }
+  },
+  "parameters": {
+    "AMPLIFY_auth_roomoccupancy_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy"
+        }
+      ]
+    }
   }
 }
