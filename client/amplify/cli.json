@@ -19,6 +19,9 @@
       "shoulddeepmergedirectiveconfigdefaults": false,
       "populateownerfieldforstaticgroupauth": true
     },
+    "frontend-ios": {
+      "enablexcodeintegration": true
+    },
     "auth": {
       "enablecaseinsensitivity": true,
       "useinclusiveterminology": true,
@@ -54,5 +57,7 @@
       "overrides": true
     }
   },
-  "debug": {}
+  "debug": {
+    "shareProjectConfig": false
+  }
 }

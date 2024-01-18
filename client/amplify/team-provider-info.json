@@ -19,6 +19,9 @@
           "webClientId": "4p37r3aboestrsprg5r2v8u6kq",
           "nativeClientId": "4p37r3aboestrsprg5r2v8u6kq"
         }
+      },
+      "api": {
+        "apicam": {}
       }
     }
   }
