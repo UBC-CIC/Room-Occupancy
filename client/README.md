@@ -38,6 +38,8 @@ This section includes some additional aspects that developers can consider using
 
 ## Local App Development
 
+The package manager used for this app is **yarn**, under version 1.22.19, and can be installed using npm. The react version used in this app is 18.2.0 and the node version used in this app is 20.1.0. Ensure that your node and yarn version match these. You may refer to the package.json file to understand the project dependencies better.
+
 To develop the React App locally, these steps must be followed first.
 
 ### Local React Development
@@ -50,7 +52,9 @@ To develop the React App locally, these steps must be followed first.
    ```
 3. Enter the directory `/room-occupancy/client`, and then run `yarn install`, to install all the required dependencies for the client. To learn more about what dependencies are used in the client, refer to the `package.json` file.
 4. To run the client under the development environment, execute the following command `yarn start`.
-5. Ensure your AWS profile is authenticated.
+5. Ensure your AWS profile is authenticated. Follow steps in the management console to authenticate your profile.
+6. After your AWS profile is authenticated, run the command `amplify pull`, to pull the amplify environment from the cloud to your development environment. Now check to ensure that there is a file called `aws-exports.js` in the /src directory.
+7. To ensure that there is no discrepancy between the local and CI/CD environments, run `amplify env checkout staging`.
 
 **Note: To view a list of available scripts, refer to the scripts section below.**
 
