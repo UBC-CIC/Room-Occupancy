@@ -8,6 +8,7 @@ import { Authenticator, useAuthenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 import awsExports from "../../aws-exports";
 import { AdminDashboard } from "../admin/adminDashboard";
+import components from "../../components/auth/components";
 
 Amplify.configure(awsExports);
 
@@ -23,7 +24,7 @@ export function Login() {
           <Header.Content>Welcome</Header.Content>
           <Header.Subheader color="blue">Login with Username</Header.Subheader>
         </Header>
-        <Authenticator hideSignUp={true} />
+        <Authenticator hideSignUp={true} components={components} />
       </div>
     </CommonLayout>
   );

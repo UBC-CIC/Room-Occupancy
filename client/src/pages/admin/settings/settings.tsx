@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo, useEffect } from "react";
 import { AdminDashboardLayout } from "../../../components/layout/admin";
 import { SemanticICONS, Tab } from "semantic-ui-react";
 import { UserSettings } from "./userSettings";
@@ -6,6 +6,7 @@ import { SystemSettings } from "./systemSettings";
 import { AwsSettings } from "./awsSettings";
 import { useAppConfig } from "../../../providers/ConfigProvider";
 import { withAuthenticator } from "@aws-amplify/ui-react";
+import { handleFetchUserAttributes } from "../../auth/Helpers";
 
 type Props = {};
 
@@ -20,9 +21,7 @@ const AdminSettingsComponent = (props: Props) => {
   const panes: Pane[] = [
     {
       menuItem: { key: "user", icon: "user", content: "User" },
-      render: () => (
-        <UserSettings firstName="John" lastName="Doe" email="john@email.com" />
-      ),
+      render: () => <UserSettings />,
     },
     {
       menuItem: { key: "system", icon: "setting", content: "System" },
