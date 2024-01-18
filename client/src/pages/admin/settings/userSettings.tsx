@@ -1,48 +1,68 @@
-import React from "react";
-import { Tab, Form, Button, Header, Image, Grid } from "semantic-ui-react";
+import React, { useState, useEffect } from "react";
+import {
+  Tab,
+  Header,
+  HeaderSubheader,
+  Icon,
+  HeaderContent,
+} from "semantic-ui-react";
+import { handleFetchUserAttributes } from "../../auth/Helpers";
+import { FetchUserAttributesOutput } from "aws-amplify/auth";
+import { UserSettingForm } from "./userSettingsForm";
 
-type Props = {
-  firstName: string;
-  lastName: string;
-  email: string;
-};
+export const UserSettings = () => {
+  const [open, setOpen] = useState(false);
+  const [name, setName] = useState("");
+  const [user, setUser] = useState<FetchUserAttributesOutput | undefined>(
+    undefined
+  );
+  useEffect(() => {
+    handleFetchUserAttributes()
+      .then((result) => {
+        setUser(result);
+      })
+      .catch((error) => {
+        console.error("Error fetching user attributes:", error);
+      });
+  }, [user]);
 
-export const UserSettings = ({ firstName, lastName, email }: Props) => {
   return (
     <Tab.Pane>
       <Header>General</Header>
-      <Form>
-        <Form.Field>
-          <label>Profile Picture</label>
-          <Grid>
-            <Grid.Row columns={2}>
-              <Grid.Column width={2}>
-                <Image
-                  src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
-                  size="tiny"
-                  circular
-                />
-              </Grid.Column>
-              <Grid.Column width={3}>
-                <Button>Change Photo</Button>
-              </Grid.Column>
-            </Grid.Row>
-          </Grid>
-        </Form.Field>
-        <Form.Field>
-          <label>First Name</label>
-          <input placeholder={firstName} />
-        </Form.Field>
-        <Form.Field>
-          <label>Last Name</label>
-          <input placeholder={lastName} />
-        </Form.Field>
-        <Form.Field>
-          <label>Email: {email}</label>
-        </Form.Field>
-        <Button type="submit">Update Information</Button>
-        <Button>Change Password</Button>
-      </Form>
+      <Header size="medium" color="blue">
+        <Icon name="user" size="tiny" />
+        <HeaderContent>
+          Name
+          <HeaderSubheader>{user?.name}</HeaderSubheader>
+        </HeaderContent>
+      </Header>
+
+      <Header size="medium" color="blue">
+        <Icon name="mail" size="tiny" />
+        <HeaderContent>
+          Email
+          <HeaderSubheader>{user?.email}</HeaderSubheader>
+        </HeaderContent>
+      </Header>
+
+      <Header size="medium" color="blue">
+        <Icon name="check circle" size="tiny" />
+        <HeaderContent>
+          Email Verification
+          {user?.email_verified === "true" ? (
+            <HeaderSubheader>Verified</HeaderSubheader>
+          ) : (
+            <HeaderSubheader>Verification not complete</HeaderSubheader>
+          )}
+        </HeaderContent>
+      </Header>
+
+      <UserSettingForm
+        open={open}
+        setOpen={setOpen}
+        name={name}
+        setName={setName}
+      ></UserSettingForm>
     </Tab.Pane>
   );
 };
