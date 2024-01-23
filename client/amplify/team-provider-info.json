@@ -39,6 +39,9 @@
           "unauthRoleArn": "arn:aws:iam::561089261118:role/service-role/IdenPoolGuest",
           "unauthRoleName": "IdenPoolGuest"
         }
+      },
+      "api": {
+        "roomoccupancy": {}
       }
     }
   }
