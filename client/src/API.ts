@@ -2,19 +2,19 @@
 /* eslint-disable */
 //  This file was automatically generated and should not be edited.
 
-export type Channel = {
-  __typename: "Channel",
-  statusCode: string,
-  body: string,
+export type obj = {
+  __typename: "obj",
+  Rows: string,
+  Column: string,
 };
 
-export type GetTodoQueryVariables = {
+export type GetCamListQueryVariables = {
 };
 
-export type GetTodoQuery = {
-  getTodo?:  {
-    __typename: "Channel",
-    statusCode: string,
-    body: string,
-  } | null,
+export type GetCamListQuery = {
+  getCamList:  {
+    __typename: "obj",
+    Rows: string,
+    Column: string,
+  },
 };

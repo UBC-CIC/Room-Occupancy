@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect } from "react";
 import {
   Grid,
   Image,
@@ -11,10 +11,17 @@ import "./Analytics.css";
 import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
 import { AnalyticsFeedBar } from "../../components/analytic/AnalyticsFeedBar";
 import { DashboardLayout } from "../../components/layout/dashboard/index";
+import { useGetCamList } from "../../shared/hooks/useGetCamList";
 
 export interface IAnalyticsProps {}
 
 export function Analytics(props: IAnalyticsProps) {
+  const { camList, fetchCamList } = useGetCamList();
+  useEffect(() => {
+    fetchCamList();
+    console.log(camList);
+  }, []);
+
   return (
     <DashboardLayout>
       <Grid>

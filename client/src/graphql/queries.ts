@@ -8,11 +8,14 @@ type GeneratedQuery<InputType, OutputType> = string & {
   __generatedQueryOutput: OutputType;
 };
 
-export const getTodo = /* GraphQL */ `query GetTodo {
-  getTodo {
-    statusCode
-    body
+export const getCamList = /* GraphQL */ `query GetCamList {
+  getCamList {
+    Rows
+    Column
     __typename
   }
 }
-` as GeneratedQuery<APITypes.GetTodoQueryVariables, APITypes.GetTodoQuery>;
+` as GeneratedQuery<
+  APITypes.GetCamListQueryVariables,
+  APITypes.GetCamListQuery
+>;
