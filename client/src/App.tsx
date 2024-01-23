@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar } from "./components/common/navbar";
 import { Home } from "./pages/Home";
 import { About } from "./pages/about/About";
@@ -14,7 +14,13 @@ import AdminHelp from "./pages/admin/help";
 import { AppConfigProvider } from "./providers/ConfigProvider";
 import { Authenticator } from "@aws-amplify/ui-react";
 
+import { useGetCamList } from "./shared/hooks/useGetCamList";
+
 function App() {
+  const { fetchCamList } = useGetCamList();
+  useEffect(() => {
+    fetchCamList();
+  }, []);
   return (
     <AppConfigProvider>
       <Authenticator.Provider>

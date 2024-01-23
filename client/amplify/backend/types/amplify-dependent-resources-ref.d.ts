@@ -1,8 +1,9 @@
 export type AmplifyDependentResourcesAttributes = {
   "api": {
-    "apicam": {
+    "roomoccupancy": {
       "GraphQLAPIEndpointOutput": "string",
-      "GraphQLAPIIdOutput": "string"
+      "GraphQLAPIIdOutput": "string",
+      "GraphQLAPIKeyOutput": "string"
     }
   }
 }

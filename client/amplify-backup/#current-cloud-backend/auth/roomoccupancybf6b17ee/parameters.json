@@ -1,6 +1,6 @@
 {
-  "authSelections": "userPoolOnly",
-  "resourceName": "roomoccupancy",
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "roomoccupancybf6b17ee",
   "serviceType": "imported",
   "region": "us-east-1",
   "aliasAttributes": [
