@@ -1,22 +1,5 @@
 {
-  "api": {
-    "roomoccupancy": {
-      "dependsOn": [],
-      "output": {
-        "authConfig": {
-          "additionalAuthenticationProviders": [],
-          "defaultAuthentication": {
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
-            },
-            "authenticationType": "API_KEY"
-          }
-        }
-      },
-      "providerPlugin": "awscloudformation",
-      "service": "AppSync"
-    }
-  },
+  "api": {},
   "auth": {
     "roomoccupancybf6b17ee": {
       "customAuth": false,

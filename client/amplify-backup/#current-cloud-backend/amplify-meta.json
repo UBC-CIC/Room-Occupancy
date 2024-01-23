@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify9807327f44684-staging-211945-authRole",
+      "UnauthRoleArn": "arn:aws:iam::561089261118:role/amplify-amplify9807327f44684-staging-211945-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::561089261118:role/amplify-amplify9807327f44684-staging-211945-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplify9807327f44684-staging-211945-deployment",
+      "UnauthRoleName": "amplify-amplify9807327f44684-staging-211945-unauthRole",
+      "StackName": "amplify-amplify9807327f44684-staging-211945",
+      "StackId": "arn:aws:cloudformation:us-east-1:561089261118:stack/amplify-amplify9807327f44684-staging-211945/f8edc8b0-b4b4-11ee-98a5-0e2b0f092d73",
+      "AmplifyAppId": "d1qulawjohcw24"
+    }
+  },
+  "auth": {
+    "roomoccupancybf6b17ee": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "us-east-1_EbgQ7lNbf",
+        "UserPoolName": "Room Occupancy Admin",
+        "AppClientID": "4p37r3aboestrsprg5r2v8u6kq",
+        "AppClientIDWeb": "4p37r3aboestrsprg5r2v8u6kq",
+        "IdentityPoolId": "us-east-1:066bed1a-1f40-4c3e-8c5a-5c737d85bc1c",
+        "IdentityPoolName": "AdminIdenPool"
+      },
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "NAME",
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS"
+          ]
+        },
+        "mfaConfiguration": "ON",
+        "mfaTypes": [
+          "TOTP"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "lastPushTimeStamp": "2024-01-23T19:55:48.906Z"
+    }
+  },
+  "api": {}
+}
