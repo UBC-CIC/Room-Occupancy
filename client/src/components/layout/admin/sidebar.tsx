@@ -32,7 +32,7 @@ const analyticsItems: IAnalyticsItems[] = [
     category: analyticType.analytics,
     name: "Camera",
     icon: "camera",
-    link: "/analytics",
+    link: "/admin_camera",
   },
   {
     category: analyticType.settings,

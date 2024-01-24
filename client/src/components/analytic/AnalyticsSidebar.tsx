@@ -1,5 +1,7 @@
 import * as React from "react";
-import { List, SemanticICONS } from "semantic-ui-react";
+import { Button, Icon, List, Menu, SemanticICONS } from "semantic-ui-react";
+import { Link } from "react-router-dom";
+import { useAuthenticator } from "@aws-amplify/ui-react";
 
 import "../../pages/analytics/Analytics.css";
 
@@ -41,8 +43,18 @@ const analyticsItems: IAnalyticsItems[] = [
 ];
 
 export function AnalyticsSidebar(props: IAnalyticsSidebarProps) {
+  const { authStatus } = useAuthenticator((context) => [context.authStatus]);
   return (
     <List>
+      {authStatus === "authenticated" && (
+        <Link to="/admin_dashboard">
+          <Button color="blue" fluid icon labelPosition="left">
+            <Icon name="dashboard" />
+            Dashboard
+          </Button>
+        </Link>
+      )}
+      <br />
       <List.Item>
         <List.Header>ANALYTICS</List.Header>
         <List.Content>

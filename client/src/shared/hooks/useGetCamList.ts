@@ -21,6 +21,7 @@ export const useGetCamList = (): any => {
         console.error("Error with Camera Data");
       }
       setCamList(JSON.parse(camData.data.getCamList.Rows));
+      console.info("cols", JSON.parse(camData.data.getCamList.Column));
     } catch (err) {
       console.error("Error fetching camera list data", err);
     }
