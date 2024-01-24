@@ -44,7 +44,7 @@ const analyticsItems: IAnalyticsItems[] = [
     category: analyticType.settings,
     name: "Alerts",
     icon: "alarm",
-    link: "/analytics",
+    link: "/admin_camera_alerts",
   },
   {
     category: analyticType.settings,
@@ -93,10 +93,12 @@ export function AdminSidebar(props: IAdminSidebarProps) {
                   .filter((item) => item.category === analyticType.settings)
                   .map((value, key) => {
                     return (
-                      <List.Item key={key}>
-                        <List.Icon color="grey" name={value.icon} />
-                        <List.Content as="a">{value.name}</List.Content>
-                      </List.Item>
+                      <Link to={value.link}>
+                        <List.Item key={key}>
+                          <List.Icon color="grey" name={value.icon} />
+                          <List.Content as="a">{value.name}</List.Content>
+                        </List.Item>
+                      </Link>
                     );
                   })}
               </List>

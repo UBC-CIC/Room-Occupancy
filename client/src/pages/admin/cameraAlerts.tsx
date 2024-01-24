@@ -1,11 +1,10 @@
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import React from "react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
-import { useGetCamList } from "../../shared/hooks/useGetCamList";
 import {
   Dimmer,
   Header,
-  Label,
+  Button,
   Loader,
   Segment,
   Table,
@@ -17,35 +16,31 @@ import {
   Image,
   HeaderSubheader,
 } from "semantic-ui-react";
-import { toFriendlyTime } from "../../shared/helpers/utility";
+import { useGetCamList } from "../../shared/hooks/useGetCamList";
 
 type Props = {};
 
-const CameraComponent = (props: Props) => {
+const CameraAlertsComponent = (props: Props) => {
   const cameraListHeaders = [
-    "Camera ID",
     "Camera Location",
-    "Time Installed",
     "Owner ID",
     "Alert Threshold",
-    "Crop Coordinate X",
-    "Crop Coordinate Y",
-    "Status",
+    "",
   ];
   const { camList } = useGetCamList();
+  console.log("camList", camList);
   if (camList.length === 0)
     return (
       <AdminDashboardLayout>
         <Header as="h2">
-          Camera Information
+          Alert Thresholds
           <HeaderSubheader>
-            View camera information and obtain real time status updates on IoT
-            Devices
+            Configure and manage alert threshold for each camera zone
           </HeaderSubheader>
         </Header>
         <Segment>
           <Dimmer active inverted>
-            <Loader inverted content="Fetching Camera Data" />
+            <Loader inverted content="Fetching Alert Threshold Data" />
           </Dimmer>
 
           <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
@@ -56,10 +51,9 @@ const CameraComponent = (props: Props) => {
   return (
     <AdminDashboardLayout>
       <Header as="h2">
-        Camera Information
+        Alert Thresholds
         <HeaderSubheader>
-          View camera information and obtain real time status updates on IoT
-          Devices
+          Configure and manage alert threshold for each camera zone
         </HeaderSubheader>
       </Header>
 
@@ -76,21 +70,13 @@ const CameraComponent = (props: Props) => {
           {camList.map((camera: any) => {
             return (
               <TableRow>
-                <TableCell textAlign="center">
-                  {camera?.Data[4]?.ScalarValue
-                    ? camera?.Data[4]?.ScalarValue
-                    : "-"}
-                </TableCell>
                 <TableCell>{camera?.Data[6].ScalarValue}</TableCell>
-                <TableCell>
-                  {toFriendlyTime(camera?.Data[6].ScalarValue)}
-                </TableCell>
                 <TableCell>{camera?.Data[3].ScalarValue}</TableCell>
                 <TableCell>{camera?.Data[2].ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[0].ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[1].ScalarValue}</TableCell>
                 <TableCell>
-                  <Label color="red">Inactive</Label>
+                  <Button compact color="blue">
+                    Update
+                  </Button>
                 </TableCell>
               </TableRow>
             );
@@ -101,6 +87,6 @@ const CameraComponent = (props: Props) => {
   );
 };
 
-export const Camera = withAuthenticator(CameraComponent, {
+export const CameraAlerts = withAuthenticator(CameraAlertsComponent, {
   hideSignUp: true,
 });
