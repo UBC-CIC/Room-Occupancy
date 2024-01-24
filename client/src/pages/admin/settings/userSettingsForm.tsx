@@ -2,8 +2,6 @@ import React from "react";
 import { Modal, Button, Form } from "semantic-ui-react";
 import { handleUpdateNameAttributes } from "../../auth/Helpers";
 
-type Props = {};
-
 export const UserSettingForm = ({ open, setOpen, name, setName }: any) => {
   return (
     <Modal

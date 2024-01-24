@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container, Header, Image, Button, Segment } from "semantic-ui-react";
+import { Header, Image, Button, Segment } from "semantic-ui-react";
 import dashboard from "../assets/images/dashboard.png";
 import "../App.css";
 import { Link } from "react-router-dom";

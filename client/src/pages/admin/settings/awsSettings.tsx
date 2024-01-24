@@ -1,15 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import {
-  Tab,
-  Form,
-  Button,
-  Header,
-  Image,
-  Table,
-  Grid,
-  Label,
-} from "semantic-ui-react";
+import { Tab, Header, Table } from "semantic-ui-react";
 import { AWSSettingForm } from "./awsSettingForm";
 
 type Props = {};

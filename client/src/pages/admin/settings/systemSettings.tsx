@@ -8,7 +8,7 @@ type Props = {
 };
 
 export const SystemSettings = ({ image, organizationName }: Props) => {
-  const { config, setConfig } = useAppConfig();
+  const { config } = useAppConfig();
   console.log(config);
   return (
     <Tab.Pane>

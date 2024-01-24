@@ -9,7 +9,6 @@ import {
   Dropdown,
   DropdownMenu,
 } from "semantic-ui-react";
-import cicLogo from "../../../assets/images/cicLogo.png";
 import "../../../App.css";
 import { Link } from "react-router-dom";
 import { useAppConfig } from "../../../providers/ConfigProvider";

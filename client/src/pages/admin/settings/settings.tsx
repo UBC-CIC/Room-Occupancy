@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect } from "react";
+import React from "react";
 import { AdminDashboardLayout } from "../../../components/layout/admin";
 import { SemanticICONS, Tab } from "semantic-ui-react";
 import { UserSettings } from "./userSettings";

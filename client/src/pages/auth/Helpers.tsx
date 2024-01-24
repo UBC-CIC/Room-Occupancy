@@ -1,9 +1,4 @@
-import {
-  signOut,
-  fetchUserAttributes,
-  updateUserAttributes,
-  type UpdateUserAttributesOutput,
-} from "aws-amplify/auth";
+import { signOut, updateUserAttributes } from "aws-amplify/auth";
 import { Navigate } from "react-router-dom";
 
 export async function handleSignOut() {
@@ -18,7 +13,7 @@ export async function handleSignOut() {
 
 export async function handleUpdateNameAttributes(updatedName: string) {
   try {
-    const attributes = await updateUserAttributes({
+    await updateUserAttributes({
       userAttributes: {
         name: updatedName,
       },

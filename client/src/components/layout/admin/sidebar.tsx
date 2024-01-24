@@ -3,7 +3,6 @@ import { Divider, List, SemanticICONS, Button, Icon } from "semantic-ui-react";
 
 import "../../../pages/analytics/Analytics.css";
 import { Link } from "react-router-dom";
-import { useAuthenticator } from "@aws-amplify/ui-react";
 import { handleSignOut } from "../../../pages/auth/Helpers";
 
 export interface IAdminSidebarProps {}

@@ -1,5 +1,4 @@
 import React from "react";
-import { Navbar } from "./components/common/navbar";
 import { Home } from "./pages/Home";
 import { About } from "./pages/about/About";
 import { Learn } from "./pages/Learn";

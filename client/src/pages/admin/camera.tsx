@@ -33,6 +33,7 @@ const CameraComponent = (props: Props) => {
     "Status",
   ];
   const { camList } = useGetCamList();
+  console.log(camList[0]?.Data[3]);
   if (camList.length === 0)
     return (
       <AdminDashboardLayout>
@@ -81,14 +82,14 @@ const CameraComponent = (props: Props) => {
                     ? camera?.Data[4]?.ScalarValue
                     : "-"}
                 </TableCell>
-                <TableCell>{camera?.Data[6].ScalarValue}</TableCell>
+                <TableCell>{camera?.Data[6]?.ScalarValue}</TableCell>
                 <TableCell>
-                  {toFriendlyTime(camera?.Data[6].ScalarValue)}
+                  {toFriendlyTime(camera?.Data[6]?.ScalarValue)}
                 </TableCell>
-                <TableCell>{camera?.Data[3].ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[2].ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[0].ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[1].ScalarValue}</TableCell>
+                <TableCell>{camera?.Data[3]?.ScalarValue}</TableCell>
+                <TableCell>{camera?.Data[2]?.ScalarValue}</TableCell>
+                <TableCell>{camera?.Data[0]?.ScalarValue}</TableCell>
+                <TableCell>{camera?.Data[1]?.ScalarValue}</TableCell>
                 <TableCell>
                   <Label color="red">Inactive</Label>
                 </TableCell>

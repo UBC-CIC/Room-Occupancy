@@ -1,8 +1,5 @@
-import React, { useState } from "react";
-import { Modal, Button, Header, Image, Form, Grid } from "semantic-ui-react";
-import { useAppConfig } from "../../../providers/ConfigProvider";
-
-type Props = {};
+import React from "react";
+import { Modal, Button, Form } from "semantic-ui-react";
 
 export const AWSSettingForm = ({
   open,

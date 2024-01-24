@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Button, Icon, List, Menu, SemanticICONS } from "semantic-ui-react";
+import { Button, Icon, List, SemanticICONS } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { useAuthenticator } from "@aws-amplify/ui-react";
 

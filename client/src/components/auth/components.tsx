@@ -1,14 +1,6 @@
 import React from "react";
-import {
-  View,
-  Image,
-  useTheme,
-  useAuthenticator,
-  Heading,
-} from "@aws-amplify/ui-react";
+import { View, Image, useTheme, Heading } from "@aws-amplify/ui-react";
 import { useAppConfig } from "../../providers/ConfigProvider";
-
-type Props = {};
 
 const components = {
   Header() {
