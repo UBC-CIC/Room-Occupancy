@@ -10,8 +10,8 @@ type GeneratedQuery<InputType, OutputType> = string & {
 
 export const getCamList = /* GraphQL */ `query GetCamList {
   getCamList {
-    Rows
     Column
+    Rows
     __typename
   }
 }

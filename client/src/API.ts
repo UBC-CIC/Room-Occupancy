@@ -4,8 +4,8 @@
 
 export type obj = {
   __typename: "obj",
-  Rows: string,
   Column: string,
+  Rows: string,
 };
 
 export type GetCamListQueryVariables = {
@@ -14,7 +14,7 @@ export type GetCamListQueryVariables = {
 export type GetCamListQuery = {
   getCamList:  {
     __typename: "obj",
-    Rows: string,
     Column: string,
+    Rows: string,
   },
 };
