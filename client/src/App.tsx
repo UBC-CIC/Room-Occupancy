@@ -14,6 +14,7 @@ import AdminHelp from "./pages/admin/help";
 import { AppConfigProvider } from "./providers/ConfigProvider";
 import { Authenticator } from "@aws-amplify/ui-react";
 import { Camera } from "./pages/admin/camera";
+import { CameraAlerts } from "./pages/admin/cameraAlerts";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/admin_dashboard" element={<AdminDashboard />} />
           <Route path="/admin_settings" element={<AdminSettings />} />
           <Route path="/admin_camera" element={<Camera />} />
+          <Route path="/admin_camera_alerts" element={<CameraAlerts />} />
           <Route path="/admin_help" element={<AdminHelp />} />
           <Route path="/*" element={<Error />} />
         </Routes>
