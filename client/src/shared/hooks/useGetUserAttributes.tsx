@@ -1,18 +1,19 @@
 import { fetchUserAttributes } from "aws-amplify/auth";
 import { useState, useEffect } from "react";
 
-// interface UserAttributes {
-//   sub?: string | undefined;
-//   email_verified: string;
-//   name: string;
-//   preferred_username: string;
-//   email: string;
-// }
-// user: UserAttributes | null;
-// setUser: React.Dispatch<React.SetStateAction<UserAttributes | null>>;
+interface UserAttributes {
+  sub?: string | undefined;
+  email_verified?: string | undefined;
+  name?: string | undefined;
+  preferred_username?: string;
+  email?: string | undefined;
+}
 
-export const useGetUserAttributes = (): any => {
-  const [user, setUser] = useState<any>(null);
+export const useGetUserAttributes = (): {
+  user: UserAttributes | null;
+  setUser: React.Dispatch<React.SetStateAction<UserAttributes | null>>;
+} => {
+  const [user, setUser] = useState<UserAttributes | null>(null);
 
   useEffect(() => {
     handleFetchUserAttributes();
