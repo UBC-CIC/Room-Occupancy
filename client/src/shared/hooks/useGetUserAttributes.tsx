@@ -24,7 +24,6 @@ export const useGetUserAttributes = (): {
     try {
       const userAttributes = await fetchUserAttributes();
       setUser(userAttributes);
-      console.log(user);
       return userAttributes;
     } catch (error) {
       console.log(error);
