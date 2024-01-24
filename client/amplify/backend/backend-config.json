@@ -211,5 +211,12 @@
         }
       ]
     }
+  },
+  "storage": {
+    "clientstorage": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
   }
 }
