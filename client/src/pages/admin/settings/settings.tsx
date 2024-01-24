@@ -6,7 +6,6 @@ import { SystemSettings } from "./systemSettings";
 import { AwsSettings } from "./awsSettings";
 import { useAppConfig } from "../../../providers/ConfigProvider";
 import { withAuthenticator } from "@aws-amplify/ui-react";
-import { handleFetchUserAttributes } from "../../auth/Helpers";
 
 type Props = {};
 

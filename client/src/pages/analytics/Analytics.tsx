@@ -19,7 +19,7 @@ export function Analytics(props: IAnalyticsProps) {
   const { camList, fetchCamList } = useGetCamList();
   useEffect(() => {
     fetchCamList();
-    console.log(camList);
+    console.log("camList", camList);
   }, []);
 
   return (

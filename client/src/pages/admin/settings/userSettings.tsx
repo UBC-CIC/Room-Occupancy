@@ -6,25 +6,13 @@ import {
   Icon,
   HeaderContent,
 } from "semantic-ui-react";
-import { handleFetchUserAttributes } from "../../auth/Helpers";
-import { FetchUserAttributesOutput } from "aws-amplify/auth";
 import { UserSettingForm } from "./userSettingsForm";
+import { useGetUserAttributes } from "../../../shared/hooks/useGetUserAttributes";
 
 export const UserSettings = () => {
   const [open, setOpen] = useState(false);
   const [name, setName] = useState("");
-  const [user, setUser] = useState<FetchUserAttributesOutput | undefined>(
-    undefined
-  );
-  useEffect(() => {
-    handleFetchUserAttributes()
-      .then((result) => {
-        setUser(result);
-      })
-      .catch((error) => {
-        console.error("Error fetching user attributes:", error);
-      });
-  }, [user]);
+  const { user } = useGetUserAttributes();
 
   return (
     <Tab.Pane>

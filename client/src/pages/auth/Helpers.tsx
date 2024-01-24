@@ -16,16 +16,6 @@ export async function handleSignOut() {
   }
 }
 
-// https://docs.amplify.aws/gen2/build-a-backend/auth/manage-user-profile/#retrieve-user-attributes
-export async function handleFetchUserAttributes() {
-  try {
-    const userAttributes = await fetchUserAttributes();
-    return userAttributes;
-  } catch (error) {
-    console.log(error);
-  }
-}
-
 export async function handleUpdateNameAttributes(updatedName: string) {
   try {
     const attributes = await updateUserAttributes({

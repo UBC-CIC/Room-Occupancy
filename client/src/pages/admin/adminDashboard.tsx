@@ -1,25 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
 import { Segment, Dimmer, Loader, Image, Header } from "semantic-ui-react";
 import { withAuthenticator } from "@aws-amplify/ui-react";
-import { handleFetchUserAttributes } from "../auth/Helpers";
-import { FetchUserAttributesOutput } from "aws-amplify/auth";
+import { useGetUserAttributes } from "../../shared/hooks/useGetUserAttributes";
 
 export interface IAdminDashboardProps {}
 
 function AdminDashboardComponent(props: IAdminDashboardProps) {
-  const [user, setUser] = useState<FetchUserAttributesOutput | undefined>(
-    undefined
-  );
-  useEffect(() => {
-    handleFetchUserAttributes()
-      .then((result) => {
-        setUser(result);
-      })
-      .catch((error) => {
-        console.error("Error fetching user attributes:", error);
-      });
-  }, [user]);
+  const { user } = useGetUserAttributes();
 
   return (
     <AdminDashboardLayout>
