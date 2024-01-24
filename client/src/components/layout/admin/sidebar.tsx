@@ -12,6 +12,7 @@ interface IAnalyticsItems {
   category: analyticType;
   name: string;
   icon: SemanticICONS;
+  link: string;
 }
 
 export enum analyticType {
@@ -25,26 +26,31 @@ const analyticsItems: IAnalyticsItems[] = [
     category: analyticType.analytics,
     name: "Occupancy",
     icon: "chart area",
+    link: "/analytics",
   },
   {
     category: analyticType.analytics,
     name: "Camera",
     icon: "camera",
+    link: "/analytics",
   },
   {
     category: analyticType.settings,
     name: "Camera Zones",
     icon: "move",
+    link: "/analytics",
   },
   {
     category: analyticType.settings,
     name: "Alerts",
     icon: "alarm",
+    link: "/analytics",
   },
   {
     category: analyticType.settings,
     name: "Reports",
     icon: "file pdf",
+    link: "/analytics",
   },
 ];
 
@@ -52,10 +58,10 @@ export function AdminSidebar(props: IAdminSidebarProps) {
   return (
     <div style={{ height: "100%" }}>
       <div style={{ height: "95%" }}>
-        <Link to="/analytics">
+        <Link to="/admin_dashboard">
           <Button color="blue" fluid icon labelPosition="left">
             <Icon name="dashboard" />
-            Analytics
+            Dashboard
           </Button>
         </Link>
         <List>
@@ -67,10 +73,12 @@ export function AdminSidebar(props: IAdminSidebarProps) {
                   .filter((item) => item.category === analyticType.analytics)
                   .map((value, key) => {
                     return (
-                      <List.Item key={key}>
-                        <List.Icon color="grey" name={value.icon} />
-                        <List.Content as="a">{value.name}</List.Content>
-                      </List.Item>
+                      <Link to={value.link}>
+                        <List.Item key={key}>
+                          <List.Icon color="grey" name={value.icon} />
+                          <List.Content as="a">{value.name}</List.Content>
+                        </List.Item>
+                      </Link>
                     );
                   })}
               </List>
@@ -98,10 +106,12 @@ export function AdminSidebar(props: IAdminSidebarProps) {
       </div>
       <div style={{ height: "5%" }}>
         <List>
-          <List.Item>
-            <List.Icon color="grey" name="setting" />
-            <List.Content as="a">User Settings</List.Content>
-          </List.Item>
+          <Link to="/admin_settings">
+            <List.Item>
+              <List.Icon color="grey" name="setting" />
+              <List.Content as="a">User Settings</List.Content>
+            </List.Item>
+          </Link>
           <List.Item as={Link} to="/" onClick={handleSignOut}>
             <List.Icon color="grey" name="log out" />
             <List.Content as="a">Log Out</List.Content>
