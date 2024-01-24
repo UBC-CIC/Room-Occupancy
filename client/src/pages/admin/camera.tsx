@@ -23,6 +23,7 @@ type Props = {};
 
 const CameraComponent = (props: Props) => {
   const cameraListHeaders = [
+    "Camera ID",
     "Camera Location",
     "Time Installed",
     "Owner ID",
@@ -75,16 +76,21 @@ const CameraComponent = (props: Props) => {
           {camList.map((camera: any) => {
             return (
               <TableRow>
+                <TableCell textAlign="center">
+                  {camera?.Data[4]?.ScalarValue
+                    ? camera?.Data[4]?.ScalarValue
+                    : "-"}
+                </TableCell>
                 <TableCell>{camera?.Data[6].ScalarValue}</TableCell>
                 <TableCell>
-                  {toFriendlyTime(camera?.Data[5].ScalarValue)}
+                  {toFriendlyTime(camera?.Data[6].ScalarValue)}
                 </TableCell>
                 <TableCell>{camera?.Data[3].ScalarValue}</TableCell>
                 <TableCell>{camera?.Data[2].ScalarValue}</TableCell>
                 <TableCell>{camera?.Data[0].ScalarValue}</TableCell>
                 <TableCell>{camera?.Data[1].ScalarValue}</TableCell>
                 <TableCell>
-                  <Label color="green">Active</Label>
+                  <Label color="red">Inactive</Label>
                 </TableCell>
               </TableRow>
             );
