@@ -27,7 +27,6 @@ const CameraComponent = (props: Props) => {
     "Camera Location",
     "Time Installed",
     "Owner ID",
-    "Alert Threshold",
     "Crop Coordinate X",
     "Crop Coordinate Y",
     "Status",
@@ -87,7 +86,6 @@ const CameraComponent = (props: Props) => {
                   {toFriendlyTime(camera?.Data[6]?.ScalarValue)}
                 </TableCell>
                 <TableCell>{camera?.Data[3]?.ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[2]?.ScalarValue}</TableCell>
                 <TableCell>{camera?.Data[0]?.ScalarValue}</TableCell>
                 <TableCell>{camera?.Data[1]?.ScalarValue}</TableCell>
                 <TableCell>
