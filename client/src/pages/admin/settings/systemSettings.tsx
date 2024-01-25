@@ -1,5 +1,13 @@
 import React from "react";
-import { Tab, Form, Button, Header, Image, Grid } from "semantic-ui-react";
+import {
+  Tab,
+  Form,
+  Button,
+  Header,
+  Image,
+  Grid,
+  HeaderSubheader,
+} from "semantic-ui-react";
 import { useAppConfig } from "../../../providers/ConfigProvider";
 
 type Props = {
@@ -12,7 +20,12 @@ export const SystemSettings = ({ image, organizationName }: Props) => {
   console.log(config);
   return (
     <Tab.Pane>
-      <Header>System Settings</Header>
+      <Header color="blue" as="h3">
+        System Settings
+        <HeaderSubheader>
+          View and update system settings and configurations
+        </HeaderSubheader>
+      </Header>
       <Form>
         <Form.Field>
           <label>Organization Picture</label>

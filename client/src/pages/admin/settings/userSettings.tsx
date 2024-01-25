@@ -16,7 +16,10 @@ export const UserSettings = () => {
 
   return (
     <Tab.Pane>
-      <Header>General</Header>
+      <Header color="blue" as="h3">
+        User Settings
+        <HeaderSubheader>View and update user information</HeaderSubheader>
+      </Header>
       <Header size="medium" color="blue">
         <Icon name="user" size="tiny" />
         <HeaderContent>

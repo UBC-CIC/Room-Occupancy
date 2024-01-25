@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Tab, Header, Table } from "semantic-ui-react";
+import { Tab, Header, Table, HeaderSubheader } from "semantic-ui-react";
 import { AWSSettingForm } from "./awsSettingForm";
 
 type Props = {};
@@ -27,7 +27,12 @@ export const AwsSettings = (props: Props) => {
 
   return (
     <Tab.Pane>
-      <Header>AWS Configuration</Header>
+      <Header color="blue" as="h3">
+        AWS Settings
+        <HeaderSubheader>
+          View and update AWS Configurations such as AWS Rekognition settings
+        </HeaderSubheader>
+      </Header>
       <Table celled columns={4}>
         <Table.Header>
           <Table.Row>
