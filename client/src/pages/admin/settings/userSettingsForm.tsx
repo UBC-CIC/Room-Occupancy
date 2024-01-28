@@ -2,7 +2,13 @@ import React from "react";
 import { Modal, Button, Form } from "semantic-ui-react";
 import { handleUpdateNameAttributes } from "../../auth/Helpers";
 
-export const UserSettingForm = ({ open, setOpen, name, setName }: any) => {
+export const UserSettingForm = ({
+  open,
+  setOpen,
+  name,
+  setName,
+  handleFetchUserAttributes,
+}: any) => {
   return (
     <Modal
       onClose={() => setOpen(false)}
@@ -30,7 +36,7 @@ export const UserSettingForm = ({ open, setOpen, name, setName }: any) => {
           color="green"
           onClick={() => {
             setOpen(false);
-            handleUpdateNameAttributes(name);
+            handleUpdateNameAttributes(name, handleFetchUserAttributes);
           }}
         >
           Submit

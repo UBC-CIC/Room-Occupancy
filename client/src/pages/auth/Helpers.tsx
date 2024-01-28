@@ -11,13 +11,17 @@ export async function handleSignOut() {
   }
 }
 
-export async function handleUpdateNameAttributes(updatedName: string) {
+export async function handleUpdateNameAttributes(
+  updatedName: string,
+  callback: () => {}
+) {
   try {
     await updateUserAttributes({
       userAttributes: {
         name: updatedName,
       },
     });
+    callback();
   } catch (error) {
     console.log(error);
   }

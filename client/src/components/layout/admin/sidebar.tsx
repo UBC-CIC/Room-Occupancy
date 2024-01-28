@@ -37,7 +37,7 @@ const analyticsItems: IAnalyticsItems[] = [
     category: analyticType.settings,
     name: "Camera Zones",
     icon: "move",
-    link: "/analytics",
+    link: "/admin_camera_zones",
   },
   {
     category: analyticType.settings,

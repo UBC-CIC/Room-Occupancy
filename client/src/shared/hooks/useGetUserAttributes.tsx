@@ -1,4 +1,7 @@
-import { fetchUserAttributes } from "aws-amplify/auth";
+import {
+  FetchUserAttributesOutput,
+  fetchUserAttributes,
+} from "aws-amplify/auth";
 import { useState, useEffect } from "react";
 
 interface UserAttributes {
@@ -12,6 +15,9 @@ interface UserAttributes {
 export const useGetUserAttributes = (): {
   user: UserAttributes | null;
   setUser: React.Dispatch<React.SetStateAction<UserAttributes | null>>;
+  handleFetchUserAttributes: () => Promise<
+    FetchUserAttributesOutput | undefined
+  >;
 } => {
   const [user, setUser] = useState<UserAttributes | null>(null);
 
@@ -30,5 +36,5 @@ export const useGetUserAttributes = (): {
     }
   }
 
-  return { user, setUser };
+  return { user, setUser, handleFetchUserAttributes };
 };

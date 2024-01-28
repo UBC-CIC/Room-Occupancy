@@ -12,7 +12,7 @@ import { useGetUserAttributes } from "../../../shared/hooks/useGetUserAttributes
 export const UserSettings = () => {
   const [open, setOpen] = useState(false);
   const [name, setName] = useState("");
-  const { user } = useGetUserAttributes();
+  const { user, handleFetchUserAttributes } = useGetUserAttributes();
 
   return (
     <Tab.Pane>
@@ -53,6 +53,7 @@ export const UserSettings = () => {
         setOpen={setOpen}
         name={name}
         setName={setName}
+        handleFetchUserAttributes={handleFetchUserAttributes}
       ></UserSettingForm>
     </Tab.Pane>
   );
