@@ -1,5 +1,19 @@
 {
   "api": {
+    "CamListREST": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "camListLambda"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
     "roomoccupancy": {
       "dependsOn": [
         {
@@ -32,6 +46,27 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito",
       "serviceType": "imported"
+    }
+  },
+  "function": {
+    "camListLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "cg22dynamo"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "parameters": {
@@ -210,9 +245,29 @@
           "resourceName": "roomoccupancybf6b17ee"
         }
       ]
+    },
+    "AMPLIFY_function_camListLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "camListLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_camListLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "camListLambda"
+        }
+      ]
     }
   },
   "storage": {
+    "cg22dynamo": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
     "clientstorage": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",

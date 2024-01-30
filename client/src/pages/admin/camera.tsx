@@ -1,5 +1,5 @@
 import { withAuthenticator } from "@aws-amplify/ui-react";
-import React from "react";
+import React, { useEffect } from "react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
 import { useGetCamList } from "../../shared/hooks/useGetCamList";
 import {
@@ -18,6 +18,7 @@ import {
   HeaderSubheader,
 } from "semantic-ui-react";
 import { toFriendlyTime } from "../../shared/helpers/utility";
+import { get } from "aws-amplify/api";
 
 type Props = {};
 
@@ -32,7 +33,24 @@ const CameraComponent = (props: Props) => {
     "Status",
   ];
   const { camList } = useGetCamList();
-  console.log(camList[0]?.Data[3]);
+
+  // useEffect(() => {
+  //   async function useGetCamList() {
+  //     try {
+  //       const restOperation = await get({
+  //         apiName: "CamListREST",
+  //         path: "/camList",
+  //       }).response;
+  //       const data = await restOperation.body.json();
+  //       console.log("GET call succeeded: ", data);
+  //     } catch (error) {
+  //       console.log("GET call failed: ", error);
+  //     }
+  //   }
+
+  //   useGetCamList();
+  // }, []);
+
   if (camList.length === 0)
     return (
       <AdminDashboardLayout>
@@ -63,7 +81,7 @@ const CameraComponent = (props: Props) => {
         </HeaderSubheader>
       </Header>
 
-      <Table celled>
+      {/* <Table celled>
         <TableHeader>
           <TableRow>
             {cameraListHeaders.map((header) => {
@@ -95,7 +113,7 @@ const CameraComponent = (props: Props) => {
             );
           })}
         </TableBody>
-      </Table>
+      </Table> */}
     </AdminDashboardLayout>
   );
 };

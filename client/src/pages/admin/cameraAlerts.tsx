@@ -65,7 +65,7 @@ const CameraAlertsComponent = (props: Props) => {
             })}
           </TableRow>
         </TableHeader>
-
+        {/* 
         <TableBody>
           {camList.map((camera: any) => {
             return (
@@ -81,7 +81,7 @@ const CameraAlertsComponent = (props: Props) => {
               </TableRow>
             );
           })}
-        </TableBody>
+        </TableBody> */}
       </Table>
     </AdminDashboardLayout>
   );

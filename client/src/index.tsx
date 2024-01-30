@@ -4,10 +4,15 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "semantic-ui-css/semantic.min.css"; // include CSS from Semantic
 import { BrowserRouter } from "react-router-dom";
+import { Amplify } from "aws-amplify";
+import amplifyconfiguration from "./amplifyconfiguration.json";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
+Amplify.configure(amplifyconfiguration); // import and load amplify configuration to app
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>

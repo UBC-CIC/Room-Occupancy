@@ -1,0 +1,10 @@
+{
+  "resourceName": "cg22dynamo",
+  "tableName": "db_cam",
+  "partitionKey": {
+    "fieldName": "cam_id",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
