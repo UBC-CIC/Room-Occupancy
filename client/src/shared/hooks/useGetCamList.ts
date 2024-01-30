@@ -1,12 +1,8 @@
 import { useState, useEffect } from "react";
-import { GetCamListQuery } from "../../API";
-import { getCamList } from "../../graphql/queries";
-import { generateClient } from "aws-amplify/api";
+import { get } from "aws-amplify/api";
 
 export const useGetCamList = (): any => {
-  const [camList, setCamList] = useState<GetCamListQuery[] | any>([]);
-
-  const client = generateClient();
+  const [camList, setCamList] = useState<any>([]);
 
   useEffect(() => {
     fetchCamList();
@@ -14,15 +10,15 @@ export const useGetCamList = (): any => {
 
   async function fetchCamList() {
     try {
-      const camData = await client.graphql({
-        query: getCamList,
-      });
-      if (!camData.data.getCamList) {
-        console.error("Error with Camera Data");
-      }
-      setCamList(JSON.parse(camData.data.getCamList.Rows));
-    } catch (err) {
-      console.error("Error fetching camera list data", err);
+      const restOperation = await get({
+        apiName: "CamListREST",
+        path: "/camList",
+      }).response;
+      const data = await restOperation.body.json();
+      setCamList(data);
+      console.log("GET call succeeded: ", data);
+    } catch (error) {
+      console.error("GET call failed for fetchCamList: ", error);
     }
   }
   return { camList, fetchCamList };

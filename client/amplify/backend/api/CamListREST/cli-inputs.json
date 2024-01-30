@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "paths": {
+    "/camList": {
+      "name": "/camList",
+      "lambdaFunction": "camListLambda",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}
