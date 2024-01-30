@@ -28,28 +28,11 @@ const CameraComponent = (props: Props) => {
     "Camera Location",
     "Time Installed",
     "Owner ID",
-    "Crop Coordinate X",
-    "Crop Coordinate Y",
+    "Crop Coordinate (X1, Y1)",
+    "Crop Coordinate (X2, Y2)",
     "Status",
   ];
   const { camList } = useGetCamList();
-
-  // useEffect(() => {
-  //   async function useGetCamList() {
-  //     try {
-  //       const restOperation = await get({
-  //         apiName: "CamListREST",
-  //         path: "/camList",
-  //       }).response;
-  //       const data = await restOperation.body.json();
-  //       console.log("GET call succeeded: ", data);
-  //     } catch (error) {
-  //       console.log("GET call failed: ", error);
-  //     }
-  //   }
-
-  //   useGetCamList();
-  // }, []);
 
   if (camList.length === 0)
     return (
@@ -81,7 +64,7 @@ const CameraComponent = (props: Props) => {
         </HeaderSubheader>
       </Header>
 
-      {/* <Table celled>
+      <Table celled>
         <TableHeader>
           <TableRow>
             {cameraListHeaders.map((header) => {
@@ -92,20 +75,19 @@ const CameraComponent = (props: Props) => {
 
         <TableBody>
           {camList.map((camera: any) => {
+            console.log("camera", camera);
             return (
               <TableRow>
-                <TableCell textAlign="center">
-                  {camera?.Data[4]?.ScalarValue
-                    ? camera?.Data[4]?.ScalarValue
-                    : "-"}
-                </TableCell>
-                <TableCell>{camera?.Data[6]?.ScalarValue}</TableCell>
+                <TableCell textAlign="center">{camera?.cam_id}</TableCell>
+                <TableCell>{camera?.Location}</TableCell>
+                <TableCell>{toFriendlyTime(camera?.time_add)}</TableCell>
+                <TableCell>Owner ID Missing</TableCell>
                 <TableCell>
-                  {toFriendlyTime(camera?.Data[6]?.ScalarValue)}
+                  ({camera?.crop_x1}, {camera?.crop_y1})
                 </TableCell>
-                <TableCell>{camera?.Data[3]?.ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[0]?.ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[1]?.ScalarValue}</TableCell>
+                <TableCell>
+                  ({camera?.crop_x2}, {camera?.crop_y2})
+                </TableCell>
                 <TableCell>
                   <Label color="red">Inactive</Label>
                 </TableCell>
@@ -113,7 +95,7 @@ const CameraComponent = (props: Props) => {
             );
           })}
         </TableBody>
-      </Table> */}
+      </Table>
     </AdminDashboardLayout>
   );
 };
