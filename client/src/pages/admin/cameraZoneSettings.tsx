@@ -16,7 +16,6 @@ type Props = {
 
 export const CameraZoneSettings = ({ camera }: Props) => {
   const { config } = useAppConfig();
-  console.log(config);
   return (
     <Tab.Pane>
       <Form>

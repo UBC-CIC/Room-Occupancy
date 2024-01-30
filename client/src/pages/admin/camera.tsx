@@ -32,7 +32,6 @@ const CameraComponent = (props: Props) => {
     "Status",
   ];
   const { camList } = useGetCamList();
-  console.log(camList[0]?.Data[3]);
   if (camList.length === 0)
     return (
       <AdminDashboardLayout>

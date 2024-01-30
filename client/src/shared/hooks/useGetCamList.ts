@@ -10,7 +10,7 @@ export const useGetCamList = (): any => {
 
   useEffect(() => {
     fetchCamList();
-  });
+  }, []);
 
   async function fetchCamList() {
     try {
