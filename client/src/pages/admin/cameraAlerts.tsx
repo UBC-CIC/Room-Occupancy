@@ -28,7 +28,7 @@ const CameraAlertsComponent = (props: Props) => {
     "",
   ];
   const { camList } = useGetCamList();
-  console.log("camList", camList);
+
   if (camList.length === 0)
     return (
       <AdminDashboardLayout>
@@ -65,14 +65,13 @@ const CameraAlertsComponent = (props: Props) => {
             })}
           </TableRow>
         </TableHeader>
-        {/* 
         <TableBody>
           {camList.map((camera: any) => {
             return (
               <TableRow>
-                <TableCell>{camera?.Data[6].ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[3].ScalarValue}</TableCell>
-                <TableCell>{camera?.Data[2].ScalarValue}</TableCell>
+                <TableCell>{camera?.Location}</TableCell>
+                <TableCell>{camera?.owner_id}</TableCell>
+                <TableCell>{camera?.alert_thre}</TableCell>
                 <TableCell>
                   <Button compact color="blue">
                     Update
@@ -81,7 +80,7 @@ const CameraAlertsComponent = (props: Props) => {
               </TableRow>
             );
           })}
-        </TableBody> */}
+        </TableBody>
       </Table>
     </AdminDashboardLayout>
   );
