@@ -24,7 +24,7 @@ const CameraZonesComponent = (props: Props) => {
   const { camList } = useGetCamList();
   console.log(camList);
   const panes: Pane[] = camList.map((camera: any) => ({
-    menuItem: { key: camera.id, icon: 'camera', content: camera.name },
+    menuItem: { key: camera?.cam_id, icon: 'camera', content: camera?.cam_id },
     render: () => <CameraZoneSettings camera={camera} />, // Assuming you have a CameraSettings component
   }));
 
