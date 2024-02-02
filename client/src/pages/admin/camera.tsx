@@ -81,7 +81,7 @@ const CameraComponent = (props: Props) => {
                 <TableCell textAlign="center">{camera?.cam_id}</TableCell>
                 <TableCell>{camera?.Location}</TableCell>
                 <TableCell>{toFriendlyTime(camera?.time_add)}</TableCell>
-                <TableCell>Owner ID Missing</TableCell>
+                <TableCell>{camera?.owner_id}</TableCell>
                 <TableCell>
                   ({camera?.crop_x1}, {camera?.crop_y1})
                 </TableCell>
