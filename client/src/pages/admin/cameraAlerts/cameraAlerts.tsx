@@ -1,10 +1,9 @@
 import { withAuthenticator } from "@aws-amplify/ui-react";
-import React, { useState } from "react";
+import React from "react";
 import { AdminDashboardLayout } from "../../../components/layout/admin";
 import {
   Dimmer,
   Header,
-  Button,
   Loader,
   Segment,
   Table,
@@ -28,8 +27,7 @@ const CameraAlertsComponent = (props: Props) => {
     "Alert Threshold",
     "",
   ];
-  const { camList } = useGetCamList();
-  console.log("camLISTTTT", camList);
+  const { camList, fetchCamList } = useGetCamList();
 
   if (camList.length === 0)
     return (
@@ -75,7 +73,10 @@ const CameraAlertsComponent = (props: Props) => {
                 <TableCell>{camera?.owner_id}</TableCell>
                 <TableCell>{camera?.alert_thre}</TableCell>
                 <TableCell>
-                  <CameraAlertsForm cam_id={camera?.cam_id} />
+                  <CameraAlertsForm
+                    cam_id={camera?.cam_id}
+                    fetchCamList={fetchCamList}
+                  />
                 </TableCell>
               </TableRow>
             );

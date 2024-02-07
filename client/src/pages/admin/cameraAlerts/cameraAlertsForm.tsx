@@ -1,26 +1,26 @@
 import React, { useState } from "react";
 import { Modal, Button, Form } from "semantic-ui-react";
-import { put } from "aws-amplify/api";
+import { post } from "aws-amplify/api";
 
-export const CameraAlertsForm = ({ cam_id }: any) => {
+export const CameraAlertsForm = ({ cam_id, fetchCamList }: any) => {
   const [open, setOpen] = useState(false);
   const [alert, setAlert] = useState(0);
+
   async function updateAlertThreshold(alert_val: number, cam_id: number) {
     try {
-      const alert = { alert_thre: alert_val };
-      const restOperation = put({
+      const restOperation = post({
         apiName: "CamListREST",
-        path: `camList/${cam_id}`,
+        path: `/camList/${cam_id}`,
         options: {
-          body: alert,
+          body: { alert_thre: alert_val },
         },
       });
       const response = await restOperation.response;
-      console.log("PUT call succeeded: ", response);
     } catch (err) {
-      console.error("PUT call failed: ", err);
+      console.error("POST to update alert_thre failed: ", err);
     }
   }
+
   return (
     <>
       <Button onClick={() => setOpen(!open)}>Update</Button>
@@ -50,6 +50,7 @@ export const CameraAlertsForm = ({ cam_id }: any) => {
             color="green"
             onClick={async () => {
               await updateAlertThreshold(alert, cam_id);
+              fetchCamList();
               setOpen(false);
             }}
           >
