@@ -13,7 +13,7 @@ import AdminHelp from "./pages/admin/help";
 import { AppConfigProvider } from "./providers/ConfigProvider";
 import { Authenticator } from "@aws-amplify/ui-react";
 import { Camera } from "./pages/admin/camera";
-import { CameraAlerts } from "./pages/admin/cameraAlerts";
+import { CameraAlerts } from "./pages/admin/cameraAlerts/cameraAlerts";
 import { CameraZones } from "./pages/admin/cameraZones";
 
 function App() {
