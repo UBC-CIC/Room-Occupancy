@@ -1,5 +1,5 @@
 import { withAuthenticator } from "@aws-amplify/ui-react";
-import React, { useEffect } from "react";
+import React from "react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
 import { useGetCamList } from "../../shared/hooks/useGetCamList";
 import {
@@ -18,7 +18,6 @@ import {
   HeaderSubheader,
 } from "semantic-ui-react";
 import { toFriendlyTime } from "../../shared/helpers/utility";
-import { get } from "aws-amplify/api";
 
 type Props = {};
 

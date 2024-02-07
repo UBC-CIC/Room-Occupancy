@@ -16,7 +16,6 @@ export const useGetCamList = (): any => {
       }).response;
       const data = await restOperation.body.json();
       setCamList(data);
-      console.log("GET call succeeded: ", data);
     } catch (error) {
       console.error("GET call failed for fetchCamList: ", error);
     }
