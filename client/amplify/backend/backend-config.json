@@ -1,0 +1,277 @@
+{
+  "api": {
+    "CamListREST": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "camListLambda"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "roomoccupancy": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authroomoccupancybf6b17ee"
+            }
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "roomoccupancybf6b17ee": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "function": {
+    "camListLambda": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "cg22dynamo"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_roomoccupancy2405e435_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancy2405e435_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancy2405e435"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_auth_roomoccupancybf6b17ee_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "roomoccupancybf6b17ee"
+        }
+      ]
+    },
+    "AMPLIFY_function_camListLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "camListLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_camListLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "camListLambda"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "cg22dynamo": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "clientstorage": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
+  }
+}
