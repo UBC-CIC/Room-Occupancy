@@ -6,11 +6,13 @@ import {
   Dimmer,
   Loader,
   Divider,
+  Icon,
 } from "semantic-ui-react";
 import "./Analytics.css";
 import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
 import { AnalyticsFeedBar } from "../../components/analytic/AnalyticsFeedBar";
 import { DashboardLayout } from "../../components/layout/dashboard/index";
+import Alerts from "../../components/alerts/Alerts";
 
 export interface IAnalyticsProps {}
 
@@ -46,18 +48,7 @@ export function Analytics(props: IAnalyticsProps) {
           </Grid>
           <Divider />
           <Grid.Row>
-            <Segment>
-              <Dimmer active>
-                <Loader size="massive">Work in Progress</Loader>
-              </Dimmer>
-
-              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
-              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
-              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
-              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
-              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
-              <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
-            </Segment>
+            <Alerts></Alerts>
           </Grid.Row>
         </Grid.Column>
 
