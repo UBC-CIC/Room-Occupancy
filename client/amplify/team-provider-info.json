@@ -15,45 +15,41 @@
     "categories": {
       "auth": {
         "roomoccupancy2405e435": {
-          "userPoolId": "us-east-1_EbgQ7lNbf",
-          "userPoolName": "Room Occupancy Admin",
-          "webClientId": "4p37r3aboestrsprg5r2v8u6kq",
-          "nativeClientId": "4p37r3aboestrsprg5r2v8u6kq",
-          "identityPoolId": "us-east-1:066bed1a-1f40-4c3e-8c5a-5c737d85bc1c",
-          "identityPoolName": "AdminIdenPool",
           "allowUnauthenticatedIdentities": true,
           "authRoleArn": "arn:aws:iam::561089261118:role/service-role/AdminIdenPool",
           "authRoleName": "AdminIdenPool",
+          "identityPoolId": "us-east-1:066bed1a-1f40-4c3e-8c5a-5c737d85bc1c",
+          "identityPoolName": "AdminIdenPool",
+          "nativeClientId": "4p37r3aboestrsprg5r2v8u6kq",
           "unauthRoleArn": "arn:aws:iam::561089261118:role/service-role/IdenPoolGuest",
-          "unauthRoleName": "IdenPoolGuest"
+          "unauthRoleName": "IdenPoolGuest",
+          "userPoolId": "us-east-1_EbgQ7lNbf",
+          "userPoolName": "Room Occupancy Admin",
+          "webClientId": "4p37r3aboestrsprg5r2v8u6kq"
         },
         "roomoccupancybf6b17ee": {
-          "userPoolId": "us-east-1_EbgQ7lNbf",
-          "userPoolName": "Room Occupancy Admin",
-          "webClientId": "4p37r3aboestrsprg5r2v8u6kq",
-          "nativeClientId": "4p37r3aboestrsprg5r2v8u6kq",
-          "identityPoolId": "us-east-1:066bed1a-1f40-4c3e-8c5a-5c737d85bc1c",
-          "identityPoolName": "AdminIdenPool",
           "allowUnauthenticatedIdentities": true,
           "authRoleArn": "arn:aws:iam::561089261118:role/service-role/AdminIdenPool",
           "authRoleName": "AdminIdenPool",
+          "identityPoolId": "us-east-1:066bed1a-1f40-4c3e-8c5a-5c737d85bc1c",
+          "identityPoolName": "AdminIdenPool",
+          "nativeClientId": "4p37r3aboestrsprg5r2v8u6kq",
           "unauthRoleArn": "arn:aws:iam::561089261118:role/service-role/IdenPoolGuest",
-          "unauthRoleName": "IdenPoolGuest"
+          "unauthRoleName": "IdenPoolGuest",
+          "userPoolId": "us-east-1_EbgQ7lNbf",
+          "userPoolName": "Room Occupancy Admin",
+          "webClientId": "4p37r3aboestrsprg5r2v8u6kq"
         }
-      },
-      "api": {
-        "roomoccupancy": {},
-        "CamListREST": {}
-      },
-      "storage": {
-        "clientstorage": {},
-        "cg22dynamo": {}
       },
       "function": {
         "camListLambda": {
           "deploymentBucketName": "amplify-amplify9807327f44684-staging-211945-deployment",
           "s3Key": "amplify-builds/camListLambda-4c5171313836312b392b-build.zip"
         }
+      },
+      "storage": {
+        "cg22dynamo": {},
+        "clientstorage": {}
       }
     }
   }
