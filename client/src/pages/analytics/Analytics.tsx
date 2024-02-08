@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Grid,
-  Image,
-  Segment,
-  Dimmer,
-  Loader,
-  Divider,
-  Icon,
-} from "semantic-ui-react";
+import { Grid, Divider } from "semantic-ui-react";
 import "./Analytics.css";
 import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
 import { AnalyticsFeedBar } from "../../components/analytic/AnalyticsFeedBar";
