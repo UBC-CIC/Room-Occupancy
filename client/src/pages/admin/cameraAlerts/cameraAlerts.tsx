@@ -1,10 +1,9 @@
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import React from "react";
-import { AdminDashboardLayout } from "../../components/layout/admin";
+import { AdminDashboardLayout } from "../../../components/layout/admin";
 import {
   Dimmer,
   Header,
-  Button,
   Loader,
   Segment,
   Table,
@@ -16,7 +15,8 @@ import {
   Image,
   HeaderSubheader,
 } from "semantic-ui-react";
-import { useGetCamList } from "../../shared/hooks/useGetCamList";
+import { useGetCamList } from "../../../shared/hooks/useGetCamList";
+import { CameraAlertsForm } from "./cameraAlertsForm";
 
 type Props = {};
 
@@ -27,7 +27,7 @@ const CameraAlertsComponent = (props: Props) => {
     "Alert Threshold",
     "",
   ];
-  const { camList } = useGetCamList();
+  const { camList, fetchCamList } = useGetCamList();
 
   if (camList.length === 0)
     return (
@@ -66,16 +66,17 @@ const CameraAlertsComponent = (props: Props) => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {camList.map((camera: any) => {
+          {camList.map((camera: any, key: string) => {
             return (
-              <TableRow>
+              <TableRow key={key}>
                 <TableCell>{camera?.Location}</TableCell>
                 <TableCell>{camera?.owner_id}</TableCell>
                 <TableCell>{camera?.alert_thre}</TableCell>
                 <TableCell>
-                  <Button compact color="blue">
-                    Update
-                  </Button>
+                  <CameraAlertsForm
+                    cam_id={camera?.cam_id}
+                    fetchCamList={fetchCamList}
+                  />
                 </TableCell>
               </TableRow>
             );
