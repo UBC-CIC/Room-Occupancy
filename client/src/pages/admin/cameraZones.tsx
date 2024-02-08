@@ -80,7 +80,7 @@ const CameraZonesComponent = (props: Props) => {
                   <TableCell textAlign="center">({camera.crop_x2}, {camera.crop_y2})</TableCell>
                   <TableCell>
                     <CameraZoneForm
-                      camId={camera?.cam_id}
+                      cameraInfo={camera}
                       fetchCamList={fetchCamList}
                     />
                   </TableCell>
