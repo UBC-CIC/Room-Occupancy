@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { Modal, Button, Form, Image } from "semantic-ui-react";
 import { post } from "aws-amplify/api";
+import defaultImg from "../../assets/images/sample_location_img.png"
 
 interface ICropData {
   crop_x1: number;
@@ -73,7 +74,7 @@ export const CameraZoneForm = ({ camId, fetchCamList}: any) => {
     >
       <Modal.Header>Update Crop Coordinates for Camera ID: {camId}</Modal.Header>
       <Modal.Content image>
-      <Image size='medium' src='../../assets/images/sample_location_img.png' wrapped />
+        <Image size='large' src={defaultImg} wrapped />
         <Modal.Description>
           <Form>
             <Form.Field>
