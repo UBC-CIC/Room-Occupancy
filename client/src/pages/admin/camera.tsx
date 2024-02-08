@@ -16,8 +16,10 @@ import {
   TableRow,
   Image,
   HeaderSubheader,
+  Button,
 } from "semantic-ui-react";
 import { toFriendlyTime } from "../../shared/helpers/utility";
+import { updateCrop } from "../../shared/helpers/updateCrop";
 
 type Props = {};
 
@@ -74,7 +76,6 @@ const CameraComponent = (props: Props) => {
 
         <TableBody>
           {camList.map((camera: any) => {
-            console.log("camera", camera);
             return (
               <TableRow>
                 <TableCell textAlign="center">{camera?.cam_id}</TableCell>
@@ -89,6 +90,21 @@ const CameraComponent = (props: Props) => {
                 </TableCell>
                 <TableCell>
                   <Label color="red">Inactive</Label>
+                  <Button
+                    onClick={() => {
+                      updateCrop(
+                        {
+                          crop_x1: 5,
+                          crop_x2: 6,
+                          crop_y1: 7,
+                          crop_y2: 8,
+                        },
+                        3
+                      );
+                    }}
+                  >
+                    Update Crop
+                  </Button>
                 </TableCell>
               </TableRow>
             );
