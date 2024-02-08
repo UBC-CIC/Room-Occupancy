@@ -10,8 +10,8 @@
     "config": {
       "SourceDir": "src",
       "DistributionDir": "build",
-      "BuildCommand": "react-scripts build",
-      "StartCommand": "react-scripts start"
+      "BuildCommand": "yarn build",
+      "StartCommand": "yarn start"
     }
   }
 }

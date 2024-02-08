@@ -16,6 +16,7 @@ import {
   TableHeader,
   TableHeaderCell,
   TableRow,
+  Button,
 } from "semantic-ui-react";
 
 type Props = {};
@@ -30,10 +31,8 @@ interface Camera {
   crop_y2: number;
 }
 
-const cameraZonesComponent = (props: Props) => {
-  const { camList } = useGetCamList();
-  const [selectedCamera, setSelectedCamera] = useState<Camera | null>(null);
-  const [cameraFormOpen, setCameraFormOpen] = useState(false);
+const CameraZonesComponent = (props: Props) => {
+  const { camList, fetchCamList } = useGetCamList();
 
   const cameraListHeaders = [
     "Camera ID",
@@ -41,12 +40,8 @@ const cameraZonesComponent = (props: Props) => {
     "Owner ID",
     "Crop Coordinate (X1, Y1)",
     "Crop Coordinate (X2, Y2)",
+    "Update Button",
   ];
-
-  const handleRowClick = (cameraInfo: Camera) => {
-    setSelectedCamera(cameraInfo);
-    setCameraFormOpen(true);
-  };
 
   return (
     <AdminDashboardLayout>
@@ -70,43 +65,36 @@ const cameraZonesComponent = (props: Props) => {
             <TableHeader>
               <TableRow>
                 {cameraListHeaders.map((header) => (
-                  <TableHeaderCell key={header}>{header}</TableHeaderCell>
+                  <TableHeaderCell key={header} textAlign="center">{header}</TableHeaderCell>
                 ))}
               </TableRow>
             </TableHeader>
 
             <TableBody>
               {camList.map((camera: Camera) => (
-                <TableRow
-                  key={camera.cam_id}
-                  onClick={() => handleRowClick(camera)}
-                >
+                <TableRow key={camera.cam_id}>
                   <TableCell textAlign="center">{camera.cam_id}</TableCell>
-                  <TableCell>{camera.Location}</TableCell>
-                  <TableCell>{camera.owner_id}</TableCell>
+                  <TableCell textAlign="center">{camera.Location}</TableCell>
+                  <TableCell textAlign="center">{camera.owner_id}</TableCell>
+                  <TableCell textAlign="center">({camera.crop_x1}, {camera.crop_y1})</TableCell>
+                  <TableCell textAlign="center">({camera.crop_x2}, {camera.crop_y2})</TableCell>
                   <TableCell>
-                    ({camera.crop_x1}, {camera.crop_y1})
+                    <CameraZoneForm
+                      camId={camera?.cam_id}
+                      fetchCamList={fetchCamList}
+                    />
                   </TableCell>
-                  <TableCell>
-                    ({camera.crop_x2}, {camera.crop_y2})
-                  </TableCell>
+
                 </TableRow>
               ))}
             </TableBody>
           </Table>
-
-          {/* Camera Zone Form */}
-          <CameraZoneForm
-            open={cameraFormOpen}
-            setOpen={setCameraFormOpen}
-            cameraInfo={selectedCamera}
-          />
         </>
       )}
     </AdminDashboardLayout>
   );
 };
 
-export const CameraZones = withAuthenticator(cameraZonesComponent, {
+export const CameraZones = withAuthenticator(CameraZonesComponent, {
   hideSignUp: true,
 });

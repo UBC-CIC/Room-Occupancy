@@ -1,0 +1,16 @@
+{
+  "resourceName": "clientstorage",
+  "policyUUID": "4963869e",
+  "bucketName": "clientstoragebucket",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
