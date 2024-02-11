@@ -39,7 +39,7 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
         context.stroke();
       };
     }
-  }, [canvasRef.current, cropX1, cropY1, cropX2, cropY2]);
+  }, [cropX1, cropY1, cropX2, cropY2, open]);
 
   return (
     <>
@@ -64,6 +64,7 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
               <Form.Field>
                 <label>Top Left X</label>
                 <input
+                  type="number"
                   placeholder="Enter new value for X1 (max:450)"
                   min={0}
                   max={450}
@@ -73,6 +74,7 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
               <Form.Field>
                 <label>Top Left Y</label>
                 <input
+                  type="number"
                   placeholder="Enter new value for Y1 (max:300)"
                   min={0}
                   max={300}
@@ -82,6 +84,7 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
               <Form.Field>
                 <label>Bottom Right X</label>
                 <input
+                  type="number"
                   placeholder="Enter new value for X2 (max:450)"
                   min={0}
                   max={450}
@@ -91,6 +94,7 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
               <Form.Field>
                 <label>Bottom Right Y</label>
                 <input
+                  type="number"
                   placeholder="Enter new value for Y2 (max:300)"
                   min={0}
                   max={300}

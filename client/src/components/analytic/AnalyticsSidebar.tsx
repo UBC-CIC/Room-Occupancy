@@ -11,6 +11,7 @@ interface IAnalyticsItems {
   category: analyticType;
   name: string;
   icon: SemanticICONS;
+  link: string;
 }
 
 export enum analyticType {
@@ -24,21 +25,25 @@ const analyticsItems: IAnalyticsItems[] = [
     category: analyticType.analytics,
     name: "Analytics",
     icon: "chart area",
+    link: "/",
   },
   {
     category: analyticType.analytics,
     name: "Camera",
     icon: "camera",
+    link: "/",
   },
   {
     category: analyticType.locations,
     name: "Zone 1",
     icon: "location arrow",
+    link: "/",
   },
   {
     category: analyticType.locations,
     name: "Zone 2",
     icon: "location arrow",
+    link: "/",
   },
 ];
 
@@ -63,10 +68,12 @@ export function AnalyticsSidebar(props: IAnalyticsSidebarProps) {
               .filter((item) => item.category === analyticType.analytics)
               .map((value, key) => {
                 return (
-                  <List.Item key={key}>
-                    <List.Icon color="grey" name={value.icon} />
-                    <List.Content as="a">{value.name}</List.Content>
-                  </List.Item>
+                  <Link to={value.link}>
+                    <List.Item key={key}>
+                      <List.Icon color="grey" name={value.icon} />
+                      <List.Content as="a">{value.name}</List.Content>
+                    </List.Item>
+                  </Link>
                 );
               })}
           </List>
@@ -80,10 +87,12 @@ export function AnalyticsSidebar(props: IAnalyticsSidebarProps) {
               .filter((item) => item.category === analyticType.locations)
               .map((value, key) => {
                 return (
-                  <List.Item key={key}>
-                    <List.Icon color="grey" name={value.icon} />
-                    <List.Content as="a">{value.name}</List.Content>
-                  </List.Item>
+                  <Link to={value.link}>
+                    <List.Item key={key}>
+                      <List.Icon color="grey" name={value.icon} />
+                      <List.Content as="a">{value.name}</List.Content>
+                    </List.Item>
+                  </Link>
                 );
               })}
           </List>

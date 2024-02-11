@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Feed, Icon, SemanticICONS } from "semantic-ui-react";
+import { Divider, Feed, Icon, Segment, SemanticICONS } from "semantic-ui-react";
 
 interface IAnalyticsFeedProps {
   summaryHeader: string;
@@ -30,6 +30,7 @@ export function AnalyticsFeed(props: IAnalyticsFeedProps) {
           </Feed.Meta>
         </Feed.Content>
       </Feed.Event>
+      <Divider />
     </Feed>
   );
 }
