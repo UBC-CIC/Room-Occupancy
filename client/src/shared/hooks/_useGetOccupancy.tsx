@@ -18,8 +18,8 @@ export const useGetOccupancy = (): any => {
   async function fetchOccupancyList() {
     try {
       const data = await client.graphql({ query: queries.getCamList });
-      const occupancyData = JSON.parse(data?.data?.getCamList?.Rows);
-      setOccupancyList(occupancyData);
+      const oData = JSON.parse(data?.data?.getCamList?.Rows);
+      setOccupancyList(oData);
     } catch (error) {
       console.error("call failed for fetchOccupancyList: ", error);
     }
