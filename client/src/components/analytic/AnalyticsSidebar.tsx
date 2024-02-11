@@ -25,25 +25,25 @@ const analyticsItems: IAnalyticsItems[] = [
     category: analyticType.analytics,
     name: "Analytics",
     icon: "chart area",
-    link: "/",
+    link: "/analytics",
   },
   {
     category: analyticType.analytics,
     name: "Camera",
     icon: "camera",
-    link: "/",
+    link: "/analytics",
   },
   {
     category: analyticType.locations,
     name: "Zone 1",
     icon: "location arrow",
-    link: "/",
+    link: "/analytics",
   },
   {
     category: analyticType.locations,
     name: "Zone 2",
     icon: "location arrow",
-    link: "/",
+    link: "/analytics",
   },
 ];
 
