@@ -1,7 +1,8 @@
 import { withAuthenticator } from "@aws-amplify/ui-react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
 import { useGetCamList } from "../../shared/hooks/useGetCamList";
+import { pubsub } from "../..";
 import {
   Dimmer,
   Header,
@@ -31,6 +32,19 @@ interface coreDeviceStatus {
     type: string;
     content: string;
   };
+}
+
+export function LatestMessage() {
+  const [message, setMessage] = useState<string>("");
+  useEffect(() => {
+    pubsub.subscribe({ topics: ["messages"] }).subscribe({
+      next: (data: any) => {
+        setMessage(data.msg);
+      },
+    });
+  }, []);
+  console.log("pubsub:", message);
+  return <>{message}</>;
 }
 
 const coreDeviceStatus: coreDeviceStatus = {

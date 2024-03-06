@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "semantic-ui-css/semantic.min.css"; // include CSS from Semantic
 import { BrowserRouter } from "react-router-dom";
 import { Amplify } from "aws-amplify";
+import { PubSub } from "@aws-amplify/pubsub";
 import amplifyconfiguration from "./amplifyconfiguration.json";
 
 const root = ReactDOM.createRoot(
@@ -12,6 +13,13 @@ const root = ReactDOM.createRoot(
 );
 
 Amplify.configure(amplifyconfiguration); // import and load amplify configuration to app
+
+// Apply plugin with configuration
+// TODO: this should be an env variable
+export const pubsub = new PubSub({
+  region: "us-east-1",
+  endpoint: "wss:a1z643kpwjsepe-ats.iot.us-east-1.amazonaws.com/mqtt",
+});
 
 root.render(
   <React.StrictMode>
