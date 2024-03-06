@@ -21,7 +21,7 @@ const Alerts = (props: Props) => {
     <Segment>
       <Header as="h4">
         <Header.Content>
-          Alerts
+          Alerts - BETA (WORK IN PROGRESS)
           <Header.Subheader>View Occupancy and Camera Alerts</Header.Subheader>
         </Header.Content>
       </Header>

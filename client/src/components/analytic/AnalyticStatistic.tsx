@@ -3,7 +3,7 @@ import { Segment, Header, Icon, Statistic } from "semantic-ui-react";
 
 interface IAnalyticSatisticProps {
   header: string;
-  statisticValue: number;
+  statisticValue: number | string;
   statisticLabel: string;
 }
 
@@ -17,9 +17,7 @@ export function AnalyticSatistic(props: IAnalyticSatisticProps) {
         <Header.Content>{header}</Header.Content>
       </Header>
       <Statistic color="blue">
-        <Statistic.Value>
-          {statisticValue.toLocaleString("en-US")}
-        </Statistic.Value>
+        <Statistic.Value>{statisticValue}</Statistic.Value>
         <Statistic.Label>{statisticLabel}</Statistic.Label>
       </Statistic>
     </Segment>

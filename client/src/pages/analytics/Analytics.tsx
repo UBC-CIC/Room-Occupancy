@@ -5,10 +5,12 @@ import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
 import { AnalyticsFeedBar } from "../../components/analytic/AnalyticsFeedBar";
 import { DashboardLayout } from "../../components/layout/dashboard/index";
 import Alerts from "../../components/alerts/Alerts";
+import { useGetOccupancy } from "../../shared/hooks/useGetOccupancy";
 
 export interface IAnalyticsProps {}
 
 export function Analytics(props: IAnalyticsProps) {
+  const { occupancyList } = useGetOccupancy();
   return (
     <DashboardLayout>
       <Grid>
@@ -18,22 +20,22 @@ export function Analytics(props: IAnalyticsProps) {
               <Grid.Column>
                 <AnalyticSatistic
                   header="Current Occupancy"
-                  statisticLabel="Zone 1 - Orchard Commons"
-                  statisticValue={20}
+                  statisticLabel="Camera 1 - PI 2"
+                  statisticValue={occupancyList[0]?.Data[4].ScalarValue.toString()}
                 />
               </Grid.Column>
               <Grid.Column>
                 <AnalyticSatistic
                   header="Current Occupancy"
-                  statisticLabel="Zone 2 - Totem Park"
-                  statisticValue={5}
+                  statisticLabel="Camera 2 - UNDEFINED"
+                  statisticValue={"-"}
                 />
               </Grid.Column>
               <Grid.Column>
                 <AnalyticSatistic
                   header="Current Occupancy"
-                  statisticLabel="Zone 3 - Orchard Commons"
-                  statisticValue={165}
+                  statisticLabel="Camera 3 - Undefined"
+                  statisticValue={"-"}
                 />
               </Grid.Column>
             </Grid.Row>

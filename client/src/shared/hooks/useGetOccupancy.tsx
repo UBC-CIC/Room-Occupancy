@@ -10,7 +10,7 @@ export const useGetOccupancy = (): any => {
     fetchOccupancyList();
     const intervalCall = setInterval(() => {
       fetchOccupancyList();
-    }, 10000); // call API every 10 seconds
+    }, 3000); // call API every 10 seconds
 
     return () => clearInterval(intervalCall);
   }, []);
