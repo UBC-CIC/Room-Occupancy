@@ -6,7 +6,6 @@ import { toFriendlyTime, toFeedTime } from "../../shared/helpers/utility";
 
 export function AnalyticsFeedBar(props: any) {
   const { occupancyList } = useGetOccupancy();
-  console.log(occupancyList);
   return (
     <Segment>
       <Header as="h4">
