@@ -12,17 +12,28 @@ import {
 } from "semantic-ui-react";
 import { CameraZoneForm } from "../../pages/admin/cameraZoneForm";
 import { Label } from "@aws-amplify/ui-react";
+import { useGetOccupancy } from "../../shared/hooks/useGetOccupancy";
+import useCalculateOccupancy from "../../shared/hooks/useCalculateOccupancy";
 
 type Props = {};
 
 const Alerts = (props: Props) => {
-  const alertTableHeaders = ["Date", "Severity", "Alert Type", "Remarks"];
+  const { cameraOccupancyInfo } = useCalculateOccupancy();
+
+  const alertTableHeaders = [
+    "Location",
+    "Room Max Occupancy",
+    "Current Occupancy",
+    "Remaining Capacity",
+  ];
   return (
     <Segment>
       <Header as="h4">
         <Header.Content>
-          Alerts - BETA (WORK IN PROGRESS)
-          <Header.Subheader>View Occupancy and Camera Alerts</Header.Subheader>
+          Occupancy
+          <Header.Subheader>
+            View room occupancy and remaning capacity information
+          </Header.Subheader>
         </Header.Content>
       </Header>
 
@@ -35,26 +46,29 @@ const Alerts = (props: Props) => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          <TableRow>
-            <TableCell>08-02-2024</TableCell>
-            <TableCell>
-              <Label color="red">
-                <Icon name="warning circle" /> High
-              </Label>
-            </TableCell>
-            <TableCell>Camera Issue</TableCell>
-            <TableCell>Camera ID: 1 Inactive</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell>08-02-2024</TableCell>
-            <TableCell>
-              <Label color="orange">
-                <Icon name="warning sign" /> Medium
-              </Label>
-            </TableCell>
-            <TableCell>Occupancy Threshold</TableCell>
-            <TableCell>Zone 1 at maximum occupancy</TableCell>
-          </TableRow>
+          {cameraOccupancyInfo.map((item: any) => {
+            if (isNaN(item?.remainingCapacity) || item?.remainingCapacity < 0) {
+              return (
+                <TableRow error>
+                  <TableCell>{item?.camera_id}</TableCell>
+                  <TableCell>{item?.maxOccupancyThreshold}</TableCell>
+                  <TableCell>{item?.currentOccupancy}</TableCell>
+                  <TableCell>
+                    <Icon name="attention" />
+                    {item?.remainingCapacity}
+                  </TableCell>
+                </TableRow>
+              );
+            }
+            return (
+              <TableRow>
+                <TableCell>{item?.camera_id}</TableCell>
+                <TableCell>{item?.maxOccupancyThreshold}</TableCell>
+                <TableCell>{item?.currentOccupancy}</TableCell>
+                <TableCell>{item?.remainingCapacity}</TableCell>
+              </TableRow>
+            );
+          })}
         </TableBody>
       </Table>
     </Segment>
