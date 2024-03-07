@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
 import { useGetCamList } from "../../shared/hooks/useGetCamList";
@@ -16,7 +16,6 @@ import {
   TableHeader,
   TableHeaderCell,
   TableRow,
-  Button,
 } from "semantic-ui-react";
 
 type Props = {};
@@ -40,7 +39,7 @@ const CameraZonesComponent = (props: Props) => {
     "Owner ID",
     "Crop Coordinate (X1, Y1)",
     "Crop Coordinate (X2, Y2)",
-    "Update Button",
+    "",
   ];
 
   return (
@@ -65,7 +64,9 @@ const CameraZonesComponent = (props: Props) => {
             <TableHeader>
               <TableRow>
                 {cameraListHeaders.map((header) => (
-                  <TableHeaderCell key={header} textAlign="center">{header}</TableHeaderCell>
+                  <TableHeaderCell key={header} textAlign="center">
+                    {header}
+                  </TableHeaderCell>
                 ))}
               </TableRow>
             </TableHeader>
@@ -76,15 +77,18 @@ const CameraZonesComponent = (props: Props) => {
                   <TableCell textAlign="center">{camera.cam_id}</TableCell>
                   <TableCell textAlign="center">{camera.Location}</TableCell>
                   <TableCell textAlign="center">{camera.owner_id}</TableCell>
-                  <TableCell textAlign="center">({camera.crop_x1}, {camera.crop_y1})</TableCell>
-                  <TableCell textAlign="center">({camera.crop_x2}, {camera.crop_y2})</TableCell>
-                  <TableCell>
+                  <TableCell textAlign="center">
+                    ({camera.crop_x1}, {camera.crop_y1})
+                  </TableCell>
+                  <TableCell textAlign="center">
+                    ({camera.crop_x2}, {camera.crop_y2})
+                  </TableCell>
+                  <TableCell textAlign="center">
                     <CameraZoneForm
                       cameraInfo={camera}
                       fetchCamList={fetchCamList}
                     />
                   </TableCell>
-
                 </TableRow>
               ))}
             </TableBody>

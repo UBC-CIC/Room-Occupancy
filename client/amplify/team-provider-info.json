@@ -50,6 +50,10 @@
       "storage": {
         "cg22dynamo": {},
         "clientstorage": {}
+      },
+      "api": {
+        "roomoccupancy": {},
+        "CamListREST": {}
       }
     }
   }

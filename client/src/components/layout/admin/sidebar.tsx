@@ -46,10 +46,10 @@ const analyticsItems: IAnalyticsItems[] = [
     link: "/admin_camera_alerts",
   },
   {
-    category: analyticType.settings,
-    name: "Reports",
-    icon: "file pdf",
-    link: "/analytics",
+    category: analyticType.analytics,
+    name: "Costs and Usage",
+    icon: "dollar sign",
+    link: "/admin_costs_and_usage",
   },
 ];
 

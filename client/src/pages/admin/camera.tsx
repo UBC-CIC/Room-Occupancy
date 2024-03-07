@@ -16,17 +16,42 @@ import {
   TableRow,
   Image,
   HeaderSubheader,
+  Popup,
 } from "semantic-ui-react";
 import { toFriendlyTime } from "../../shared/helpers/utility";
 
 type Props = {};
 
+interface coreDeviceStatus {
+  healthy: {
+    type: string;
+    content: string;
+  };
+  unhealthy: {
+    type: string;
+    content: string;
+  };
+}
+
+const coreDeviceStatus: coreDeviceStatus = {
+  healthy: {
+    type: "HEALTHY",
+    content:
+      "The AWS IoT Greengrass Core software and all components are running without issue on this core device.",
+  },
+  unhealthy: {
+    type: "UNHEALTHY",
+    content:
+      "The AWS IoT Greengrass Core software or a component is in a failed state on this core device. To troubleshoot, view the logs on this core device.",
+  },
+};
+
 const CameraComponent = (props: Props) => {
   const cameraListHeaders = [
-    "Camera ID",
+    "Camera Name",
     "Camera Location",
     "Time Installed",
-    "Owner ID",
+    "Owner",
     "Crop Coordinate (X1, Y1)",
     "Crop Coordinate (X2, Y2)",
     "Status",
@@ -74,13 +99,12 @@ const CameraComponent = (props: Props) => {
 
         <TableBody>
           {camList.map((camera: any) => {
-            console.log("camera", camera);
             return (
               <TableRow>
-                <TableCell textAlign="center">{camera?.cam_id}</TableCell>
+                <TableCell textAlign="center">{camera?.cam_name}</TableCell>
                 <TableCell>{camera?.Location}</TableCell>
                 <TableCell>{toFriendlyTime(camera?.time_add)}</TableCell>
-                <TableCell>{camera?.owner_id}</TableCell>
+                <TableCell>{camera?.owner}</TableCell>
                 <TableCell>
                   ({camera?.crop_x1}, {camera?.crop_y1})
                 </TableCell>
@@ -88,7 +112,17 @@ const CameraComponent = (props: Props) => {
                   ({camera?.crop_x2}, {camera?.crop_y2})
                 </TableCell>
                 <TableCell>
-                  <Label color="red">Inactive</Label>
+                  {camera?.status === coreDeviceStatus.healthy.type ? (
+                    <Popup
+                      content={coreDeviceStatus.healthy.content}
+                      trigger={<Label color="green">Healthy</Label>}
+                    />
+                  ) : (
+                    <Popup
+                      content={coreDeviceStatus.unhealthy.content}
+                      trigger={<Label color="red">Unhealthy</Label>}
+                    />
+                  )}
                 </TableCell>
               </TableRow>
             );

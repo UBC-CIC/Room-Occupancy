@@ -15,6 +15,7 @@ import { Authenticator } from "@aws-amplify/ui-react";
 import { Camera } from "./pages/admin/camera";
 import { CameraAlerts } from "./pages/admin/cameraAlerts/cameraAlerts";
 import { CameraZones } from "./pages/admin/cameraZones";
+import { CostsAndUsage } from "./pages/admin/costsAndUsage";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/admin_settings" element={<AdminSettings />} />
           <Route path="/admin_camera" element={<Camera />} />
           <Route path="/admin_camera_zones" element={<CameraZones />} />
+          <Route path="/admin_costs_and_usage" element={<CostsAndUsage />} />
           <Route path="/admin_camera_alerts" element={<CameraAlerts />} />
           <Route path="/admin_help" element={<AdminHelp />} />
           <Route path="/*" element={<Error />} />
