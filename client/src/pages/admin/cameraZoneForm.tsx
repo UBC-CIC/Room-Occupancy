@@ -123,6 +123,7 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
             onClick={async () => {
               await updateCrop(
                 {
+                  cam_name: cameraInfo?.cam_name,
                   crop_x1: cropX1*10,
                   crop_x2: cropX2*10,
                   crop_y1: cropY1*10,
