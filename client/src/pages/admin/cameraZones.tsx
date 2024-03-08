@@ -20,13 +20,23 @@ import {
 import { ICameraInfo } from "../../shared/helpers/interfaces";
 type Props = {};
 
+interface Camera {
+  cam_name: string;
+  Location: string;
+  owner: number;
+  crop_x1: number;
+  crop_y1: number;
+  crop_x2: number;
+  crop_y2: number;
+}
+
 const CameraZonesComponent = (props: Props) => {
   const { camList, fetchCamList } = useGetCamList();
 
   const cameraListHeaders = [
-    "Camera ID",
+    "Camera Name",
     "Camera Location",
-    "Owner ID",
+    "Owner",
     "Crop Coordinate (X1, Y1)",
     "Crop Coordinate (X2, Y2)",
     "",
@@ -68,10 +78,12 @@ const CameraZonesComponent = (props: Props) => {
                   <TableCell textAlign="center">{camera.Location}</TableCell>
                   <TableCell textAlign="center">{camera.owner}</TableCell>
                   <TableCell textAlign="center">
-                    ({camera.crop_x1}, {camera.crop_y1})
+                    ({Math.round(camera?.crop_x1)},{" "}
+                    {Math.round(camera?.crop_y1)})
                   </TableCell>
                   <TableCell textAlign="center">
-                    ({camera.crop_x2}, {camera.crop_y2})
+                    ({Math.round(camera?.crop_x2)},{" "}
+                    {Math.round(camera?.crop_y2)})
                   </TableCell>
                   <TableCell textAlign="center">
                     <CameraZoneForm

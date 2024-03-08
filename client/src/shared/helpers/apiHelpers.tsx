@@ -1,6 +1,7 @@
 import { post } from "aws-amplify/api";
 
 interface ICropData {
+  cam_name: string;
   crop_x1: number;
   crop_x2: number;
   crop_y1: number;
@@ -16,6 +17,7 @@ export async function updateCrop(crop_data: ICropData, cam_id: number) {
       path: `/camList/update_crop/${cam_id}`,
       options: {
         body: {
+          cam_name: cam_id,
           crop_x1: crop_data.crop_x1,
           crop_x2: crop_data.crop_x2,
           crop_y1: crop_data.crop_y1,
@@ -24,6 +26,7 @@ export async function updateCrop(crop_data: ICropData, cam_id: number) {
       },
     });
     const response = await restOperation.response;
+    console.log("stevehehe")
   } catch (err) {
     console.error("POST to update crop coordinates failed: ", err);
     flag = 1;
@@ -36,6 +39,7 @@ export async function updateCrop(crop_data: ICropData, cam_id: number) {
         path: `/updateCrop`,
         options: {
           body: {
+            cam_name: cam_id,
             crop_x1: crop_data.crop_x1,
             crop_x2: crop_data.crop_x2,
             crop_y1: crop_data.crop_y1,
