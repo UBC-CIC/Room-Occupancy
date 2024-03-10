@@ -11,8 +11,8 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
   const [cropY2, setY2] = useState(cameraInfo?.crop_y2);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
-  const maxWidth = 460.8;
-  const maxHeight = 259.2;
+  const maxWidth = 640*(2/3);
+  const maxHeight = 480*(2/3);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -48,10 +48,10 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
       <Button onClick={
         () => {
           setOpen(!open)
-          setX1(cameraInfo?.crop_x1/10)
-          setY1(cameraInfo?.crop_y1/10)
-          setX2(cameraInfo?.crop_x2/10)
-          setY2(cameraInfo?.crop_y2/10)
+          setX1(cameraInfo?.crop_x1)
+          setY1(cameraInfo?.crop_y1)
+          setX2(cameraInfo?.crop_x2)
+          setY2(cameraInfo?.crop_y2)
         }
         }>Update</Button>
       <Modal
@@ -69,50 +69,54 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
             height={maxHeight}
             style={{ marginRight: "20px" }}
           />
-          <Modal.Description>
-            <Form>
-              <Form.Field>
-                <label>Top Left X</label>
-                <input
-                  type="number"
-                  placeholder="Enter new value for X1 (%)"
-                  min={0}
-                  max={100}
-                  onChange={(e) => setX1(maxWidth*(parseFloat(e.target.value)/100))}
-                />
-              </Form.Field>
-              <Form.Field>
-                <label>Top Left Y</label>
-                <input
-                  type="number"
-                  placeholder="Enter new value for Y1 (%)"
-                  min={0}
-                  max={100}
-                  onChange={(e) => setY1(maxHeight*(parseFloat(e.target.value)/100))}
-                />
-              </Form.Field>
-              <Form.Field>
-                <label>Bottom Right X</label>
-                <input
-                  type="number"
-                  placeholder="Enter new value for X2 (%)"
-                  min={0}
-                  max={100}
-                  onChange={(e) => setX2(maxWidth*(parseFloat(e.target.value)/100))}
-                />
-              </Form.Field>
-              <Form.Field>
-                <label>Bottom Right Y</label>
-                <input
-                  type="number"
-                  placeholder="Enter new value for Y2 (%)"
-                  min={0}
-                  max={100}
-                  onChange={(e) => setY2(maxHeight*(parseFloat(e.target.value)/100))}
-                />
-              </Form.Field>
-            </Form>
-          </Modal.Description>
+        <Modal.Description>
+          <p style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '10px' }}>
+            Enter the coordinates in percentage scale.
+          </p>
+          <p>Top Left: (0,0), Bottom Right: (100,100)</p>
+          <Form>
+            <Form.Field>
+              <label>Top Left X</label>
+              <input
+                type="number"
+                placeholder="Enter new value for X1 (%)"
+                min={0}
+                max={100}
+                onChange={(e) => setX1(maxWidth*(parseFloat(e.target.value)/100))}
+              />
+            </Form.Field>
+            <Form.Field>
+              <label>Top Left Y</label>
+              <input
+                type="number"
+                placeholder="Enter new value for Y1 (%)"
+                min={0}
+                max={100}
+                onChange={(e) => setY1(maxHeight*(parseFloat(e.target.value)/100))}
+              />
+            </Form.Field>
+            <Form.Field>
+              <label>Bottom Right X</label>
+              <input
+                type="number"
+                placeholder="Enter new value for X2 (%)"
+                min={0}
+                max={100}
+                onChange={(e) => setX2(maxWidth*(parseFloat(e.target.value)/100))}
+              />
+            </Form.Field>
+            <Form.Field>
+              <label>Bottom Right Y</label>
+              <input
+                type="number"
+                placeholder="Enter new value for Y2 (%)"
+                min={0}
+                max={100}
+                onChange={(e) => setY2(maxHeight*(parseFloat(e.target.value)/100))}
+              />
+            </Form.Field>
+          </Form>
+        </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
           <Button color="black" onClick={() => setOpen(false)}>
@@ -124,10 +128,10 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
               await updateCrop(
                 {
                   cam_name: cameraInfo?.cam_name,
-                  crop_x1: cropX1*10,
-                  crop_x2: cropX2*10,
-                  crop_y1: cropY1*10,
-                  crop_y2: cropY2*10,
+                  crop_x1: cropX1*(3/2),
+                  crop_x2: cropX2*(3/2),
+                  crop_y1: cropY1*(3/2),
+                  crop_y2: cropY2*(3/2),
                 },
                 cameraInfo?.cam_name
               );
