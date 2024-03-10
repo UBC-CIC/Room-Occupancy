@@ -16,6 +16,7 @@ import { Camera } from "./pages/admin/camera";
 import { CameraAlerts } from "./pages/admin/cameraAlerts/cameraAlerts";
 import { CameraZones } from "./pages/admin/cameraZones";
 import { CostsAndUsage } from "./pages/admin/costsAndUsage";
+import { Trends } from "./pages/trends/Trends";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/learn" element={<Learn />} />
           <Route path="/login" element={<Login />} />
           <Route path="/analytics" element={<Analytics />} />
+          <Route path="/trends" element={<Trends />} />
           <Route path="/admin_dashboard" element={<AdminDashboard />} />
           <Route path="/admin_settings" element={<AdminSettings />} />
           <Route path="/admin_camera" element={<Camera />} />

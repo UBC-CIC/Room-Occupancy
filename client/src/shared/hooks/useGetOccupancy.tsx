@@ -17,7 +17,10 @@ export const useGetOccupancy = (): any => {
 
   async function fetchOccupancyList() {
     try {
-      const data = await client.graphql({ query: queries.getCamList });
+      const data = await client.graphql({
+        query: queries.getCamList,
+        variables: { camname: "all" },
+      });
       const occupancyData = JSON.parse(data?.data?.getCamList?.Rows);
       setOccupancyList(occupancyData);
     } catch (error) {

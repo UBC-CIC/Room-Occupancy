@@ -17,26 +17,16 @@ import {
   TableHeaderCell,
   TableRow,
 } from "semantic-ui-react";
-
+import { ICameraInfo } from "../../shared/helpers/interfaces";
 type Props = {};
-
-interface Camera {
-  cam_id: string;
-  Location: string;
-  owner_id: number;
-  crop_x1: number;
-  crop_y1: number;
-  crop_x2: number;
-  crop_y2: number;
-}
 
 const CameraZonesComponent = (props: Props) => {
   const { camList, fetchCamList } = useGetCamList();
 
   const cameraListHeaders = [
-    "Camera ID",
+    "Camera Name",
     "Camera Location",
-    "Owner ID",
+    "Owner",
     "Crop Coordinate (X1, Y1)",
     "Crop Coordinate (X2, Y2)",
     "",
@@ -72,16 +62,19 @@ const CameraZonesComponent = (props: Props) => {
             </TableHeader>
 
             <TableBody>
-              {camList.map((camera: Camera) => (
-                <TableRow key={camera.cam_id}>
-                  <TableCell textAlign="center">{camera.cam_id}</TableCell>
+
+              {camList.map((camera: ICameraInfo) => (
+                <TableRow key={camera.cam_name}>
+                  <TableCell textAlign="center">{camera.cam_name}</TableCell>
                   <TableCell textAlign="center">{camera.Location}</TableCell>
-                  <TableCell textAlign="center">{camera.owner_id}</TableCell>
+                  <TableCell textAlign="center">{camera.owner}</TableCell>
                   <TableCell textAlign="center">
-                    ({camera.crop_x1}, {camera.crop_y1})
+                    ({Math.round(camera?.crop_x1)},{" "}
+                    {Math.round(camera?.crop_y1)})
                   </TableCell>
                   <TableCell textAlign="center">
-                    ({camera.crop_x2}, {camera.crop_y2})
+                    ({Math.round(camera?.crop_x2)},{" "}
+                    {Math.round(camera?.crop_y2)})
                   </TableCell>
                   <TableCell textAlign="center">
                     <CameraZoneForm

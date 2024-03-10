@@ -9,8 +9,10 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
   const [cropY1, setY1] = useState(cameraInfo?.crop_y1);
   const [cropX2, setX2] = useState(cameraInfo?.crop_x2);
   const [cropY2, setY2] = useState(cameraInfo?.crop_y2);
-
   const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  const maxWidth = 460.8;
+  const maxHeight = 259.2;
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -43,20 +45,28 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
 
   return (
     <>
-      <Button onClick={() => setOpen(!open)}>Update</Button>
+      <Button onClick={
+        () => {
+          setOpen(!open)
+          setX1(cameraInfo?.crop_x1/10)
+          setY1(cameraInfo?.crop_y1/10)
+          setX2(cameraInfo?.crop_x2/10)
+          setY2(cameraInfo?.crop_y2/10)
+        }
+        }>Update</Button>
       <Modal
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
         open={open}
       >
         <Modal.Header>
-          Update Crop Coordinates for Camera ID: {cameraInfo?.cam_id}
+          Update Crop Coordinates for Camera {cameraInfo?.cam_name} at {cameraInfo?.Location}
         </Modal.Header>
         <Modal.Content image>
           <canvas
             ref={canvasRef}
-            width={450}
-            height={300}
+            width={maxWidth}
+            height={maxHeight}
             style={{ marginRight: "20px" }}
           />
           <Modal.Description>
@@ -65,40 +75,40 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
                 <label>Top Left X</label>
                 <input
                   type="number"
-                  placeholder="Enter new value for X1 (max:450)"
+                  placeholder="Enter new value for X1 (%)"
                   min={0}
-                  max={450}
-                  onChange={(e) => setX1(parseFloat(e.target.value))}
+                  max={100}
+                  onChange={(e) => setX1(maxWidth*(parseFloat(e.target.value)/100))}
                 />
               </Form.Field>
               <Form.Field>
                 <label>Top Left Y</label>
                 <input
                   type="number"
-                  placeholder="Enter new value for Y1 (max:300)"
+                  placeholder="Enter new value for Y1 (%)"
                   min={0}
-                  max={300}
-                  onChange={(e) => setY1(parseFloat(e.target.value))}
+                  max={100}
+                  onChange={(e) => setY1(maxHeight*(parseFloat(e.target.value)/100))}
                 />
               </Form.Field>
               <Form.Field>
                 <label>Bottom Right X</label>
                 <input
                   type="number"
-                  placeholder="Enter new value for X2 (max:450)"
+                  placeholder="Enter new value for X2 (%)"
                   min={0}
-                  max={450}
-                  onChange={(e) => setX2(parseFloat(e.target.value))}
+                  max={100}
+                  onChange={(e) => setX2(maxWidth*(parseFloat(e.target.value)/100))}
                 />
               </Form.Field>
               <Form.Field>
                 <label>Bottom Right Y</label>
                 <input
                   type="number"
-                  placeholder="Enter new value for Y2 (max:300)"
+                  placeholder="Enter new value for Y2 (%)"
                   min={0}
-                  max={300}
-                  onChange={(e) => setY2(parseFloat(e.target.value))}
+                  max={100}
+                  onChange={(e) => setY2(maxHeight*(parseFloat(e.target.value)/100))}
                 />
               </Form.Field>
             </Form>
@@ -113,12 +123,13 @@ export const CameraZoneForm = ({ cameraInfo, fetchCamList }: any) => {
             onClick={async () => {
               await updateCrop(
                 {
-                  crop_x1: cropX1,
-                  crop_x2: cropX2,
-                  crop_y1: cropY1,
-                  crop_y2: cropY2,
+                  cam_name: cameraInfo?.cam_name,
+                  crop_x1: cropX1*10,
+                  crop_x2: cropX2*10,
+                  crop_y1: cropY1*10,
+                  crop_y2: cropY2*10,
                 },
-                cameraInfo?.cam_id
+                cameraInfo?.cam_name
               );
               fetchCamList();
               setOpen(false);
