@@ -24,7 +24,7 @@ const analyticsItems: IAnalyticsItems[] = [
   {
     category: analyticType.analytics,
     name: "Occupancy",
-    icon: "chart area",
+    icon: "info circle",
     link: "/analytics",
   },
   {
@@ -32,6 +32,12 @@ const analyticsItems: IAnalyticsItems[] = [
     name: "Camera",
     icon: "camera",
     link: "/admin_camera",
+  },
+  {
+    category: analyticType.analytics,
+    name: "Trends",
+    icon: "chart area",
+    link: "/trends",
   },
   {
     category: analyticType.settings,

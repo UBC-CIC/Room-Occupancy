@@ -19,6 +19,7 @@ import {
   Popup,
 } from "semantic-ui-react";
 import { toFriendlyTime } from "../../shared/helpers/utility";
+import { ICameraInfo } from "../../shared/helpers/interfaces";
 
 type Props = {};
 
@@ -91,14 +92,14 @@ const CameraComponent = (props: Props) => {
       <Table celled>
         <TableHeader>
           <TableRow>
-            {cameraListHeaders.map((header) => {
+            {cameraListHeaders.map((header: string) => {
               return <TableHeaderCell>{header}</TableHeaderCell>;
             })}
           </TableRow>
         </TableHeader>
 
         <TableBody>
-          {camList.map((camera: any) => {
+          {camList.map((camera: ICameraInfo) => {
             return (
               <TableRow>
                 <TableCell textAlign="center">{camera?.cam_name}</TableCell>

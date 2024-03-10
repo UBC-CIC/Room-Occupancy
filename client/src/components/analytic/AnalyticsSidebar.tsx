@@ -23,27 +23,15 @@ export enum analyticType {
 const analyticsItems: IAnalyticsItems[] = [
   {
     category: analyticType.analytics,
-    name: "Analytics",
-    icon: "chart area",
+    name: "Occupancy",
+    icon: "info circle",
     link: "/analytics",
   },
   {
     category: analyticType.analytics,
-    name: "Camera",
-    icon: "camera",
-    link: "/analytics",
-  },
-  {
-    category: analyticType.locations,
-    name: "Zone 1",
-    icon: "location arrow",
-    link: "/analytics",
-  },
-  {
-    category: analyticType.locations,
-    name: "Zone 2",
-    icon: "location arrow",
-    link: "/analytics",
+    name: "Trends",
+    icon: "chart area",
+    link: "/trends",
   },
 ];
 
@@ -79,7 +67,7 @@ export function AnalyticsSidebar(props: IAnalyticsSidebarProps) {
           </List>
         </List.Content>
       </List.Item>
-      <List.Item>
+      {/* <List.Item>
         <List.Header>LOCATIONS</List.Header>
         <List.Content>
           <List>
@@ -97,7 +85,7 @@ export function AnalyticsSidebar(props: IAnalyticsSidebarProps) {
               })}
           </List>
         </List.Content>
-      </List.Item>
+      </List.Item> */}
     </List>
   );
 }
