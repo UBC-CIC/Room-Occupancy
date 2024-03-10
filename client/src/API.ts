@@ -9,6 +9,7 @@ export type obj = {
 };
 
 export type GetCamListQueryVariables = {
+  camname: string,
 };
 
 export type GetCamListQuery = {
