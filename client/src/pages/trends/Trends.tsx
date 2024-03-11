@@ -8,17 +8,20 @@ import {
   FormGroup,
   FormSelect,
   FormButton,
+  Progress,
 } from "semantic-ui-react";
 import "../analytics/Analytics.css";
 import { DashboardLayout } from "../../components/layout/dashboard/index";
 import { useGetCamList } from "../../shared/hooks/useGetCamList";
 import { ICameraInfo } from "../../shared/helpers/interfaces";
 import { useGetFilteredOccupancy } from "../../shared/hooks/useGetFilteredOccupancy";
+import TrendChart from "./TrendChart";
 
 export interface IAnalyticsProps {}
 
 export function Trends(props: IAnalyticsProps) {
   const [activeCamera, setActiveCamera] = useState<string>("");
+  const [showChart, setShowChart] = useState<boolean>(false);
   const { filteredOccupancyList, fetchFilteredOccupancyList } =
     useGetFilteredOccupancy(activeCamera);
 
@@ -53,25 +56,42 @@ export function Trends(props: IAnalyticsProps) {
       </Header>
       <Segment>
         <Form>
-          <Header size="small">Choose Camera Location</Header>
+          <Header size="small">Choose Camera Location and Submit</Header>
           <FormGroup inline>
             <FormSelect
               onChange={(e, v) => {
                 if (typeof v.value === "string") setActiveCamera(v.value);
+                setShowChart(false);
               }}
               options={cameraOptions}
               placeholder="Camera"
             />
             <FormButton
-              onClick={() => {
-                fetchFilteredOccupancyList();
-                console.log("filter", filteredOccupancyList);
+              onClick={async () => {
+                setShowChart(false);
+                await fetchFilteredOccupancyList();
+                setShowChart(true);
               }}
               content="Submit"
+              color="blue"
             />
           </FormGroup>
         </Form>
         <Divider />
+        {!showChart && activeCamera !== "" && (
+          <Progress percent={100} indicating>
+            Loading
+          </Progress>
+        )}
+        {activeCamera !== "" &&
+          filteredOccupancyList !== undefined &&
+          showChart && (
+            <TrendChart
+              data={filteredOccupancyList}
+              camera={activeCamera}
+              showChart={showChart}
+            />
+          )}
       </Segment>
     </DashboardLayout>
   );

@@ -7,7 +7,7 @@ import "react-resizable/css/styles.css";
 export default function ResizableBox({
   children,
   width = "100%",
-  height = 300,
+  height = "400",
   resizable = true,
   style = {},
   className = "",
@@ -18,10 +18,10 @@ export default function ResizableBox({
         style={{
           display: "inline-block",
           width: "100%",
+          height: "100%",
           background: "white",
           padding: ".5rem",
           borderRadius: "0.5rem",
-          boxShadow: "0 30px 40px rgba(0,0,0,.1)",
           ...style,
         }}
       >
