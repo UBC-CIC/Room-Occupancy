@@ -17,17 +17,14 @@ import {
 } from "semantic-ui-react";
 import { useGetCamList } from "../../../shared/hooks/useGetCamList";
 import { CameraAlertsForm } from "./cameraAlertsForm";
+import { ICameraInfo } from "../../../shared/helpers/interfaces";
 
 type Props = {};
 
 const CameraAlertsComponent = (props: Props) => {
-  const cameraListHeaders = [
-    "Camera Location",
-    "Owner ID",
-    "Alert Threshold",
-    "",
-  ];
+  const cameraListHeaders = ["Camera Name", "Owner ID", "Alert Threshold", ""];
   const { camList, fetchCamList } = useGetCamList();
+  console.log("camList", camList);
 
   if (camList.length === 0)
     return (
@@ -53,7 +50,8 @@ const CameraAlertsComponent = (props: Props) => {
       <Header as="h2">
         Alert Thresholds
         <HeaderSubheader>
-          Configure and manage alert threshold for each camera zone
+          Configure and manage alert threshold for each camera zone. The alert
+          threshold is the maximum occupancy of a room.
         </HeaderSubheader>
       </Header>
 
@@ -66,15 +64,15 @@ const CameraAlertsComponent = (props: Props) => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {camList.map((camera: any, key: string) => {
+          {camList.map((camera: ICameraInfo, key: string) => {
             return (
               <TableRow key={key}>
-                <TableCell>{camera?.Location}</TableCell>
-                <TableCell>{camera?.owner_id}</TableCell>
+                <TableCell>{camera?.cam_name}</TableCell>
+                <TableCell>{camera?.owner}</TableCell>
                 <TableCell>{camera?.alert_thre}</TableCell>
                 <TableCell>
                   <CameraAlertsForm
-                    cam_id={camera?.cam_id}
+                    cam_id={camera?.cam_name}
                     fetchCamList={fetchCamList}
                   />
                 </TableCell>

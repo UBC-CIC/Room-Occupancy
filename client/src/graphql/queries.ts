@@ -8,8 +8,8 @@ type GeneratedQuery<InputType, OutputType> = string & {
   __generatedQueryOutput: OutputType;
 };
 
-export const getCamList = /* GraphQL */ `query GetCamList {
-  getCamList {
+export const getCamList = /* GraphQL */ `query GetCamList($camname: String!) {
+  getCamList(camname: $camname) {
     Column
     Rows
     __typename
