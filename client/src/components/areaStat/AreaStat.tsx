@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   Header,
   Icon,
@@ -17,8 +17,9 @@ import useCalculateOccupancy from "../../shared/hooks/useCalculateOccupancy";
 
 type Props = {};
 
-const Alerts = (props: Props) => {
+const AreaStat = (props: Props) => {
   const { cameraOccupancyInfo } = useCalculateOccupancy();
+  console.log("calculated occupancy info", cameraOccupancyInfo);
 
   const alertTableHeaders = [
     "Location",
@@ -75,4 +76,4 @@ const Alerts = (props: Props) => {
   );
 };
 
-export default Alerts;
+export default AreaStat;

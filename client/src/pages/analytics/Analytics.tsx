@@ -4,7 +4,7 @@ import "./Analytics.css";
 import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
 import { AnalyticsFeedBar } from "../../components/analytic/AnalyticsFeedBar";
 import { DashboardLayout } from "../../components/layout/dashboard/index";
-import Alerts from "../../components/alerts/Alerts";
+import AreaStats from "../../components/areaStat/AreaStat";
 import { useGetOccupancy } from "../../shared/hooks/useGetOccupancy";
 
 export interface IAnalyticsProps {}
@@ -42,7 +42,7 @@ export function Analytics(props: IAnalyticsProps) {
           </Grid>
           <Divider />
           <Grid.Row>
-            <Alerts></Alerts>
+            <AreaStats></AreaStats>
           </Grid.Row>
         </Grid.Column>
 

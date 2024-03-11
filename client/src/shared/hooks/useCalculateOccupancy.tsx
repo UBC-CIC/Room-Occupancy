@@ -10,19 +10,11 @@ const useCalculateOccupancy = () => {
   const [cameraOccupancyInfo, setCameraOccupancyInfo] = useState([]);
 
   useEffect(() => {
-    const occupancyMap: any = {};
-    const cameras = [];
-    // this is not working to correctly assign the camera occupancy data to the correct camera
-    // i think it's taking the last item in the array, and automcatically assigning that value to the camra
-    occupancyList.forEach((item: any) => {
-      const camName = item.Data[0].ScalarValue;
-      const occupancy = parseInt(item.Data[1].ScalarValue);
-      occupancyMap[camName] = occupancy;
-    });
-    console.log("occMap", occupancyList);
-
     const combinedData = camList.map((camera: any) => {
-      const currentOccupancy = occupancyMap[camera.cam_name] || "-"; // Default to - if not found
+      console.log("occupancyList: ", occupancyList);
+      const currOccuItem = occupancyList?.find((occ: any) => occ.Data[0].ScalarValue.toString() === camera.cam_name);
+      console.log("currOccuItem", currOccuItem);
+      const currentOccupancy = parseInt(currOccuItem?.Data[1].ScalarValue);
       let remainingCapacity = camera.alert_thre - currentOccupancy;
       remainingCapacity = Math.max(0, remainingCapacity);
 
@@ -32,6 +24,7 @@ const useCalculateOccupancy = () => {
         maxOccupancyThreshold: camera.alert_thre,
         remainingCapacity,
       };
+      
     });
 
     setCameraOccupancyInfo(combinedData);

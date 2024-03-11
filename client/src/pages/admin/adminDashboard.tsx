@@ -4,7 +4,7 @@ import { Header, Grid, Divider, HeaderSubheader } from "semantic-ui-react";
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import { useGetUserAttributes } from "../../shared/hooks/useGetUserAttributes";
 import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
-import Alerts from "../../components/alerts/Alerts";
+import AreaStats from "../../components/areaStat/AreaStat";
 import { AnalyticsFeedBar } from "../../components/analytic/AnalyticsFeedBar";
 import { useGetOccupancy } from "../../shared/hooks/useGetOccupancy";
 
@@ -13,7 +13,7 @@ export interface IAdminDashboardProps {}
 function AdminDashboardComponent(props: IAdminDashboardProps) {
   const { user } = useGetUserAttributes();
   const { occupancyList } = useGetOccupancy();
-
+  
   return (
     <AdminDashboardLayout>
       <Header as="h2">
@@ -42,7 +42,7 @@ function AdminDashboardComponent(props: IAdminDashboardProps) {
               <Grid.Column>
                 <AnalyticSatistic
                   header="Current Occupancy"
-                  statisticLabel="Camera 3 - Undefined"
+                  statisticLabel="Camera 3 - UNDEFINED"
                   statisticValue={"-"}
                 />
               </Grid.Column>
@@ -50,7 +50,7 @@ function AdminDashboardComponent(props: IAdminDashboardProps) {
           </Grid>
           <Divider />
           <Grid.Row>
-            <Alerts></Alerts>
+            <AreaStats></AreaStats>
           </Grid.Row>
         </Grid.Column>
 
