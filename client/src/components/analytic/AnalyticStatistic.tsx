@@ -12,13 +12,14 @@ interface IAnalyticSatisticProps {
   statisticValue: number | string;
   statisticLabel: string;
   icon?: SemanticICONS | undefined;
+  style?: any;
 }
 
 export function AnalyticSatistic(props: IAnalyticSatisticProps) {
-  const { header, statisticValue, statisticLabel, icon = "users" } = props;
+  const { header, statisticValue, statisticLabel, icon = "users", style } = props;
 
   return (
-    <Segment compact textAlign="center">
+    <Segment compact textAlign="center" style={style}>
       <Header as="h4">
         <Icon name={icon} color="grey" />
         <Header.Content>{header}</Header.Content>
