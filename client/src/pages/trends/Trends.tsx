@@ -58,29 +58,36 @@ export function Trends(props: IAnalyticsProps) {
         <Form>
           <Header size="small">Choose Camera Location and Submit</Header>
           <FormGroup inline>
-            <FormSelect
-              onChange={(e, v) => {
-                if (typeof v.value === "string") setActiveCamera(v.value);
-                setShowChart(false);
-              }}
-              options={cameraOptions}
-              placeholder="Camera"
-            />
-            <FormButton
-              onClick={async () => {
-                setShowChart(false);
-                await fetchFilteredOccupancyList();
-                setShowChart(true);
-              }}
-              content="Submit"
-              color="blue"
-            />
+            {cameraOptions.length === 0 ? (
+              <FormSelect disabled options={[]} placeholder="Loading" />
+            ) : (
+              <FormSelect
+                onChange={(e, v) => {
+                  if (typeof v.value === "string") setActiveCamera(v.value);
+                  setShowChart(false);
+                }}
+                options={cameraOptions}
+                placeholder="Camera"
+              />
+            )}
+
+            {cameraOptions.length !== 0 && (
+              <FormButton
+                onClick={async () => {
+                  setShowChart(false);
+                  await fetchFilteredOccupancyList();
+                  setShowChart(true);
+                }}
+                content="Submit"
+                color="blue"
+              />
+            )}
           </FormGroup>
         </Form>
         <Divider />
         {!showChart && activeCamera !== "" && (
           <Progress percent={100} indicating>
-            Loading
+            Loading... Have you clicked Submit?
           </Progress>
         )}
         {activeCamera !== "" &&
