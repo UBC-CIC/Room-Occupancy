@@ -23,6 +23,7 @@ const AreaStat = (props: Props) => {
 
   const alertTableHeaders = [
     "Location",
+    "Camera",
     "Room Max Occupancy",
     "Current Occupancy",
     "Remaining Capacity",
@@ -51,6 +52,7 @@ const AreaStat = (props: Props) => {
             if (isNaN(item?.remainingCapacity) || item?.remainingCapacity < 0) {
               return (
                 <TableRow error>
+                  <TableCell>{item?.location}</TableCell>
                   <TableCell>{item?.camera_id}</TableCell>
                   <TableCell>{item?.maxOccupancyThreshold}</TableCell>
                   <TableCell>{item?.currentOccupancy}</TableCell>
@@ -63,6 +65,7 @@ const AreaStat = (props: Props) => {
             }
             return (
               <TableRow>
+                <TableCell>{item?.location}</TableCell>
                 <TableCell>{item?.camera_id}</TableCell>
                 <TableCell>{item?.maxOccupancyThreshold}</TableCell>
                 <TableCell>{item?.currentOccupancy}</TableCell>

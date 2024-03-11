@@ -1,18 +1,30 @@
 import React from "react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
-import { Header, Grid, Divider, HeaderSubheader } from "semantic-ui-react";
+import { Header, Grid, GridColumn, Divider, HeaderSubheader } from "semantic-ui-react";
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import { useGetUserAttributes } from "../../shared/hooks/useGetUserAttributes";
 import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
 import AreaStats from "../../components/areaStat/AreaStat";
 import { AnalyticsFeedBar } from "../../components/analytic/AnalyticsFeedBar";
-import { useGetOccupancy } from "../../shared/hooks/useGetOccupancy";
+import useCalculateOccupancy from "../../shared/hooks/useCalculateOccupancy";
 
 export interface IAdminDashboardProps {}
 
 function AdminDashboardComponent(props: IAdminDashboardProps) {
   const { user } = useGetUserAttributes();
-  const { occupancyList } = useGetOccupancy();
+  const { cameraOccupancyInfo } = useCalculateOccupancy();
+
+  const columnWidth = `${100 / cameraOccupancyInfo.length}%`;
+  const columns = cameraOccupancyInfo.map((occu:any) => (
+    <GridColumn key={occu?.camera_id} style={{ width: columnWidth }}>
+      <AnalyticSatistic
+        header = "Current Occupancy"
+        statisticLabel={`${occu?.location} - ${occu?.camera_id}`}
+        statisticValue={occu?.currentOccupancy}
+        style={{ width: columnWidth }}
+      />
+    </GridColumn>
+  ));
   
   return (
     <AdminDashboardLayout>
@@ -24,28 +36,8 @@ function AdminDashboardComponent(props: IAdminDashboardProps) {
       <Grid>
         <Grid.Column width={11}>
           <Grid>
-            <Grid.Row columns={3}>
-              <Grid.Column>
-                <AnalyticSatistic
-                  header="Current Occupancy"
-                  statisticLabel="Camera 1 - PI 2"
-                  statisticValue={occupancyList[0]?.Data[4].ScalarValue.toString()}
-                />
-              </Grid.Column>
-              <Grid.Column>
-                <AnalyticSatistic
-                  header="Current Occupancy"
-                  statisticLabel="Camera 2 - UNDEFINED"
-                  statisticValue={"-"}
-                />
-              </Grid.Column>
-              <Grid.Column>
-                <AnalyticSatistic
-                  header="Current Occupancy"
-                  statisticLabel="Camera 3 - UNDEFINED"
-                  statisticValue={"-"}
-                />
-              </Grid.Column>
+            <Grid.Row>
+              {columns}
             </Grid.Row>
           </Grid>
           <Divider />
