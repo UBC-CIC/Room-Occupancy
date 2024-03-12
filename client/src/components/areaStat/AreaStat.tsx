@@ -57,7 +57,6 @@ const AreaStat = (props: Props) => {
                   <TableCell>{item?.maxOccupancyThreshold}</TableCell>
                   <TableCell>{item?.currentOccupancy}</TableCell>
                   <TableCell>
-                    <Icon name="attention" />
                     {item?.remainingCapacity}
                   </TableCell>
                 </TableRow>

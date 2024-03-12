@@ -13,6 +13,15 @@ const useCalculateOccupancy = () => {
     const combinedData = camList.map((camera: any) => {
       const currOccuItem = occupancyList?.find((occ: any) => occ.Data[0].ScalarValue.toString() === camera.cam_name);
       const currentOccupancy = parseInt(currOccuItem?.Data[1].ScalarValue);
+      if (isNaN(currentOccupancy)) {
+        return {
+          camera_id: camera.cam_name,
+          location: camera.Location,
+          currentOccupancy: "-",
+          maxOccupancyThreshold: camera.alert_thre,
+          remainingCapacity: "-",
+        }
+      }
       let remainingCapacity = camera.alert_thre - currentOccupancy;
       remainingCapacity = Math.max(0, remainingCapacity);
 
