@@ -3858,6 +3858,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-image-crop@^8.1.6":
+  version "8.1.6"
+  resolved "https://registry.yarnpkg.com/@types/react-image-crop/-/react-image-crop-8.1.6.tgz#9e25b6245733284f0ab4b594047b8c4f6d08f7a4"
+  integrity sha512-mH3qs5sk2lq0JitgAOyyFeQQ8Zlz+yCIhn4CNznmoRyH4PIRMpZUWi+hGqLyUeKTSMAg+daS3txHMR3oBAkkRg==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-resizable@^3.0.7":
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/@types/react-resizable/-/react-resizable-3.0.7.tgz#004ffcb7835ef4b06a1212e3d090f34e29d9efcd"

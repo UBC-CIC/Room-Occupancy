@@ -13,6 +13,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@types/react-image-crop": "^8.1.6",
     "@types/react-resizable": "^3.0.7",
     "aws-amplify": "^6.0.12",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",

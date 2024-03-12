@@ -1,7 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import {
   Header,
   Icon,
+  Progress,
   Segment,
   Table,
   TableBody,
@@ -10,16 +11,12 @@ import {
   TableHeaderCell,
   TableRow,
 } from "semantic-ui-react";
-import { CameraZoneForm } from "../../pages/admin/cameraZoneForm";
-import { Label } from "@aws-amplify/ui-react";
-import { useGetOccupancy } from "../../shared/hooks/useGetOccupancy";
 import useCalculateOccupancy from "../../shared/hooks/useCalculateOccupancy";
 
 type Props = {};
 
 const AreaStat = (props: Props) => {
   const { cameraOccupancyInfo } = useCalculateOccupancy();
-  console.log("calculated occupancy info", cameraOccupancyInfo);
 
   const alertTableHeaders = [
     "Location",
@@ -39,41 +36,48 @@ const AreaStat = (props: Props) => {
         </Header.Content>
       </Header>
 
-      <Table celled>
-        <TableHeader>
-          <TableRow>
-            {alertTableHeaders.map((header) => {
-              return <TableHeaderCell>{header}</TableHeaderCell>;
-            })}
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          {cameraOccupancyInfo.map((item: any) => {
-            if (isNaN(item?.remainingCapacity) || item?.remainingCapacity < 0) {
+      {cameraOccupancyInfo.length === 0 ? (
+        <Progress percent={100} indicating>
+          Loading
+        </Progress>
+      ) : (
+        <Table celled>
+          <TableHeader>
+            <TableRow>
+              {alertTableHeaders.map((header) => {
+                return <TableHeaderCell>{header}</TableHeaderCell>;
+              })}
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {cameraOccupancyInfo.map((item: any) => {
+              if (
+                isNaN(item?.remainingCapacity) ||
+                item?.remainingCapacity < 0
+              ) {
+                return (
+                  <TableRow error>
+                    <TableCell>{item?.location}</TableCell>
+                    <TableCell>{item?.camera_id}</TableCell>
+                    <TableCell>{item?.maxOccupancyThreshold}</TableCell>
+                    <TableCell>{item?.currentOccupancy}</TableCell>
+                    <TableCell>{item?.remainingCapacity}</TableCell>
+                  </TableRow>
+                );
+              }
               return (
-                <TableRow error>
+                <TableRow>
                   <TableCell>{item?.location}</TableCell>
                   <TableCell>{item?.camera_id}</TableCell>
                   <TableCell>{item?.maxOccupancyThreshold}</TableCell>
                   <TableCell>{item?.currentOccupancy}</TableCell>
-                  <TableCell>
-                    {item?.remainingCapacity}
-                  </TableCell>
+                  <TableCell>{item?.remainingCapacity}</TableCell>
                 </TableRow>
               );
-            }
-            return (
-              <TableRow>
-                <TableCell>{item?.location}</TableCell>
-                <TableCell>{item?.camera_id}</TableCell>
-                <TableCell>{item?.maxOccupancyThreshold}</TableCell>
-                <TableCell>{item?.currentOccupancy}</TableCell>
-                <TableCell>{item?.remainingCapacity}</TableCell>
-              </TableRow>
-            );
-          })}
-        </TableBody>
-      </Table>
+            })}
+          </TableBody>
+        </Table>
+      )}
     </Segment>
   );
 };

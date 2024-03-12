@@ -1,6 +1,12 @@
 import React from "react";
 import { AdminDashboardLayout } from "../../components/layout/admin";
-import { Header, Grid, GridColumn, Divider, HeaderSubheader } from "semantic-ui-react";
+import {
+  Header,
+  Grid,
+  GridColumn,
+  Divider,
+  HeaderSubheader,
+} from "semantic-ui-react";
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import { useGetUserAttributes } from "../../shared/hooks/useGetUserAttributes";
 import { AnalyticSatistic } from "../../components/analytic/AnalyticStatistic";
@@ -15,17 +21,17 @@ function AdminDashboardComponent(props: IAdminDashboardProps) {
   const { cameraOccupancyInfo } = useCalculateOccupancy();
 
   const columnWidth = `${100 / cameraOccupancyInfo.length}%`;
-  const columns = cameraOccupancyInfo.map((occu:any) => (
+  const columns = cameraOccupancyInfo.map((occu: any) => (
     <GridColumn key={occu?.camera_id} style={{ width: columnWidth }}>
       <AnalyticSatistic
-        header = "Current Occupancy"
+        header="Current Occupancy"
         statisticLabel={`${occu?.location} - ${occu?.camera_id}`}
         statisticValue={occu?.currentOccupancy}
         style={{ width: columnWidth }}
       />
     </GridColumn>
   ));
-  
+
   return (
     <AdminDashboardLayout>
       <Header as="h2">
@@ -36,9 +42,7 @@ function AdminDashboardComponent(props: IAdminDashboardProps) {
       <Grid>
         <Grid.Column width={11}>
           <Grid>
-            <Grid.Row>
-              {columns}
-            </Grid.Row>
+            <Grid.Row>{columns}</Grid.Row>
           </Grid>
           <Divider />
           <Grid.Row>
