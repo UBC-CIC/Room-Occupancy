@@ -20,6 +20,7 @@
     "react": "^18.2.0",
     "react-charts": "^3.0.0-beta.57",
     "react-dom": "^18.2.0",
+    "react-image-crop": "^11.0.5",
     "react-resizable": "^3.0.5",
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
