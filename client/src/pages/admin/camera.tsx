@@ -107,10 +107,10 @@ const CameraComponent = (props: Props) => {
                 <TableCell>{toFriendlyTime(camera?.time_add)}</TableCell>
                 <TableCell>{camera?.owner}</TableCell>
                 <TableCell>
-                  ({camera?.crop_x1}, {camera?.crop_y1})
+                  ({Math.round(camera?.crop_x1)}, {Math.round(camera?.crop_y1)})
                 </TableCell>
                 <TableCell>
-                  ({camera?.crop_x2}, {camera?.crop_y2})
+                  ({Math.round(camera?.crop_x2)}, {Math.round(camera?.crop_y2)})
                 </TableCell>
                 <TableCell>
                   {camera?.status === coreDeviceStatus.healthy.type ? (
