@@ -1,0 +1,43 @@
+{
+    "RecipeFormatVersion": "2020-01-25",
+    "ComponentName": "com.example.ml",
+    "ComponentVersion": "1.0.0",
+    "ComponentDescription": "Comms to IoT core",
+    "ComponentPublisher": "Me",
+    "ComponentConfiguration": {
+      "DefaultConfiguration": {
+        "message": "danny",
+        "accessControl": {
+          "aws.greengrass.ipc.mqttproxy": {
+            "com.example.mqtt:mqttproxy:1": {
+              "policyDescription": "Allows access to pub/sub to danny/topic",
+              "operations": [
+                "aws.greengrass#PublishToIoTCore",
+                "aws.greengrass#SubscribeToIoTCore"
+              ],
+              "resources": [
+                "tswrite"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Manifests": [
+      {
+        "Platform": {
+          "os": "linux"
+        },
+        "Lifecycle": {
+          "Install": {
+            "RequiresPrivilege": true,
+            "script": "python3 -m pip install --user awsiotsdk --break-system-packages; python3 -m pip install --user torch --break-system-packages; python3 -m pip install --user torchvision --break-system-packages; sudo apt install -y python3-picamera2"
+          },
+          "Run": {
+            "RequiresPrivilege": true,
+            "script": "python3 -u {artifacts:path}/ml.py '{configuration:/message}'"
+          }
+        }
+      }
+    ]
+  }
