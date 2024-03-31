@@ -27,26 +27,26 @@ ou need ~/Room-Occupancy/client/package-lock.json to check the licenses:
 
 ## Licenses (updated as of Mar 31 2023)
 
-MIT ————————————————— 1242
-Apache-2.0 —————————— 127
-ISC ————————————————— 86
-CC0-1.0 ————————————— 46
-Fair ———————————————— 44
-BSD-3-Clause ———————— 43
-BSD-2-Clause ———————— 37
-TCL ————————————————— 8
-Intel ——————————————— 2
-Unlicense ——————————— 2
-BlueOak-1.0.0 ——————— 2
-0BSD ———————————————— 2
-Python-2.0 —————————— 1
-MPL-2.0 ————————————— 1
-CC-BY-4.0 ——————————— 1
-BSD ————————————————— 1
-MPL-1.1 ————————————— 1
-AFL-2.1 ————————————— 1
-X11 ————————————————— 1
-GPL-2.0 ————————————— 1 # used by react-scripts
+MIT ————————————————— 1242 <br>
+Apache-2.0 —————————— 127<br>
+ISC ————————————————— 86<br>
+CC0-1.0 ————————————— 46<br>
+Fair ———————————————— 44<br>
+BSD-3-Clause ———————— 43<br>
+BSD-2-Clause ———————— 37<br>
+TCL ————————————————— 8<br>
+Intel ——————————————— 2<br>
+Unlicense ——————————— 2<br>
+BlueOak-1.0.0 ——————— 2<br>
+0BSD ———————————————— 2<br>
+Python-2.0 —————————— 1<br>
+MPL-2.0 ————————————— 1<br>
+CC-BY-4.0 ——————————— 1<br>
+BSD ————————————————— 1<br>
+MPL-1.1 ————————————— 1<br>
+AFL-2.1 ————————————— 1<br>
+X11 ————————————————— 1<br>
+GPL-2.0 ————————————— 1 # used by react-scripts <br>
 
 ## GPL Licenses
 
