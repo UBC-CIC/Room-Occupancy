@@ -61,7 +61,7 @@ To develop the React App locally, these steps must be followed first.
 ### Using Private AWS resources locally
 
 TBD
-![image description](./src/assets/images/sol_archi.png.svg)
+![image description](./src/assets/images/sol_archi.png.png)
 
 ## Architecture Diagram and Database Schema
 
