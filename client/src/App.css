@@ -21,6 +21,9 @@ body {
   background-color: white;
   height: 68px;
   max-height: 68px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .flexContainer {

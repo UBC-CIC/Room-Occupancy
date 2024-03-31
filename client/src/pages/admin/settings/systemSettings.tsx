@@ -33,18 +33,12 @@ export const SystemSettings = ({ image, organizationName }: Props) => {
               <Grid.Column width={2}>
                 <Image src={image} size="large" />
               </Grid.Column>
-              <Grid.Column width={3}>
-                <Button>Change Photo</Button>
-              </Grid.Column>
             </Grid.Row>
           </Grid>
         </Form.Field>
         <Form.Field>
-          <label>Organization Name</label>
-          <input placeholder={config.name} />
+          <label>Organization Name: {config?.name}</label>
         </Form.Field>
-
-        <Button type="submit">Update Information</Button>
       </Form>
     </Tab.Pane>
   );

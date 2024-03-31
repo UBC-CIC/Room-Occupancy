@@ -3,7 +3,6 @@ import { AdminDashboardLayout } from "../../../components/layout/admin";
 import { SemanticICONS, Tab } from "semantic-ui-react";
 import { UserSettings } from "./userSettings";
 import { SystemSettings } from "./systemSettings";
-import { AwsSettings } from "./awsSettings";
 import { useAppConfig } from "../../../providers/ConfigProvider";
 import { withAuthenticator } from "@aws-amplify/ui-react";
 
@@ -27,10 +26,6 @@ const AdminSettingsComponent = (props: Props) => {
       render: () => (
         <SystemSettings image={config.image} organizationName="CG-22" />
       ),
-    },
-    {
-      menuItem: { key: "system", icon: "aws", content: "AWS" },
-      render: () => <AwsSettings />,
     },
   ];
 
