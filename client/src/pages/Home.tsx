@@ -13,9 +13,10 @@ export function Home(props: IHomeProps) {
     <CommonLayout>
       <div className="container">
         <Header as="h1" textAlign="center" color="blue">
-          <Header.Content>Real Time Occupancy Management</Header.Content>
+          <Header.Content>Occupancy Management</Header.Content>
           <Header.Subheader color="blue">
-            Utilize IoT devices manage occupancy
+            Utilize IoT devices manage occupancy <br />
+            Making spaces work for everyone
           </Header.Subheader>
         </Header>
         <Segment basic>
