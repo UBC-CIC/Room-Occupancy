@@ -27,17 +27,17 @@ ou need ~/Room-Occupancy/client/package-lock.json to check the licenses:
 
 ## Licenses (updated as of Mar 31 2023)
 
-MIT ————————————————— 1242 <br>
-Apache-2.0 —————————— 127<br>
-ISC ————————————————— 86<br>
-CC0-1.0 ————————————— 46<br>
+MIT <br> ————————————————— 1242 <br>
+Apache-2.0 <br> —————————— 127<br>
+ISC <br> ————————————————— 86<br>
+CC0-1.0 <br> ————————————— 46<br>
 Fair ———————————————— 44<br>
-BSD-3-Clause ———————— 43<br>
-BSD-2-Clause ———————— 37<br>
+BSD-3-Clause <br> ———————— 43<br>
+BSD-2-Clause <br> ———————— 37<br>
 TCL ————————————————— 8<br>
 Intel ——————————————— 2<br>
-Unlicense ——————————— 2<br>
-BlueOak-1.0.0 ——————— 2<br>
+Unlicense <br> ——————————— 2<br>
+BlueOak-1.0.0 <br> ——————— 2<br>
 0BSD ———————————————— 2<br>
 Python-2.0 —————————— 1<br>
 MPL-2.0 ————————————— 1<br>
@@ -46,12 +46,12 @@ BSD ————————————————— 1<br>
 MPL-1.1 ————————————— 1<br>
 AFL-2.1 ————————————— 1<br>
 X11 ————————————————— 1<br>
-GPL-2.0 ————————————— 1 # used by react-scripts <br>
+GPL-2.0 ————————————— 1 # used by react-scripts
 
 ## GPL Licenses
 
-Given that the project will have a MIT License, the incompatible licenses GPL2.0 licenses are:
-node-forge@1.3.1 —-> BSD-3-Clause + GPL-2.0
+Given that the project will have a MIT <br> License, the incompatible licenses GPL2.0 licenses are:
+node-forge@1.3.1 —-> BSD-3-Clause <br> + GPL-2.0
 
 which stems from:
 client@0.1.0 /Room-Occupancy/client
@@ -63,1589 +63,1589 @@ client@0.1.0 /Room-Occupancy/client
 
 ## List of Licenses (updated as of Mar 31 2023)
 
-@aashutoshrathi/word-wrap@1.2.6 ————————— MIT
-@adobe/css-tools@4.3.1 —————————————————— MIT
-@alloc/quick-lru@5.2.0 —————————————————— MIT
-@ampproject/remapping@2.2.1 ————————————— Apache-2.0
-@apideck/better-ajv-errors@0.3.6 ———————— MIT
-@aws-amplify/analytics@7.0.12 ——————————— Apache-2.0
-@aws-amplify/api-graphql@4.0.12 ————————— Apache-2.0
-@aws-amplify/api-rest@4.0.12 ———————————— Apache-2.0
-@aws-amplify/api@6.0.12 ————————————————— Apache-2.0
-@aws-amplify/auth@6.0.12 ———————————————— Apache-2.0
-@aws-amplify/core@6.0.12 ———————————————— Apache-2.0
-@aws-amplify/data-schema-types@0.6.12 ——— Apache-2.0
-@aws-amplify/datastore@5.0.12 ——————————— Apache-2.0
-@aws-amplify/notifications@2.0.12 ——————— Apache-2.0
-@aws-amplify/storage@6.0.12 ————————————— Apache-2.0
-@aws-amplify/ui-react-core@3.0.7 ———————— Apache-2.0
-@aws-amplify/ui-react@6.1.1 ————————————— Apache-2.0
-@aws-amplify/ui@6.0.7 ——————————————————— Apache-2.0
-@aws-crypto/crc32@3.0.0 ————————————————— Apache-2.0
-@aws-crypto/ie11-detection@3.0.0 ———————— Apache-2.0
-@aws-crypto/sha256-browser@3.0.0 ———————— Apache-2.0
-@aws-crypto/sha256-js@3.0.0 ————————————— Apache-2.0
-@aws-crypto/sha256-js@5.2.0 ————————————— Apache-2.0
-@aws-crypto/supports-web-crypto@3.0.0 ——— Apache-2.0
-@aws-crypto/util@3.0.0 —————————————————— Apache-2.0
-@aws-crypto/util@5.2.0 —————————————————— Apache-2.0
-@aws-sdk/client-firehose@3.398.0 ———————— Apache-2.0
-@aws-sdk/client-kinesis@3.398.0 ————————— Apache-2.0
-@aws-sdk/client-personalize-events@3.3… — Apache-2.0
-@aws-sdk/client-sso@3.398.0 ————————————— Apache-2.0
-@aws-sdk/client-sts@3.398.0 ————————————— Apache-2.0
-@aws-sdk/credential-provider-env@3.398… — Apache-2.0
-@aws-sdk/credential-provider-ini@3.398… — Apache-2.0
-@aws-sdk/credential-provider-node@3.39… — Apache-2.0
-@aws-sdk/credential-provider-process@3… — Apache-2.0
-@aws-sdk/credential-provider-sso@3.398… — Apache-2.0
-@aws-sdk/credential-provider-web-ident… — Apache-2.0
-@aws-sdk/middleware-host-header@3.398.… — Apache-2.0
-@aws-sdk/middleware-logger@3.398.0 —————— Apache-2.0
-@aws-sdk/middleware-recursion-detectio… — Apache-2.0
-@aws-sdk/middleware-sdk-sts@3.398.0 ————— Apache-2.0
-@aws-sdk/middleware-signing@3.398.0 ————— Apache-2.0
-@aws-sdk/middleware-user-agent@3.398.0 —— Apache-2.0
-@aws-sdk/token-providers@3.398.0 ———————— Apache-2.0
-@aws-sdk/types@3.387.0 —————————————————— Apache-2.0
-@aws-sdk/types@3.398.0 —————————————————— Apache-2.0
-@aws-sdk/types@3.489.0 —————————————————— Apache-2.0
-@aws-sdk/util-endpoints@3.398.0 ————————— Apache-2.0
-@aws-sdk/util-locate-window@3.465.0 ————— Apache-2.0
-@aws-sdk/util-user-agent-browser@3.398… — Apache-2.0
-@aws-sdk/util-user-agent-node@3.398.0 ——— Apache-2.0
-@aws-sdk/util-utf8-browser@3.259.0 —————— Apache-2.0
-@babel/code-frame@7.22.13 ——————————————— MIT
-@babel/compat-data@7.23.2 ——————————————— MIT
-@babel/core@7.23.2 —————————————————————— MIT
-@babel/eslint-parser@7.22.15 ———————————— MIT
-@babel/generator@7.23.0 ————————————————— MIT
-@babel/helper-annotate-as-pure@7.22.5 ——— MIT
-@babel/helper-builder-binary-assignmen… — MIT
-@babel/helper-compilation-targets@7.22… — MIT
-@babel/helper-create-class-features-pl… — MIT
-@babel/helper-create-regexp-features-p… — MIT
-@babel/helper-define-polyfill-provider… — MIT
-@babel/helper-environment-visitor@7.22… — MIT
-@babel/helper-function-name@7.23.0 —————— MIT
-@babel/helper-hoist-variables@7.22.5 ———— MIT
-@babel/helper-member-expression-to-fun… — MIT
-@babel/helper-module-imports@7.22.15 ———— MIT
-@babel/helper-module-transforms@7.23.0 —— MIT
-@babel/helper-optimise-call-expression… — MIT
-@babel/helper-plugin-utils@7.22.5 ——————— MIT
-@babel/helper-remap-async-to-generator… — MIT
-@babel/helper-replace-supers@7.22.20 ———— MIT
-@babel/helper-simple-access@7.22.5 —————— MIT
-@babel/helper-skip-transparent-express… — MIT
-@babel/helper-split-export-declaration… — MIT
-@babel/helper-string-parser@7.22.5 —————— MIT
-@babel/helper-validator-identifier@7.2… — MIT
-@babel/helper-validator-option@7.22.15 —— MIT
-@babel/helper-wrap-function@7.22.20 ————— MIT
-@babel/helpers@7.23.2 ——————————————————— MIT
-@babel/highlight@7.22.20 ———————————————— MIT
-@babel/parser@7.23.0 ———————————————————— MIT
-@babel/plugin-bugfix-safari-id-destruc… — MIT
-@babel/plugin-bugfix-v8-spread-paramet… — MIT
-@babel/plugin-proposal-class-propertie… — MIT
-@babel/plugin-proposal-decorators@7.23… — MIT
-@babel/plugin-proposal-nullish-coalesc… — MIT
-@babel/plugin-proposal-numeric-separat… — MIT
-@babel/plugin-proposal-object-rest-spr… — MIT
-@babel/plugin-proposal-optional-chaini… — MIT
-@babel/plugin-proposal-private-methods… — MIT
-@babel/plugin-proposal-private-propert… — MIT
-@babel/plugin-syntax-async-generators@… — MIT
-@babel/plugin-syntax-bigint@7.8.3 ——————— MIT
-@babel/plugin-syntax-class-properties@… — MIT
-@babel/plugin-syntax-class-static-bloc… — MIT
-@babel/plugin-syntax-decorators@7.22.1… — MIT
-@babel/plugin-syntax-dynamic-import@7.… — MIT
-@babel/plugin-syntax-export-namespace-… — MIT
-@babel/plugin-syntax-flow@7.22.5 ———————— MIT
-@babel/plugin-syntax-import-assertions… — MIT
-@babel/plugin-syntax-import-attributes… — MIT
-@babel/plugin-syntax-import-meta@7.10.… — MIT
-@babel/plugin-syntax-json-strings@7.8.… — MIT
-@babel/plugin-syntax-jsx@7.22.5 ————————— MIT
-@babel/plugin-syntax-logical-assignmen… — MIT
-@babel/plugin-syntax-nullish-coalescin… — MIT
-@babel/plugin-syntax-numeric-separator… — MIT
-@babel/plugin-syntax-object-rest-sprea… — MIT
-@babel/plugin-syntax-optional-catch-bi… — MIT
-@babel/plugin-syntax-optional-chaining… — MIT
-@babel/plugin-syntax-private-property-… — MIT
-@babel/plugin-syntax-top-level-await@7… — MIT
-@babel/plugin-syntax-typescript@7.22.5 —— MIT
-@babel/plugin-syntax-unicode-sets-rege… — MIT
-@babel/plugin-transform-arrow-function… — MIT
-@babel/plugin-transform-async-generato… — MIT
-@babel/plugin-transform-async-to-gener… — MIT
-@babel/plugin-transform-block-scoped-f… — MIT
-@babel/plugin-transform-block-scoping@… — MIT
-@babel/plugin-transform-class-properti… — MIT
-@babel/plugin-transform-class-static-b… — MIT
-@babel/plugin-transform-classes@7.22.1… — MIT
-@babel/plugin-transform-computed-prope… — MIT
-@babel/plugin-transform-destructuring@… — MIT
-@babel/plugin-transform-dotall-regex@7… — MIT
-@babel/plugin-transform-duplicate-keys… — MIT
-@babel/plugin-transform-dynamic-import… — MIT
-@babel/plugin-transform-exponentiation… — MIT
-@babel/plugin-transform-export-namespa… — MIT
-@babel/plugin-transform-flow-strip-typ… — MIT
-@babel/plugin-transform-for-of@7.22.15 —— MIT
-@babel/plugin-transform-function-name@… — MIT
-@babel/plugin-transform-json-strings@7… — MIT
-@babel/plugin-transform-literals@7.22.… — MIT
-@babel/plugin-transform-logical-assign… — MIT
-@babel/plugin-transform-member-express… — MIT
-@babel/plugin-transform-modules-amd@7.… — MIT
-@babel/plugin-transform-modules-common… — MIT
-@babel/plugin-transform-modules-system… — MIT
-@babel/plugin-transform-modules-umd@7.… — MIT
-@babel/plugin-transform-named-capturin… — MIT
-@babel/plugin-transform-new-target@7.2… — MIT
-@babel/plugin-transform-nullish-coales… — MIT
-@babel/plugin-transform-numeric-separa… — MIT
-@babel/plugin-transform-object-rest-sp… — MIT
-@babel/plugin-transform-object-super@7… — MIT
-@babel/plugin-transform-optional-catch… — MIT
-@babel/plugin-transform-optional-chain… — MIT
-@babel/plugin-transform-parameters@7.2… — MIT
-@babel/plugin-transform-private-method… — MIT
-@babel/plugin-transform-private-proper… — MIT
-@babel/plugin-transform-property-liter… — MIT
-@babel/plugin-transform-react-constant… — MIT
-@babel/plugin-transform-react-display-… — MIT
-@babel/plugin-transform-react-jsx-deve… — MIT
-@babel/plugin-transform-react-jsx@7.22… — MIT
-@babel/plugin-transform-react-pure-ann… — MIT
-@babel/plugin-transform-regenerator@7.… — MIT
-@babel/plugin-transform-reserved-words… — MIT
-@babel/plugin-transform-runtime@7.23.2 —— MIT
-@babel/plugin-transform-shorthand-prop… — MIT
-@babel/plugin-transform-spread@7.22.5 ——— MIT
-@babel/plugin-transform-sticky-regex@7… — MIT
-@babel/plugin-transform-template-liter… — MIT
-@babel/plugin-transform-typeof-symbol@… — MIT
-@babel/plugin-transform-typescript@7.2… — MIT
-@babel/plugin-transform-unicode-escape… — MIT
-@babel/plugin-transform-unicode-proper… — MIT
-@babel/plugin-transform-unicode-regex@… — MIT
-@babel/plugin-transform-unicode-sets-r… — MIT
-@babel/preset-env@7.23.2 ———————————————— MIT
-@babel/preset-modules@0.1.6-no-externa… — MIT
-@babel/preset-react@7.22.15 ————————————— MIT
-@babel/preset-typescript@7.23.2 ————————— MIT
-@babel/regjsgen@0.8.0 ——————————————————— MIT
-@babel/runtime@7.23.2 ——————————————————— MIT
-@babel/runtime@7.23.8 ——————————————————— MIT
-@babel/runtime@7.24.0 ——————————————————— MIT
-@babel/template@7.22.15 ————————————————— MIT
-@babel/traverse@7.23.2 —————————————————— MIT
-@babel/types@7.23.0 ————————————————————— MIT
-@bcoe/v8-coverage@0.2.3 ————————————————— MIT
-@cspotcode/source-map-support@0.8.1 ————— MIT
-@csstools/normalize.css@12.0.0 —————————— CC0-1.0 + Fair
-@csstools/postcss-cascade-layers@1.1.1 —— CC0-1.0 + Fair
-@csstools/postcss-color-function@1.1.1 —— CC0-1.0 + Fair
-@csstools/postcss-font-format-keywords… — CC0-1.0 + Fair
-@csstools/postcss-hwb-function@1.0.2 ———— CC0-1.0 + Fair
-@csstools/postcss-ic-unit@1.0.1 ————————— CC0-1.0 + Fair
-@csstools/postcss-is-pseudo-class@2.0.… — CC0-1.0 + Fair
-@csstools/postcss-nested-calc@1.0.0 ————— CC0-1.0 + Fair
-@csstools/postcss-normalize-display-va… — CC0-1.0 + Fair
-@csstools/postcss-oklab-function@1.1.1 —— CC0-1.0 + Fair
-@csstools/postcss-progressive-custom-p… — CC0-1.0 + Fair
-@csstools/postcss-stepped-value-functi… — CC0-1.0 + Fair
-@csstools/postcss-text-decoration-shor… — CC0-1.0 + Fair
-@csstools/postcss-trigonometric-functi… — CC0-1.0 + Fair
-@csstools/postcss-unset-value@1.0.2 ————— CC0-1.0 + Fair
-@csstools/selector-specificity@2.2.0 ———— CC0-1.0 + Fair
-@eslint-community/eslint-utils@4.4.0 ———— MIT
-@eslint-community/regexpp@4.10.0 ———————— MIT
-@eslint/eslintrc@2.1.3 —————————————————— MIT
-@eslint/js@8.53.0 ——————————————————————— MIT
-@floating-ui/core@0.7.3 ————————————————— MIT
-@floating-ui/dom@0.5.4 —————————————————— MIT
-@floating-ui/react-dom@0.7.2 ———————————— MIT
-@fluentui/react-component-event-listen… — MIT
-@fluentui/react-component-ref@0.63.1 ———— MIT
-@humanwhocodes/config-array@0.11.13 ————— Apache-2.0
-@humanwhocodes/module-importer@1.0.1 ———— Apache-2.0
-@humanwhocodes/object-schema@2.0.1 —————— BSD-3-Clause
-@isaacs/cliui@8.0.2 ————————————————————— ISC
-@istanbuljs/load-nyc-config@1.1.0 ——————— ISC
-@istanbuljs/schema@0.1.3 ———————————————— MIT
-@jest/console@27.5.1 ———————————————————— MIT
-@jest/console@28.1.3 ———————————————————— MIT
-@jest/console@29.7.0 ———————————————————— MIT
-@jest/core@27.5.1 ——————————————————————— MIT
-@jest/core@29.7.0 ——————————————————————— MIT
-@jest/environment@27.5.1 ———————————————— MIT
-@jest/environment@29.7.0 ———————————————— MIT
-@jest/expect-utils@29.7.0 ——————————————— MIT
-@jest/expect@29.7.0 ————————————————————— MIT
-@jest/fake-timers@27.5.1 ———————————————— MIT
-@jest/fake-timers@29.7.0 ———————————————— MIT
-@jest/globals@27.5.1 ———————————————————— MIT
-@jest/globals@29.7.0 ———————————————————— MIT
-@jest/reporters@27.5.1 —————————————————— MIT
-@jest/reporters@29.7.0 —————————————————— MIT
-@jest/schemas@28.1.3 ———————————————————— MIT
-@jest/schemas@29.6.3 ———————————————————— MIT
-@jest/source-map@27.5.1 ————————————————— MIT
-@jest/source-map@29.6.3 ————————————————— MIT
-@jest/test-result@27.5.1 ———————————————— MIT
-@jest/test-result@28.1.3 ———————————————— MIT
-@jest/test-result@29.7.0 ———————————————— MIT
-@jest/test-sequencer@27.5.1 ————————————— MIT
-@jest/test-sequencer@29.7.0 ————————————— MIT
-@jest/transform@27.5.1 —————————————————— MIT
-@jest/transform@29.7.0 —————————————————— MIT
-@jest/types@27.5.1 —————————————————————— MIT
-@jest/types@28.1.3 —————————————————————— MIT
-@jest/types@29.6.3 —————————————————————— MIT
-@jridgewell/gen-mapping@0.3.3 ——————————— MIT
-@jridgewell/resolve-uri@3.1.1 ——————————— MIT
-@jridgewell/set-array@1.1.2 ————————————— MIT
-@jridgewell/source-map@0.3.5 ———————————— MIT
-@jridgewell/sourcemap-codec@1.4.15 —————— MIT
-@jridgewell/trace-mapping@0.3.20 ———————— MIT
-@jridgewell/trace-mapping@0.3.9 ————————— MIT
-@leichtgewicht/ip-codec@2.0.4 ——————————— MIT
-@nicolo-ribaudo/eslint-scope-5-interna… — MIT
-@nodelib/fs.scandir@2.1.5 ——————————————— MIT
-@nodelib/fs.stat@2.0.5 —————————————————— MIT
-@nodelib/fs.walk@1.2.8 —————————————————— MIT
-@pkgjs/parseargs@0.11.0 ————————————————— MIT
-@pmmmwh/react-refresh-webpack-plugin@0… — MIT
-@popperjs/core@2.11.8 ——————————————————— MIT
-@radix-ui/number@1.0.0 —————————————————— MIT
-@radix-ui/primitive@1.0.0 ——————————————— MIT
-@radix-ui/react-arrow@1.0.0 ————————————— MIT
-@radix-ui/react-collection@1.0.0 ———————— MIT
-@radix-ui/react-compose-refs@1.0.0 —————— MIT
-@radix-ui/react-context@1.0.0 ——————————— MIT
-@radix-ui/react-direction@1.0.0 ————————— MIT
-@radix-ui/react-dismissable-layer@1.0.… — MIT
-@radix-ui/react-dropdown-menu@1.0.0 ————— MIT
-@radix-ui/react-focus-guards@1.0.0 —————— MIT
-@radix-ui/react-focus-scope@1.0.0 ——————— MIT
-@radix-ui/react-id@1.0.0 ———————————————— MIT
-@radix-ui/react-menu@1.0.0 —————————————— MIT
-@radix-ui/react-popper@1.0.0 ———————————— MIT
-@radix-ui/react-portal@1.0.0 ———————————— MIT
-@radix-ui/react-presence@1.0.0 —————————— MIT
-@radix-ui/react-primitive@1.0.0 ————————— MIT
-@radix-ui/react-roving-focus@1.0.0 —————— MIT
-@radix-ui/react-slider@1.0.0 ———————————— MIT
-@radix-ui/react-slot@1.0.0 —————————————— MIT
-@radix-ui/react-use-callback-ref@1.0.0 —— MIT
-@radix-ui/react-use-controllable-state… — MIT
-@radix-ui/react-use-escape-keydown@1.0… — MIT
-@radix-ui/react-use-layout-effect@1.0.… — MIT
-@radix-ui/react-use-previous@1.0.0 —————— MIT
-@radix-ui/react-use-rect@1.0.0 —————————— MIT
-@radix-ui/react-use-size@1.0.0 —————————— MIT
-@radix-ui/rect@1.0.0 ———————————————————— MIT
-@remix-run/router@1.11.0 ———————————————— MIT
-@rollup/plugin-babel@5.3.1 —————————————— MIT
-@rollup/plugin-node-resolve@11.2.1 —————— MIT
-@rollup/plugin-replace@2.4.2 ———————————— MIT
-@rollup/pluginutils@3.1.0 ——————————————— MIT
-@rushstack/eslint-patch@1.5.1 ——————————— MIT
-@semantic-ui-react/event-stack@3.1.3 ———— MIT
-@sinclair/typebox@0.24.51 ——————————————— MIT
-@sinclair/typebox@0.27.8 ———————————————— MIT
-@sinonjs/commons@1.8.6 —————————————————— BSD-3-Clause
-@sinonjs/commons@3.0.0 —————————————————— BSD-3-Clause
-@sinonjs/commons@3.0.1 —————————————————— BSD-3-Clause
-@sinonjs/fake-timers@10.3.0 ————————————— BSD-3-Clause
-@sinonjs/fake-timers@8.1.0 —————————————— BSD-3-Clause
-@smithy/abort-controller@2.0.16 ————————— Apache-2.0
-@smithy/config-resolver@2.0.23 —————————— Apache-2.0
-@smithy/credential-provider-imds@2.1.5 —— Apache-2.0
-@smithy/eventstream-codec@2.0.16 ———————— Apache-2.0
-@smithy/eventstream-serde-browser@2.0.… — Apache-2.0
-@smithy/eventstream-serde-config-resol… — Apache-2.0
-@smithy/eventstream-serde-node@2.0.16 ——— Apache-2.0
-@smithy/eventstream-serde-universal@2.… — Apache-2.0
-@smithy/fetch-http-handler@2.3.2 ———————— Apache-2.0
-@smithy/hash-node@2.0.18 ———————————————— Apache-2.0
-@smithy/invalid-dependency@2.0.16 ——————— Apache-2.0
-@smithy/is-array-buffer@2.0.0 ——————————— Apache-2.0
-@smithy/md5-js@2.0.7 ———————————————————— Apache-2.0
-@smithy/middleware-content-length@2.0.… — Apache-2.0
-@smithy/middleware-endpoint@2.3.0 ——————— Apache-2.0
-@smithy/middleware-retry@2.0.26 ————————— Apache-2.0
-@smithy/middleware-serde@2.0.16 ————————— Apache-2.0
-@smithy/middleware-stack@2.0.10 ————————— Apache-2.0
-@smithy/node-config-provider@2.1.9 —————— Apache-2.0
-@smithy/node-http-handler@2.2.2 ————————— Apache-2.0
-@smithy/property-provider@2.0.17 ———————— Apache-2.0
-@smithy/protocol-http@2.0.5 ————————————— Apache-2.0
-@smithy/protocol-http@3.0.12 ———————————— Apache-2.0
-@smithy/querystring-builder@2.0.16 —————— Apache-2.0
-@smithy/querystring-parser@2.0.16 ——————— Apache-2.0
-@smithy/service-error-classification@2… — Apache-2.0
-@smithy/shared-ini-file-loader@2.2.8 ———— Apache-2.0
-@smithy/signature-v4@2.0.19 ————————————— Apache-2.0
-@smithy/smithy-client@2.2.1 ————————————— Apache-2.0
-@smithy/types@2.8.0 ————————————————————— Apache-2.0
-@smithy/url-parser@2.0.16 ——————————————— Apache-2.0
-@smithy/util-base64@2.0.1 ——————————————— Apache-2.0
-@smithy/util-body-length-browser@2.0.1 —— Apache-2.0
-@smithy/util-body-length-node@2.1.0 ————— Apache-2.0
-@smithy/util-buffer-from@2.0.0 —————————— Apache-2.0
-@smithy/util-config-provider@2.1.0 —————— Apache-2.0
-@smithy/util-defaults-mode-browser@2.0… — Apache-2.0
-@smithy/util-defaults-mode-node@2.0.32 —— Apache-2.0
-@smithy/util-hex-encoding@2.0.0 ————————— Apache-2.0
-@smithy/util-middleware@2.0.9 ——————————— Apache-2.0
-@smithy/util-retry@2.0.9 ———————————————— Apache-2.0
-@smithy/util-stream@2.0.24 —————————————— Apache-2.0
-@smithy/util-uri-escape@2.0.0 ——————————— Apache-2.0
-@smithy/util-utf8@2.0.0 ————————————————— Apache-2.0
-@smithy/util-utf8@2.0.2 ————————————————— Apache-2.0
-@smithy/util-waiter@2.0.16 —————————————— Apache-2.0
-@surma/rollup-plugin-off-main-thread@2… — Apache-2.0
-@svgr/babel-plugin-add-jsx-attribute@5… — MIT
-@svgr/babel-plugin-remove-jsx-attribut… — MIT
-@svgr/babel-plugin-remove-jsx-empty-ex… — MIT
-@svgr/babel-plugin-replace-jsx-attribu… — MIT
-@svgr/babel-plugin-svg-dynamic-title@5… — MIT
-@svgr/babel-plugin-svg-em-dimensions@5… — MIT
-@svgr/babel-plugin-transform-react-nat… — MIT
-@svgr/babel-plugin-transform-svg-compo… — MIT
-@svgr/babel-preset@5.5.0 ———————————————— MIT
-@svgr/core@5.5.0 ———————————————————————— MIT
-@svgr/hast-util-to-babel-ast@5.5.0 —————— MIT
-@svgr/plugin-jsx@5.5.0 —————————————————— MIT
-@svgr/plugin-svgo@5.5.0 ————————————————— MIT
-@svgr/webpack@5.5.0 ————————————————————— MIT
-@testing-library/dom@9.3.3 —————————————— MIT
-@testing-library/jest-dom@6.1.4 ————————— MIT
-@testing-library/react@14.0.0 ——————————— MIT
-@testing-library/user-event@14.5.1 —————— MIT
-@tootallnate/once@1.1.2 ————————————————— MIT
-@trysound/sax@0.2.0 ————————————————————— ISC
-@tsconfig/node10@1.0.9 —————————————————— MIT
-@tsconfig/node12@1.0.11 ————————————————— MIT
-@tsconfig/node14@1.0.3 —————————————————— MIT
-@tsconfig/node16@1.0.4 —————————————————— MIT
-@types/aria-query@5.0.3 ————————————————— MIT
-@types/babel__core@7.20.3 ——————————————— MIT
-@types/babel__generator@7.6.6 ——————————— MIT
-@types/babel__template@7.4.3 ———————————— MIT
-@types/babel__traverse@7.20.3 ——————————— MIT
-@types/body-parser@1.19.4 ——————————————— MIT
-@types/bonjour@3.5.12 ——————————————————— MIT
-@types/connect-history-api-fallback@1.… — MIT
-@types/connect@3.4.37 ——————————————————— MIT
-@types/d3-array@3.2.1 ——————————————————— MIT
-@types/d3-path@3.1.0 ———————————————————— MIT
-@types/d3-scale@4.0.8 ——————————————————— MIT
-@types/d3-shape@3.1.6 ——————————————————— MIT
-@types/d3-time@3.0.3 ———————————————————— MIT
-@types/eslint-scope@3.7.6 ——————————————— MIT
-@types/eslint@8.44.6 ———————————————————— MIT
-@types/estree@0.0.39 ———————————————————— MIT
-@types/estree@1.0.4 ————————————————————— MIT
-@types/express-serve-static-core@4.17.… — MIT
-@types/express@4.17.20 —————————————————— MIT
-@types/graceful-fs@4.1.8 ———————————————— MIT
-@types/html-minifier-terser@6.1.0 ——————— MIT
-@types/http-errors@2.0.3 ———————————————— MIT
-@types/http-proxy@1.17.13 ——————————————— MIT
-@types/istanbul-lib-coverage@2.0.5 —————— MIT
-@types/istanbul-lib-report@3.0.2 ———————— MIT
-@types/istanbul-reports@3.0.3 ——————————— MIT
-@types/jest@29.5.7 —————————————————————— MIT
-@types/json-schema@7.0.14 ——————————————— MIT
-@types/json5@0.0.29 ————————————————————— MIT
-@types/mime@1.3.4 ——————————————————————— MIT
-@types/mime@3.0.3 ——————————————————————— MIT
-@types/node-forge@1.3.8 ————————————————— MIT
-@types/node@16.18.60 ———————————————————— MIT
-@types/node@20.8.10 ————————————————————— MIT
-@types/parse-json@4.0.1 ————————————————— MIT
-@types/prettier@2.7.3 ——————————————————— MIT
-@types/prop-types@15.7.9 ———————————————— MIT
-@types/q@1.5.7 —————————————————————————— MIT
-@types/qs@6.9.9 ————————————————————————— MIT
-@types/raf@3.4.3 ———————————————————————— MIT
-@types/range-parser@1.2.6 ——————————————— MIT
-@types/react-dom@17.0.25 ———————————————— MIT
-@types/react-dom@18.2.14 ———————————————— MIT
-@types/react-image-crop@8.1.6 ——————————— MIT
-@types/react-resizable@3.0.7 ———————————— MIT
-@types/react@17.0.76 ———————————————————— MIT
-@types/react@18.2.34 ———————————————————— MIT
-@types/resolve@1.17.1 ——————————————————— MIT
-@types/retry@0.12.0 ————————————————————— MIT
-@types/scheduler@0.16.5 ————————————————— MIT
-@types/semver@7.5.4 ————————————————————— MIT
-@types/send@0.17.3 —————————————————————— MIT
-@types/serve-index@1.9.3 ———————————————— MIT
-@types/serve-static@1.15.4 —————————————— MIT
-@types/sockjs@0.3.35 ———————————————————— MIT
-@types/stack-utils@2.0.2 ———————————————— MIT
-@types/trusted-types@2.0.5 —————————————— MIT
-@types/uuid@9.0.7 ——————————————————————— MIT
-@types/ws@8.5.8 ————————————————————————— MIT
-@types/yargs-parser@21.0.2 —————————————— MIT
-@types/yargs@16.0.8 ————————————————————— MIT
-@types/yargs@16.0.9 ————————————————————— MIT
-@types/yargs@17.0.29 ———————————————————— MIT
-@typescript-eslint/eslint-plugin@5.62.… — MIT
-@typescript-eslint/experimental-utils@… — MIT
-@typescript-eslint/parser@5.62.0 ———————— BSD-2-Clause
-@typescript-eslint/scope-manager@5.62.… — MIT
-@typescript-eslint/type-utils@5.62.0 ———— MIT
-@typescript-eslint/types@5.62.0 ————————— MIT
-@typescript-eslint/typescript-estree@5… — BSD-2-Clause
-@typescript-eslint/utils@5.62.0 ————————— MIT
-@typescript-eslint/visitor-keys@5.62.0 —— MIT
-@ungap/structured-clone@1.2.0 ——————————— ISC
-@webassemblyjs/ast@1.11.6 ——————————————— MIT
-@webassemblyjs/floating-point-hex-pars… — MIT
-@webassemblyjs/helper-api-error@1.11.6 —— MIT
-@webassemblyjs/helper-buffer@1.11.6 ————— MIT
-@webassemblyjs/helper-numbers@1.11.6 ———— MIT
-@webassemblyjs/helper-wasm-bytecode@1.… — MIT
-@webassemblyjs/helper-wasm-section@1.1… — MIT
-@webassemblyjs/ieee754@1.11.6 ——————————— MIT
-@webassemblyjs/leb128@1.11.6 ———————————— Apache-2.0
-@webassemblyjs/utf8@1.11.6 —————————————— MIT
-@webassemblyjs/wasm-edit@1.11.6 ————————— MIT
-@webassemblyjs/wasm-gen@1.11.6 —————————— MIT
-@webassemblyjs/wasm-opt@1.11.6 —————————— MIT
-@webassemblyjs/wasm-parser@1.11.6 ——————— MIT
-@webassemblyjs/wast-printer@1.11.6 —————— MIT
-@xstate/react@3.2.2 ————————————————————— MIT
-@xtuc/ieee754@1.2.0 ————————————————————— BSD-3-Clause + Fair
-@xtuc/long@4.2.2 ———————————————————————— Apache-2.0
-abab@2.0.6 —————————————————————————————— BSD-3-Clause
-accepts@1.3.8 ——————————————————————————— MIT
-acorn-globals@6.0.0 ————————————————————— MIT
-acorn-import-assertions@1.9.0 ——————————— MIT
-acorn-jsx@5.3.2 ————————————————————————— MIT
-acorn-walk@7.2.0 ———————————————————————— MIT
-acorn-walk@8.3.0 ———————————————————————— MIT
-acorn@7.4.1 ————————————————————————————— MIT
-acorn@8.11.2 ———————————————————————————— MIT
-address@1.2.2 ——————————————————————————— MIT
-adjust-sourcemap-loader@4.0.0 ——————————— MIT
-agent-base@6.0.2 ———————————————————————— MIT
-ajv-formats@2.1.1 ——————————————————————— MIT
-ajv-keywords@3.5.2 —————————————————————— MIT
-ajv-keywords@5.1.0 —————————————————————— MIT
-ajv@6.12.6 —————————————————————————————— MIT
-ajv@8.12.0 —————————————————————————————— MIT
-ansi-escapes@4.3.2 —————————————————————— MIT
-ansi-html-community@0.0.8 ——————————————— Apache-2.0
-ansi-regex@2.1.1 ———————————————————————— MIT
-ansi-regex@5.0.1 ———————————————————————— MIT
-ansi-regex@6.0.1 ———————————————————————— MIT
-ansi-styles@2.2.1 ——————————————————————— MIT
-ansi-styles@3.2.1 ——————————————————————— MIT
-ansi-styles@4.3.0 ——————————————————————— MIT
-ansi-styles@5.2.0 ——————————————————————— MIT
-ansi-styles@6.2.1 ——————————————————————— MIT
-any-promise@1.3.0 ——————————————————————— MIT
-anymatch@3.1.3 —————————————————————————— ISC
-arg@4.1.3 ——————————————————————————————— MIT
-arg@5.0.2 ——————————————————————————————— MIT
-argparse@1.0.10 ————————————————————————— MIT
+@aashutoshrathi/word-wrap@1.2.6 ————————— MIT <br>
+@adobe/css-tools@4.3.1 —————————————————— MIT <br>
+@alloc/quick-lru@5.2.0 —————————————————— MIT <br>
+@ampproject/remapping@2.2.1 ————————————— Apache-2.0 <br>
+@apideck/better-ajv-errors@0.3.6 ———————— MIT <br>
+@aws-amplify/analytics@7.0.12 ——————————— Apache-2.0 <br>
+@aws-amplify/api-graphql@4.0.12 ————————— Apache-2.0 <br>
+@aws-amplify/api-rest@4.0.12 ———————————— Apache-2.0 <br>
+@aws-amplify/api@6.0.12 ————————————————— Apache-2.0 <br>
+@aws-amplify/auth@6.0.12 ———————————————— Apache-2.0 <br>
+@aws-amplify/core@6.0.12 ———————————————— Apache-2.0 <br>
+@aws-amplify/data-schema-types@0.6.12 ——— Apache-2.0 <br>
+@aws-amplify/datastore@5.0.12 ——————————— Apache-2.0 <br>
+@aws-amplify/notifications@2.0.12 ——————— Apache-2.0 <br>
+@aws-amplify/storage@6.0.12 ————————————— Apache-2.0 <br>
+@aws-amplify/ui-react-core@3.0.7 ———————— Apache-2.0 <br>
+@aws-amplify/ui-react@6.1.1 ————————————— Apache-2.0 <br>
+@aws-amplify/ui@6.0.7 ——————————————————— Apache-2.0 <br>
+@aws-crypto/crc32@3.0.0 ————————————————— Apache-2.0 <br>
+@aws-crypto/ie11-detection@3.0.0 ———————— Apache-2.0 <br>
+@aws-crypto/sha256-browser@3.0.0 ———————— Apache-2.0 <br>
+@aws-crypto/sha256-js@3.0.0 ————————————— Apache-2.0 <br>
+@aws-crypto/sha256-js@5.2.0 ————————————— Apache-2.0 <br>
+@aws-crypto/supports-web-crypto@3.0.0 ——— Apache-2.0 <br>
+@aws-crypto/util@3.0.0 —————————————————— Apache-2.0 <br>
+@aws-crypto/util@5.2.0 —————————————————— Apache-2.0 <br>
+@aws-sdk/client-firehose@3.398.0 ———————— Apache-2.0 <br>
+@aws-sdk/client-kinesis@3.398.0 ————————— Apache-2.0 <br>
+@aws-sdk/client-personalize-events@3.3… — Apache-2.0 <br>
+@aws-sdk/client-sso@3.398.0 ————————————— Apache-2.0 <br>
+@aws-sdk/client-sts@3.398.0 ————————————— Apache-2.0 <br>
+@aws-sdk/credential-provider-env@3.398… — Apache-2.0 <br>
+@aws-sdk/credential-provider-ini@3.398… — Apache-2.0 <br>
+@aws-sdk/credential-provider-node@3.39… — Apache-2.0 <br>
+@aws-sdk/credential-provider-process@3… — Apache-2.0 <br>
+@aws-sdk/credential-provider-sso@3.398… — Apache-2.0 <br>
+@aws-sdk/credential-provider-web-ident… — Apache-2.0 <br>
+@aws-sdk/middleware-host-header@3.398.… — Apache-2.0 <br>
+@aws-sdk/middleware-logger@3.398.0 —————— Apache-2.0 <br>
+@aws-sdk/middleware-recursion-detectio… — Apache-2.0 <br>
+@aws-sdk/middleware-sdk-sts@3.398.0 ————— Apache-2.0 <br>
+@aws-sdk/middleware-signing@3.398.0 ————— Apache-2.0 <br>
+@aws-sdk/middleware-user-agent@3.398.0 —— Apache-2.0 <br>
+@aws-sdk/token-providers@3.398.0 ———————— Apache-2.0 <br>
+@aws-sdk/types@3.387.0 —————————————————— Apache-2.0 <br>
+@aws-sdk/types@3.398.0 —————————————————— Apache-2.0 <br>
+@aws-sdk/types@3.489.0 —————————————————— Apache-2.0 <br>
+@aws-sdk/util-endpoints@3.398.0 ————————— Apache-2.0 <br>
+@aws-sdk/util-locate-window@3.465.0 ————— Apache-2.0 <br>
+@aws-sdk/util-user-agent-browser@3.398… — Apache-2.0 <br>
+@aws-sdk/util-user-agent-node@3.398.0 ——— Apache-2.0 <br>
+@aws-sdk/util-utf8-browser@3.259.0 —————— Apache-2.0 <br>
+@babel/code-frame@7.22.13 ——————————————— MIT <br>
+@babel/compat-data@7.23.2 ——————————————— MIT <br>
+@babel/core@7.23.2 —————————————————————— MIT <br>
+@babel/eslint-parser@7.22.15 ———————————— MIT <br>
+@babel/generator@7.23.0 ————————————————— MIT <br>
+@babel/helper-annotate-as-pure@7.22.5 ——— MIT <br>
+@babel/helper-builder-binary-assignmen… — MIT <br>
+@babel/helper-compilation-targets@7.22… — MIT <br>
+@babel/helper-create-class-features-pl… — MIT <br>
+@babel/helper-create-regexp-features-p… — MIT <br>
+@babel/helper-define-polyfill-provider… — MIT <br>
+@babel/helper-environment-visitor@7.22… — MIT <br>
+@babel/helper-function-name@7.23.0 —————— MIT <br>
+@babel/helper-hoist-variables@7.22.5 ———— MIT <br>
+@babel/helper-member-expression-to-fun… — MIT <br>
+@babel/helper-module-imports@7.22.15 ———— MIT <br>
+@babel/helper-module-transforms@7.23.0 —— MIT <br>
+@babel/helper-optimise-call-expression… — MIT <br>
+@babel/helper-plugin-utils@7.22.5 ——————— MIT <br>
+@babel/helper-remap-async-to-generator… — MIT <br>
+@babel/helper-replace-supers@7.22.20 ———— MIT <br>
+@babel/helper-simple-access@7.22.5 —————— MIT <br>
+@babel/helper-skip-transparent-express… — MIT <br>
+@babel/helper-split-export-declaration… — MIT <br>
+@babel/helper-string-parser@7.22.5 —————— MIT <br>
+@babel/helper-validator-identifier@7.2… — MIT <br>
+@babel/helper-validator-option@7.22.15 —— MIT <br>
+@babel/helper-wrap-function@7.22.20 ————— MIT <br>
+@babel/helpers@7.23.2 ——————————————————— MIT <br>
+@babel/highlight@7.22.20 ———————————————— MIT <br>
+@babel/parser@7.23.0 ———————————————————— MIT <br>
+@babel/plugin-bugfix-safari-id-destruc… — MIT <br>
+@babel/plugin-bugfix-v8-spread-paramet… — MIT <br>
+@babel/plugin-proposal-class-propertie… — MIT <br>
+@babel/plugin-proposal-decorators@7.23… — MIT <br>
+@babel/plugin-proposal-nullish-coalesc… — MIT <br>
+@babel/plugin-proposal-numeric-separat… — MIT <br>
+@babel/plugin-proposal-object-rest-spr… — MIT <br>
+@babel/plugin-proposal-optional-chaini… — MIT <br>
+@babel/plugin-proposal-private-methods… — MIT <br>
+@babel/plugin-proposal-private-propert… — MIT <br>
+@babel/plugin-syntax-async-generators@… — MIT <br>
+@babel/plugin-syntax-bigint@7.8.3 ——————— MIT <br>
+@babel/plugin-syntax-class-properties@… — MIT <br>
+@babel/plugin-syntax-class-static-bloc… — MIT <br>
+@babel/plugin-syntax-decorators@7.22.1… — MIT <br>
+@babel/plugin-syntax-dynamic-import@7.… — MIT <br>
+@babel/plugin-syntax-export-namespace-… — MIT <br>
+@babel/plugin-syntax-flow@7.22.5 ———————— MIT <br>
+@babel/plugin-syntax-import-assertions… — MIT <br>
+@babel/plugin-syntax-import-attributes… — MIT <br>
+@babel/plugin-syntax-import-meta@7.10.… — MIT <br>
+@babel/plugin-syntax-json-strings@7.8.… — MIT <br>
+@babel/plugin-syntax-jsx@7.22.5 ————————— MIT <br>
+@babel/plugin-syntax-logical-assignmen… — MIT <br>
+@babel/plugin-syntax-nullish-coalescin… — MIT <br>
+@babel/plugin-syntax-numeric-separator… — MIT <br>
+@babel/plugin-syntax-object-rest-sprea… — MIT <br>
+@babel/plugin-syntax-optional-catch-bi… — MIT <br>
+@babel/plugin-syntax-optional-chaining… — MIT <br>
+@babel/plugin-syntax-private-property-… — MIT <br>
+@babel/plugin-syntax-top-level-await@7… — MIT <br>
+@babel/plugin-syntax-typescript@7.22.5 —— MIT <br>
+@babel/plugin-syntax-unicode-sets-rege… — MIT <br>
+@babel/plugin-transform-arrow-function… — MIT <br>
+@babel/plugin-transform-async-generato… — MIT <br>
+@babel/plugin-transform-async-to-gener… — MIT <br>
+@babel/plugin-transform-block-scoped-f… — MIT <br>
+@babel/plugin-transform-block-scoping@… — MIT <br>
+@babel/plugin-transform-class-properti… — MIT <br>
+@babel/plugin-transform-class-static-b… — MIT <br>
+@babel/plugin-transform-classes@7.22.1… — MIT <br>
+@babel/plugin-transform-computed-prope… — MIT <br>
+@babel/plugin-transform-destructuring@… — MIT <br>
+@babel/plugin-transform-dotall-regex@7… — MIT <br>
+@babel/plugin-transform-duplicate-keys… — MIT <br>
+@babel/plugin-transform-dynamic-import… — MIT <br>
+@babel/plugin-transform-exponentiation… — MIT <br>
+@babel/plugin-transform-export-namespa… — MIT <br>
+@babel/plugin-transform-flow-strip-typ… — MIT <br>
+@babel/plugin-transform-for-of@7.22.15 —— MIT <br>
+@babel/plugin-transform-function-name@… — MIT <br>
+@babel/plugin-transform-json-strings@7… — MIT <br>
+@babel/plugin-transform-literals@7.22.… — MIT <br>
+@babel/plugin-transform-logical-assign… — MIT <br>
+@babel/plugin-transform-member-express… — MIT <br>
+@babel/plugin-transform-modules-amd@7.… — MIT <br>
+@babel/plugin-transform-modules-common… — MIT <br>
+@babel/plugin-transform-modules-system… — MIT <br>
+@babel/plugin-transform-modules-umd@7.… — MIT <br>
+@babel/plugin-transform-named-capturin… — MIT <br>
+@babel/plugin-transform-new-target@7.2… — MIT <br>
+@babel/plugin-transform-nullish-coales… — MIT <br>
+@babel/plugin-transform-numeric-separa… — MIT <br>
+@babel/plugin-transform-object-rest-sp… — MIT <br>
+@babel/plugin-transform-object-super@7… — MIT <br>
+@babel/plugin-transform-optional-catch… — MIT <br>
+@babel/plugin-transform-optional-chain… — MIT <br>
+@babel/plugin-transform-parameters@7.2… — MIT <br>
+@babel/plugin-transform-private-method… — MIT <br>
+@babel/plugin-transform-private-proper… — MIT <br>
+@babel/plugin-transform-property-liter… — MIT <br>
+@babel/plugin-transform-react-constant… — MIT <br>
+@babel/plugin-transform-react-display-… — MIT <br>
+@babel/plugin-transform-react-jsx-deve… — MIT <br>
+@babel/plugin-transform-react-jsx@7.22… — MIT <br>
+@babel/plugin-transform-react-pure-ann… — MIT <br>
+@babel/plugin-transform-regenerator@7.… — MIT <br>
+@babel/plugin-transform-reserved-words… — MIT <br>
+@babel/plugin-transform-runtime@7.23.2 —— MIT <br>
+@babel/plugin-transform-shorthand-prop… — MIT <br>
+@babel/plugin-transform-spread@7.22.5 ——— MIT <br>
+@babel/plugin-transform-sticky-regex@7… — MIT <br>
+@babel/plugin-transform-template-liter… — MIT <br>
+@babel/plugin-transform-typeof-symbol@… — MIT <br>
+@babel/plugin-transform-typescript@7.2… — MIT <br>
+@babel/plugin-transform-unicode-escape… — MIT <br>
+@babel/plugin-transform-unicode-proper… — MIT <br>
+@babel/plugin-transform-unicode-regex@… — MIT <br>
+@babel/plugin-transform-unicode-sets-r… — MIT <br>
+@babel/preset-env@7.23.2 ———————————————— MIT <br>
+@babel/preset-modules@0.1.6-no-externa… — MIT <br>
+@babel/preset-react@7.22.15 ————————————— MIT <br>
+@babel/preset-typescript@7.23.2 ————————— MIT <br>
+@babel/regjsgen@0.8.0 ——————————————————— MIT <br>
+@babel/runtime@7.23.2 ——————————————————— MIT <br>
+@babel/runtime@7.23.8 ——————————————————— MIT <br>
+@babel/runtime@7.24.0 ——————————————————— MIT <br>
+@babel/template@7.22.15 ————————————————— MIT <br>
+@babel/traverse@7.23.2 —————————————————— MIT <br>
+@babel/types@7.23.0 ————————————————————— MIT <br>
+@bcoe/v8-coverage@0.2.3 ————————————————— MIT <br>
+@cspotcode/source-map-support@0.8.1 ————— MIT <br>
+@csstools/normalize.css@12.0.0 —————————— CC0-1.0 + Fair <br>
+@csstools/postcss-cascade-layers@1.1.1 —— CC0-1.0 + Fair <br>
+@csstools/postcss-color-function@1.1.1 —— CC0-1.0 + Fair <br>
+@csstools/postcss-font-format-keywords… — CC0-1.0 + Fair <br>
+@csstools/postcss-hwb-function@1.0.2 ———— CC0-1.0 + Fair <br>
+@csstools/postcss-ic-unit@1.0.1 ————————— CC0-1.0 + Fair <br>
+@csstools/postcss-is-pseudo-class@2.0.… — CC0-1.0 + Fair <br>
+@csstools/postcss-nested-calc@1.0.0 ————— CC0-1.0 + Fair <br>
+@csstools/postcss-normalize-display-va… — CC0-1.0 + Fair <br>
+@csstools/postcss-oklab-function@1.1.1 —— CC0-1.0 + Fair <br>
+@csstools/postcss-progressive-custom-p… — CC0-1.0 + Fair <br>
+@csstools/postcss-stepped-value-functi… — CC0-1.0 + Fair <br>
+@csstools/postcss-text-decoration-shor… — CC0-1.0 + Fair <br>
+@csstools/postcss-trigonometric-functi… — CC0-1.0 + Fair <br>
+@csstools/postcss-unset-value@1.0.2 ————— CC0-1.0 + Fair <br>
+@csstools/selector-specificity@2.2.0 ———— CC0-1.0 + Fair <br>
+@eslint-community/eslint-utils@4.4.0 ———— MIT <br>
+@eslint-community/regexpp@4.10.0 ———————— MIT <br>
+@eslint/eslintrc@2.1.3 —————————————————— MIT <br>
+@eslint/js@8.53.0 ——————————————————————— MIT <br>
+@floating-ui/core@0.7.3 ————————————————— MIT <br>
+@floating-ui/dom@0.5.4 —————————————————— MIT <br>
+@floating-ui/react-dom@0.7.2 ———————————— MIT <br>
+@fluentui/react-component-event-listen… — MIT <br>
+@fluentui/react-component-ref@0.63.1 ———— MIT <br>
+@humanwhocodes/config-array@0.11.13 ————— Apache-2.0 <br>
+@humanwhocodes/module-importer@1.0.1 ———— Apache-2.0 <br>
+@humanwhocodes/object-schema@2.0.1 —————— BSD-3-Clause <br>
+@isaacs/cliui@8.0.2 ————————————————————— ISC <br>
+@istanbuljs/load-nyc-config@1.1.0 ——————— ISC <br>
+@istanbuljs/schema@0.1.3 ———————————————— MIT <br>
+@jest/console@27.5.1 ———————————————————— MIT <br>
+@jest/console@28.1.3 ———————————————————— MIT <br>
+@jest/console@29.7.0 ———————————————————— MIT <br>
+@jest/core@27.5.1 ——————————————————————— MIT <br>
+@jest/core@29.7.0 ——————————————————————— MIT <br>
+@jest/environment@27.5.1 ———————————————— MIT <br>
+@jest/environment@29.7.0 ———————————————— MIT <br>
+@jest/expect-utils@29.7.0 ——————————————— MIT <br>
+@jest/expect@29.7.0 ————————————————————— MIT <br>
+@jest/fake-timers@27.5.1 ———————————————— MIT <br>
+@jest/fake-timers@29.7.0 ———————————————— MIT <br>
+@jest/globals@27.5.1 ———————————————————— MIT <br>
+@jest/globals@29.7.0 ———————————————————— MIT <br>
+@jest/reporters@27.5.1 —————————————————— MIT <br>
+@jest/reporters@29.7.0 —————————————————— MIT <br>
+@jest/schemas@28.1.3 ———————————————————— MIT <br>
+@jest/schemas@29.6.3 ———————————————————— MIT <br>
+@jest/source-map@27.5.1 ————————————————— MIT <br>
+@jest/source-map@29.6.3 ————————————————— MIT <br>
+@jest/test-result@27.5.1 ———————————————— MIT <br>
+@jest/test-result@28.1.3 ———————————————— MIT <br>
+@jest/test-result@29.7.0 ———————————————— MIT <br>
+@jest/test-sequencer@27.5.1 ————————————— MIT <br>
+@jest/test-sequencer@29.7.0 ————————————— MIT <br>
+@jest/transform@27.5.1 —————————————————— MIT <br>
+@jest/transform@29.7.0 —————————————————— MIT <br>
+@jest/types@27.5.1 —————————————————————— MIT <br>
+@jest/types@28.1.3 —————————————————————— MIT <br>
+@jest/types@29.6.3 —————————————————————— MIT <br>
+@jridgewell/gen-mapping@0.3.3 ——————————— MIT <br>
+@jridgewell/resolve-uri@3.1.1 ——————————— MIT <br>
+@jridgewell/set-array@1.1.2 ————————————— MIT <br>
+@jridgewell/source-map@0.3.5 ———————————— MIT <br>
+@jridgewell/sourcemap-codec@1.4.15 —————— MIT <br>
+@jridgewell/trace-mapping@0.3.20 ———————— MIT <br>
+@jridgewell/trace-mapping@0.3.9 ————————— MIT <br>
+@leichtgewicht/ip-codec@2.0.4 ——————————— MIT <br>
+@nicolo-ribaudo/eslint-scope-5-interna… — MIT <br>
+@nodelib/fs.scandir@2.1.5 ——————————————— MIT <br>
+@nodelib/fs.stat@2.0.5 —————————————————— MIT <br>
+@nodelib/fs.walk@1.2.8 —————————————————— MIT <br>
+@pkgjs/parseargs@0.11.0 ————————————————— MIT <br>
+@pmmmwh/react-refresh-webpack-plugin@0… — MIT <br>
+@popperjs/core@2.11.8 ——————————————————— MIT <br>
+@radix-ui/number@1.0.0 —————————————————— MIT <br>
+@radix-ui/primitive@1.0.0 ——————————————— MIT <br>
+@radix-ui/react-arrow@1.0.0 ————————————— MIT <br>
+@radix-ui/react-collection@1.0.0 ———————— MIT <br>
+@radix-ui/react-compose-refs@1.0.0 —————— MIT <br>
+@radix-ui/react-context@1.0.0 ——————————— MIT <br>
+@radix-ui/react-direction@1.0.0 ————————— MIT <br>
+@radix-ui/react-dismissable-layer@1.0.… — MIT <br>
+@radix-ui/react-dropdown-menu@1.0.0 ————— MIT <br>
+@radix-ui/react-focus-guards@1.0.0 —————— MIT <br>
+@radix-ui/react-focus-scope@1.0.0 ——————— MIT <br>
+@radix-ui/react-id@1.0.0 ———————————————— MIT <br>
+@radix-ui/react-menu@1.0.0 —————————————— MIT <br>
+@radix-ui/react-popper@1.0.0 ———————————— MIT <br>
+@radix-ui/react-portal@1.0.0 ———————————— MIT <br>
+@radix-ui/react-presence@1.0.0 —————————— MIT <br>
+@radix-ui/react-primitive@1.0.0 ————————— MIT <br>
+@radix-ui/react-roving-focus@1.0.0 —————— MIT <br>
+@radix-ui/react-slider@1.0.0 ———————————— MIT <br>
+@radix-ui/react-slot@1.0.0 —————————————— MIT <br>
+@radix-ui/react-use-callback-ref@1.0.0 —— MIT <br>
+@radix-ui/react-use-controllable-state… — MIT <br>
+@radix-ui/react-use-escape-keydown@1.0… — MIT <br>
+@radix-ui/react-use-layout-effect@1.0.… — MIT <br>
+@radix-ui/react-use-previous@1.0.0 —————— MIT <br>
+@radix-ui/react-use-rect@1.0.0 —————————— MIT <br>
+@radix-ui/react-use-size@1.0.0 —————————— MIT <br>
+@radix-ui/rect@1.0.0 ———————————————————— MIT <br>
+@remix-run/router@1.11.0 ———————————————— MIT <br>
+@rollup/plugin-babel@5.3.1 —————————————— MIT <br>
+@rollup/plugin-node-resolve@11.2.1 —————— MIT <br>
+@rollup/plugin-replace@2.4.2 ———————————— MIT <br>
+@rollup/pluginutils@3.1.0 ——————————————— MIT <br>
+@rushstack/eslint-patch@1.5.1 ——————————— MIT <br>
+@semantic-ui-react/event-stack@3.1.3 ———— MIT <br>
+@sinclair/typebox@0.24.51 ——————————————— MIT <br>
+@sinclair/typebox@0.27.8 ———————————————— MIT <br>
+@sinonjs/commons@1.8.6 —————————————————— BSD-3-Clause <br>
+@sinonjs/commons@3.0.0 —————————————————— BSD-3-Clause <br>
+@sinonjs/commons@3.0.1 —————————————————— BSD-3-Clause <br>
+@sinonjs/fake-timers@10.3.0 ————————————— BSD-3-Clause <br>
+@sinonjs/fake-timers@8.1.0 —————————————— BSD-3-Clause <br>
+@smithy/abort-controller@2.0.16 ————————— Apache-2.0 <br>
+@smithy/config-resolver@2.0.23 —————————— Apache-2.0 <br>
+@smithy/credential-provider-imds@2.1.5 —— Apache-2.0 <br>
+@smithy/eventstream-codec@2.0.16 ———————— Apache-2.0 <br>
+@smithy/eventstream-serde-browser@2.0.… — Apache-2.0 <br>
+@smithy/eventstream-serde-config-resol… — Apache-2.0 <br>
+@smithy/eventstream-serde-node@2.0.16 ——— Apache-2.0 <br>
+@smithy/eventstream-serde-universal@2.… — Apache-2.0 <br>
+@smithy/fetch-http-handler@2.3.2 ———————— Apache-2.0 <br>
+@smithy/hash-node@2.0.18 ———————————————— Apache-2.0 <br>
+@smithy/invalid-dependency@2.0.16 ——————— Apache-2.0 <br>
+@smithy/is-array-buffer@2.0.0 ——————————— Apache-2.0 <br>
+@smithy/md5-js@2.0.7 ———————————————————— Apache-2.0 <br>
+@smithy/middleware-content-length@2.0.… — Apache-2.0 <br>
+@smithy/middleware-endpoint@2.3.0 ——————— Apache-2.0 <br>
+@smithy/middleware-retry@2.0.26 ————————— Apache-2.0 <br>
+@smithy/middleware-serde@2.0.16 ————————— Apache-2.0 <br>
+@smithy/middleware-stack@2.0.10 ————————— Apache-2.0 <br>
+@smithy/node-config-provider@2.1.9 —————— Apache-2.0 <br>
+@smithy/node-http-handler@2.2.2 ————————— Apache-2.0 <br>
+@smithy/property-provider@2.0.17 ———————— Apache-2.0 <br>
+@smithy/protocol-http@2.0.5 ————————————— Apache-2.0 <br>
+@smithy/protocol-http@3.0.12 ———————————— Apache-2.0 <br>
+@smithy/querystring-builder@2.0.16 —————— Apache-2.0 <br>
+@smithy/querystring-parser@2.0.16 ——————— Apache-2.0 <br>
+@smithy/service-error-classification@2… — Apache-2.0 <br>
+@smithy/shared-ini-file-loader@2.2.8 ———— Apache-2.0 <br>
+@smithy/signature-v4@2.0.19 ————————————— Apache-2.0 <br>
+@smithy/smithy-client@2.2.1 ————————————— Apache-2.0 <br>
+@smithy/types@2.8.0 ————————————————————— Apache-2.0 <br>
+@smithy/url-parser@2.0.16 ——————————————— Apache-2.0 <br>
+@smithy/util-base64@2.0.1 ——————————————— Apache-2.0 <br>
+@smithy/util-body-length-browser@2.0.1 —— Apache-2.0 <br>
+@smithy/util-body-length-node@2.1.0 ————— Apache-2.0 <br>
+@smithy/util-buffer-from@2.0.0 —————————— Apache-2.0 <br>
+@smithy/util-config-provider@2.1.0 —————— Apache-2.0 <br>
+@smithy/util-defaults-mode-browser@2.0… — Apache-2.0 <br>
+@smithy/util-defaults-mode-node@2.0.32 —— Apache-2.0 <br>
+@smithy/util-hex-encoding@2.0.0 ————————— Apache-2.0 <br>
+@smithy/util-middleware@2.0.9 ——————————— Apache-2.0 <br>
+@smithy/util-retry@2.0.9 ———————————————— Apache-2.0 <br>
+@smithy/util-stream@2.0.24 —————————————— Apache-2.0 <br>
+@smithy/util-uri-escape@2.0.0 ——————————— Apache-2.0 <br>
+@smithy/util-utf8@2.0.0 ————————————————— Apache-2.0 <br>
+@smithy/util-utf8@2.0.2 ————————————————— Apache-2.0 <br>
+@smithy/util-waiter@2.0.16 —————————————— Apache-2.0 <br>
+@surma/rollup-plugin-off-main-thread@2… — Apache-2.0 <br>
+@svgr/babel-plugin-add-jsx-attribute@5… — MIT <br>
+@svgr/babel-plugin-remove-jsx-attribut… — MIT <br>
+@svgr/babel-plugin-remove-jsx-empty-ex… — MIT <br>
+@svgr/babel-plugin-replace-jsx-attribu… — MIT <br>
+@svgr/babel-plugin-svg-dynamic-title@5… — MIT <br>
+@svgr/babel-plugin-svg-em-dimensions@5… — MIT <br>
+@svgr/babel-plugin-transform-react-nat… — MIT <br>
+@svgr/babel-plugin-transform-svg-compo… — MIT <br>
+@svgr/babel-preset@5.5.0 ———————————————— MIT <br>
+@svgr/core@5.5.0 ———————————————————————— MIT <br>
+@svgr/hast-util-to-babel-ast@5.5.0 —————— MIT <br>
+@svgr/plugin-jsx@5.5.0 —————————————————— MIT <br>
+@svgr/plugin-svgo@5.5.0 ————————————————— MIT <br>
+@svgr/webpack@5.5.0 ————————————————————— MIT <br>
+@testing-library/dom@9.3.3 —————————————— MIT <br>
+@testing-library/jest-dom@6.1.4 ————————— MIT <br>
+@testing-library/react@14.0.0 ——————————— MIT <br>
+@testing-library/user-event@14.5.1 —————— MIT <br>
+@tootallnate/once@1.1.2 ————————————————— MIT <br>
+@trysound/sax@0.2.0 ————————————————————— ISC <br>
+@tsconfig/node10@1.0.9 —————————————————— MIT <br>
+@tsconfig/node12@1.0.11 ————————————————— MIT <br>
+@tsconfig/node14@1.0.3 —————————————————— MIT <br>
+@tsconfig/node16@1.0.4 —————————————————— MIT <br>
+@types/aria-query@5.0.3 ————————————————— MIT <br>
+@types/babel__core@7.20.3 ——————————————— MIT <br>
+@types/babel__generator@7.6.6 ——————————— MIT <br>
+@types/babel__template@7.4.3 ———————————— MIT <br>
+@types/babel__traverse@7.20.3 ——————————— MIT <br>
+@types/body-parser@1.19.4 ——————————————— MIT <br>
+@types/bonjour@3.5.12 ——————————————————— MIT <br>
+@types/connect-history-api-fallback@1.… — MIT <br>
+@types/connect@3.4.37 ——————————————————— MIT <br>
+@types/d3-array@3.2.1 ——————————————————— MIT <br>
+@types/d3-path@3.1.0 ———————————————————— MIT <br>
+@types/d3-scale@4.0.8 ——————————————————— MIT <br>
+@types/d3-shape@3.1.6 ——————————————————— MIT <br>
+@types/d3-time@3.0.3 ———————————————————— MIT <br>
+@types/eslint-scope@3.7.6 ——————————————— MIT <br>
+@types/eslint@8.44.6 ———————————————————— MIT <br>
+@types/estree@0.0.39 ———————————————————— MIT <br>
+@types/estree@1.0.4 ————————————————————— MIT <br>
+@types/express-serve-static-core@4.17.… — MIT <br>
+@types/express@4.17.20 —————————————————— MIT <br>
+@types/graceful-fs@4.1.8 ———————————————— MIT <br>
+@types/html-minifier-terser@6.1.0 ——————— MIT <br>
+@types/http-errors@2.0.3 ———————————————— MIT <br>
+@types/http-proxy@1.17.13 ——————————————— MIT <br>
+@types/istanbul-lib-coverage@2.0.5 —————— MIT <br>
+@types/istanbul-lib-report@3.0.2 ———————— MIT <br>
+@types/istanbul-reports@3.0.3 ——————————— MIT <br>
+@types/jest@29.5.7 —————————————————————— MIT <br>
+@types/json-schema@7.0.14 ——————————————— MIT <br>
+@types/json5@0.0.29 ————————————————————— MIT <br>
+@types/mime@1.3.4 ——————————————————————— MIT <br>
+@types/mime@3.0.3 ——————————————————————— MIT <br>
+@types/node-forge@1.3.8 ————————————————— MIT <br>
+@types/node@16.18.60 ———————————————————— MIT <br>
+@types/node@20.8.10 ————————————————————— MIT <br>
+@types/parse-json@4.0.1 ————————————————— MIT <br>
+@types/prettier@2.7.3 ——————————————————— MIT <br>
+@types/prop-types@15.7.9 ———————————————— MIT <br>
+@types/q@1.5.7 —————————————————————————— MIT <br>
+@types/qs@6.9.9 ————————————————————————— MIT <br>
+@types/raf@3.4.3 ———————————————————————— MIT <br>
+@types/range-parser@1.2.6 ——————————————— MIT <br>
+@types/react-dom@17.0.25 ———————————————— MIT <br>
+@types/react-dom@18.2.14 ———————————————— MIT <br>
+@types/react-image-crop@8.1.6 ——————————— MIT <br>
+@types/react-resizable@3.0.7 ———————————— MIT <br>
+@types/react@17.0.76 ———————————————————— MIT <br>
+@types/react@18.2.34 ———————————————————— MIT <br>
+@types/resolve@1.17.1 ——————————————————— MIT <br>
+@types/retry@0.12.0 ————————————————————— MIT <br>
+@types/scheduler@0.16.5 ————————————————— MIT <br>
+@types/semver@7.5.4 ————————————————————— MIT <br>
+@types/send@0.17.3 —————————————————————— MIT <br>
+@types/serve-index@1.9.3 ———————————————— MIT <br>
+@types/serve-static@1.15.4 —————————————— MIT <br>
+@types/sockjs@0.3.35 ———————————————————— MIT <br>
+@types/stack-utils@2.0.2 ———————————————— MIT <br>
+@types/trusted-types@2.0.5 —————————————— MIT <br>
+@types/uuid@9.0.7 ——————————————————————— MIT <br>
+@types/ws@8.5.8 ————————————————————————— MIT <br>
+@types/yargs-parser@21.0.2 —————————————— MIT <br>
+@types/yargs@16.0.8 ————————————————————— MIT <br>
+@types/yargs@16.0.9 ————————————————————— MIT <br>
+@types/yargs@17.0.29 ———————————————————— MIT <br>
+@typescript-eslint/eslint-plugin@5.62.… — MIT <br>
+@typescript-eslint/experimental-utils@… — MIT <br>
+@typescript-eslint/parser@5.62.0 ———————— BSD-2-Clause <br>
+@typescript-eslint/scope-manager@5.62.… — MIT <br>
+@typescript-eslint/type-utils@5.62.0 ———— MIT <br>
+@typescript-eslint/types@5.62.0 ————————— MIT <br>
+@typescript-eslint/typescript-estree@5… — BSD-2-Clause <br>
+@typescript-eslint/utils@5.62.0 ————————— MIT <br>
+@typescript-eslint/visitor-keys@5.62.0 —— MIT <br>
+@ungap/structured-clone@1.2.0 ——————————— ISC <br>
+@webassemblyjs/ast@1.11.6 ——————————————— MIT <br>
+@webassemblyjs/floating-point-hex-pars… — MIT <br>
+@webassemblyjs/helper-api-error@1.11.6 —— MIT <br>
+@webassemblyjs/helper-buffer@1.11.6 ————— MIT <br>
+@webassemblyjs/helper-numbers@1.11.6 ———— MIT <br>
+@webassemblyjs/helper-wasm-bytecode@1.… — MIT <br>
+@webassemblyjs/helper-wasm-section@1.1… — MIT <br>
+@webassemblyjs/ieee754@1.11.6 ——————————— MIT <br>
+@webassemblyjs/leb128@1.11.6 ———————————— Apache-2.0 <br>
+@webassemblyjs/utf8@1.11.6 —————————————— MIT <br>
+@webassemblyjs/wasm-edit@1.11.6 ————————— MIT <br>
+@webassemblyjs/wasm-gen@1.11.6 —————————— MIT <br>
+@webassemblyjs/wasm-opt@1.11.6 —————————— MIT <br>
+@webassemblyjs/wasm-parser@1.11.6 ——————— MIT <br>
+@webassemblyjs/wast-printer@1.11.6 —————— MIT <br>
+@xstate/react@3.2.2 ————————————————————— MIT <br>
+@xtuc/ieee754@1.2.0 ————————————————————— BSD-3-Clause + Fair <br>
+@xtuc/long@4.2.2 ———————————————————————— Apache-2.0 <br>
+abab@2.0.6 —————————————————————————————— BSD-3-Clause <br>
+accepts@1.3.8 ——————————————————————————— MIT <br>
+acorn-globals@6.0.0 ————————————————————— MIT <br>
+acorn-import-assertions@1.9.0 ——————————— MIT <br>
+acorn-jsx@5.3.2 ————————————————————————— MIT <br>
+acorn-walk@7.2.0 ———————————————————————— MIT <br>
+acorn-walk@8.3.0 ———————————————————————— MIT <br>
+acorn@7.4.1 ————————————————————————————— MIT <br>
+acorn@8.11.2 ———————————————————————————— MIT <br>
+address@1.2.2 ——————————————————————————— MIT <br>
+adjust-sourcemap-loader@4.0.0 ——————————— MIT <br>
+agent-base@6.0.2 ———————————————————————— MIT <br>
+ajv-formats@2.1.1 ——————————————————————— MIT <br>
+ajv-keywords@3.5.2 —————————————————————— MIT <br>
+ajv-keywords@5.1.0 —————————————————————— MIT <br>
+ajv@6.12.6 —————————————————————————————— MIT <br>
+ajv@8.12.0 —————————————————————————————— MIT <br>
+ansi-escapes@4.3.2 —————————————————————— MIT <br>
+ansi-html-community@0.0.8 ——————————————— Apache-2.0 <br>
+ansi-regex@2.1.1 ———————————————————————— MIT <br>
+ansi-regex@5.0.1 ———————————————————————— MIT <br>
+ansi-regex@6.0.1 ———————————————————————— MIT <br>
+ansi-styles@2.2.1 ——————————————————————— MIT <br>
+ansi-styles@3.2.1 ——————————————————————— MIT <br>
+ansi-styles@4.3.0 ——————————————————————— MIT <br>
+ansi-styles@5.2.0 ——————————————————————— MIT <br>
+ansi-styles@6.2.1 ——————————————————————— MIT <br>
+any-promise@1.3.0 ——————————————————————— MIT <br>
+anymatch@3.1.3 —————————————————————————— ISC <br>
+arg@4.1.3 ——————————————————————————————— MIT <br>
+arg@5.0.2 ——————————————————————————————— MIT <br>
+argparse@1.0.10 ————————————————————————— MIT <br>
 argparse@2.0.1 —————————————————————————— Intel + Python-2.0
-aria-hidden@1.2.3 ——————————————————————— MIT
-aria-query@5.1.3 ———————————————————————— Apache-2.0
-aria-query@5.3.0 ———————————————————————— Apache-2.0
-array-buffer-byte-length@1.0.0 —————————— MIT
-array-flatten@1.1.1 ————————————————————— MIT
-array-flatten@2.1.2 ————————————————————— MIT
-array-includes@3.1.7 ———————————————————— MIT
-array-union@2.1.0 ——————————————————————— MIT
-array.prototype.findlastindex@1.2.3 ————— MIT
-array.prototype.flat@1.3.2 —————————————— MIT
-array.prototype.flatmap@1.3.2 ——————————— MIT
-array.prototype.reduce@1.0.6 ———————————— MIT
-array.prototype.tosorted@1.1.2 —————————— MIT
-arraybuffer.prototype.slice@1.0.2 ——————— MIT
-asap@2.0.6 —————————————————————————————— MIT
-ast-types-flow@0.0.8 ———————————————————— MIT
-async@3.2.5 ————————————————————————————— MIT
-asynciterator.prototype@1.0.0 ——————————— MIT
-asynckit@0.4.0 —————————————————————————— MIT
-at-least-node@1.0.0 ————————————————————— ISC
-autoprefixer@10.4.16 ———————————————————— MIT
-available-typed-arrays@1.0.5 ———————————— MIT
-aws-amplify@6.0.12 —————————————————————— Apache-2.0
+aria-hidden@1.2.3 ——————————————————————— MIT <br>
+aria-query@5.1.3 ———————————————————————— Apache-2.0 <br>
+aria-query@5.3.0 ———————————————————————— Apache-2.0 <br>
+array-buffer-byte-length@1.0.0 —————————— MIT <br>
+array-flatten@1.1.1 ————————————————————— MIT <br>
+array-flatten@2.1.2 ————————————————————— MIT <br>
+array-includes@3.1.7 ———————————————————— MIT <br>
+array-union@2.1.0 ——————————————————————— MIT <br>
+array.prototype.findlastindex@1.2.3 ————— MIT <br>
+array.prototype.flat@1.3.2 —————————————— MIT <br>
+array.prototype.flatmap@1.3.2 ——————————— MIT <br>
+array.prototype.reduce@1.0.6 ———————————— MIT <br>
+array.prototype.tosorted@1.1.2 —————————— MIT <br>
+arraybuffer.prototype.slice@1.0.2 ——————— MIT <br>
+asap@2.0.6 —————————————————————————————— MIT <br>
+ast-types-flow@0.0.8 ———————————————————— MIT <br>
+async@3.2.5 ————————————————————————————— MIT <br>
+asynciterator.prototype@1.0.0 ——————————— MIT <br>
+asynckit@0.4.0 —————————————————————————— MIT <br>
+at-least-node@1.0.0 ————————————————————— ISC <br>
+autoprefixer@10.4.16 ———————————————————— MIT <br>
+available-typed-arrays@1.0.5 ———————————— MIT <br>
+aws-amplify@6.0.12 —————————————————————— Apache-2.0 <br>
 axe-core@4.7.0 —————————————————————————— Fair + MPL-2.0
-axobject-query@3.2.1 ———————————————————— Apache-2.0
-babel-code-frame@6.26.0 ————————————————— MIT
-babel-jest@27.5.1 ——————————————————————— MIT
-babel-jest@29.7.0 ——————————————————————— MIT
-babel-loader@8.3.0 —————————————————————— MIT
-babel-messages@6.23.0 ——————————————————— MIT
-babel-plugin-istanbul@6.1.1 ————————————— BSD-3-Clause
-babel-plugin-jest-hoist@27.5.1 —————————— MIT
-babel-plugin-jest-hoist@29.6.3 —————————— MIT
-babel-plugin-macros@3.1.0 ——————————————— MIT
-babel-plugin-named-asset-import@0.3.8 ——— MIT
-babel-plugin-polyfill-corejs2@0.4.6 ————— MIT
-babel-plugin-polyfill-corejs3@0.8.6 ————— MIT
-babel-plugin-polyfill-regenerator@0.5.… — MIT
-babel-plugin-transform-es2015-modules-… — MIT
-babel-plugin-transform-react-remove-pr… — MIT
-babel-plugin-transform-strict-mode@6.2… — MIT
-babel-preset-current-node-syntax@1.0.1 —— MIT
-babel-preset-jest@27.5.1 ———————————————— MIT
-babel-preset-jest@29.6.3 ———————————————— MIT
-babel-preset-react-app@10.0.1 ——————————— MIT
-babel-runtime@6.26.0 ———————————————————— MIT
-babel-template@6.26.0 ——————————————————— MIT
-babel-traverse@6.26.0 ——————————————————— MIT
-babel-types@6.26.0 —————————————————————— MIT
-babylon@6.18.0 —————————————————————————— MIT
-balanced-match@1.0.2 ———————————————————— MIT
-base64-js@1.5.1 ————————————————————————— MIT
-batch@0.6.1 ————————————————————————————— MIT
-bfj@7.1.0 ——————————————————————————————— MIT
-big.js@5.2.2 ———————————————————————————— MIT
-binary-extensions@2.2.0 ————————————————— MIT
-bluebird@3.7.2 —————————————————————————— MIT
-body-parser@1.20.1 —————————————————————— MIT
-bonjour-service@1.1.1 ——————————————————— MIT
-boolbase@1.0.0 —————————————————————————— ISC
-bowser@2.11.0 ——————————————————————————— MIT
-brace-expansion@1.1.11 —————————————————— MIT
-brace-expansion@2.0.1 ——————————————————— MIT
-braces@3.0.2 ———————————————————————————— MIT
-browser-process-hrtime@1.0.0 ———————————— BSD-2-Clause
-browserslist@4.22.1 ————————————————————— MIT
-bs-logger@0.2.6 ————————————————————————— MIT
-bser@2.1.1 —————————————————————————————— Apache-2.0
-buffer-from@1.1.2 ——————————————————————— MIT
-buffer@4.9.2 ———————————————————————————— MIT
-builtin-modules@3.3.0 ——————————————————— MIT
-bytes@3.0.0 ————————————————————————————— MIT
-bytes@3.1.2 ————————————————————————————— MIT
-call-bind@1.0.5 ————————————————————————— MIT
-callsites@3.1.0 ————————————————————————— MIT
-camel-case@4.1.2 ———————————————————————— MIT
-camelcase-css@2.0.1 ————————————————————— MIT
-camelcase@5.3.1 ————————————————————————— MIT
-camelcase@6.3.0 ————————————————————————— MIT
-caniuse-api@3.0.0 ——————————————————————— MIT
+axobject-query@3.2.1 ———————————————————— Apache-2.0 <br>
+babel-code-frame@6.26.0 ————————————————— MIT <br>
+babel-jest@27.5.1 ——————————————————————— MIT <br>
+babel-jest@29.7.0 ——————————————————————— MIT <br>
+babel-loader@8.3.0 —————————————————————— MIT <br>
+babel-messages@6.23.0 ——————————————————— MIT <br>
+babel-plugin-istanbul@6.1.1 ————————————— BSD-3-Clause <br>
+babel-plugin-jest-hoist@27.5.1 —————————— MIT <br>
+babel-plugin-jest-hoist@29.6.3 —————————— MIT <br>
+babel-plugin-macros@3.1.0 ——————————————— MIT <br>
+babel-plugin-named-asset-import@0.3.8 ——— MIT <br>
+babel-plugin-polyfill-corejs2@0.4.6 ————— MIT <br>
+babel-plugin-polyfill-corejs3@0.8.6 ————— MIT <br>
+babel-plugin-polyfill-regenerator@0.5.… — MIT <br>
+babel-plugin-transform-es2015-modules-… — MIT <br>
+babel-plugin-transform-react-remove-pr… — MIT <br>
+babel-plugin-transform-strict-mode@6.2… — MIT <br>
+babel-preset-current-node-syntax@1.0.1 —— MIT <br>
+babel-preset-jest@27.5.1 ———————————————— MIT <br>
+babel-preset-jest@29.6.3 ———————————————— MIT <br>
+babel-preset-react-app@10.0.1 ——————————— MIT <br>
+babel-runtime@6.26.0 ———————————————————— MIT <br>
+babel-template@6.26.0 ——————————————————— MIT <br>
+babel-traverse@6.26.0 ——————————————————— MIT <br>
+babel-types@6.26.0 —————————————————————— MIT <br>
+babylon@6.18.0 —————————————————————————— MIT <br>
+balanced-match@1.0.2 ———————————————————— MIT <br>
+base64-js@1.5.1 ————————————————————————— MIT <br>
+batch@0.6.1 ————————————————————————————— MIT <br>
+bfj@7.1.0 ——————————————————————————————— MIT <br>
+big.js@5.2.2 ———————————————————————————— MIT <br>
+binary-extensions@2.2.0 ————————————————— MIT <br>
+bluebird@3.7.2 —————————————————————————— MIT <br>
+body-parser@1.20.1 —————————————————————— MIT <br>
+bonjour-service@1.1.1 ——————————————————— MIT <br>
+boolbase@1.0.0 —————————————————————————— ISC <br>
+bowser@2.11.0 ——————————————————————————— MIT <br>
+brace-expansion@1.1.11 —————————————————— MIT <br>
+brace-expansion@2.0.1 ——————————————————— MIT <br>
+braces@3.0.2 ———————————————————————————— MIT <br>
+browser-process-hrtime@1.0.0 ———————————— BSD-2-Clause <br>
+browserslist@4.22.1 ————————————————————— MIT <br>
+bs-logger@0.2.6 ————————————————————————— MIT <br>
+bser@2.1.1 —————————————————————————————— Apache-2.0 <br>
+buffer-from@1.1.2 ——————————————————————— MIT <br>
+buffer@4.9.2 ———————————————————————————— MIT <br>
+builtin-modules@3.3.0 ——————————————————— MIT <br>
+bytes@3.0.0 ————————————————————————————— MIT <br>
+bytes@3.1.2 ————————————————————————————— MIT <br>
+call-bind@1.0.5 ————————————————————————— MIT <br>
+callsites@3.1.0 ————————————————————————— MIT <br>
+camel-case@4.1.2 ———————————————————————— MIT <br>
+camelcase-css@2.0.1 ————————————————————— MIT <br>
+camelcase@5.3.1 ————————————————————————— MIT <br>
+camelcase@6.3.0 ————————————————————————— MIT <br>
+caniuse-api@3.0.0 ——————————————————————— MIT <br>
 caniuse-lite@1.0.30001561 ——————————————— CC-BY-4.0
-capital-case@1.0.4 —————————————————————— MIT
-case-sensitive-paths-webpack-plugin@2.… — MIT
-chalk@1.1.3 ————————————————————————————— MIT
-chalk@2.4.2 ————————————————————————————— MIT
-chalk@3.0.0 ————————————————————————————— MIT
-chalk@4.1.2 ————————————————————————————— MIT
-change-case@4.1.2 ——————————————————————— MIT
-char-regex@1.0.2 ———————————————————————— MIT
-char-regex@2.0.1 ———————————————————————— MIT
-check-types@11.2.3 —————————————————————— MIT
-chokidar@3.5.3 —————————————————————————— MIT
-chrome-trace-event@1.0.3 ———————————————— MIT
-ci-info@3.9.0 ——————————————————————————— MIT
-cjs-module-lexer@1.2.3 —————————————————— MIT
-clean-css@5.3.2 ————————————————————————— MIT
-cliui@6.0.0 ————————————————————————————— ISC
-cliui@7.0.4 ————————————————————————————— ISC
-cliui@8.0.1 ————————————————————————————— ISC
-clsx@1.2.1 —————————————————————————————— MIT
-co@4.6.0 ———————————————————————————————— MIT
-coa@2.0.2 ——————————————————————————————— MIT
-collect-v8-coverage@1.0.2 ——————————————— MIT
-color-convert@1.9.3 ————————————————————— MIT
-color-convert@2.0.1 ————————————————————— MIT
-color-name@1.1.3 ———————————————————————— MIT
-color-name@1.1.4 ———————————————————————— MIT
-colord@2.9.3 ———————————————————————————— MIT
-colorette@2.0.20 ———————————————————————— MIT
-combined-stream@1.0.8 ——————————————————— MIT
-commander@2.20.3 ———————————————————————— MIT
-commander@4.1.1 ————————————————————————— MIT
-commander@7.2.0 ————————————————————————— MIT
-commander@8.3.0 ————————————————————————— MIT
-common-path-prefix@3.0.0 ———————————————— ISC
-common-tags@1.8.2 ——————————————————————— MIT
-commondir@1.0.1 ————————————————————————— MIT
-compressible@2.0.18 ————————————————————— MIT
-compression@1.7.4 ——————————————————————— MIT
-concat-map@0.0.1 ———————————————————————— MIT
-confusing-browser-globals@1.0.11 ———————— MIT
-connect-history-api-fallback@2.0.0 —————— MIT
-constant-case@3.0.4 ————————————————————— MIT
-content-disposition@0.5.4 ——————————————— MIT
-content-type@1.0.5 —————————————————————— MIT
-convert-source-map@1.9.0 ———————————————— MIT
-convert-source-map@2.0.0 ———————————————— MIT
-cookie-signature@1.0.6 —————————————————— MIT
-cookie@0.5.0 ———————————————————————————— MIT
-core-js-compat@3.33.2 ——————————————————— MIT
-core-js-pure@3.33.2 ————————————————————— MIT
-core-js@2.6.12 —————————————————————————— MIT
-core-js@3.33.2 —————————————————————————— MIT
-core-util-is@1.0.3 —————————————————————— MIT
-cosmiconfig@6.0.0 ——————————————————————— MIT
-cosmiconfig@7.1.0 ——————————————————————— MIT
-create-jest@29.7.0 —————————————————————— MIT
-create-require@1.1.1 ———————————————————— MIT
-cross-spawn@7.0.3 ——————————————————————— MIT
-crypto-random-string@2.0.0 —————————————— MIT
-css-blank-pseudo@3.0.3 —————————————————— CC0-1.0 + Fair
-css-declaration-sorter@6.4.1 ———————————— ISC
-css-has-pseudo@3.0.4 ———————————————————— CC0-1.0 + Fair
-css-loader@6.8.1 ———————————————————————— MIT
-css-minimizer-webpack-plugin@3.4.1 —————— MIT
-css-prefers-color-scheme@6.0.3 —————————— CC0-1.0 + Fair
-css-select-base-adapter@0.1.1 ——————————— MIT
-css-select@2.1.0 ———————————————————————— BSD-2-Clause
-css-select@4.3.0 ———————————————————————— BSD-2-Clause
-css-tree@1.0.0-alpha.37 ————————————————— MIT
-css-tree@1.1.3 —————————————————————————— MIT
-css-what@3.4.2 —————————————————————————— BSD-2-Clause
-css-what@6.1.0 —————————————————————————— BSD-2-Clause
-css.escape@1.5.1 ———————————————————————— MIT
-cssdb@7.9.0 ————————————————————————————— CC0-1.0 + Fair
-cssesc@3.0.0 ———————————————————————————— MIT
-cssnano-preset-default@5.2.14 ——————————— MIT
-cssnano-utils@3.1.0 ————————————————————— MIT
-cssnano@5.1.15 —————————————————————————— MIT
-csso@4.2.0 —————————————————————————————— MIT
-cssom@0.3.8 ————————————————————————————— MIT
-cssom@0.4.4 ————————————————————————————— MIT
-cssstyle@2.3.0 —————————————————————————— MIT
-csstype@3.1.2 ——————————————————————————— MIT
-csstype@3.1.3 ——————————————————————————— MIT
-d3-array@2.12.1 ————————————————————————— BSD-3-Clause
-d3-array@3.2.4 —————————————————————————— ISC
-d3-color@2.0.0 —————————————————————————— BSD-3-Clause
-d3-delaunay@5.3.0 ——————————————————————— ISC
-d3-format@2.0.0 ————————————————————————— BSD-3-Clause
-d3-interpolate@2.0.1 ———————————————————— BSD-3-Clause
-d3-path@2.0.0 ——————————————————————————— BSD-3-Clause
-d3-scale@3.3.0 —————————————————————————— BSD-3-Clause
-d3-shape@2.1.0 —————————————————————————— BSD-3-Clause
-d3-time-format@3.0.0 ———————————————————— BSD-3-Clause
-d3-time-format@4.1.0 ———————————————————— ISC
-d3-time@2.1.1 ——————————————————————————— BSD-3-Clause
-d3-time@3.1.0 ——————————————————————————— ISC
-damerau-levenshtein@1.0.8 ——————————————— BSD-2-Clause
-data-urls@2.0.0 ————————————————————————— MIT
-debug@2.6.9 ————————————————————————————— MIT
-debug@3.2.7 ————————————————————————————— MIT
-debug@4.3.4 ————————————————————————————— MIT
-decamelize@1.2.0 ———————————————————————— MIT
-decimal.js@10.4.3 ——————————————————————— MIT
-dedent@0.7.0 ———————————————————————————— MIT
-dedent@1.5.1 ———————————————————————————— MIT
-deep-equal@2.2.2 ———————————————————————— MIT
-deep-is@0.1.4 ——————————————————————————— MIT
-deepmerge@4.3.1 ————————————————————————— MIT
-default-gateway@6.0.3 ——————————————————— BSD-2-Clause
-define-data-property@1.1.1 —————————————— MIT
-define-lazy-prop@2.0.0 —————————————————— MIT
-define-properties@1.2.1 ————————————————— MIT
-delaunator@4.0.1 ———————————————————————— ISC
-delayed-stream@1.0.0 ———————————————————— MIT
-depd@1.1.2 —————————————————————————————— MIT
-depd@2.0.0 —————————————————————————————— MIT
-dequal@2.0.3 ———————————————————————————— MIT
-destroy@1.2.0 ——————————————————————————— MIT
-detect-newline@3.1.0 ———————————————————— MIT
-detect-node-es@1.1.0 ———————————————————— MIT
-detect-node@2.1.0 ——————————————————————— MIT
-detect-port-alt@1.1.6 ——————————————————— MIT
-didyoumean@1.2.2 ———————————————————————— Apache-2.0
-diff-sequences@27.5.1 ——————————————————— MIT
-diff-sequences@29.6.3 ——————————————————— MIT
-diff@4.0.2 —————————————————————————————— BSD-3-Clause
-dijkstrajs@1.0.3 ———————————————————————— MIT
-dir-glob@3.0.1 —————————————————————————— MIT
-dlv@1.1.3 ——————————————————————————————— MIT
-dns-equal@1.0.0 ————————————————————————— MIT
-dns-packet@5.6.1 ———————————————————————— MIT
-doctrine@2.1.0 —————————————————————————— Apache-2.0
-doctrine@3.0.0 —————————————————————————— Apache-2.0
-dom-accessibility-api@0.5.16 ———————————— MIT
-dom-converter@0.2.0 ————————————————————— MIT
-dom-serializer@0.2.2 ———————————————————— MIT
-dom-serializer@1.4.1 ———————————————————— MIT
-domelementtype@1.3.1 ———————————————————— BSD-2-Clause
-domelementtype@2.3.0 ———————————————————— BSD-2-Clause
-domexception@2.0.1 —————————————————————— MIT
-domhandler@4.3.1 ———————————————————————— BSD-2-Clause
-domutils@1.7.0 —————————————————————————— BSD-2-Clause
-domutils@2.8.0 —————————————————————————— BSD-2-Clause
-dot-case@3.0.4 —————————————————————————— MIT
-dotenv-expand@5.1.0 ————————————————————— BSD-2-Clause
-dotenv@10.0.0 ——————————————————————————— BSD-2-Clause
-duplexer@0.1.2 —————————————————————————— MIT
-eastasianwidth@0.2.0 ———————————————————— MIT
-ee-first@1.1.1 —————————————————————————— MIT
-ejs@3.1.9 ——————————————————————————————— Apache-2.0
-electron-to-chromium@1.4.576 ———————————— ISC
-emittery@0.10.2 ————————————————————————— MIT
-emittery@0.13.1 ————————————————————————— MIT
-emittery@0.8.1 —————————————————————————— MIT
-emoji-regex@8.0.0 ——————————————————————— MIT
-emoji-regex@9.2.2 ——————————————————————— MIT
-emojis-list@3.0.0 ——————————————————————— MIT
-encode-utf8@1.0.3 ——————————————————————— MIT
-encodeurl@1.0.2 ————————————————————————— MIT
-enhanced-resolve@5.15.0 ————————————————— MIT
-entities@2.2.0 —————————————————————————— BSD-2-Clause
-error-ex@1.3.2 —————————————————————————— MIT
-error-stack-parser@2.1.4 ———————————————— MIT
-es-abstract@1.22.3 —————————————————————— MIT
-es-array-method-boxes-properly@1.0.0 ———— MIT
-es-get-iterator@1.1.3 ——————————————————— MIT
-es-iterator-helpers@1.0.15 —————————————— MIT
-es-module-lexer@1.3.1 ——————————————————— MIT
-es-set-tostringtag@2.0.2 ———————————————— MIT
-es-shim-unscopables@1.0.2 ——————————————— MIT
-es-to-primitive@1.2.1 ——————————————————— MIT
-escalade@3.1.1 —————————————————————————— MIT
-escape-html@1.0.3 ——————————————————————— MIT
-escape-string-regexp@1.0.5 —————————————— MIT
-escape-string-regexp@2.0.0 —————————————— MIT
-escape-string-regexp@4.0.0 —————————————— MIT
-escodegen@1.14.3 ———————————————————————— BSD-2-Clause
-escodegen@2.1.0 ————————————————————————— BSD-2-Clause
-eslint-config-react-app@7.0.1 ——————————— MIT
-eslint-import-resolver-node@0.3.9 ——————— MIT
-eslint-module-utils@2.8.0 ——————————————— MIT
-eslint-plugin-flowtype@8.0.3 ———————————— BSD-3-Clause
-eslint-plugin-import@2.29.0 ————————————— MIT
-eslint-plugin-jest@25.7.0 ——————————————— MIT
-eslint-plugin-jsx-a11y@6.8.0 ———————————— MIT
-eslint-plugin-react-hooks@4.6.0 ————————— MIT
-eslint-plugin-react@7.33.2 —————————————— MIT
-eslint-plugin-testing-library@5.11.1 ———— MIT
-eslint-scope@5.1.1 —————————————————————— BSD-2-Clause
-eslint-scope@7.2.2 —————————————————————— BSD-2-Clause
-eslint-visitor-keys@2.1.0 ——————————————— Apache-2.0
-eslint-visitor-keys@3.4.3 ——————————————— Apache-2.0
-eslint-webpack-plugin@3.2.0 ————————————— MIT
-eslint@8.53.0 ——————————————————————————— MIT
-espree@9.6.1 ———————————————————————————— BSD-2-Clause
+capital-case@1.0.4 —————————————————————— MIT <br>
+case-sensitive-paths-webpack-plugin@2.… — MIT <br>
+chalk@1.1.3 ————————————————————————————— MIT <br>
+chalk@2.4.2 ————————————————————————————— MIT <br>
+chalk@3.0.0 ————————————————————————————— MIT <br>
+chalk@4.1.2 ————————————————————————————— MIT <br>
+change-case@4.1.2 ——————————————————————— MIT <br>
+char-regex@1.0.2 ———————————————————————— MIT <br>
+char-regex@2.0.1 ———————————————————————— MIT <br>
+check-types@11.2.3 —————————————————————— MIT <br>
+chokidar@3.5.3 —————————————————————————— MIT <br>
+chrome-trace-event@1.0.3 ———————————————— MIT <br>
+ci-info@3.9.0 ——————————————————————————— MIT <br>
+cjs-module-lexer@1.2.3 —————————————————— MIT <br>
+clean-css@5.3.2 ————————————————————————— MIT <br>
+cliui@6.0.0 ————————————————————————————— ISC <br>
+cliui@7.0.4 ————————————————————————————— ISC <br>
+cliui@8.0.1 ————————————————————————————— ISC <br>
+clsx@1.2.1 —————————————————————————————— MIT <br>
+co@4.6.0 ———————————————————————————————— MIT <br>
+coa@2.0.2 ——————————————————————————————— MIT <br>
+collect-v8-coverage@1.0.2 ——————————————— MIT <br>
+color-convert@1.9.3 ————————————————————— MIT <br>
+color-convert@2.0.1 ————————————————————— MIT <br>
+color-name@1.1.3 ———————————————————————— MIT <br>
+color-name@1.1.4 ———————————————————————— MIT <br>
+colord@2.9.3 ———————————————————————————— MIT <br>
+colorette@2.0.20 ———————————————————————— MIT <br>
+combined-stream@1.0.8 ——————————————————— MIT <br>
+commander@2.20.3 ———————————————————————— MIT <br>
+commander@4.1.1 ————————————————————————— MIT <br>
+commander@7.2.0 ————————————————————————— MIT <br>
+commander@8.3.0 ————————————————————————— MIT <br>
+common-path-prefix@3.0.0 ———————————————— ISC <br>
+common-tags@1.8.2 ——————————————————————— MIT <br>
+commondir@1.0.1 ————————————————————————— MIT <br>
+compressible@2.0.18 ————————————————————— MIT <br>
+compression@1.7.4 ——————————————————————— MIT <br>
+concat-map@0.0.1 ———————————————————————— MIT <br>
+confusing-browser-globals@1.0.11 ———————— MIT <br>
+connect-history-api-fallback@2.0.0 —————— MIT <br>
+constant-case@3.0.4 ————————————————————— MIT <br>
+content-disposition@0.5.4 ——————————————— MIT <br>
+content-type@1.0.5 —————————————————————— MIT <br>
+convert-source-map@1.9.0 ———————————————— MIT <br>
+convert-source-map@2.0.0 ———————————————— MIT <br>
+cookie-signature@1.0.6 —————————————————— MIT <br>
+cookie@0.5.0 ———————————————————————————— MIT <br>
+core-js-compat@3.33.2 ——————————————————— MIT <br>
+core-js-pure@3.33.2 ————————————————————— MIT <br>
+core-js@2.6.12 —————————————————————————— MIT <br>
+core-js@3.33.2 —————————————————————————— MIT <br>
+core-util-is@1.0.3 —————————————————————— MIT <br>
+cosmiconfig@6.0.0 ——————————————————————— MIT <br>
+cosmiconfig@7.1.0 ——————————————————————— MIT <br>
+create-jest@29.7.0 —————————————————————— MIT <br>
+create-require@1.1.1 ———————————————————— MIT <br>
+cross-spawn@7.0.3 ——————————————————————— MIT <br>
+crypto-random-string@2.0.0 —————————————— MIT <br>
+css-blank-pseudo@3.0.3 —————————————————— CC0-1.0 + Fair <br>
+css-declaration-sorter@6.4.1 ———————————— ISC <br>
+css-has-pseudo@3.0.4 ———————————————————— CC0-1.0 + Fair <br>
+css-loader@6.8.1 ———————————————————————— MIT <br>
+css-minimizer-webpack-plugin@3.4.1 —————— MIT <br>
+css-prefers-color-scheme@6.0.3 —————————— CC0-1.0 + Fair <br>
+css-select-base-adapter@0.1.1 ——————————— MIT <br>
+css-select@2.1.0 ———————————————————————— BSD-2-Clause <br>
+css-select@4.3.0 ———————————————————————— BSD-2-Clause <br>
+css-tree@1.0.0-alpha.37 ————————————————— MIT <br>
+css-tree@1.1.3 —————————————————————————— MIT <br>
+css-what@3.4.2 —————————————————————————— BSD-2-Clause <br>
+css-what@6.1.0 —————————————————————————— BSD-2-Clause <br>
+css.escape@1.5.1 ———————————————————————— MIT <br>
+cssdb@7.9.0 ————————————————————————————— CC0-1.0 + Fair <br>
+cssesc@3.0.0 ———————————————————————————— MIT <br>
+cssnano-preset-default@5.2.14 ——————————— MIT <br>
+cssnano-utils@3.1.0 ————————————————————— MIT <br>
+cssnano@5.1.15 —————————————————————————— MIT <br>
+csso@4.2.0 —————————————————————————————— MIT <br>
+cssom@0.3.8 ————————————————————————————— MIT <br>
+cssom@0.4.4 ————————————————————————————— MIT <br>
+cssstyle@2.3.0 —————————————————————————— MIT <br>
+csstype@3.1.2 ——————————————————————————— MIT <br>
+csstype@3.1.3 ——————————————————————————— MIT <br>
+d3-array@2.12.1 ————————————————————————— BSD-3-Clause <br>
+d3-array@3.2.4 —————————————————————————— ISC <br>
+d3-color@2.0.0 —————————————————————————— BSD-3-Clause <br>
+d3-delaunay@5.3.0 ——————————————————————— ISC <br>
+d3-format@2.0.0 ————————————————————————— BSD-3-Clause <br>
+d3-interpolate@2.0.1 ———————————————————— BSD-3-Clause <br>
+d3-path@2.0.0 ——————————————————————————— BSD-3-Clause <br>
+d3-scale@3.3.0 —————————————————————————— BSD-3-Clause <br>
+d3-shape@2.1.0 —————————————————————————— BSD-3-Clause <br>
+d3-time-format@3.0.0 ———————————————————— BSD-3-Clause <br>
+d3-time-format@4.1.0 ———————————————————— ISC <br>
+d3-time@2.1.1 ——————————————————————————— BSD-3-Clause <br>
+d3-time@3.1.0 ——————————————————————————— ISC <br>
+damerau-levenshtein@1.0.8 ——————————————— BSD-2-Clause <br>
+data-urls@2.0.0 ————————————————————————— MIT <br>
+debug@2.6.9 ————————————————————————————— MIT <br>
+debug@3.2.7 ————————————————————————————— MIT <br>
+debug@4.3.4 ————————————————————————————— MIT <br>
+decamelize@1.2.0 ———————————————————————— MIT <br>
+decimal.js@10.4.3 ——————————————————————— MIT <br>
+dedent@0.7.0 ———————————————————————————— MIT <br>
+dedent@1.5.1 ———————————————————————————— MIT <br>
+deep-equal@2.2.2 ———————————————————————— MIT <br>
+deep-is@0.1.4 ——————————————————————————— MIT <br>
+deepmerge@4.3.1 ————————————————————————— MIT <br>
+default-gateway@6.0.3 ——————————————————— BSD-2-Clause <br>
+define-data-property@1.1.1 —————————————— MIT <br>
+define-lazy-prop@2.0.0 —————————————————— MIT <br>
+define-properties@1.2.1 ————————————————— MIT <br>
+delaunator@4.0.1 ———————————————————————— ISC <br>
+delayed-stream@1.0.0 ———————————————————— MIT <br>
+depd@1.1.2 —————————————————————————————— MIT <br>
+depd@2.0.0 —————————————————————————————— MIT <br>
+dequal@2.0.3 ———————————————————————————— MIT <br>
+destroy@1.2.0 ——————————————————————————— MIT <br>
+detect-newline@3.1.0 ———————————————————— MIT <br>
+detect-node-es@1.1.0 ———————————————————— MIT <br>
+detect-node@2.1.0 ——————————————————————— MIT <br>
+detect-port-alt@1.1.6 ——————————————————— MIT <br>
+didyoumean@1.2.2 ———————————————————————— Apache-2.0 <br>
+diff-sequences@27.5.1 ——————————————————— MIT <br>
+diff-sequences@29.6.3 ——————————————————— MIT <br>
+diff@4.0.2 —————————————————————————————— BSD-3-Clause <br>
+dijkstrajs@1.0.3 ———————————————————————— MIT <br>
+dir-glob@3.0.1 —————————————————————————— MIT <br>
+dlv@1.1.3 ——————————————————————————————— MIT <br>
+dns-equal@1.0.0 ————————————————————————— MIT <br>
+dns-packet@5.6.1 ———————————————————————— MIT <br>
+doctrine@2.1.0 —————————————————————————— Apache-2.0 <br>
+doctrine@3.0.0 —————————————————————————— Apache-2.0 <br>
+dom-accessibility-api@0.5.16 ———————————— MIT <br>
+dom-converter@0.2.0 ————————————————————— MIT <br>
+dom-serializer@0.2.2 ———————————————————— MIT <br>
+dom-serializer@1.4.1 ———————————————————— MIT <br>
+domelementtype@1.3.1 ———————————————————— BSD-2-Clause <br>
+domelementtype@2.3.0 ———————————————————— BSD-2-Clause <br>
+domexception@2.0.1 —————————————————————— MIT <br>
+domhandler@4.3.1 ———————————————————————— BSD-2-Clause <br>
+domutils@1.7.0 —————————————————————————— BSD-2-Clause <br>
+domutils@2.8.0 —————————————————————————— BSD-2-Clause <br>
+dot-case@3.0.4 —————————————————————————— MIT <br>
+dotenv-expand@5.1.0 ————————————————————— BSD-2-Clause <br>
+dotenv@10.0.0 ——————————————————————————— BSD-2-Clause <br>
+duplexer@0.1.2 —————————————————————————— MIT <br>
+eastasianwidth@0.2.0 ———————————————————— MIT <br>
+ee-first@1.1.1 —————————————————————————— MIT <br>
+ejs@3.1.9 ——————————————————————————————— Apache-2.0 <br>
+electron-to-chromium@1.4.576 ———————————— ISC <br>
+emittery@0.10.2 ————————————————————————— MIT <br>
+emittery@0.13.1 ————————————————————————— MIT <br>
+emittery@0.8.1 —————————————————————————— MIT <br>
+emoji-regex@8.0.0 ——————————————————————— MIT <br>
+emoji-regex@9.2.2 ——————————————————————— MIT <br>
+emojis-list@3.0.0 ——————————————————————— MIT <br>
+encode-utf8@1.0.3 ——————————————————————— MIT <br>
+encodeurl@1.0.2 ————————————————————————— MIT <br>
+enhanced-resolve@5.15.0 ————————————————— MIT <br>
+entities@2.2.0 —————————————————————————— BSD-2-Clause <br>
+error-ex@1.3.2 —————————————————————————— MIT <br>
+error-stack-parser@2.1.4 ———————————————— MIT <br>
+es-abstract@1.22.3 —————————————————————— MIT <br>
+es-array-method-boxes-properly@1.0.0 ———— MIT <br>
+es-get-iterator@1.1.3 ——————————————————— MIT <br>
+es-iterator-helpers@1.0.15 —————————————— MIT <br>
+es-module-lexer@1.3.1 ——————————————————— MIT <br>
+es-set-tostringtag@2.0.2 ———————————————— MIT <br>
+es-shim-unscopables@1.0.2 ——————————————— MIT <br>
+es-to-primitive@1.2.1 ——————————————————— MIT <br>
+escalade@3.1.1 —————————————————————————— MIT <br>
+escape-html@1.0.3 ——————————————————————— MIT <br>
+escape-string-regexp@1.0.5 —————————————— MIT <br>
+escape-string-regexp@2.0.0 —————————————— MIT <br>
+escape-string-regexp@4.0.0 —————————————— MIT <br>
+escodegen@1.14.3 ———————————————————————— BSD-2-Clause <br>
+escodegen@2.1.0 ————————————————————————— BSD-2-Clause <br>
+eslint-config-react-app@7.0.1 ——————————— MIT <br>
+eslint-import-resolver-node@0.3.9 ——————— MIT <br>
+eslint-module-utils@2.8.0 ——————————————— MIT <br>
+eslint-plugin-flowtype@8.0.3 ———————————— BSD-3-Clause <br>
+eslint-plugin-import@2.29.0 ————————————— MIT <br>
+eslint-plugin-jest@25.7.0 ——————————————— MIT <br>
+eslint-plugin-jsx-a11y@6.8.0 ———————————— MIT <br>
+eslint-plugin-react-hooks@4.6.0 ————————— MIT <br>
+eslint-plugin-react@7.33.2 —————————————— MIT <br>
+eslint-plugin-testing-library@5.11.1 ———— MIT <br>
+eslint-scope@5.1.1 —————————————————————— BSD-2-Clause <br>
+eslint-scope@7.2.2 —————————————————————— BSD-2-Clause <br>
+eslint-visitor-keys@2.1.0 ——————————————— Apache-2.0 <br>
+eslint-visitor-keys@3.4.3 ——————————————— Apache-2.0 <br>
+eslint-webpack-plugin@3.2.0 ————————————— MIT <br>
+eslint@8.53.0 ——————————————————————————— MIT <br>
+espree@9.6.1 ———————————————————————————— BSD-2-Clause <br>
 esprima@1.2.2 ——————————————————————————— BSD
-esprima@4.0.1 ——————————————————————————— BSD-2-Clause
-esquery@1.5.0 ——————————————————————————— BSD-3-Clause
-esrecurse@4.3.0 ————————————————————————— BSD-2-Clause
-estraverse@4.3.0 ———————————————————————— BSD-2-Clause
-estraverse@5.3.0 ———————————————————————— BSD-2-Clause
-estree-walker@1.0.1 ————————————————————— MIT
-esutils@2.0.3 ——————————————————————————— BSD-2-Clause
-etag@1.8.1 —————————————————————————————— MIT
-eventemitter3@4.0.7 ————————————————————— MIT
-events@3.3.0 ———————————————————————————— MIT
-execa@5.1.1 ————————————————————————————— MIT
-exenv@1.2.2 ————————————————————————————— BSD-3-Clause
-exit@0.1.2 —————————————————————————————— MIT
-expect@27.5.1 ——————————————————————————— MIT
-expect@29.7.0 ——————————————————————————— MIT
-express@4.18.2 —————————————————————————— MIT
-fast-deep-equal@3.1.3 ——————————————————— MIT
-fast-glob@3.3.1 ————————————————————————— MIT
-fast-json-stable-stringify@2.1.0 ———————— MIT
-fast-levenshtein@2.0.6 —————————————————— MIT
-fast-xml-parser@4.2.5 ——————————————————— MIT
-fast-xml-parser@4.3.3 ——————————————————— MIT
-fastq@1.15.0 ———————————————————————————— ISC
-faye-websocket@0.11.4 ——————————————————— Apache-2.0
-fb-watchman@2.0.2 ——————————————————————— Apache-2.0
-file-entry-cache@6.0.1 —————————————————— MIT
-file-loader@6.2.0 ——————————————————————— MIT
-filelist@1.0.4 —————————————————————————— Apache-2.0
-filesize@8.0.7 —————————————————————————— BSD-3-Clause
-fill-range@7.0.1 ———————————————————————— MIT
-finalhandler@1.2.0 —————————————————————— MIT
-find-cache-dir@3.3.2 ———————————————————— MIT
-find-up@3.0.0 ——————————————————————————— MIT
-find-up@4.1.0 ——————————————————————————— MIT
-find-up@5.0.0 ——————————————————————————— MIT
-flat-cache@3.1.1 ———————————————————————— MIT
-flatted@3.2.9 ——————————————————————————— ISC
-follow-redirects@1.15.3 ————————————————— MIT
-for-each@0.3.3 —————————————————————————— MIT
-foreground-child@3.1.1 —————————————————— ISC
-fork-ts-checker-webpack-plugin@6.5.3 ———— MIT
-form-data@3.0.1 ————————————————————————— MIT
-forwarded@0.2.0 ————————————————————————— MIT
-fraction.js@4.3.7 ——————————————————————— MIT
-fresh@0.5.2 ————————————————————————————— MIT
-fs-extra@10.1.0 ————————————————————————— MIT
-fs-extra@9.1.0 —————————————————————————— MIT
-fs-monkey@1.0.5 ————————————————————————— Unlicense
-fs.realpath@1.0.0 ——————————————————————— ISC
-fsevents@2.3.3 —————————————————————————— MIT
-function-bind@1.1.2 ————————————————————— MIT
-function.prototype.name@1.1.6 ——————————— MIT
-functions-have-names@1.2.3 —————————————— MIT
-gensync@1.0.0-beta.2 ———————————————————— MIT
-get-caller-file@2.0.5 ——————————————————— ISC
-get-intrinsic@1.2.2 ————————————————————— MIT
-get-nonce@1.0.1 ————————————————————————— MIT
-get-own-enumerable-property-symbols@3.… — ISC
-get-package-type@0.1.0 —————————————————— MIT
-get-stream@6.0.1 ———————————————————————— MIT
-get-symbol-description@1.0.0 ———————————— MIT
-glob-parent@5.1.2 ——————————————————————— ISC
-glob-parent@6.0.2 ——————————————————————— ISC
-glob-to-regexp@0.4.1 ———————————————————— BSD-2-Clause
-glob@10.3.10 ———————————————————————————— ISC
-glob@7.1.6 —————————————————————————————— ISC
-glob@7.2.3 —————————————————————————————— ISC
-global-modules@2.0.0 ———————————————————— MIT
-global-prefix@3.0.0 ————————————————————— MIT
-globals@11.12.0 ————————————————————————— MIT
-globals@13.23.0 ————————————————————————— MIT
-globals@9.18.0 —————————————————————————— MIT
-globalthis@1.0.3 ———————————————————————— MIT
-globby@11.1.0 ——————————————————————————— MIT
-gopd@1.0.1 —————————————————————————————— MIT
-graceful-fs@4.2.11 —————————————————————— ISC
-graphemer@1.4.0 ————————————————————————— MIT
-graphql@15.8.0 —————————————————————————— MIT
-gzip-size@6.0.0 ————————————————————————— MIT
-handle-thing@2.0.1 —————————————————————— MIT
-harmony-reflect@1.6.2 ——————————————————— Apache-2.0 + MPL-1.1
-has-ansi@2.0.0 —————————————————————————— MIT
-has-bigints@1.0.2 ——————————————————————— MIT
-has-flag@3.0.0 —————————————————————————— MIT
-has-flag@4.0.0 —————————————————————————— MIT
-has-property-descriptors@1.0.1 —————————— MIT
-has-proto@1.0.1 ————————————————————————— MIT
-has-symbols@1.0.3 ——————————————————————— MIT
-has-tostringtag@1.0.0 ——————————————————— MIT
-hasown@2.0.0 ———————————————————————————— MIT
-he@1.2.0 ———————————————————————————————— MIT
-header-case@2.0.4 ——————————————————————— MIT
-hoopy@0.1.4 ————————————————————————————— MIT
-hpack.js@2.1.6 —————————————————————————— MIT
-html-encoding-sniffer@2.0.1 ————————————— MIT
-html-entities@2.4.0 ————————————————————— MIT
-html-escaper@2.0.2 —————————————————————— MIT
-html-minifier-terser@6.1.0 —————————————— MIT
-html-webpack-plugin@5.5.3 ——————————————— MIT
-htmlparser2@6.1.0 ——————————————————————— MIT
-http-deceiver@1.2.7 ————————————————————— MIT
-http-errors@1.6.3 ——————————————————————— MIT
-http-errors@2.0.0 ——————————————————————— MIT
-http-parser-js@0.5.8 ———————————————————— MIT
-http-proxy-agent@4.0.1 —————————————————— MIT
-http-proxy-middleware@2.0.6 ————————————— MIT
-http-proxy@1.18.1 ——————————————————————— MIT
-https-proxy-agent@5.0.1 ————————————————— MIT
-human-signals@2.1.0 ————————————————————— Apache-2.0
-iconv-lite@0.4.24 ——————————————————————— MIT
-iconv-lite@0.6.3 ———————————————————————— MIT
-icss-utils@5.1.0 ———————————————————————— ISC
-idb@5.0.6 ——————————————————————————————— ISC
-idb@7.1.1 ——————————————————————————————— ISC
-identity-obj-proxy@3.0.0 ———————————————— MIT
-ieee754@1.2.1 ——————————————————————————— BSD-3-Clause + Fair
-ignore@5.2.4 ———————————————————————————— MIT
-immer@9.0.21 ———————————————————————————— MIT
-immer@9.0.6 ————————————————————————————— MIT
-import-fresh@3.3.0 —————————————————————— MIT
-import-local@3.1.0 —————————————————————— MIT
-imurmurhash@0.1.4 ——————————————————————— MIT
-indent-string@4.0.0 ————————————————————— MIT
-inflight@1.0.6 —————————————————————————— ISC
-inherits@2.0.3 —————————————————————————— ISC
-inherits@2.0.4 —————————————————————————— ISC
-ini@1.3.8 ——————————————————————————————— ISC
-internal-slot@1.0.6 ————————————————————— MIT
-internmap@1.0.1 ————————————————————————— ISC
-internmap@2.0.3 ————————————————————————— ISC
-invariant@2.2.4 ————————————————————————— MIT
-ipaddr.js@1.9.1 ————————————————————————— MIT
-ipaddr.js@2.1.0 ————————————————————————— MIT
-is-arguments@1.1.1 —————————————————————— MIT
-is-array-buffer@3.0.2 ——————————————————— MIT
-is-arrayish@0.2.1 ——————————————————————— MIT
-is-async-function@2.0.0 ————————————————— MIT
-is-bigint@1.0.4 ————————————————————————— MIT
-is-binary-path@2.1.0 ———————————————————— MIT
-is-boolean-object@1.1.2 ————————————————— MIT
-is-callable@1.2.7 ——————————————————————— MIT
-is-core-module@2.13.1 ——————————————————— MIT
-is-date-object@1.0.5 ———————————————————— MIT
-is-docker@2.2.1 ————————————————————————— MIT
-is-extglob@2.1.1 ———————————————————————— MIT
-is-finalizationregistry@1.0.2 ——————————— MIT
-is-fullwidth-code-point@3.0.0 ——————————— MIT
-is-generator-fn@2.1.0 ——————————————————— MIT
-is-generator-function@1.0.10 ———————————— MIT
-is-glob@4.0.3 ——————————————————————————— MIT
-is-map@2.0.2 ———————————————————————————— MIT
-is-module@1.0.0 ————————————————————————— MIT
-is-negative-zero@2.0.2 —————————————————— MIT
-is-number-object@1.0.7 —————————————————— MIT
-is-number@7.0.0 ————————————————————————— MIT
-is-obj@1.0.1 ———————————————————————————— MIT
-is-path-inside@3.0.3 ———————————————————— MIT
-is-plain-obj@3.0.0 —————————————————————— MIT
-is-potential-custom-element-name@1.0.1 —— MIT
-is-regex@1.1.4 —————————————————————————— MIT
-is-regexp@1.0.0 ————————————————————————— MIT
-is-root@2.1.0 ——————————————————————————— MIT
-is-set@2.0.2 ———————————————————————————— MIT
-is-shared-array-buffer@1.0.2 ———————————— MIT
-is-stream@2.0.1 ————————————————————————— MIT
-is-string@1.0.7 ————————————————————————— MIT
-is-symbol@1.0.4 ————————————————————————— MIT
-is-typed-array@1.1.12 ——————————————————— MIT
-is-typedarray@1.0.0 ————————————————————— MIT
-is-weakmap@2.0.1 ———————————————————————— MIT
-is-weakref@1.0.2 ———————————————————————— MIT
-is-weakset@2.0.2 ———————————————————————— MIT
-is-wsl@2.2.0 ———————————————————————————— MIT
-isarray@1.0.0 ——————————————————————————— MIT
-isarray@2.0.5 ——————————————————————————— MIT
-isexe@2.0.0 ————————————————————————————— ISC
-istanbul-lib-coverage@3.2.0 ————————————— BSD-3-Clause
-istanbul-lib-instrument@5.2.1 ——————————— BSD-3-Clause
-istanbul-lib-instrument@6.0.1 ——————————— BSD-3-Clause
-istanbul-lib-report@3.0.1 ——————————————— BSD-3-Clause
-istanbul-lib-source-maps@4.0.1 —————————— BSD-3-Clause
-istanbul-reports@3.1.6 —————————————————— BSD-3-Clause
-iterator.prototype@1.1.2 ———————————————— MIT
-jackspeak@2.3.6 ————————————————————————— BlueOak-1.0.0
-jake@10.8.7 ————————————————————————————— Apache-2.0
-jest-changed-files@27.5.1 ——————————————— MIT
-jest-changed-files@29.7.0 ——————————————— MIT
-jest-circus@27.5.1 —————————————————————— MIT
-jest-circus@29.7.0 —————————————————————— MIT
-jest-cli@27.5.1 ————————————————————————— MIT
-jest-cli@29.7.0 ————————————————————————— MIT
-jest-config@27.5.1 —————————————————————— MIT
-jest-config@29.7.0 —————————————————————— MIT
-jest-diff@27.5.1 ———————————————————————— MIT
-jest-diff@29.7.0 ———————————————————————— MIT
-jest-docblock@27.5.1 ———————————————————— MIT
-jest-docblock@29.7.0 ———————————————————— MIT
-jest-each@27.5.1 ———————————————————————— MIT
-jest-each@29.7.0 ———————————————————————— MIT
-jest-environment-jsdom@27.5.1 ——————————— MIT
-jest-environment-node@27.5.1 ———————————— MIT
-jest-environment-node@29.7.0 ———————————— MIT
-jest-get-type@27.5.1 ———————————————————— MIT
-jest-get-type@29.6.3 ———————————————————— MIT
-jest-haste-map@27.5.1 ——————————————————— MIT
-jest-haste-map@29.7.0 ——————————————————— MIT
-jest-jasmine2@27.5.1 ———————————————————— MIT
-jest-leak-detector@27.5.1 ——————————————— MIT
-jest-leak-detector@29.7.0 ——————————————— MIT
-jest-matcher-utils@27.5.1 ——————————————— MIT
-jest-matcher-utils@29.7.0 ——————————————— MIT
-jest-message-util@27.5.1 ———————————————— MIT
-jest-message-util@28.1.3 ———————————————— MIT
-jest-message-util@29.7.0 ———————————————— MIT
-jest-mock@27.5.1 ———————————————————————— MIT
-jest-mock@29.7.0 ———————————————————————— MIT
-jest-pnp-resolver@1.2.3 ————————————————— MIT
-jest-regex-util@27.5.1 —————————————————— MIT
-jest-regex-util@28.0.2 —————————————————— MIT
-jest-regex-util@29.6.3 —————————————————— MIT
-jest-resolve-dependencies@27.5.1 ———————— MIT
-jest-resolve-dependencies@29.7.0 ———————— MIT
-jest-resolve@27.5.1 ————————————————————— MIT
-jest-resolve@29.7.0 ————————————————————— MIT
-jest-runner@27.5.1 —————————————————————— MIT
-jest-runner@29.7.0 —————————————————————— MIT
-jest-runtime@27.5.1 ————————————————————— MIT
-jest-runtime@29.7.0 ————————————————————— MIT
-jest-serializer@27.5.1 —————————————————— MIT
-jest-snapshot@27.5.1 ———————————————————— MIT
-jest-snapshot@29.7.0 ———————————————————— MIT
-jest-util@27.5.1 ———————————————————————— MIT
-jest-util@28.1.3 ———————————————————————— MIT
-jest-util@29.7.0 ———————————————————————— MIT
-jest-validate@27.5.1 ———————————————————— MIT
-jest-validate@29.7.0 ———————————————————— MIT
-jest-watch-typeahead@1.1.0 —————————————— MIT
-jest-watcher@27.5.1 ————————————————————— MIT
-jest-watcher@28.1.3 ————————————————————— MIT
-jest-watcher@29.7.0 ————————————————————— MIT
-jest-worker@26.6.2 —————————————————————— MIT
-jest-worker@27.5.1 —————————————————————— MIT
-jest-worker@28.1.3 —————————————————————— MIT
-jest-worker@29.7.0 —————————————————————— MIT
-jest@27.5.1 ————————————————————————————— MIT
-jest@29.7.0 ————————————————————————————— MIT
-jiti@1.21.0 ————————————————————————————— MIT
-jquery@3.7.1 ———————————————————————————— MIT
-js-cookie@3.0.5 ————————————————————————— MIT
-js-tokens@3.0.2 ————————————————————————— MIT
-js-tokens@4.0.0 ————————————————————————— MIT
-js-yaml@3.14.1 —————————————————————————— MIT
-js-yaml@4.1.0 ——————————————————————————— MIT
-jsdom@16.7.0 ———————————————————————————— MIT
-jsesc@0.5.0 ————————————————————————————— MIT
-jsesc@2.5.2 ————————————————————————————— MIT
-json-buffer@3.0.1 ——————————————————————— MIT
-json-parse-even-better-errors@2.3.1 ————— MIT
-json-schema-traverse@0.4.1 —————————————— MIT
-json-schema-traverse@1.0.0 —————————————— MIT
-json-schema@0.4.0 ——————————————————————— AFL-2.1 + BSD-3-Clause
-json-stable-stringify-without-jsonify@… — MIT
-json5@1.0.2 ————————————————————————————— MIT
-json5@2.2.3 ————————————————————————————— MIT
-jsonc-parser@3.2.0 —————————————————————— MIT
-jsonfile@6.1.0 —————————————————————————— MIT
-jsonpath@1.1.1 —————————————————————————— MIT
-jsonpointer@5.0.1 ——————————————————————— MIT
-jsx-ast-utils@3.3.5 ————————————————————— MIT
-keyboard-key@1.1.0 —————————————————————— MIT
-keyv@4.5.4 —————————————————————————————— MIT
-kind-of@6.0.3 ——————————————————————————— MIT
-kleur@3.0.3 ————————————————————————————— MIT
-klona@2.0.6 ————————————————————————————— MIT
-language-subtag-registry@0.3.22 ————————— CC0-1.0
-language-tags@1.0.9 ————————————————————— MIT
-launch-editor@2.6.1 ————————————————————— MIT
-leven@3.1.0 ————————————————————————————— MIT
-levn@0.3.0 —————————————————————————————— MIT
-levn@0.4.1 —————————————————————————————— MIT
-lilconfig@2.1.0 ————————————————————————— MIT
-lines-and-columns@1.2.4 ————————————————— MIT
-loader-runner@4.3.0 ————————————————————— MIT
-loader-utils@2.0.4 —————————————————————— MIT
-loader-utils@3.2.1 —————————————————————— MIT
-locate-path@3.0.0 ——————————————————————— MIT
-locate-path@5.0.0 ——————————————————————— MIT
-locate-path@6.0.0 ——————————————————————— MIT
-lodash-es@4.17.21 ——————————————————————— MIT + TCL
-lodash.debounce@4.0.8 ——————————————————— MIT + TCL
-lodash.memoize@4.1.2 ———————————————————— MIT + TCL
-lodash.merge@4.6.2 —————————————————————— MIT + TCL
-lodash.sortby@4.7.0 ————————————————————— MIT + TCL
-lodash.uniq@4.5.0 ——————————————————————— MIT + TCL
-lodash@4.17.21 —————————————————————————— MIT + TCL
-loose-envify@1.4.0 —————————————————————— MIT
-lower-case@2.0.2 ———————————————————————— MIT
-lru-cache@10.1.0 ———————————————————————— ISC
-lru-cache@5.1.1 ————————————————————————— ISC
-lru-cache@6.0.0 ————————————————————————— ISC
-lz-string@1.5.0 ————————————————————————— MIT
-magic-string@0.25.9 ————————————————————— MIT
-make-dir@3.1.0 —————————————————————————— MIT
-make-dir@4.0.0 —————————————————————————— MIT
-make-error@1.3.6 ———————————————————————— ISC
-makeerror@1.0.12 ———————————————————————— BSD-3-Clause
-mdn-data@2.0.14 ————————————————————————— CC0-1.0 + Fair
-mdn-data@2.0.4 —————————————————————————— CC0-1.0 + Fair
-media-typer@0.3.0 ——————————————————————— MIT
-memfs@3.6.0 ————————————————————————————— Unlicense
-merge-descriptors@1.0.1 ————————————————— MIT
-merge-stream@2.0.0 —————————————————————— MIT
-merge2@1.4.1 ———————————————————————————— MIT
-methods@1.1.2 ——————————————————————————— MIT
-micromatch@4.0.5 ———————————————————————— MIT
-mime-db@1.52.0 —————————————————————————— MIT
-mime-types@2.1.35 ——————————————————————— MIT
-mime@1.6.0 —————————————————————————————— MIT
-mimic-fn@2.1.0 —————————————————————————— MIT
-min-indent@1.0.1 ———————————————————————— MIT
-mini-css-extract-plugin@2.7.6 ——————————— MIT
-minimalistic-assert@1.0.1 ——————————————— ISC
-minimatch@3.1.2 ————————————————————————— ISC
-minimatch@5.1.6 ————————————————————————— ISC
-minimatch@9.0.3 ————————————————————————— ISC
-minimist@1.2.8 —————————————————————————— MIT
-minipass@7.0.4 —————————————————————————— ISC
-mkdirp@0.5.6 ———————————————————————————— MIT + X11
-ms@2.0.0 ———————————————————————————————— MIT
-ms@2.1.2 ———————————————————————————————— MIT
-ms@2.1.3 ———————————————————————————————— MIT
-multicast-dns@7.2.5 ————————————————————— MIT
-mz@2.7.0 ———————————————————————————————— MIT
-nanoid@3.3.6 ———————————————————————————— MIT
-natural-compare-lite@1.4.0 —————————————— MIT
-natural-compare@1.4.0 ——————————————————— MIT
-negotiator@0.6.3 ———————————————————————— MIT
-neo-async@2.6.2 ————————————————————————— MIT
-no-case@3.0.4 ——————————————————————————— MIT
-node-forge@1.3.1 ———————————————————————— BSD-3-Clause + GPL-2.0
-node-int64@0.4.0 ———————————————————————— MIT
-node-releases@2.0.13 ———————————————————— MIT
-normalize-path@3.0.0 ———————————————————— MIT
-normalize-range@0.1.2 ——————————————————— MIT
-normalize-url@6.1.0 ————————————————————— MIT
-npm-run-path@4.0.1 —————————————————————— MIT
-nth-check@1.0.2 ————————————————————————— BSD-2-Clause
-nth-check@2.1.1 ————————————————————————— BSD-2-Clause
-nwsapi@2.2.7 ———————————————————————————— MIT
-object-assign@4.1.1 ————————————————————— MIT
-object-hash@3.0.0 ——————————————————————— MIT
-object-inspect@1.13.1 ——————————————————— MIT
-object-is@1.1.5 ————————————————————————— MIT
-object-keys@1.1.1 ——————————————————————— MIT
-object.assign@4.1.4 ————————————————————— MIT
-object.entries@1.1.7 ———————————————————— MIT
-object.fromentries@2.0.7 ———————————————— MIT
-object.getownpropertydescriptors@2.1.7 —— MIT
-object.groupby@1.0.1 ———————————————————— MIT
-object.hasown@1.1.3 ————————————————————— MIT
-object.values@1.1.7 ————————————————————— MIT
-obuf@1.1.2 —————————————————————————————— MIT
-on-finished@2.4.1 ——————————————————————— MIT
-on-headers@1.0.2 ———————————————————————— MIT
-once@1.4.0 —————————————————————————————— ISC
-onetime@5.1.2 ——————————————————————————— MIT
-open@8.4.2 —————————————————————————————— MIT
-optionator@0.8.3 ———————————————————————— MIT
-optionator@0.9.3 ———————————————————————— MIT
-p-limit@2.3.0 ——————————————————————————— MIT
-p-limit@3.1.0 ——————————————————————————— MIT
-p-locate@3.0.0 —————————————————————————— MIT
-p-locate@4.1.0 —————————————————————————— MIT
-p-locate@5.0.0 —————————————————————————— MIT
-p-retry@4.6.2 ——————————————————————————— MIT
-p-try@2.2.0 ————————————————————————————— MIT
-param-case@3.0.4 ———————————————————————— MIT
-parent-module@1.0.1 ————————————————————— MIT
-parse-json@5.2.0 ———————————————————————— MIT
-parse5@6.0.1 ———————————————————————————— MIT
-parseurl@1.3.3 —————————————————————————— MIT
-pascal-case@3.1.2 ——————————————————————— MIT
-path-case@3.0.4 ————————————————————————— MIT
-path-exists@3.0.0 ——————————————————————— MIT
-path-exists@4.0.0 ——————————————————————— MIT
-path-is-absolute@1.0.1 —————————————————— MIT
-path-key@3.1.1 —————————————————————————— MIT
-path-parse@1.0.7 ———————————————————————— MIT
-path-scurry@1.10.1 —————————————————————— BlueOak-1.0.0
-path-to-regexp@0.1.7 ———————————————————— MIT
-path-type@4.0.0 ————————————————————————— MIT
-performance-now@2.1.0 ——————————————————— MIT
-picocolors@0.2.1 ———————————————————————— ISC
-picocolors@1.0.0 ———————————————————————— ISC
-picomatch@2.3.1 ————————————————————————— MIT
-pify@2.3.0 —————————————————————————————— MIT
-pirates@4.0.6 ——————————————————————————— MIT
-pkg-dir@4.2.0 ——————————————————————————— MIT
-pkg-up@3.1.0 ———————————————————————————— MIT
-pngjs@5.0.0 ————————————————————————————— MIT
-postcss-attribute-case-insensitive@5.0… — MIT
-postcss-browser-comments@4.0.0 —————————— CC0-1.0 + Fair
-postcss-calc@8.2.4 —————————————————————— MIT
-postcss-clamp@4.1.0 ————————————————————— MIT
-postcss-color-functional-notation@4.2.… — CC0-1.0 + Fair
-postcss-color-hex-alpha@8.0.4 ——————————— MIT
-postcss-color-rebeccapurple@7.1.1 ——————— CC0-1.0 + Fair
-postcss-colormin@5.3.1 —————————————————— MIT
-postcss-convert-values@5.1.3 ———————————— MIT
-postcss-custom-media@8.0.2 —————————————— MIT
-postcss-custom-properties@12.1.11 ——————— MIT
-postcss-custom-selectors@6.0.3 —————————— MIT
-postcss-dir-pseudo-class@6.0.5 —————————— CC0-1.0 + Fair
-postcss-discard-comments@5.1.2 —————————— MIT
-postcss-discard-duplicates@5.1.0 ———————— MIT
-postcss-discard-empty@5.1.1 ————————————— MIT
-postcss-discard-overridden@5.1.0 ———————— MIT
-postcss-double-position-gradients@3.1.… — CC0-1.0 + Fair
-postcss-env-function@4.0.6 —————————————— CC0-1.0 + Fair
-postcss-flexbugs-fixes@5.0.2 ———————————— MIT
-postcss-focus-visible@6.0.4 ————————————— CC0-1.0 + Fair
-postcss-focus-within@5.0.4 —————————————— CC0-1.0 + Fair
-postcss-font-variant@5.0.0 —————————————— MIT
-postcss-gap-properties@3.0.5 ———————————— CC0-1.0 + Fair
-postcss-image-set-function@4.0.7 ———————— CC0-1.0 + Fair
-postcss-import@15.1.0 ——————————————————— MIT
-postcss-initial@4.0.1 ——————————————————— MIT
-postcss-js@4.0.1 ———————————————————————— MIT
-postcss-lab-function@4.2.1 —————————————— CC0-1.0 + Fair
-postcss-load-config@4.0.1 ——————————————— MIT
-postcss-loader@6.2.1 ———————————————————— MIT
-postcss-logical@5.0.4 ——————————————————— CC0-1.0 + Fair
-postcss-media-minmax@5.0.0 —————————————— MIT
-postcss-merge-longhand@5.1.7 ———————————— MIT
-postcss-merge-rules@5.1.4 ——————————————— MIT
-postcss-minify-font-values@5.1.0 ———————— MIT
-postcss-minify-gradients@5.1.1 —————————— MIT
-postcss-minify-params@5.1.4 ————————————— MIT
-postcss-minify-selectors@5.2.1 —————————— MIT
-postcss-modules-extract-imports@3.0.0 ——— ISC
-postcss-modules-local-by-default@4.0.3 —— MIT
-postcss-modules-scope@3.0.0 ————————————— ISC
-postcss-modules-values@4.0.0 ———————————— ISC
-postcss-nested@6.0.1 ———————————————————— MIT
-postcss-nesting@10.2.0 —————————————————— CC0-1.0 + Fair
-postcss-normalize-charset@5.1.0 ————————— MIT
-postcss-normalize-display-values@5.1.0 —— MIT
-postcss-normalize-positions@5.1.1 ——————— MIT
-postcss-normalize-repeat-style@5.1.1 ———— MIT
-postcss-normalize-string@5.1.0 —————————— MIT
-postcss-normalize-timing-functions@5.1… — MIT
-postcss-normalize-unicode@5.1.1 ————————— MIT
-postcss-normalize-url@5.1.0 ————————————— MIT
-postcss-normalize-whitespace@5.1.1 —————— MIT
-postcss-normalize@10.0.1 ———————————————— CC0-1.0 + Fair
-postcss-opacity-percentage@1.1.3 ———————— MIT
-postcss-ordered-values@5.1.3 ———————————— MIT
-postcss-overflow-shorthand@3.0.4 ———————— CC0-1.0 + Fair
-postcss-page-break@3.0.4 ———————————————— MIT
-postcss-place@7.0.5 ————————————————————— CC0-1.0 + Fair
-postcss-preset-env@7.8.3 ———————————————— CC0-1.0 + Fair
-postcss-pseudo-class-any-link@7.1.6 ————— CC0-1.0 + Fair
-postcss-reduce-initial@5.1.2 ———————————— MIT
-postcss-reduce-transforms@5.1.0 ————————— MIT
-postcss-replace-overflow-wrap@4.0.0 ————— MIT
-postcss-selector-not@6.0.1 —————————————— MIT
-postcss-selector-parser@6.0.13 —————————— MIT
-postcss-svgo@5.1.0 —————————————————————— MIT
-postcss-unique-selectors@5.1.1 —————————— MIT
-postcss-value-parser@4.2.0 —————————————— MIT
-postcss@7.0.39 —————————————————————————— MIT
-postcss@8.4.31 —————————————————————————— MIT
-prelude-ls@1.1.2 ———————————————————————— MIT
-prelude-ls@1.2.1 ———————————————————————— MIT
-pretty-bytes@5.6.0 —————————————————————— MIT
-pretty-error@4.0.0 —————————————————————— MIT
-pretty-format@27.5.1 ———————————————————— MIT
-pretty-format@28.1.3 ———————————————————— MIT
-pretty-format@29.7.0 ———————————————————— MIT
-process-nextick-args@2.0.1 —————————————— MIT
-promise@8.3.0 ——————————————————————————— MIT
-prompts@2.4.2 ——————————————————————————— MIT
-prop-types@15.8.1 ——————————————————————— MIT
-proxy-addr@2.0.7 ———————————————————————— MIT
-psl@1.9.0 ——————————————————————————————— MIT
-punycode@2.3.1 —————————————————————————— MIT
-pure-rand@6.0.4 ————————————————————————— MIT
-q@1.5.1 ————————————————————————————————— MIT
-qrcode@1.5.0 ———————————————————————————— MIT
-qs@6.11.0 ——————————————————————————————— BSD-3-Clause
-querystringify@2.2.0 ———————————————————— MIT
-queue-microtask@1.2.3 ——————————————————— MIT
-raf@3.4.1 ——————————————————————————————— MIT
-randombytes@2.1.0 ——————————————————————— MIT
-range-parser@1.2.1 —————————————————————— MIT
-raw-body@2.5.1 —————————————————————————— MIT
-react-app-polyfill@3.0.0 ———————————————— MIT
-react-charts@3.0.0-beta.57 —————————————— MIT
-react-dev-utils@12.0.1 —————————————————— MIT
-react-dom@18.2.0 ———————————————————————— MIT
-react-draggable@4.4.6 ——————————————————— MIT
-react-error-overlay@6.0.11 —————————————— MIT
-react-fast-compare@3.2.2 ———————————————— MIT
-react-hook-form@7.49.3 —————————————————— MIT
-react-image-crop@11.0.5 ————————————————— ISC
-react-is@16.13.1 ———————————————————————— MIT
-react-is@17.0.2 ————————————————————————— MIT
-react-is@18.2.0 ————————————————————————— MIT
-react-popper@2.3.0 —————————————————————— MIT
-react-refresh@0.11.0 ———————————————————— MIT
-react-remove-scroll-bar@2.3.4 ——————————— MIT
-react-remove-scroll@2.5.4 ——————————————— MIT
-react-resizable@3.0.5 ——————————————————— MIT
-react-router-dom@6.18.0 ————————————————— MIT
-react-router@6.18.0 ————————————————————— MIT
-react-scripts@5.0.1 ————————————————————— MIT
-react-style-singleton@2.2.1 ————————————— MIT
-react@18.2.0 ———————————————————————————— MIT
-read-cache@1.0.0 ———————————————————————— MIT
-readable-stream@2.3.8 ——————————————————— MIT
-readable-stream@3.6.2 ——————————————————— MIT
-readdirp@3.6.0 —————————————————————————— MIT
-recursive-readdir@2.2.3 ————————————————— MIT
-redent@3.0.0 ———————————————————————————— MIT
-reflect.getprototypeof@1.0.4 ———————————— MIT
-regenerate-unicode-properties@10.1.1 ———— MIT
-regenerate@1.4.2 ———————————————————————— MIT
-regenerator-runtime@0.11.1 —————————————— MIT
-regenerator-runtime@0.13.11 ————————————— MIT
-regenerator-runtime@0.14.0 —————————————— MIT
-regenerator-transform@0.15.2 ———————————— MIT
-regex-parser@2.2.11 ————————————————————— MIT
-regexp.prototype.flags@1.5.1 ———————————— MIT
-regexpu-core@5.3.2 —————————————————————— MIT
-regjsparser@0.9.1 ——————————————————————— BSD-2-Clause
-relateurl@0.2.7 ————————————————————————— MIT
-renderkid@3.0.0 ————————————————————————— MIT
-require-directory@2.1.1 ————————————————— MIT
-require-from-string@2.0.2 ——————————————— MIT
-require-main-filename@2.0.0 ————————————— ISC
-requires-port@1.0.0 ————————————————————— MIT
-resolve-cwd@3.0.0 ——————————————————————— MIT
-resolve-from@4.0.0 —————————————————————— MIT
-resolve-from@5.0.0 —————————————————————— MIT
-resolve-url-loader@4.0.0 ———————————————— MIT
-resolve.exports@1.1.1 ——————————————————— MIT
-resolve.exports@2.0.2 ——————————————————— MIT
-resolve@1.22.8 —————————————————————————— MIT
-resolve@2.0.0-next.5 ———————————————————— MIT
-retry@0.13.1 ———————————————————————————— MIT
-reusify@1.0.4 ——————————————————————————— MIT
-rimraf@3.0.2 ———————————————————————————— ISC
-rollup-plugin-terser@7.0.2 —————————————— MIT
-rollup@2.79.1 ——————————————————————————— ISC + MIT
-run-parallel@1.2.0 —————————————————————— MIT
-rxjs@7.8.1 —————————————————————————————— Apache-2.0
-safe-array-concat@1.0.1 ————————————————— MIT
-safe-buffer@5.1.2 ——————————————————————— MIT
-safe-buffer@5.2.1 ——————————————————————— MIT
-safe-regex-test@1.0.0 ——————————————————— MIT
-safer-buffer@2.1.2 —————————————————————— MIT
-sanitize.css@13.0.0 ————————————————————— CC0-1.0 + Fair
-sass-loader@12.6.0 —————————————————————— MIT
-sax@1.2.4 ——————————————————————————————— ISC
-saxes@5.0.1 ————————————————————————————— ISC
-scheduler@0.23.0 ———————————————————————— MIT
-schema-utils@2.7.0 —————————————————————— MIT
-schema-utils@2.7.1 —————————————————————— MIT
-schema-utils@3.3.0 —————————————————————— MIT
-schema-utils@4.2.0 —————————————————————— MIT
-select-hose@2.0.0 ——————————————————————— MIT
-selfsigned@2.4.1 ———————————————————————— MIT
-semantic-ui-css@2.5.0 ——————————————————— MIT
-semantic-ui-react@2.1.4 ————————————————— MIT
-semver@6.3.1 ———————————————————————————— ISC
-semver@7.5.4 ———————————————————————————— ISC
-send@0.18.0 ————————————————————————————— MIT
-sentence-case@3.0.4 ————————————————————— MIT
-serialize-javascript@4.0.0 —————————————— BSD-3-Clause
-serialize-javascript@6.0.1 —————————————— BSD-3-Clause
-serve-index@1.9.1 ——————————————————————— MIT
-serve-static@1.15.0 ————————————————————— MIT
-set-blocking@2.0.0 —————————————————————— ISC
-set-function-length@1.1.1 ——————————————— MIT
-set-function-name@2.0.1 ————————————————— MIT
-setprototypeof@1.1.0 ———————————————————— ISC
-setprototypeof@1.2.0 ———————————————————— ISC
-shallowequal@1.1.0 —————————————————————— MIT
-shebang-command@2.0.0 ——————————————————— MIT
-shebang-regex@3.0.0 ————————————————————— MIT
-shell-quote@1.8.1 ——————————————————————— MIT
-side-channel@1.0.4 —————————————————————— MIT
-signal-exit@3.0.7 ——————————————————————— ISC
-signal-exit@4.1.0 ——————————————————————— ISC
-sisteransi@1.0.5 ———————————————————————— MIT
-slash@3.0.0 ————————————————————————————— MIT
-slash@4.0.0 ————————————————————————————— MIT
-snake-case@3.0.4 ———————————————————————— MIT
-sockjs@0.3.24 ——————————————————————————— MIT
-source-list-map@2.0.1 ——————————————————— MIT
-source-map-js@1.0.2 ————————————————————— BSD-3-Clause
-source-map-loader@3.0.2 ————————————————— MIT
-source-map-support@0.5.13 ——————————————— MIT
-source-map-support@0.5.21 ——————————————— MIT
-source-map@0.6.1 ———————————————————————— BSD-3-Clause
-source-map@0.7.4 ———————————————————————— BSD-3-Clause
-source-map@0.8.0-beta.0 ————————————————— BSD-3-Clause
-sourcemap-codec@1.4.8 ——————————————————— MIT
-spdy-transport@3.0.0 ———————————————————— MIT
-spdy@4.0.2 —————————————————————————————— MIT
-sprintf-js@1.0.3 ———————————————————————— BSD-3-Clause
-stable@0.1.8 ———————————————————————————— MIT
-stack-utils@2.0.6 ——————————————————————— MIT
-stackframe@1.3.4 ———————————————————————— MIT
-static-eval@2.0.2 ——————————————————————— MIT
-statuses@1.5.0 —————————————————————————— MIT
-statuses@2.0.1 —————————————————————————— MIT
-stop-iteration-iterator@1.0.0 ——————————— MIT
-string_decoder@1.1.1 ———————————————————— MIT
-string_decoder@1.3.0 ———————————————————— MIT
-string-length@4.0.2 ————————————————————— MIT
-string-length@5.0.1 ————————————————————— MIT
-string-natural-compare@3.0.1 ———————————— MIT
-string-width-cjs@4.2.3 —————————————————— MIT
-string-width@4.2.3 —————————————————————— MIT
-string-width@5.1.2 —————————————————————— MIT
-string.prototype.matchall@4.0.10 ———————— MIT
-string.prototype.trim@1.2.8 ————————————— MIT
-string.prototype.trimend@1.0.7 —————————— MIT
-string.prototype.trimstart@1.0.7 ———————— MIT
-stringify-object@3.3.0 —————————————————— BSD-2-Clause
-strip-ansi-cjs@6.0.1 ———————————————————— MIT
-strip-ansi@3.0.1 ———————————————————————— MIT
-strip-ansi@6.0.1 ———————————————————————— MIT
-strip-ansi@7.1.0 ———————————————————————— MIT
-strip-bom@3.0.0 ————————————————————————— MIT
-strip-bom@4.0.0 ————————————————————————— MIT
-strip-comments@2.0.1 ———————————————————— MIT
-strip-final-newline@2.0.0 ——————————————— MIT
-strip-indent@3.0.0 —————————————————————— MIT
-strip-json-comments@3.1.1 ——————————————— MIT
-strnum@1.0.5 ———————————————————————————— Intel + MIT
-style-dictionary@3.9.1 —————————————————— Apache-2.0
-style-loader@3.3.3 —————————————————————— MIT
-stylehacks@5.1.1 ———————————————————————— MIT
-sucrase@3.34.0 —————————————————————————— MIT
-supports-color@2.0.0 ———————————————————— MIT
-supports-color@5.5.0 ———————————————————— MIT
-supports-color@7.2.0 ———————————————————— MIT
-supports-color@8.1.1 ———————————————————— MIT
-supports-hyperlinks@2.3.0 ——————————————— MIT
-supports-preserve-symlinks-flag@1.0.0 ——— MIT
-svg-parser@2.0.4 ———————————————————————— MIT
-svgo@1.3.2 —————————————————————————————— MIT
-svgo@2.8.0 —————————————————————————————— MIT
-symbol-tree@3.2.4 ——————————————————————— MIT
-tailwindcss@3.3.5 ——————————————————————— MIT
-tapable@1.1.3 ——————————————————————————— MIT
-tapable@2.2.1 ——————————————————————————— MIT
-temp-dir@2.0.0 —————————————————————————— MIT
-tempy@0.6.0 ————————————————————————————— MIT
-terminal-link@2.1.1 ————————————————————— MIT
-terser-webpack-plugin@5.3.9 ————————————— MIT
-terser@5.24.0 ——————————————————————————— BSD-2-Clause
-test-exclude@6.0.0 —————————————————————— ISC
-text-table@0.2.0 ———————————————————————— MIT
-thenify-all@1.6.0 ——————————————————————— MIT
-thenify@3.3.1 ——————————————————————————— MIT
-throat@6.0.2 ———————————————————————————— MIT
-thunky@1.1.0 ———————————————————————————— MIT
-tinycolor2@1.6.0 ———————————————————————— MIT
-tmpl@1.0.5 —————————————————————————————— BSD-3-Clause
-to-fast-properties@1.0.3 ———————————————— MIT
-to-fast-properties@2.0.0 ———————————————— MIT
-to-regex-range@5.0.1 ———————————————————— MIT
-toidentifier@1.0.1 —————————————————————— MIT
-tough-cookie@4.1.3 —————————————————————— BSD-3-Clause
-tr46@1.0.1 —————————————————————————————— MIT
-tr46@2.1.0 —————————————————————————————— MIT
-tryer@1.0.1 ————————————————————————————— MIT
-ts-interface-checker@0.1.13 ————————————— Apache-2.0
-ts-jest@29.1.1 —————————————————————————— MIT
-ts-node@10.9.1 —————————————————————————— MIT
-ts-toolbelt@9.6.0 ——————————————————————— Apache-2.0
-tsconfig-paths@3.14.2 ——————————————————— MIT
+esprima@4.0.1 ——————————————————————————— BSD-2-Clause <br>
+esquery@1.5.0 ——————————————————————————— BSD-3-Clause <br>
+esrecurse@4.3.0 ————————————————————————— BSD-2-Clause <br>
+estraverse@4.3.0 ———————————————————————— BSD-2-Clause <br>
+estraverse@5.3.0 ———————————————————————— BSD-2-Clause <br>
+estree-walker@1.0.1 ————————————————————— MIT <br>
+esutils@2.0.3 ——————————————————————————— BSD-2-Clause <br>
+etag@1.8.1 —————————————————————————————— MIT <br>
+eventemitter3@4.0.7 ————————————————————— MIT <br>
+events@3.3.0 ———————————————————————————— MIT <br>
+execa@5.1.1 ————————————————————————————— MIT <br>
+exenv@1.2.2 ————————————————————————————— BSD-3-Clause <br>
+exit@0.1.2 —————————————————————————————— MIT <br>
+expect@27.5.1 ——————————————————————————— MIT <br>
+expect@29.7.0 ——————————————————————————— MIT <br>
+express@4.18.2 —————————————————————————— MIT <br>
+fast-deep-equal@3.1.3 ——————————————————— MIT <br>
+fast-glob@3.3.1 ————————————————————————— MIT <br>
+fast-json-stable-stringify@2.1.0 ———————— MIT <br>
+fast-levenshtein@2.0.6 —————————————————— MIT <br>
+fast-xml-parser@4.2.5 ——————————————————— MIT <br>
+fast-xml-parser@4.3.3 ——————————————————— MIT <br>
+fastq@1.15.0 ———————————————————————————— ISC <br>
+faye-websocket@0.11.4 ——————————————————— Apache-2.0 <br>
+fb-watchman@2.0.2 ——————————————————————— Apache-2.0 <br>
+file-entry-cache@6.0.1 —————————————————— MIT <br>
+file-loader@6.2.0 ——————————————————————— MIT <br>
+filelist@1.0.4 —————————————————————————— Apache-2.0 <br>
+filesize@8.0.7 —————————————————————————— BSD-3-Clause <br>
+fill-range@7.0.1 ———————————————————————— MIT <br>
+finalhandler@1.2.0 —————————————————————— MIT <br>
+find-cache-dir@3.3.2 ———————————————————— MIT <br>
+find-up@3.0.0 ——————————————————————————— MIT <br>
+find-up@4.1.0 ——————————————————————————— MIT <br>
+find-up@5.0.0 ——————————————————————————— MIT <br>
+flat-cache@3.1.1 ———————————————————————— MIT <br>
+flatted@3.2.9 ——————————————————————————— ISC <br>
+follow-redirects@1.15.3 ————————————————— MIT <br>
+for-each@0.3.3 —————————————————————————— MIT <br>
+foreground-child@3.1.1 —————————————————— ISC <br>
+fork-ts-checker-webpack-plugin@6.5.3 ———— MIT <br>
+form-data@3.0.1 ————————————————————————— MIT <br>
+forwarded@0.2.0 ————————————————————————— MIT <br>
+fraction.js@4.3.7 ——————————————————————— MIT <br>
+fresh@0.5.2 ————————————————————————————— MIT <br>
+fs-extra@10.1.0 ————————————————————————— MIT <br>
+fs-extra@9.1.0 —————————————————————————— MIT <br>
+fs-monkey@1.0.5 ————————————————————————— Unlicense <br>
+fs.realpath@1.0.0 ——————————————————————— ISC <br>
+fsevents@2.3.3 —————————————————————————— MIT <br>
+function-bind@1.1.2 ————————————————————— MIT <br>
+function.prototype.name@1.1.6 ——————————— MIT <br>
+functions-have-names@1.2.3 —————————————— MIT <br>
+gensync@1.0.0-beta.2 ———————————————————— MIT <br>
+get-caller-file@2.0.5 ——————————————————— ISC <br>
+get-intrinsic@1.2.2 ————————————————————— MIT <br>
+get-nonce@1.0.1 ————————————————————————— MIT <br>
+get-own-enumerable-property-symbols@3.… — ISC <br>
+get-package-type@0.1.0 —————————————————— MIT <br>
+get-stream@6.0.1 ———————————————————————— MIT <br>
+get-symbol-description@1.0.0 ———————————— MIT <br>
+glob-parent@5.1.2 ——————————————————————— ISC <br>
+glob-parent@6.0.2 ——————————————————————— ISC <br>
+glob-to-regexp@0.4.1 ———————————————————— BSD-2-Clause <br>
+glob@10.3.10 ———————————————————————————— ISC <br>
+glob@7.1.6 —————————————————————————————— ISC <br>
+glob@7.2.3 —————————————————————————————— ISC <br>
+global-modules@2.0.0 ———————————————————— MIT <br>
+global-prefix@3.0.0 ————————————————————— MIT <br>
+globals@11.12.0 ————————————————————————— MIT <br>
+globals@13.23.0 ————————————————————————— MIT <br>
+globals@9.18.0 —————————————————————————— MIT <br>
+globalthis@1.0.3 ———————————————————————— MIT <br>
+globby@11.1.0 ——————————————————————————— MIT <br>
+gopd@1.0.1 —————————————————————————————— MIT <br>
+graceful-fs@4.2.11 —————————————————————— ISC <br>
+graphemer@1.4.0 ————————————————————————— MIT <br>
+graphql@15.8.0 —————————————————————————— MIT <br>
+gzip-size@6.0.0 ————————————————————————— MIT <br>
+handle-thing@2.0.1 —————————————————————— MIT <br>
+harmony-reflect@1.6.2 ——————————————————— Apache-2.0 <br> + MPL-1.1
+has-ansi@2.0.0 —————————————————————————— MIT <br>
+has-bigints@1.0.2 ——————————————————————— MIT <br>
+has-flag@3.0.0 —————————————————————————— MIT <br>
+has-flag@4.0.0 —————————————————————————— MIT <br>
+has-property-descriptors@1.0.1 —————————— MIT <br>
+has-proto@1.0.1 ————————————————————————— MIT <br>
+has-symbols@1.0.3 ——————————————————————— MIT <br>
+has-tostringtag@1.0.0 ——————————————————— MIT <br>
+hasown@2.0.0 ———————————————————————————— MIT <br>
+he@1.2.0 ———————————————————————————————— MIT <br>
+header-case@2.0.4 ——————————————————————— MIT <br>
+hoopy@0.1.4 ————————————————————————————— MIT <br>
+hpack.js@2.1.6 —————————————————————————— MIT <br>
+html-encoding-sniffer@2.0.1 ————————————— MIT <br>
+html-entities@2.4.0 ————————————————————— MIT <br>
+html-escaper@2.0.2 —————————————————————— MIT <br>
+html-minifier-terser@6.1.0 —————————————— MIT <br>
+html-webpack-plugin@5.5.3 ——————————————— MIT <br>
+htmlparser2@6.1.0 ——————————————————————— MIT <br>
+http-deceiver@1.2.7 ————————————————————— MIT <br>
+http-errors@1.6.3 ——————————————————————— MIT <br>
+http-errors@2.0.0 ——————————————————————— MIT <br>
+http-parser-js@0.5.8 ———————————————————— MIT <br>
+http-proxy-agent@4.0.1 —————————————————— MIT <br>
+http-proxy-middleware@2.0.6 ————————————— MIT <br>
+http-proxy@1.18.1 ——————————————————————— MIT <br>
+https-proxy-agent@5.0.1 ————————————————— MIT <br>
+human-signals@2.1.0 ————————————————————— Apache-2.0 <br>
+iconv-lite@0.4.24 ——————————————————————— MIT <br>
+iconv-lite@0.6.3 ———————————————————————— MIT <br>
+icss-utils@5.1.0 ———————————————————————— ISC <br>
+idb@5.0.6 ——————————————————————————————— ISC <br>
+idb@7.1.1 ——————————————————————————————— ISC <br>
+identity-obj-proxy@3.0.0 ———————————————— MIT <br>
+ieee754@1.2.1 ——————————————————————————— BSD-3-Clause + Fair <br>
+ignore@5.2.4 ———————————————————————————— MIT <br>
+immer@9.0.21 ———————————————————————————— MIT <br>
+immer@9.0.6 ————————————————————————————— MIT <br>
+import-fresh@3.3.0 —————————————————————— MIT <br>
+import-local@3.1.0 —————————————————————— MIT <br>
+imurmurhash@0.1.4 ——————————————————————— MIT <br>
+indent-string@4.0.0 ————————————————————— MIT <br>
+inflight@1.0.6 —————————————————————————— ISC <br>
+inherits@2.0.3 —————————————————————————— ISC <br>
+inherits@2.0.4 —————————————————————————— ISC <br>
+ini@1.3.8 ——————————————————————————————— ISC <br>
+internal-slot@1.0.6 ————————————————————— MIT <br>
+internmap@1.0.1 ————————————————————————— ISC <br>
+internmap@2.0.3 ————————————————————————— ISC <br>
+invariant@2.2.4 ————————————————————————— MIT <br>
+ipaddr.js@1.9.1 ————————————————————————— MIT <br>
+ipaddr.js@2.1.0 ————————————————————————— MIT <br>
+is-arguments@1.1.1 —————————————————————— MIT <br>
+is-array-buffer@3.0.2 ——————————————————— MIT <br>
+is-arrayish@0.2.1 ——————————————————————— MIT <br>
+is-async-function@2.0.0 ————————————————— MIT <br>
+is-bigint@1.0.4 ————————————————————————— MIT <br>
+is-binary-path@2.1.0 ———————————————————— MIT <br>
+is-boolean-object@1.1.2 ————————————————— MIT <br>
+is-callable@1.2.7 ——————————————————————— MIT <br>
+is-core-module@2.13.1 ——————————————————— MIT <br>
+is-date-object@1.0.5 ———————————————————— MIT <br>
+is-docker@2.2.1 ————————————————————————— MIT <br>
+is-extglob@2.1.1 ———————————————————————— MIT <br>
+is-finalizationregistry@1.0.2 ——————————— MIT <br>
+is-fullwidth-code-point@3.0.0 ——————————— MIT <br>
+is-generator-fn@2.1.0 ——————————————————— MIT <br>
+is-generator-function@1.0.10 ———————————— MIT <br>
+is-glob@4.0.3 ——————————————————————————— MIT <br>
+is-map@2.0.2 ———————————————————————————— MIT <br>
+is-module@1.0.0 ————————————————————————— MIT <br>
+is-negative-zero@2.0.2 —————————————————— MIT <br>
+is-number-object@1.0.7 —————————————————— MIT <br>
+is-number@7.0.0 ————————————————————————— MIT <br>
+is-obj@1.0.1 ———————————————————————————— MIT <br>
+is-path-inside@3.0.3 ———————————————————— MIT <br>
+is-plain-obj@3.0.0 —————————————————————— MIT <br>
+is-potential-custom-element-name@1.0.1 —— MIT <br>
+is-regex@1.1.4 —————————————————————————— MIT <br>
+is-regexp@1.0.0 ————————————————————————— MIT <br>
+is-root@2.1.0 ——————————————————————————— MIT <br>
+is-set@2.0.2 ———————————————————————————— MIT <br>
+is-shared-array-buffer@1.0.2 ———————————— MIT <br>
+is-stream@2.0.1 ————————————————————————— MIT <br>
+is-string@1.0.7 ————————————————————————— MIT <br>
+is-symbol@1.0.4 ————————————————————————— MIT <br>
+is-typed-array@1.1.12 ——————————————————— MIT <br>
+is-typedarray@1.0.0 ————————————————————— MIT <br>
+is-weakmap@2.0.1 ———————————————————————— MIT <br>
+is-weakref@1.0.2 ———————————————————————— MIT <br>
+is-weakset@2.0.2 ———————————————————————— MIT <br>
+is-wsl@2.2.0 ———————————————————————————— MIT <br>
+isarray@1.0.0 ——————————————————————————— MIT <br>
+isarray@2.0.5 ——————————————————————————— MIT <br>
+isexe@2.0.0 ————————————————————————————— ISC <br>
+istanbul-lib-coverage@3.2.0 ————————————— BSD-3-Clause <br>
+istanbul-lib-instrument@5.2.1 ——————————— BSD-3-Clause <br>
+istanbul-lib-instrument@6.0.1 ——————————— BSD-3-Clause <br>
+istanbul-lib-report@3.0.1 ——————————————— BSD-3-Clause <br>
+istanbul-lib-source-maps@4.0.1 —————————— BSD-3-Clause <br>
+istanbul-reports@3.1.6 —————————————————— BSD-3-Clause <br>
+iterator.prototype@1.1.2 ———————————————— MIT <br>
+jackspeak@2.3.6 ————————————————————————— BlueOak-1.0.0 <br>
+jake@10.8.7 ————————————————————————————— Apache-2.0 <br>
+jest-changed-files@27.5.1 ——————————————— MIT <br>
+jest-changed-files@29.7.0 ——————————————— MIT <br>
+jest-circus@27.5.1 —————————————————————— MIT <br>
+jest-circus@29.7.0 —————————————————————— MIT <br>
+jest-cli@27.5.1 ————————————————————————— MIT <br>
+jest-cli@29.7.0 ————————————————————————— MIT <br>
+jest-config@27.5.1 —————————————————————— MIT <br>
+jest-config@29.7.0 —————————————————————— MIT <br>
+jest-diff@27.5.1 ———————————————————————— MIT <br>
+jest-diff@29.7.0 ———————————————————————— MIT <br>
+jest-docblock@27.5.1 ———————————————————— MIT <br>
+jest-docblock@29.7.0 ———————————————————— MIT <br>
+jest-each@27.5.1 ———————————————————————— MIT <br>
+jest-each@29.7.0 ———————————————————————— MIT <br>
+jest-environment-jsdom@27.5.1 ——————————— MIT <br>
+jest-environment-node@27.5.1 ———————————— MIT <br>
+jest-environment-node@29.7.0 ———————————— MIT <br>
+jest-get-type@27.5.1 ———————————————————— MIT <br>
+jest-get-type@29.6.3 ———————————————————— MIT <br>
+jest-haste-map@27.5.1 ——————————————————— MIT <br>
+jest-haste-map@29.7.0 ——————————————————— MIT <br>
+jest-jasmine2@27.5.1 ———————————————————— MIT <br>
+jest-leak-detector@27.5.1 ——————————————— MIT <br>
+jest-leak-detector@29.7.0 ——————————————— MIT <br>
+jest-matcher-utils@27.5.1 ——————————————— MIT <br>
+jest-matcher-utils@29.7.0 ——————————————— MIT <br>
+jest-message-util@27.5.1 ———————————————— MIT <br>
+jest-message-util@28.1.3 ———————————————— MIT <br>
+jest-message-util@29.7.0 ———————————————— MIT <br>
+jest-mock@27.5.1 ———————————————————————— MIT <br>
+jest-mock@29.7.0 ———————————————————————— MIT <br>
+jest-pnp-resolver@1.2.3 ————————————————— MIT <br>
+jest-regex-util@27.5.1 —————————————————— MIT <br>
+jest-regex-util@28.0.2 —————————————————— MIT <br>
+jest-regex-util@29.6.3 —————————————————— MIT <br>
+jest-resolve-dependencies@27.5.1 ———————— MIT <br>
+jest-resolve-dependencies@29.7.0 ———————— MIT <br>
+jest-resolve@27.5.1 ————————————————————— MIT <br>
+jest-resolve@29.7.0 ————————————————————— MIT <br>
+jest-runner@27.5.1 —————————————————————— MIT <br>
+jest-runner@29.7.0 —————————————————————— MIT <br>
+jest-runtime@27.5.1 ————————————————————— MIT <br>
+jest-runtime@29.7.0 ————————————————————— MIT <br>
+jest-serializer@27.5.1 —————————————————— MIT <br>
+jest-snapshot@27.5.1 ———————————————————— MIT <br>
+jest-snapshot@29.7.0 ———————————————————— MIT <br>
+jest-util@27.5.1 ———————————————————————— MIT <br>
+jest-util@28.1.3 ———————————————————————— MIT <br>
+jest-util@29.7.0 ———————————————————————— MIT <br>
+jest-validate@27.5.1 ———————————————————— MIT <br>
+jest-validate@29.7.0 ———————————————————— MIT <br>
+jest-watch-typeahead@1.1.0 —————————————— MIT <br>
+jest-watcher@27.5.1 ————————————————————— MIT <br>
+jest-watcher@28.1.3 ————————————————————— MIT <br>
+jest-watcher@29.7.0 ————————————————————— MIT <br>
+jest-worker@26.6.2 —————————————————————— MIT <br>
+jest-worker@27.5.1 —————————————————————— MIT <br>
+jest-worker@28.1.3 —————————————————————— MIT <br>
+jest-worker@29.7.0 —————————————————————— MIT <br>
+jest@27.5.1 ————————————————————————————— MIT <br>
+jest@29.7.0 ————————————————————————————— MIT <br>
+jiti@1.21.0 ————————————————————————————— MIT <br>
+jquery@3.7.1 ———————————————————————————— MIT <br>
+js-cookie@3.0.5 ————————————————————————— MIT <br>
+js-tokens@3.0.2 ————————————————————————— MIT <br>
+js-tokens@4.0.0 ————————————————————————— MIT <br>
+js-yaml@3.14.1 —————————————————————————— MIT <br>
+js-yaml@4.1.0 ——————————————————————————— MIT <br>
+jsdom@16.7.0 ———————————————————————————— MIT <br>
+jsesc@0.5.0 ————————————————————————————— MIT <br>
+jsesc@2.5.2 ————————————————————————————— MIT <br>
+json-buffer@3.0.1 ——————————————————————— MIT <br>
+json-parse-even-better-errors@2.3.1 ————— MIT <br>
+json-schema-traverse@0.4.1 —————————————— MIT <br>
+json-schema-traverse@1.0.0 —————————————— MIT <br>
+json-schema@0.4.0 ——————————————————————— AFL-2.1 + BSD-3-Clause <br>
+json-stable-stringify-without-jsonify@… — MIT <br>
+json5@1.0.2 ————————————————————————————— MIT <br>
+json5@2.2.3 ————————————————————————————— MIT <br>
+jsonc-parser@3.2.0 —————————————————————— MIT <br>
+jsonfile@6.1.0 —————————————————————————— MIT <br>
+jsonpath@1.1.1 —————————————————————————— MIT <br>
+jsonpointer@5.0.1 ——————————————————————— MIT <br>
+jsx-ast-utils@3.3.5 ————————————————————— MIT <br>
+keyboard-key@1.1.0 —————————————————————— MIT <br>
+keyv@4.5.4 —————————————————————————————— MIT <br>
+kind-of@6.0.3 ——————————————————————————— MIT <br>
+kleur@3.0.3 ————————————————————————————— MIT <br>
+klona@2.0.6 ————————————————————————————— MIT <br>
+language-subtag-registry@0.3.22 ————————— CC0-1.0 <br>
+language-tags@1.0.9 ————————————————————— MIT <br>
+launch-editor@2.6.1 ————————————————————— MIT <br>
+leven@3.1.0 ————————————————————————————— MIT <br>
+levn@0.3.0 —————————————————————————————— MIT <br>
+levn@0.4.1 —————————————————————————————— MIT <br>
+lilconfig@2.1.0 ————————————————————————— MIT <br>
+lines-and-columns@1.2.4 ————————————————— MIT <br>
+loader-runner@4.3.0 ————————————————————— MIT <br>
+loader-utils@2.0.4 —————————————————————— MIT <br>
+loader-utils@3.2.1 —————————————————————— MIT <br>
+locate-path@3.0.0 ——————————————————————— MIT <br>
+locate-path@5.0.0 ——————————————————————— MIT <br>
+locate-path@6.0.0 ——————————————————————— MIT <br>
+lodash-es@4.17.21 ——————————————————————— MIT + TCL <br>
+lodash.debounce@4.0.8 ——————————————————— MIT + TCL <br>
+lodash.memoize@4.1.2 ———————————————————— MIT + TCL <br>
+lodash.merge@4.6.2 —————————————————————— MIT + TCL <br>
+lodash.sortby@4.7.0 ————————————————————— MIT + TCL <br>
+lodash.uniq@4.5.0 ——————————————————————— MIT + TCL <br>
+lodash@4.17.21 —————————————————————————— MIT + TCL <br>
+loose-envify@1.4.0 —————————————————————— MIT <br>
+lower-case@2.0.2 ———————————————————————— MIT <br>
+lru-cache@10.1.0 ———————————————————————— ISC <br>
+lru-cache@5.1.1 ————————————————————————— ISC <br>
+lru-cache@6.0.0 ————————————————————————— ISC <br>
+lz-string@1.5.0 ————————————————————————— MIT <br>
+magic-string@0.25.9 ————————————————————— MIT <br>
+make-dir@3.1.0 —————————————————————————— MIT <br>
+make-dir@4.0.0 —————————————————————————— MIT <br>
+make-error@1.3.6 ———————————————————————— ISC <br>
+makeerror@1.0.12 ———————————————————————— BSD-3-Clause <br>
+mdn-data@2.0.14 ————————————————————————— CC0-1.0 + Fair <br>
+mdn-data@2.0.4 —————————————————————————— CC0-1.0 + Fair <br>
+media-typer@0.3.0 ——————————————————————— MIT <br>
+memfs@3.6.0 ————————————————————————————— Unlicense <br>
+merge-descriptors@1.0.1 ————————————————— MIT <br>
+merge-stream@2.0.0 —————————————————————— MIT <br>
+merge2@1.4.1 ———————————————————————————— MIT <br>
+methods@1.1.2 ——————————————————————————— MIT <br>
+micromatch@4.0.5 ———————————————————————— MIT <br>
+mime-db@1.52.0 —————————————————————————— MIT <br>
+mime-types@2.1.35 ——————————————————————— MIT <br>
+mime@1.6.0 —————————————————————————————— MIT <br>
+mimic-fn@2.1.0 —————————————————————————— MIT <br>
+min-indent@1.0.1 ———————————————————————— MIT <br>
+mini-css-extract-plugin@2.7.6 ——————————— MIT <br>
+minimalistic-assert@1.0.1 ——————————————— ISC <br>
+minimatch@3.1.2 ————————————————————————— ISC <br>
+minimatch@5.1.6 ————————————————————————— ISC <br>
+minimatch@9.0.3 ————————————————————————— ISC <br>
+minimist@1.2.8 —————————————————————————— MIT <br>
+minipass@7.0.4 —————————————————————————— ISC <br>
+mkdirp@0.5.6 ———————————————————————————— MIT + X11 <br>
+ms@2.0.0 ———————————————————————————————— MIT <br>
+ms@2.1.2 ———————————————————————————————— MIT <br>
+ms@2.1.3 ———————————————————————————————— MIT <br>
+multicast-dns@7.2.5 ————————————————————— MIT <br>
+mz@2.7.0 ———————————————————————————————— MIT <br>
+nanoid@3.3.6 ———————————————————————————— MIT <br>
+natural-compare-lite@1.4.0 —————————————— MIT <br>
+natural-compare@1.4.0 ——————————————————— MIT <br>
+negotiator@0.6.3 ———————————————————————— MIT <br>
+neo-async@2.6.2 ————————————————————————— MIT <br>
+no-case@3.0.4 ——————————————————————————— MIT <br>
+node-forge@1.3.1 ———————————————————————— BSD-3-Clause <br> + GPL-2.0
+node-int64@0.4.0 ———————————————————————— MIT <br>
+node-releases@2.0.13 ———————————————————— MIT <br>
+normalize-path@3.0.0 ———————————————————— MIT <br>
+normalize-range@0.1.2 ——————————————————— MIT <br>
+normalize-url@6.1.0 ————————————————————— MIT <br>
+npm-run-path@4.0.1 —————————————————————— MIT <br>
+nth-check@1.0.2 ————————————————————————— BSD-2-Clause <br>
+nth-check@2.1.1 ————————————————————————— BSD-2-Clause <br>
+nwsapi@2.2.7 ———————————————————————————— MIT <br>
+object-assign@4.1.1 ————————————————————— MIT <br>
+object-hash@3.0.0 ——————————————————————— MIT <br>
+object-inspect@1.13.1 ——————————————————— MIT <br>
+object-is@1.1.5 ————————————————————————— MIT <br>
+object-keys@1.1.1 ——————————————————————— MIT <br>
+object.assign@4.1.4 ————————————————————— MIT <br>
+object.entries@1.1.7 ———————————————————— MIT <br>
+object.fromentries@2.0.7 ———————————————— MIT <br>
+object.getownpropertydescriptors@2.1.7 —— MIT <br>
+object.groupby@1.0.1 ———————————————————— MIT <br>
+object.hasown@1.1.3 ————————————————————— MIT <br>
+object.values@1.1.7 ————————————————————— MIT <br>
+obuf@1.1.2 —————————————————————————————— MIT <br>
+on-finished@2.4.1 ——————————————————————— MIT <br>
+on-headers@1.0.2 ———————————————————————— MIT <br>
+once@1.4.0 —————————————————————————————— ISC <br>
+onetime@5.1.2 ——————————————————————————— MIT <br>
+open@8.4.2 —————————————————————————————— MIT <br>
+optionator@0.8.3 ———————————————————————— MIT <br>
+optionator@0.9.3 ———————————————————————— MIT <br>
+p-limit@2.3.0 ——————————————————————————— MIT <br>
+p-limit@3.1.0 ——————————————————————————— MIT <br>
+p-locate@3.0.0 —————————————————————————— MIT <br>
+p-locate@4.1.0 —————————————————————————— MIT <br>
+p-locate@5.0.0 —————————————————————————— MIT <br>
+p-retry@4.6.2 ——————————————————————————— MIT <br>
+p-try@2.2.0 ————————————————————————————— MIT <br>
+param-case@3.0.4 ———————————————————————— MIT <br>
+parent-module@1.0.1 ————————————————————— MIT <br>
+parse-json@5.2.0 ———————————————————————— MIT <br>
+parse5@6.0.1 ———————————————————————————— MIT <br>
+parseurl@1.3.3 —————————————————————————— MIT <br>
+pascal-case@3.1.2 ——————————————————————— MIT <br>
+path-case@3.0.4 ————————————————————————— MIT <br>
+path-exists@3.0.0 ——————————————————————— MIT <br>
+path-exists@4.0.0 ——————————————————————— MIT <br>
+path-is-absolute@1.0.1 —————————————————— MIT <br>
+path-key@3.1.1 —————————————————————————— MIT <br>
+path-parse@1.0.7 ———————————————————————— MIT <br>
+path-scurry@1.10.1 —————————————————————— BlueOak-1.0.0 <br>
+path-to-regexp@0.1.7 ———————————————————— MIT <br>
+path-type@4.0.0 ————————————————————————— MIT <br>
+performance-now@2.1.0 ——————————————————— MIT <br>
+picocolors@0.2.1 ———————————————————————— ISC <br>
+picocolors@1.0.0 ———————————————————————— ISC <br>
+picomatch@2.3.1 ————————————————————————— MIT <br>
+pify@2.3.0 —————————————————————————————— MIT <br>
+pirates@4.0.6 ——————————————————————————— MIT <br>
+pkg-dir@4.2.0 ——————————————————————————— MIT <br>
+pkg-up@3.1.0 ———————————————————————————— MIT <br>
+pngjs@5.0.0 ————————————————————————————— MIT <br>
+postcss-attribute-case-insensitive@5.0… — MIT <br>
+postcss-browser-comments@4.0.0 —————————— CC0-1.0 + Fair <br>
+postcss-calc@8.2.4 —————————————————————— MIT <br>
+postcss-clamp@4.1.0 ————————————————————— MIT <br>
+postcss-color-functional-notation@4.2.… — CC0-1.0 + Fair <br>
+postcss-color-hex-alpha@8.0.4 ——————————— MIT <br>
+postcss-color-rebeccapurple@7.1.1 ——————— CC0-1.0 + Fair <br>
+postcss-colormin@5.3.1 —————————————————— MIT <br>
+postcss-convert-values@5.1.3 ———————————— MIT <br>
+postcss-custom-media@8.0.2 —————————————— MIT <br>
+postcss-custom-properties@12.1.11 ——————— MIT <br>
+postcss-custom-selectors@6.0.3 —————————— MIT <br>
+postcss-dir-pseudo-class@6.0.5 —————————— CC0-1.0 + Fair <br>
+postcss-discard-comments@5.1.2 —————————— MIT <br>
+postcss-discard-duplicates@5.1.0 ———————— MIT <br>
+postcss-discard-empty@5.1.1 ————————————— MIT <br>
+postcss-discard-overridden@5.1.0 ———————— MIT <br>
+postcss-double-position-gradients@3.1.… — CC0-1.0 + Fair <br>
+postcss-env-function@4.0.6 —————————————— CC0-1.0 + Fair <br>
+postcss-flexbugs-fixes@5.0.2 ———————————— MIT <br>
+postcss-focus-visible@6.0.4 ————————————— CC0-1.0 + Fair <br>
+postcss-focus-within@5.0.4 —————————————— CC0-1.0 + Fair <br>
+postcss-font-variant@5.0.0 —————————————— MIT <br>
+postcss-gap-properties@3.0.5 ———————————— CC0-1.0 + Fair <br>
+postcss-image-set-function@4.0.7 ———————— CC0-1.0 + Fair <br>
+postcss-import@15.1.0 ——————————————————— MIT <br>
+postcss-initial@4.0.1 ——————————————————— MIT <br>
+postcss-js@4.0.1 ———————————————————————— MIT <br>
+postcss-lab-function@4.2.1 —————————————— CC0-1.0 + Fair <br>
+postcss-load-config@4.0.1 ——————————————— MIT <br>
+postcss-loader@6.2.1 ———————————————————— MIT <br>
+postcss-logical@5.0.4 ——————————————————— CC0-1.0 + Fair <br>
+postcss-media-minmax@5.0.0 —————————————— MIT <br>
+postcss-merge-longhand@5.1.7 ———————————— MIT <br>
+postcss-merge-rules@5.1.4 ——————————————— MIT <br>
+postcss-minify-font-values@5.1.0 ———————— MIT <br>
+postcss-minify-gradients@5.1.1 —————————— MIT <br>
+postcss-minify-params@5.1.4 ————————————— MIT <br>
+postcss-minify-selectors@5.2.1 —————————— MIT <br>
+postcss-modules-extract-imports@3.0.0 ——— ISC <br>
+postcss-modules-local-by-default@4.0.3 —— MIT <br>
+postcss-modules-scope@3.0.0 ————————————— ISC <br>
+postcss-modules-values@4.0.0 ———————————— ISC <br>
+postcss-nested@6.0.1 ———————————————————— MIT <br>
+postcss-nesting@10.2.0 —————————————————— CC0-1.0 + Fair <br>
+postcss-normalize-charset@5.1.0 ————————— MIT <br>
+postcss-normalize-display-values@5.1.0 —— MIT <br>
+postcss-normalize-positions@5.1.1 ——————— MIT <br>
+postcss-normalize-repeat-style@5.1.1 ———— MIT <br>
+postcss-normalize-string@5.1.0 —————————— MIT <br>
+postcss-normalize-timing-functions@5.1… — MIT <br>
+postcss-normalize-unicode@5.1.1 ————————— MIT <br>
+postcss-normalize-url@5.1.0 ————————————— MIT <br>
+postcss-normalize-whitespace@5.1.1 —————— MIT <br>
+postcss-normalize@10.0.1 ———————————————— CC0-1.0 + Fair <br>
+postcss-opacity-percentage@1.1.3 ———————— MIT <br>
+postcss-ordered-values@5.1.3 ———————————— MIT <br>
+postcss-overflow-shorthand@3.0.4 ———————— CC0-1.0 + Fair <br>
+postcss-page-break@3.0.4 ———————————————— MIT <br>
+postcss-place@7.0.5 ————————————————————— CC0-1.0 + Fair <br>
+postcss-preset-env@7.8.3 ———————————————— CC0-1.0 + Fair <br>
+postcss-pseudo-class-any-link@7.1.6 ————— CC0-1.0 + Fair <br>
+postcss-reduce-initial@5.1.2 ———————————— MIT <br>
+postcss-reduce-transforms@5.1.0 ————————— MIT <br>
+postcss-replace-overflow-wrap@4.0.0 ————— MIT <br>
+postcss-selector-not@6.0.1 —————————————— MIT <br>
+postcss-selector-parser@6.0.13 —————————— MIT <br>
+postcss-svgo@5.1.0 —————————————————————— MIT <br>
+postcss-unique-selectors@5.1.1 —————————— MIT <br>
+postcss-value-parser@4.2.0 —————————————— MIT <br>
+postcss@7.0.39 —————————————————————————— MIT <br>
+postcss@8.4.31 —————————————————————————— MIT <br>
+prelude-ls@1.1.2 ———————————————————————— MIT <br>
+prelude-ls@1.2.1 ———————————————————————— MIT <br>
+pretty-bytes@5.6.0 —————————————————————— MIT <br>
+pretty-error@4.0.0 —————————————————————— MIT <br>
+pretty-format@27.5.1 ———————————————————— MIT <br>
+pretty-format@28.1.3 ———————————————————— MIT <br>
+pretty-format@29.7.0 ———————————————————— MIT <br>
+process-nextick-args@2.0.1 —————————————— MIT <br>
+promise@8.3.0 ——————————————————————————— MIT <br>
+prompts@2.4.2 ——————————————————————————— MIT <br>
+prop-types@15.8.1 ——————————————————————— MIT <br>
+proxy-addr@2.0.7 ———————————————————————— MIT <br>
+psl@1.9.0 ——————————————————————————————— MIT <br>
+punycode@2.3.1 —————————————————————————— MIT <br>
+pure-rand@6.0.4 ————————————————————————— MIT <br>
+q@1.5.1 ————————————————————————————————— MIT <br>
+qrcode@1.5.0 ———————————————————————————— MIT <br>
+qs@6.11.0 ——————————————————————————————— BSD-3-Clause <br>
+querystringify@2.2.0 ———————————————————— MIT <br>
+queue-microtask@1.2.3 ——————————————————— MIT <br>
+raf@3.4.1 ——————————————————————————————— MIT <br>
+randombytes@2.1.0 ——————————————————————— MIT <br>
+range-parser@1.2.1 —————————————————————— MIT <br>
+raw-body@2.5.1 —————————————————————————— MIT <br>
+react-app-polyfill@3.0.0 ———————————————— MIT <br>
+react-charts@3.0.0-beta.57 —————————————— MIT <br>
+react-dev-utils@12.0.1 —————————————————— MIT <br>
+react-dom@18.2.0 ———————————————————————— MIT <br>
+react-draggable@4.4.6 ——————————————————— MIT <br>
+react-error-overlay@6.0.11 —————————————— MIT <br>
+react-fast-compare@3.2.2 ———————————————— MIT <br>
+react-hook-form@7.49.3 —————————————————— MIT <br>
+react-image-crop@11.0.5 ————————————————— ISC <br>
+react-is@16.13.1 ———————————————————————— MIT <br>
+react-is@17.0.2 ————————————————————————— MIT <br>
+react-is@18.2.0 ————————————————————————— MIT <br>
+react-popper@2.3.0 —————————————————————— MIT <br>
+react-refresh@0.11.0 ———————————————————— MIT <br>
+react-remove-scroll-bar@2.3.4 ——————————— MIT <br>
+react-remove-scroll@2.5.4 ——————————————— MIT <br>
+react-resizable@3.0.5 ——————————————————— MIT <br>
+react-router-dom@6.18.0 ————————————————— MIT <br>
+react-router@6.18.0 ————————————————————— MIT <br>
+react-scripts@5.0.1 ————————————————————— MIT <br>
+react-style-singleton@2.2.1 ————————————— MIT <br>
+react@18.2.0 ———————————————————————————— MIT <br>
+read-cache@1.0.0 ———————————————————————— MIT <br>
+readable-stream@2.3.8 ——————————————————— MIT <br>
+readable-stream@3.6.2 ——————————————————— MIT <br>
+readdirp@3.6.0 —————————————————————————— MIT <br>
+recursive-readdir@2.2.3 ————————————————— MIT <br>
+redent@3.0.0 ———————————————————————————— MIT <br>
+reflect.getprototypeof@1.0.4 ———————————— MIT <br>
+regenerate-unicode-properties@10.1.1 ———— MIT <br>
+regenerate@1.4.2 ———————————————————————— MIT <br>
+regenerator-runtime@0.11.1 —————————————— MIT <br>
+regenerator-runtime@0.13.11 ————————————— MIT <br>
+regenerator-runtime@0.14.0 —————————————— MIT <br>
+regenerator-transform@0.15.2 ———————————— MIT <br>
+regex-parser@2.2.11 ————————————————————— MIT <br>
+regexp.prototype.flags@1.5.1 ———————————— MIT <br>
+regexpu-core@5.3.2 —————————————————————— MIT <br>
+regjsparser@0.9.1 ——————————————————————— BSD-2-Clause <br>
+relateurl@0.2.7 ————————————————————————— MIT <br>
+renderkid@3.0.0 ————————————————————————— MIT <br>
+require-directory@2.1.1 ————————————————— MIT <br>
+require-from-string@2.0.2 ——————————————— MIT <br>
+require-main-filename@2.0.0 ————————————— ISC <br>
+requires-port@1.0.0 ————————————————————— MIT <br>
+resolve-cwd@3.0.0 ——————————————————————— MIT <br>
+resolve-from@4.0.0 —————————————————————— MIT <br>
+resolve-from@5.0.0 —————————————————————— MIT <br>
+resolve-url-loader@4.0.0 ———————————————— MIT <br>
+resolve.exports@1.1.1 ——————————————————— MIT <br>
+resolve.exports@2.0.2 ——————————————————— MIT <br>
+resolve@1.22.8 —————————————————————————— MIT <br>
+resolve@2.0.0-next.5 ———————————————————— MIT <br>
+retry@0.13.1 ———————————————————————————— MIT <br>
+reusify@1.0.4 ——————————————————————————— MIT <br>
+rimraf@3.0.2 ———————————————————————————— ISC <br>
+rollup-plugin-terser@7.0.2 —————————————— MIT <br>
+rollup@2.79.1 ——————————————————————————— ISC <br> + MIT <br>
+run-parallel@1.2.0 —————————————————————— MIT <br>
+rxjs@7.8.1 —————————————————————————————— Apache-2.0 <br>
+safe-array-concat@1.0.1 ————————————————— MIT <br>
+safe-buffer@5.1.2 ——————————————————————— MIT <br>
+safe-buffer@5.2.1 ——————————————————————— MIT <br>
+safe-regex-test@1.0.0 ——————————————————— MIT <br>
+safer-buffer@2.1.2 —————————————————————— MIT <br>
+sanitize.css@13.0.0 ————————————————————— CC0-1.0 + Fair <br>
+sass-loader@12.6.0 —————————————————————— MIT <br>
+sax@1.2.4 ——————————————————————————————— ISC <br>
+saxes@5.0.1 ————————————————————————————— ISC <br>
+scheduler@0.23.0 ———————————————————————— MIT <br>
+schema-utils@2.7.0 —————————————————————— MIT <br>
+schema-utils@2.7.1 —————————————————————— MIT <br>
+schema-utils@3.3.0 —————————————————————— MIT <br>
+schema-utils@4.2.0 —————————————————————— MIT <br>
+select-hose@2.0.0 ——————————————————————— MIT <br>
+selfsigned@2.4.1 ———————————————————————— MIT <br>
+semantic-ui-css@2.5.0 ——————————————————— MIT <br>
+semantic-ui-react@2.1.4 ————————————————— MIT <br>
+semver@6.3.1 ———————————————————————————— ISC <br>
+semver@7.5.4 ———————————————————————————— ISC <br>
+send@0.18.0 ————————————————————————————— MIT <br>
+sentence-case@3.0.4 ————————————————————— MIT <br>
+serialize-javascript@4.0.0 —————————————— BSD-3-Clause <br>
+serialize-javascript@6.0.1 —————————————— BSD-3-Clause <br>
+serve-index@1.9.1 ——————————————————————— MIT <br>
+serve-static@1.15.0 ————————————————————— MIT <br>
+set-blocking@2.0.0 —————————————————————— ISC <br>
+set-function-length@1.1.1 ——————————————— MIT <br>
+set-function-name@2.0.1 ————————————————— MIT <br>
+setprototypeof@1.1.0 ———————————————————— ISC <br>
+setprototypeof@1.2.0 ———————————————————— ISC <br>
+shallowequal@1.1.0 —————————————————————— MIT <br>
+shebang-command@2.0.0 ——————————————————— MIT <br>
+shebang-regex@3.0.0 ————————————————————— MIT <br>
+shell-quote@1.8.1 ——————————————————————— MIT <br>
+side-channel@1.0.4 —————————————————————— MIT <br>
+signal-exit@3.0.7 ——————————————————————— ISC <br>
+signal-exit@4.1.0 ——————————————————————— ISC <br>
+sisteransi@1.0.5 ———————————————————————— MIT <br>
+slash@3.0.0 ————————————————————————————— MIT <br>
+slash@4.0.0 ————————————————————————————— MIT <br>
+snake-case@3.0.4 ———————————————————————— MIT <br>
+sockjs@0.3.24 ——————————————————————————— MIT <br>
+source-list-map@2.0.1 ——————————————————— MIT <br>
+source-map-js@1.0.2 ————————————————————— BSD-3-Clause <br>
+source-map-loader@3.0.2 ————————————————— MIT <br>
+source-map-support@0.5.13 ——————————————— MIT <br>
+source-map-support@0.5.21 ——————————————— MIT <br>
+source-map@0.6.1 ———————————————————————— BSD-3-Clause <br>
+source-map@0.7.4 ———————————————————————— BSD-3-Clause <br>
+source-map@0.8.0-beta.0 ————————————————— BSD-3-Clause <br>
+sourcemap-codec@1.4.8 ——————————————————— MIT <br>
+spdy-transport@3.0.0 ———————————————————— MIT <br>
+spdy@4.0.2 —————————————————————————————— MIT <br>
+sprintf-js@1.0.3 ———————————————————————— BSD-3-Clause <br>
+stable@0.1.8 ———————————————————————————— MIT <br>
+stack-utils@2.0.6 ——————————————————————— MIT <br>
+stackframe@1.3.4 ———————————————————————— MIT <br>
+static-eval@2.0.2 ——————————————————————— MIT <br>
+statuses@1.5.0 —————————————————————————— MIT <br>
+statuses@2.0.1 —————————————————————————— MIT <br>
+stop-iteration-iterator@1.0.0 ——————————— MIT <br>
+string_decoder@1.1.1 ———————————————————— MIT <br>
+string_decoder@1.3.0 ———————————————————— MIT <br>
+string-length@4.0.2 ————————————————————— MIT <br>
+string-length@5.0.1 ————————————————————— MIT <br>
+string-natural-compare@3.0.1 ———————————— MIT <br>
+string-width-cjs@4.2.3 —————————————————— MIT <br>
+string-width@4.2.3 —————————————————————— MIT <br>
+string-width@5.1.2 —————————————————————— MIT <br>
+string.prototype.matchall@4.0.10 ———————— MIT <br>
+string.prototype.trim@1.2.8 ————————————— MIT <br>
+string.prototype.trimend@1.0.7 —————————— MIT <br>
+string.prototype.trimstart@1.0.7 ———————— MIT <br>
+stringify-object@3.3.0 —————————————————— BSD-2-Clause <br>
+strip-ansi-cjs@6.0.1 ———————————————————— MIT <br>
+strip-ansi@3.0.1 ———————————————————————— MIT <br>
+strip-ansi@6.0.1 ———————————————————————— MIT <br>
+strip-ansi@7.1.0 ———————————————————————— MIT <br>
+strip-bom@3.0.0 ————————————————————————— MIT <br>
+strip-bom@4.0.0 ————————————————————————— MIT <br>
+strip-comments@2.0.1 ———————————————————— MIT <br>
+strip-final-newline@2.0.0 ——————————————— MIT <br>
+strip-indent@3.0.0 —————————————————————— MIT <br>
+strip-json-comments@3.1.1 ——————————————— MIT <br>
+strnum@1.0.5 ———————————————————————————— Intel + MIT <br>
+style-dictionary@3.9.1 —————————————————— Apache-2.0 <br>
+style-loader@3.3.3 —————————————————————— MIT <br>
+stylehacks@5.1.1 ———————————————————————— MIT <br>
+sucrase@3.34.0 —————————————————————————— MIT <br>
+supports-color@2.0.0 ———————————————————— MIT <br>
+supports-color@5.5.0 ———————————————————— MIT <br>
+supports-color@7.2.0 ———————————————————— MIT <br>
+supports-color@8.1.1 ———————————————————— MIT <br>
+supports-hyperlinks@2.3.0 ——————————————— MIT <br>
+supports-preserve-symlinks-flag@1.0.0 ——— MIT <br>
+svg-parser@2.0.4 ———————————————————————— MIT <br>
+svgo@1.3.2 —————————————————————————————— MIT <br>
+svgo@2.8.0 —————————————————————————————— MIT <br>
+symbol-tree@3.2.4 ——————————————————————— MIT <br>
+tailwindcss@3.3.5 ——————————————————————— MIT <br>
+tapable@1.1.3 ——————————————————————————— MIT <br>
+tapable@2.2.1 ——————————————————————————— MIT <br>
+temp-dir@2.0.0 —————————————————————————— MIT <br>
+tempy@0.6.0 ————————————————————————————— MIT <br>
+terminal-link@2.1.1 ————————————————————— MIT <br>
+terser-webpack-plugin@5.3.9 ————————————— MIT <br>
+terser@5.24.0 ——————————————————————————— BSD-2-Clause <br>
+test-exclude@6.0.0 —————————————————————— ISC <br>
+text-table@0.2.0 ———————————————————————— MIT <br>
+thenify-all@1.6.0 ——————————————————————— MIT <br>
+thenify@3.3.1 ——————————————————————————— MIT <br>
+throat@6.0.2 ———————————————————————————— MIT <br>
+thunky@1.1.0 ———————————————————————————— MIT <br>
+tinycolor2@1.6.0 ———————————————————————— MIT <br>
+tmpl@1.0.5 —————————————————————————————— BSD-3-Clause <br>
+to-fast-properties@1.0.3 ———————————————— MIT <br>
+to-fast-properties@2.0.0 ———————————————— MIT <br>
+to-regex-range@5.0.1 ———————————————————— MIT <br>
+toidentifier@1.0.1 —————————————————————— MIT <br>
+tough-cookie@4.1.3 —————————————————————— BSD-3-Clause <br>
+tr46@1.0.1 —————————————————————————————— MIT <br>
+tr46@2.1.0 —————————————————————————————— MIT <br>
+tryer@1.0.1 ————————————————————————————— MIT <br>
+ts-interface-checker@0.1.13 ————————————— Apache-2.0 <br>
+ts-jest@29.1.1 —————————————————————————— MIT <br>
+ts-node@10.9.1 —————————————————————————— MIT <br>
+ts-toolbelt@9.6.0 ——————————————————————— Apache-2.0 <br>
+tsconfig-paths@3.14.2 ——————————————————— MIT <br>
 tslib@1.14.1 ———————————————————————————— 0BSD
 tslib@2.6.2 ————————————————————————————— 0BSD
-tsutils@3.21.0 —————————————————————————— MIT
-type-check@0.3.2 ———————————————————————— MIT
-type-check@0.4.0 ———————————————————————— MIT
-type-detect@4.0.8 ——————————————————————— MIT
-type-fest@0.16.0 ———————————————————————— CC0-1.0 + MIT
-type-fest@0.20.2 ———————————————————————— CC0-1.0 + MIT
-type-fest@0.21.3 ———————————————————————— CC0-1.0 + MIT
-type-fest@1.4.0 ————————————————————————— CC0-1.0 + MIT
-type-is@1.6.18 —————————————————————————— MIT
-typed-array-buffer@1.0.0 ———————————————— MIT
-typed-array-byte-length@1.0.0 ——————————— MIT
-typed-array-byte-offset@1.0.0 ——————————— MIT
-typed-array-length@1.0.4 ———————————————— MIT
-typedarray-to-buffer@3.1.5 —————————————— MIT
-typescript@5.2.2 ———————————————————————— Apache-2.0
-ulid@2.3.0 —————————————————————————————— MIT
-unbox-primitive@1.0.2 ——————————————————— MIT
-underscore@1.12.1 ——————————————————————— MIT + TCL
-undici-types@5.26.5 ————————————————————— MIT
-unicode-canonical-property-names-ecmas… — MIT
-unicode-match-property-ecmascript@2.0.… — MIT
-unicode-match-property-value-ecmascrip… — MIT
-unicode-property-aliases-ecmascript@2.… — MIT
-unique-string@2.0.0 ————————————————————— MIT
-universalify@0.2.0 —————————————————————— MIT
-universalify@2.0.1 —————————————————————— MIT
-unpipe@1.0.0 ———————————————————————————— MIT
-unquote@1.1.1 ——————————————————————————— MIT
-upath@1.2.0 ————————————————————————————— MIT
-update-browserslist-db@1.0.13 ——————————— MIT
-upper-case-first@2.0.2 —————————————————— MIT
-upper-case@2.0.2 ———————————————————————— MIT
-uri-js@4.4.1 ———————————————————————————— BSD-2-Clause
-url-parse@1.5.10 ———————————————————————— MIT
-use-callback-ref@1.3.1 —————————————————— MIT
-use-isomorphic-layout-effect@1.1.2 —————— MIT
-use-sidecar@1.1.2 ——————————————————————— MIT
-use-sync-external-store@1.2.0 ——————————— MIT
-util-deprecate@1.0.2 ———————————————————— MIT
-util.promisify@1.0.1 ———————————————————— MIT
-utila@0.4.0 ————————————————————————————— MIT
-utils-merge@1.0.1 ——————————————————————— MIT
-uuid@8.3.2 —————————————————————————————— MIT
-uuid@9.0.1 —————————————————————————————— MIT
-v8-compile-cache-lib@3.0.1 —————————————— MIT
-v8-to-istanbul@8.1.1 ———————————————————— ISC
-v8-to-istanbul@9.1.3 ———————————————————— ISC
-vary@1.1.2 —————————————————————————————— MIT
-w3c-hr-time@1.0.2 ——————————————————————— MIT
-w3c-xmlserializer@2.0.0 ————————————————— MIT
-walker@1.0.8 ———————————————————————————— Apache-2.0
-warning@4.0.3 ——————————————————————————— MIT
-watchpack@2.4.0 ————————————————————————— MIT
-wbuf@1.7.3 —————————————————————————————— MIT
-web-vitals@2.1.4 ———————————————————————— Apache-2.0
-webidl-conversions@4.0.2 ———————————————— BSD-2-Clause
-webidl-conversions@5.0.0 ———————————————— BSD-2-Clause
-webidl-conversions@6.1.0 ———————————————— BSD-2-Clause
-webpack-dev-middleware@5.3.3 ———————————— MIT
-webpack-dev-server@4.15.1 ——————————————— MIT
-webpack-manifest-plugin@4.1.1 ——————————— MIT
-webpack-sources@1.4.3 ——————————————————— MIT
-webpack-sources@2.3.1 ——————————————————— MIT
-webpack-sources@3.2.3 ——————————————————— MIT
-webpack@5.89.0 —————————————————————————— MIT
-websocket-driver@0.7.4 —————————————————— Apache-2.0
-websocket-extensions@0.1.4 —————————————— Apache-2.0
-whatwg-encoding@1.0.5 ——————————————————— MIT
-whatwg-fetch@3.6.19 ————————————————————— MIT
-whatwg-mimetype@2.3.0 ——————————————————— MIT
-whatwg-url@7.1.0 ———————————————————————— MIT
-whatwg-url@8.7.0 ———————————————————————— MIT
-which-boxed-primitive@1.0.2 ————————————— MIT
-which-builtin-type@1.1.3 ———————————————— MIT
-which-collection@1.0.1 —————————————————— MIT
-which-module@2.0.1 —————————————————————— ISC
-which-typed-array@1.1.13 ———————————————— MIT
-which@1.3.1 ————————————————————————————— ISC
-which@2.0.2 ————————————————————————————— ISC
-word-wrap@1.2.5 ————————————————————————— MIT
-workbox-background-sync@6.6.1 ——————————— MIT
-workbox-broadcast-update@6.6.1 —————————— MIT
-workbox-build@6.6.1 ————————————————————— MIT
-workbox-cacheable-response@6.6.1 ———————— MIT
-workbox-core@6.6.1 —————————————————————— MIT
-workbox-expiration@6.6.1 ———————————————— MIT
-workbox-google-analytics@6.6.1 —————————— MIT
-workbox-navigation-preload@6.6.1 ———————— MIT
-workbox-precaching@6.6.1 ———————————————— MIT
-workbox-range-requests@6.6.1 ———————————— MIT
-workbox-recipes@6.6.1 ——————————————————— MIT
-workbox-routing@6.6.1 ——————————————————— MIT
-workbox-strategies@6.6.1 ———————————————— MIT
-workbox-streams@6.6.1 ——————————————————— MIT
-workbox-sw@6.6.1 ———————————————————————— MIT
-workbox-webpack-plugin@6.6.1 ———————————— MIT
-workbox-window@6.6.1 ———————————————————— MIT
-wrap-ansi-cjs@7.0.0 ————————————————————— MIT
-wrap-ansi@6.2.0 ————————————————————————— MIT
-wrap-ansi@7.0.0 ————————————————————————— MIT
-wrap-ansi@8.1.0 ————————————————————————— MIT
-wrappy@1.0.2 ———————————————————————————— ISC
-write-file-atomic@3.0.3 ————————————————— ISC
-write-file-atomic@4.0.2 ————————————————— ISC
-ws@7.5.9 ———————————————————————————————— MIT
-ws@8.14.2 ——————————————————————————————— MIT
-xml-name-validator@3.0.0 ———————————————— Apache-2.0
-xmlchars@2.2.0 —————————————————————————— MIT
-xstate@4.38.3 ——————————————————————————— MIT
-y18n@4.0.3 —————————————————————————————— ISC
-y18n@5.0.8 —————————————————————————————— ISC
-yallist@3.1.1 ——————————————————————————— ISC
-yallist@4.0.0 ——————————————————————————— ISC
-yaml@1.10.2 ————————————————————————————— ISC
-yaml@2.3.4 —————————————————————————————— ISC
-yargs-parser@18.1.3 ————————————————————— ISC
-yargs-parser@20.2.9 ————————————————————— ISC
-yargs-parser@21.1.1 ————————————————————— ISC
-yargs@15.4.1 ———————————————————————————— MIT
-yargs@16.2.0 ———————————————————————————— MIT
-yargs@17.7.2 ———————————————————————————— MIT
-yn@3.1.1 ———————————————————————————————— MIT
-yocto-queue@0.1.0 ——————————————————————— MIT
+tsutils@3.21.0 —————————————————————————— MIT <br>
+type-check@0.3.2 ———————————————————————— MIT <br>
+type-check@0.4.0 ———————————————————————— MIT <br>
+type-detect@4.0.8 ——————————————————————— MIT <br>
+type-fest@0.16.0 ———————————————————————— CC0-1.0 <br> + MIT <br>
+type-fest@0.20.2 ———————————————————————— CC0-1.0 <br> + MIT <br>
+type-fest@0.21.3 ———————————————————————— CC0-1.0 <br> + MIT <br>
+type-fest@1.4.0 ————————————————————————— CC0-1.0 <br> + MIT <br>
+type-is@1.6.18 —————————————————————————— MIT <br>
+typed-array-buffer@1.0.0 ———————————————— MIT <br>
+typed-array-byte-length@1.0.0 ——————————— MIT <br>
+typed-array-byte-offset@1.0.0 ——————————— MIT <br>
+typed-array-length@1.0.4 ———————————————— MIT <br>
+typedarray-to-buffer@3.1.5 —————————————— MIT <br>
+typescript@5.2.2 ———————————————————————— Apache-2.0 <br>
+ulid@2.3.0 —————————————————————————————— MIT <br>
+unbox-primitive@1.0.2 ——————————————————— MIT <br>
+underscore@1.12.1 ——————————————————————— MIT + TCL <br>
+undici-types@5.26.5 ————————————————————— MIT <br>
+unicode-canonical-property-names-ecmas… — MIT <br>
+unicode-match-property-ecmascript@2.0.… — MIT <br>
+unicode-match-property-value-ecmascrip… — MIT <br>
+unicode-property-aliases-ecmascript@2.… — MIT <br>
+unique-string@2.0.0 ————————————————————— MIT <br>
+universalify@0.2.0 —————————————————————— MIT <br>
+universalify@2.0.1 —————————————————————— MIT <br>
+unpipe@1.0.0 ———————————————————————————— MIT <br>
+unquote@1.1.1 ——————————————————————————— MIT <br>
+upath@1.2.0 ————————————————————————————— MIT <br>
+update-browserslist-db@1.0.13 ——————————— MIT <br>
+upper-case-first@2.0.2 —————————————————— MIT <br>
+upper-case@2.0.2 ———————————————————————— MIT <br>
+uri-js@4.4.1 ———————————————————————————— BSD-2-Clause <br>
+url-parse@1.5.10 ———————————————————————— MIT <br>
+use-callback-ref@1.3.1 —————————————————— MIT <br>
+use-isomorphic-layout-effect@1.1.2 —————— MIT <br>
+use-sidecar@1.1.2 ——————————————————————— MIT <br>
+use-sync-external-store@1.2.0 ——————————— MIT <br>
+util-deprecate@1.0.2 ———————————————————— MIT <br>
+util.promisify@1.0.1 ———————————————————— MIT <br>
+utila@0.4.0 ————————————————————————————— MIT <br>
+utils-merge@1.0.1 ——————————————————————— MIT <br>
+uuid@8.3.2 —————————————————————————————— MIT <br>
+uuid@9.0.1 —————————————————————————————— MIT <br>
+v8-compile-cache-lib@3.0.1 —————————————— MIT <br>
+v8-to-istanbul@8.1.1 ———————————————————— ISC <br>
+v8-to-istanbul@9.1.3 ———————————————————— ISC <br>
+vary@1.1.2 —————————————————————————————— MIT <br>
+w3c-hr-time@1.0.2 ——————————————————————— MIT <br>
+w3c-xmlserializer@2.0.0 ————————————————— MIT <br>
+walker@1.0.8 ———————————————————————————— Apache-2.0 <br>
+warning@4.0.3 ——————————————————————————— MIT <br>
+watchpack@2.4.0 ————————————————————————— MIT <br>
+wbuf@1.7.3 —————————————————————————————— MIT <br>
+web-vitals@2.1.4 ———————————————————————— Apache-2.0 <br>
+webidl-conversions@4.0.2 ———————————————— BSD-2-Clause <br>
+webidl-conversions@5.0.0 ———————————————— BSD-2-Clause <br>
+webidl-conversions@6.1.0 ———————————————— BSD-2-Clause <br>
+webpack-dev-middleware@5.3.3 ———————————— MIT <br>
+webpack-dev-server@4.15.1 ——————————————— MIT <br>
+webpack-manifest-plugin@4.1.1 ——————————— MIT <br>
+webpack-sources@1.4.3 ——————————————————— MIT <br>
+webpack-sources@2.3.1 ——————————————————— MIT <br>
+webpack-sources@3.2.3 ——————————————————— MIT <br>
+webpack@5.89.0 —————————————————————————— MIT <br>
+websocket-driver@0.7.4 —————————————————— Apache-2.0 <br>
+websocket-extensions@0.1.4 —————————————— Apache-2.0 <br>
+whatwg-encoding@1.0.5 ——————————————————— MIT <br>
+whatwg-fetch@3.6.19 ————————————————————— MIT <br>
+whatwg-mimetype@2.3.0 ——————————————————— MIT <br>
+whatwg-url@7.1.0 ———————————————————————— MIT <br>
+whatwg-url@8.7.0 ———————————————————————— MIT <br>
+which-boxed-primitive@1.0.2 ————————————— MIT <br>
+which-builtin-type@1.1.3 ———————————————— MIT <br>
+which-collection@1.0.1 —————————————————— MIT <br>
+which-module@2.0.1 —————————————————————— ISC <br>
+which-typed-array@1.1.13 ———————————————— MIT <br>
+which@1.3.1 ————————————————————————————— ISC <br>
+which@2.0.2 ————————————————————————————— ISC <br>
+word-wrap@1.2.5 ————————————————————————— MIT <br>
+workbox-background-sync@6.6.1 ——————————— MIT <br>
+workbox-broadcast-update@6.6.1 —————————— MIT <br>
+workbox-build@6.6.1 ————————————————————— MIT <br>
+workbox-cacheable-response@6.6.1 ———————— MIT <br>
+workbox-core@6.6.1 —————————————————————— MIT <br>
+workbox-expiration@6.6.1 ———————————————— MIT <br>
+workbox-google-analytics@6.6.1 —————————— MIT <br>
+workbox-navigation-preload@6.6.1 ———————— MIT <br>
+workbox-precaching@6.6.1 ———————————————— MIT <br>
+workbox-range-requests@6.6.1 ———————————— MIT <br>
+workbox-recipes@6.6.1 ——————————————————— MIT <br>
+workbox-routing@6.6.1 ——————————————————— MIT <br>
+workbox-strategies@6.6.1 ———————————————— MIT <br>
+workbox-streams@6.6.1 ——————————————————— MIT <br>
+workbox-sw@6.6.1 ———————————————————————— MIT <br>
+workbox-webpack-plugin@6.6.1 ———————————— MIT <br>
+workbox-window@6.6.1 ———————————————————— MIT <br>
+wrap-ansi-cjs@7.0.0 ————————————————————— MIT <br>
+wrap-ansi@6.2.0 ————————————————————————— MIT <br>
+wrap-ansi@7.0.0 ————————————————————————— MIT <br>
+wrap-ansi@8.1.0 ————————————————————————— MIT <br>
+wrappy@1.0.2 ———————————————————————————— ISC <br>
+write-file-atomic@3.0.3 ————————————————— ISC <br>
+write-file-atomic@4.0.2 ————————————————— ISC <br>
+ws@7.5.9 ———————————————————————————————— MIT <br>
+ws@8.14.2 ——————————————————————————————— MIT <br>
+xml-name-validator@3.0.0 ———————————————— Apache-2.0 <br>
+xmlchars@2.2.0 —————————————————————————— MIT <br>
+xstate@4.38.3 ——————————————————————————— MIT <br>
+y18n@4.0.3 —————————————————————————————— ISC <br>
+y18n@5.0.8 —————————————————————————————— ISC <br>
+yallist@3.1.1 ——————————————————————————— ISC <br>
+yallist@4.0.0 ——————————————————————————— ISC <br>
+yaml@1.10.2 ————————————————————————————— ISC <br>
+yaml@2.3.4 —————————————————————————————— ISC <br>
+yargs-parser@18.1.3 ————————————————————— ISC <br>
+yargs-parser@20.2.9 ————————————————————— ISC <br>
+yargs-parser@21.1.1 ————————————————————— ISC <br>
+yargs@15.4.1 ———————————————————————————— MIT <br>
+yargs@16.2.0 ———————————————————————————— MIT <br>
+yargs@17.7.2 ———————————————————————————— MIT <br>
+yn@3.1.1 ———————————————————————————————— MIT <br>
+yocto-queue@0.1.0 ——————————————————————— MIT <br>
