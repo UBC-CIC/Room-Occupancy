@@ -39,3 +39,7 @@ body {
   margin: 2em; /* Adjust the spacing between columns as needed */
   box-sizing: border-box;
 }
+
+.homeImage {
+  filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.4));
+}

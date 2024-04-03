@@ -15,12 +15,11 @@ export function Home(props: IHomeProps) {
         <Header as="h1" textAlign="center" color="blue">
           <Header.Content>Occupancy Management</Header.Content>
           <Header.Subheader color="blue">
-            Utilize IoT devices manage occupancy <br />
-            Making spaces work for everyone
+            <i>Making spaces work for everyone</i>
           </Header.Subheader>
         </Header>
         <Segment basic>
-          <Image centered size="big" src={learn} />
+          <Image className="homeImage" centered size="big" src={learn} />
         </Segment>
         <Link to="analytics">
           <Button circular color="blue">
