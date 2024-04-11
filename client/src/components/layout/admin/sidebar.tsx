@@ -62,7 +62,7 @@ const analyticsItems: IAnalyticsItems[] = [
 export function AdminSidebar(props: IAdminSidebarProps) {
   return (
     <div style={{ height: "100%" }}>
-      <div style={{ height: "95%" }}>
+      <div style={{ height: "94%" }}>
         <Link to="/admin_dashboard">
           <Button color="blue" fluid icon labelPosition="left">
             <Icon name="dashboard" />
@@ -111,8 +111,14 @@ export function AdminSidebar(props: IAdminSidebarProps) {
           </List.Item>
         </List>
       </div>
-      <div style={{ height: "5%" }}>
+      <div style={{ height: "6%" }}>
         <List>
+          <Link to="/">
+            <List.Item>
+              <List.Icon color="grey" name="home" />
+              <List.Content as="a">Home</List.Content>
+            </List.Item>
+          </Link>
           <Link to="/admin_settings">
             <List.Item>
               <List.Icon color="grey" name="setting" />

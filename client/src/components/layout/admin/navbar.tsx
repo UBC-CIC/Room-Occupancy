@@ -10,7 +10,7 @@ import {
   DropdownMenu,
 } from "semantic-ui-react";
 import "../../../App.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAppConfig } from "../../../providers/ConfigProvider";
 import { handleSignOut } from "../../../pages/auth/Helpers";
 
@@ -21,6 +21,8 @@ interface Props {
 
 export function AdminNavbar({ user, image }: Props) {
   const { config } = useAppConfig();
+  const navigate = useNavigate();
+
   return (
     <nav className="navbarContainer">
       <Segment basic attached size="mini" fluid="true">
@@ -32,13 +34,15 @@ export function AdminNavbar({ user, image }: Props) {
             <Header as="h3">Administator Console</Header>
           </Grid.Column>
           <Grid.Column textAlign="right" verticalAlign="middle" width={5}>
-            <Link to="/admin_help">
-              <Icon link size="large" name="question circle outline" />
+            <Link to="/">
+              <Icon link size="large" name="home" />
             </Link>
             <Link to="/admin_settings">
               <Icon link size="large" name="setting" />
             </Link>
-            <Icon link size="large" name="alarm" />
+            <Link to="/admin_help">
+              <Icon link size="large" name="question circle outline" />
+            </Link>
             {image === undefined ? (
               <Dropdown
                 closeOnEscape
@@ -49,6 +53,11 @@ export function AdminNavbar({ user, image }: Props) {
                 icon="user"
               >
                 <DropdownMenu>
+                  <Dropdown.Item
+                    onClick={() => navigate("/")}
+                    text="Home Page"
+                  />
+
                   <Dropdown.Item
                     onClick={() => handleSignOut()}
                     text="Log Out"
