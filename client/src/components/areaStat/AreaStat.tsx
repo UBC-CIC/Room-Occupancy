@@ -53,7 +53,7 @@ const AreaStat = (props: Props) => {
             {cameraOccupancyInfo.map((item: any) => {
               if (
                 isNaN(item?.remainingCapacity) ||
-                item?.remainingCapacity < 0
+                item?.maxOccupancyThreshold <= item?.currentOccupancy
               ) {
                 return (
                   <TableRow error>
