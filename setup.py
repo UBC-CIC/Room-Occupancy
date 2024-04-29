@@ -99,7 +99,7 @@ def pull_component_github():
 
     repo_dir = "./github"
 
-    git_url = "https://github.com/UBC-CIC/InvasivePlants.git"
+    git_url = "https://github.com/UBC-CIC/InvasivePlants.git" #This needs to be changed to the current repo
 
     Repo.clone_from(git_url, repo_dir)
 
