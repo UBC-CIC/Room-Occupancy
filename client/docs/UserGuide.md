@@ -50,8 +50,18 @@ To understand the status displayed, you may hover over the status.
 
 ![Camera Statuses](./screenshots/cameraStatus.png)
 
+### Update camera zone settings
+
+Navigate to the camara zone page and click update for the camera need to be updated.
+![Camera Statuses](./screenshots/cameraStatus.png)
+Here we show a sample image. You can drag the corner of the cropping box for desired zone for people counting. Don't forget to click submit after that. This might take a few seconds to update to the IoT device.
+
 ## Costs and Usage Page
 
 You can also view AWS cloud usage costs from the costs page.
 
 ![Costs Page](./screenshots/costs.png)
+
+## Alerts Page
+
+Administrators can configure maximum room occupancy levels for each camera zone from this page.
