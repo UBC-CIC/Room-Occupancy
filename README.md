@@ -6,6 +6,7 @@ This repository contains the code and documentation for the project, "Using IoT 
 
 - [Introduction](#introduction)
 - [High Level Architecture](#high-level-architecture)
+- [Repository Structure](#repository-structure)
 - [Solution Deployment](#solution-deployment)
 - [Credits](#Credits)
 - [License](#License)
@@ -29,6 +30,21 @@ Our solution consist of the four main components:
 2. Machine Learning Model - PyTorch FastRCNN model that is deployed on the IoT device processes image locally and deletes it right away for security purposes.
 3. Cloud - Several AWS services were used such as Amplify, Cognito, AppSync, TimeStream DB etc. For more details, check our handover guide.
 4. Web Application - Web application built using ReactJS and Semantic UI. For more details, check client directory.
+
+## Repository Structure
+```
+├── client/
+├── deployment/
+├── greengrassv2/
+|   ├── artifacts/com.example.ml/1.0.0/ml.py
+│   |__ recipes/
+├── LICENSE
+└── README.md
+```
+- ```client\``` contains all the source code for our frontend web application. ```client\README.md``` file contains more detailed information about client deployment and ```client\docs\``` contains user guide of our web application.
+- ```deployement\``` contains scripts required to deploy our solution locally. Step-by-step instruction is given uder the [Solution Deployment](#solution-deployment) section below.
+- ```greengrassv2\``` contains all the source code regarding deploying machine learning model on the IoT device using AWS Greengrass services. Machine learning code is also included in this directory.
+- ```LICENSE``` MIT License
 
 ## Solution Deployment
 Step-by-step instructions on how to deploy cloud components and hardware components. This instruction is written with the assumption that you already have RaspberryPi Module 4B and RaspberryPi Camera Module 3 Wide Lens connected and Linux OS is installed on Raspberry Pi.
@@ -57,6 +73,7 @@ sudo /greengrass/v2/bin/greengrass-cli deployment create \
 # Credits
 
 This application was architected and developed by Der-Chien Chang, Steve He, Cassiel Jung, Colin Pereira, and Danny Song, with project assistance by Scott McMillan and Liana Leung. A special thanks to the UBC Cloud Innovation Centre Technical and Project Management teams for their guidance and support.
+
 # License
 
 This project is distributed under the [MIT License](LICENSE). You can view licensing on the web app in the client directory.
