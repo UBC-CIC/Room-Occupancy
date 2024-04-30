@@ -7,6 +7,8 @@ This repository contains the code and documentation for the project, "Using IoT 
 - [Introduction](#introduction)
 - [High Level Architecture](#high-level-architecture)
 - [Solution Deployment](#solution-deployment)
+- [Credits](#Credits)
+- [License](#License)
 
 
 ## Introduction
