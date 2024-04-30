@@ -29,4 +29,25 @@ Our solution consist of the four main components:
 4. Web Application - Web application built using ReactJS and Semantic UI. For more details, check client directory.
 
 ## Solution Deployment
-Step-by-step instruction are given in the documentation/Solution_Deployment_Guide.docx
+Step-by-step instructions on how to deploy cloud components and hardware components. This instruction is written with the assumption that you already have RaspberryPi Module 4B and RaspberryPi Camera Module 3 Wide Lens connected and Linux OS is installed on Raspberry Pi.
+### Cloud Deployment
+- Download yml file in the deployment directory: CG-22-1713729002581.yaml 
+- Use this command in aws cli to create a new CDK app that contains the cloud resources:  cdk migrate --stack-name CG-22 --from-path ./CG-22.yaml --language typescript 
+### Raspberry Pi Deployment
+- Make ssh connection with Raspberry Pi.
+- Run “setup.py” python file in the deployment directory locally to install necessary packages and GreenGrass component 
+- Run the following command on the Raspberry Pi terminal to start the machine learning component. 
+**Start Machine Learning Component**
+```
+sudo /greengrass/v2/bin/greengrass-cli deployment create \ 
+--recipeDir ~/greengrassv2/recipes \ 
+--artifactDir ~/greengrassv2/artifacts \ 
+--merge "com.example.ml=1.0.0" 
+```
+**Start MQTT Component**
+```
+sudo /greengrass/v2/bin/greengrass-cli deployment create \ 
+--recipeDir ~/greengrassv2/recipes \ 
+--artifactDir ~/greengrassv2/artifacts \ 
+--merge "com.example.ml=1.0.0" 
+```
