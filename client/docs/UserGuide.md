@@ -55,7 +55,7 @@ To understand the status displayed, you may hover over the status.
 Navigate to the camara zone page and click update for the camera need to be updated.
 ![NAVIGATEZONE](./screenshots/NAVIGATEZONE.png)
 Here we show a sample image. You can drag the corner of the cropping box for desired zone for people counting. Don't forget to click submit after that. This might take a few seconds to update to the IoT device.
-![drag](./screenshots/drag.png)
+![IPG](./screenshots/IPG.png)
 
 ## Costs and Usage Page
 
