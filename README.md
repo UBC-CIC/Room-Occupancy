@@ -51,3 +51,10 @@ sudo /greengrass/v2/bin/greengrass-cli deployment create \
 --artifactDir ~/greengrassv2/artifacts \ 
 --merge "com.example.ml=1.0.0" 
 ```
+
+# Credits
+
+This application was architected and developed by Der-Chien Chang, Steve He, Cassiel Jung, Colin Pereira, and Danny Song, with project assistance by Scott McMillan and Liana Leung. A special thanks to the UBC Cloud Innovation Centre Technical and Project Management teams for their guidance and support.
+# License
+
+This project is distributed under the [MIT License](LICENSE).
