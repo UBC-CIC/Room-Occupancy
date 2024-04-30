@@ -19,12 +19,14 @@ The trends page allows users to view occupancy data for the past 90 days. To use
 ## First time sign up
 
 1\. Admin will provide username and password credential for first time setup.
-todo:add link to screenshot
+![EMAIL](./screenshots/EMAIL.png)
 
 2\. After entering the username and password, you will be prompt to change your password and your username.
-todo:add link to screenshot
+![NEWUSER](./screenshots/NEWUSER.png)
+![CHANGEPSWD](./screenshots/CHANGEPSWD.png)
 
 3\. Use any two step verification app(e.g. DUO, Google Authenticator) to scan the qr code provided or manually enter the code below.
+![SETUPTOTP](./screenshots/SETUPTOTP.png)
 
 ## Login
 
@@ -40,6 +42,16 @@ The admin dashboard looks similar to the occupancy page. Though, the sidebar and
 
 ## Camera Page
 
-The camera page displays all cameras setup on AWS Greengrass.
+The camera page displays all cameras setup on AWS Greengrass. It shows various information about the cameras, along with the camera's greengrass status as provided by the AWS Greengrass API.
 
 ![Camera Page](./screenshots/camera.png)
+
+To understand the status displayed, you may hover over the status.
+
+![Camera Statuses](./screenshots/cameraStatus.png)
+
+## Costs and Usage Page
+
+You can also view AWS cloud usage costs from the costs page.
+
+![Costs Page](./screenshots/costs.png)
