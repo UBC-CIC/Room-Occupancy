@@ -31,7 +31,7 @@ Our solution consist of the four main components:
 ## Solution Deployment
 Step-by-step instructions on how to deploy cloud components and hardware components. This instruction is written with the assumption that you already have RaspberryPi Module 4B and RaspberryPi Camera Module 3 Wide Lens connected and Linux OS is installed on Raspberry Pi.
 ### Cloud Deployment
-- Download yml file in the deployment directory: CG-22-1713729002581.yaml 
+- Download yml file in the deployment directory: CG22_cloud_deployment.yaml 
 - Use this command in aws cli to create a new CDK app that contains the cloud resources:  cdk migrate --stack-name CG-22 --from-path ./CG-22.yaml --language typescript 
 ### Raspberry Pi Deployment
 - Make ssh connection with Raspberry Pi.
