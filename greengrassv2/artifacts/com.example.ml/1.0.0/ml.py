@@ -59,8 +59,7 @@ def transform_image(image):
     # Transform to convert the image to tensor
     transform = transforms.Compose([
         # transforms.Resize([3686,2073]),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+        transforms.ToTensor()
     ])
     return transform(image)
 
