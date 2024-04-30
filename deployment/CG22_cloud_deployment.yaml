@@ -1,0 +1,188 @@
+---
+Metadata:
+  TemplateId: "arn:aws:cloudformation:us-east-1:561089261118:generatedTemplate/5a1ee93c-c5f0-4b4c-8e54-72cb09025a81"
+Resources:
+  AmplifyApp00appsd1qulawjohcw2400n40bS:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Amplify::App"
+    DeletionPolicy: "Retain"
+    Properties:
+      Repository: "https://github.com/UBC-CIC/Room-Occupancy"
+      EnvironmentVariables:
+      - Value: "[{\"pkg\":\"yarn\",\"type\":\"npm\",\"version\":\"latest\"},{\"pkg\"\
+          :\"node\",\"type\":\"nvm\",\"version\":\"18\"}]"
+        Name: "_LIVE_UPDATES"
+      - Value: "client"
+        Name: "AMPLIFY_MONOREPO_APP_ROOT"
+      - Value: "false"
+        Name: "AMPLIFY_DIFF_DEPLOY"
+      - Value: "amplify:al2023"
+        Name: "_CUSTOM_IMAGE"
+      Platform: "WEB"
+      EnableBranchAutoDeletion: false
+      BuildSpec: "version: 1\napplications:\n  - frontend:\n      phases:\n      \
+        \  preBuild:\n          commands:\n            - npm install -g @aws-amplify/cli\n\
+        \            - yarn install\n        build:\n          commands:\n       \
+        \     - yarn run build\n      artifacts:\n        baseDirectory: build\n \
+        \       files:\n          - '**/*'\n      cache:\n        paths:\n       \
+        \   - node_modules/**/*\n    appRoot: client\n"
+      CustomRules:
+      - Status: "404-200"
+        Target: "/index.html"
+        Source: "/<*>"
+      - Status: "200"
+        Target: "/index.html"
+        Source: "</^[^.]+$|\\.(?!(css|gif|ico|jpg|js|png|txt|svg|woff|ttf|map|json)$)([^.]+$)/>"
+      CustomHeaders: ""
+      Name: "Room-Occupancy"
+      IAMServiceRole:
+        Fn::GetAtt:
+        - "IAMRole00AmplifyConsoleServiceRoleAmplifyRole00CdmdO"
+        - "Arn"
+  ApiGatewayDeployment0079v9h2007PnTF:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00rwt19u00db5Fd:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment0097kfay000Iyva:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment002czn1j00r3ORS:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  IAMRole00AmplifyConsoleServiceRoleAmplifyRole00CdmdO:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::Role"
+    DeletionPolicy: "Retain"
+    Properties:
+      Path: "/"
+      ManagedPolicyArns:
+      - "arn:aws:iam::aws:policy/AdministratorAccess-Amplify"
+      MaxSessionDuration: 3600
+      RoleName: "AmplifyConsoleServiceRole-AmplifyRole"
+      Description: "Allows Amplify Backend Deployment to access AWS resources on your\
+        \ behalf."
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Action: "sts:AssumeRole"
+          Effect: "Allow"
+          Principal:
+            Service: "amplify.amazonaws.com"
+  ApiGatewayDeployment002nakfb00wrucn:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00ftidvy00EwybO:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00qgqv5u00Otggx:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00lll4p300JTpHn:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayApiKey00v6un67fmq800sGoAa:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::ApiKey"
+    DeletionPolicy: "Retain"
+    Properties:
+      StageKeys: []
+      Value: "7MATau7Xu2aeq93haQUfw9F6HaNt1rJL5gKZJQrh"
+      Enabled: true
+      Name: "CG-22"
+  ApiGatewayDeployment00nlcvra00HdAg1:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00p2chew00uLcJx:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00sticoj00RMROI:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00pbtmcj002jbqU:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00jo0r3p000Ut12:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  AmplifyBranch00appsd1qulawjohcw24branchesmain00Si3UX:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Amplify::Branch"
+    DeletionPolicy: "Retain"
+    Properties:
+      Backend: {}
+      EnvironmentVariables:
+      - Value: "d1qulawjohcw24"
+        Name: "AMPLIFY_BACKEND_APP_ID"
+      - Value: "staging"
+        Name: "USER_BRANCH"
+      - Value: "true"
+        Name: "AMPLIFY_BACKEND_PULL_ONLY"
+      AppId:
+        Fn::GetAtt:
+        - "AmplifyApp00appsd1qulawjohcw2400n40bS"
+        - "AppId"
+      EnablePullRequestPreview: false
+      EnableAutoBuild: true
+      EnablePerformanceMode: false
+      Stage: "PRODUCTION"
+      BranchName: "main"
+      Framework: "React"
+  ApiGatewayDeployment000gueo600IZgVA:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00p1wawx00Kt8Ot:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
+  ApiGatewayDeployment00ehiizw00lU81I:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::ApiGateway::Deployment"
+    DeletionPolicy: "Retain"
+    Properties:
+      RestApiId: "accl5w3lcl"
