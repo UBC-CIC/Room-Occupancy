@@ -66,3 +66,5 @@ You can also view AWS cloud usage costs from the costs page.
 ## Alerts Page
 
 Administrators can configure maximum room occupancy levels for each camera zone from this page. The number used here is to calculate the remaining occupancy on the analytics page, shown above.
+
+![Update Alerts Modal](./screenshots/updateAlerts.png)
