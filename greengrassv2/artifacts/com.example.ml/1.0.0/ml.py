@@ -10,6 +10,8 @@ import os
 import requests
 from datetime import datetime
 
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
 
 # Constants
 INTERVAL = 30
@@ -25,41 +27,66 @@ def capture(picam2):
     with open("/home/cg22/imagecapture/crop.json") as f:
         data = json.load(f)
 
-    left = data["crop_x1"]
-    right = data["crop_x2"]
-    top = data["crop_y1"]
-    bottom = data["crop_y2"]
+    left = int(data["crop_x1"])
+    right = int(data["crop_x2"])
+    top = int(data["crop_y1"])
+    bottom = int(data["crop_y2"])
 
     white_image = Image.new("RGB", image.size, "white")
 
     cropped_image = image.crop((left, top, right, bottom))
 
     white_image.paste(cropped_image, (left, top))
-    white_image.save("/home/cg22/imagecapture/white_image.jpg")
+    white_image.save("/home/cg22/imagecapture/cropped.jpg")
 
     return white_image
 
-def count_people(model, image):
+# def count_people(model, image):
+#     start_time = time.time()
+#     # Perform inference
+#     with torch.no_grad():
+#         prediction = model([image])
+
+#     # Set a confidence threshold: detections with a score below this are discarded
+#     confidence_threshold = 0.4
+
+#     # Filter detections by confidence score and count the number of people
+#     count = sum(1 for score, label in zip(prediction[0]['scores'], prediction[0]['labels']) if label == 1 and score > confidence_threshold)    
+    
+#     duration = time.time()-start_time
+#     return count, duration
+
+def count_people_and_draw_boxes(model, image):  # Updated function name
     start_time = time.time()
     # Perform inference
     with torch.no_grad():
         prediction = model([image])
 
     # Set a confidence threshold: detections with a score below this are discarded
-    confidence_threshold = 0.4
+    confidence_threshold = 0.6
 
-    # Filter detections by confidence score and count the number of people
-    count = sum(1 for score, label in zip(prediction[0]['scores'], prediction[0]['labels']) if label == 1 and score > confidence_threshold)    
-    
-    duration = time.time()-start_time
-    return count, duration
+    boxes = prediction[0]['boxes']
+    scores = prediction[0]['scores']
+    labels = prediction[0]['labels']
+
+    # Filter detections by confidence score
+    filtered_boxes = []
+    count = 0
+    for box, score, label in zip(boxes, scores, labels):
+        if label == 1 and score > confidence_threshold:
+            filtered_boxes.append(box)
+            count += 1
+
+    duration = time.time() - start_time
+    return count, duration, filtered_boxes
 
 def transform_image(image):
     image = image.convert('RGB')
     # Transform to convert the image to tensor
     transform = transforms.Compose([
         # transforms.Resize([3686,2073]),
-        transforms.ToTensor()
+        transforms.ToTensor(),
+        # transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ])
     return transform(image)
 
@@ -105,22 +132,39 @@ def update_camera_db(thing_name):
             else:
                 print("Error:", response.status_code, response.text)
 
+def draw_boxes(img, boxes):
+    # Convert tensor to numpy array for plotting
+    img_np = img.permute(1, 2, 0).numpy()
+
+    # Create a figure and axis to plot the image
+    fig, ax = plt.subplots(1, figsize=(20, 15))
+    ax.imshow(img_np)
+
+    ax.axis("off")
+
+    # Draw the bounding boxes
+    for box in boxes:
+        rect = patches.Rectangle((box[0], box[1]), box[2] - box[0], box[3] - box[1], linewidth=3, edgecolor='r', facecolor='none')
+        ax.add_patch(rect)
+
+    fig.savefig("/home/cg22/imagecapture/Box.jpg", bbox_inches="tight", pad_inches=0)
+
+
 def doit(picam2, model):
     #Capture image
     print("Start Capturing Image")
-    capture_time = time.time()
     img = capture(picam2)
-    capture_time = time.time()-capture_time
-    print(f"Captured Image: {capture_time}")
 
     img = transform_image(img)
 
     print("Start Counting")
-    count_time = time.time()
-    people, _ = count_people(model, img)
-    count_time = time.time()-count_time
+    people, count_time, boxes = count_people_and_draw_boxes(model, img)
+
     print(f"Finish Counting: {count_time}")
     print(f"People Count: {people}")
+
+    print("Draw Boxes")
+    draw_boxes(img, boxes)
 
     return people
 
