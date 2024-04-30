@@ -6,10 +6,8 @@ This repository contains the code and documentation for the project, "Using IoT 
 
 - [Introduction](#introduction)
 - [High Level Architecture](#high-level-architecture)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [License](#license)
+- [Solution Deployment](#solution-deployment)
+
 
 ## Introduction
 
@@ -22,16 +20,13 @@ In an increasingly connected world, optimizing occupancy management is essential
 - Data analytics for occupancy trends
 - Web-based management interface
 
-## Getting Started
+## High Level Architecture
+![image](https://github.com/UBC-CIC/Room-Occupancy/assets/69894554/95911cc0-ad4c-4a14-a756-4a5a18e0df18)
+Our solution consist of the four main components:
+1. IoT device - RaspberryPi Module 4B and RaspberryPi Camera Module 3 Wide Lense takes images of the area and counts the number of people with a locally deployed machine learning model.
+2. Machine Learning Model - PyTorch FastRCNN model that is deployed on the IoT device processes image locally and deletes it right away for security purposes.
+3. Cloud - Several AWS services were used such as Amplify, Cognito, AppSync, TimeStream DB etc. For more details, check our handover guide.
+4. Web Application - Web application built using ReactJS and Semantic UI. For more details, check client directory.
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-TBD
-
-### Prerequisites
-
-TBD
-
-### Installation
-
-TBD
+## Solution Deployment
+Step-by-step instruction are given in the documentation/Solution_Deployment_Guide.docx
